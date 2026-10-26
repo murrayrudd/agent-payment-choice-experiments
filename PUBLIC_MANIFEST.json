@@ -24,12 +24,20 @@
       "size_bytes": 647
     },
     "CITATION.cff": {
-      "sha256": "9f37b543e99e253445a2184d65ea07f24c19b1ae5c864c066a850df6b10d24ad",
-      "size_bytes": 979
+      "sha256": "d0f62b84fda06f490f0fb7c1ab72403c6e7ed835527b43ca5937efc806c1d8a3",
+      "size_bytes": 1096
+    },
+    "LICENSE.md": {
+      "sha256": "43557e25e5e95e9bb797535816981b7a2851287b40a677514d11c847b3e133c8",
+      "size_bytes": 1071
+    },
+    "LICENSE_SCOPE.md": {
+      "sha256": "dd5b17d40ebc0e62a2b2534fccb300427a08693473fa12990f43cfb7e898dc60",
+      "size_bytes": 1131
     },
     "README.md": {
-      "sha256": "56e59c4240a4557eb202049ebb5a35303ffbf1307310d08fdde88e8f0cf03d90",
-      "size_bytes": 6117
+      "sha256": "1c830fe31f8504a836098255c9899c8fb0d4361cee72b21ec8b63e982d58cc47",
+      "size_bytes": 7006
     },
     "data/choices.csv": {
       "sha256": "45551b1790b96a590f1b53fec073fbd07b32640d0d345b87aa49949fbd51b216",
@@ -3824,8 +3832,8 @@
       "size_bytes": 3434
     },
     "docs/reuse.md": {
-      "sha256": "dec75148f7b600e4cf3eeff9312a3444fb0dda98b05edf1e13898e09985a34f9",
-      "size_bytes": 360
+      "sha256": "15550a2abe2cb5dfb706625421a7af2648f928daa9bfab88985a4be414ef4c05",
+      "size_bytes": 387
     },
     "figures/figure_1_choice_changes.png": {
       "sha256": "741ac150c4636e4d3a461778353e65a98ed802d60806fdccb54443ae8ce8cafc",

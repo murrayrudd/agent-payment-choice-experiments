@@ -56,12 +56,41 @@ This public distribution derives from `Agents_CE_Replication_Package_v02.zip`. A
 
 Some archived READMEs and records describe the earlier precollection or private-supplement stage. They are historical records. This README describes the public distribution and the completed study.
 
-## Citation and manuscript
+## Citation
 
-Rudd, Murray A. (2026). *Operator mandates and tradeoffs in AI agent payment choices*. Working paper.
+If you use this code or its results in research, please cite the paper and
+identify replication-package version 0.2.0 and the repository commit used:
 
-Release **v0.2.0** provides the replication materials at [murrayrudd/agent-payment-choice-experiments](https://github.com/murrayrudd/agent-payment-choice-experiments). `CITATION.cff` supplies machine-readable citation metadata. The manuscript will be posted on SSRN. Its DOI link will be added here and to the preferred citation when assigned; the full paper will remain on SSRN. The replication results correspond to manuscript version 0.2, including the clarified monetary analysis.
+> Rudd, Murray A. (2026). *Operator mandates and tradeoffs in AI agent payment choices*. Working paper.
 
-## Reuse
+```bibtex
+@unpublished{Rudd2026AgentPaymentChoices,
+  author = {Rudd, Murray A.},
+  title = {Operator mandates and tradeoffs in {AI} agent payment choices},
+  year = {2026},
+  note = {Working paper}
+}
+```
 
-No reuse license is specified for this release. See [reuse status](docs/reuse.md).
+[CITATION.cff](CITATION.cff) supplies the software metadata and preferred paper
+citation through GitHub's **Cite this repository** option. The manuscript will
+be posted on SSRN, and its DOI link will be added when assigned. The replication
+package has no separate DOI. The manuscript itself is not included in this
+repository. The replication results correspond to manuscript version 0.2,
+including the clarified monetary analysis.
+
+## License
+
+Original project code and associated software documentation are available under
+the [MIT License](LICENSE.md). See [license scope](LICENSE_SCOPE.md) for coverage
+of earlier revisions and the distinction between software and other material.
+Archived model-provider responses and third-party material retain their
+applicable source terms.
+
+## Author
+
+**Murray A. Rudd, Ph.D.** — Institutional economist and policy researcher
+
+- ORCID: [0000-0001-9533-5070](https://orcid.org/0000-0001-9533-5070)
+- SSRN: [Author profile](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5958022)
+- Google Scholar: [Profile](https://scholar.google.co.uk/citations?hl=en&user=84qbofEAAAAJ)

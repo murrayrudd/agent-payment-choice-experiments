@@ -1,5 +1,9 @@
-# Reuse status
+# Reuse
 
-No reuse license is specified for release v0.2.0. The repository is public so readers can inspect the study and reproduce the reported results. Citation metadata identifies the author and accompanying paper; it does not supply a license.
+Original project code and associated software documentation are available under
+the [MIT License](../LICENSE.md). The [license scope](../LICENSE_SCOPE.md)
+explains coverage of earlier revisions and treatment of archived model-provider
+responses and third-party material.
 
-The author may add licensing terms in a later release. The manuscript will be hosted separately on SSRN.
+The README and `CITATION.cff` provide citation details. The manuscript will be
+hosted separately on SSRN.
