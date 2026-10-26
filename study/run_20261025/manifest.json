@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "frozen_utc": "2026-10-25T20:15:40.422063+00:00",
+  "status": "design_only_no_live_main_calls",
+  "files": {
+    "README.txt": "0f0b8fb110aff6cdecfe3521990c46ec1f2c7888bce8af9b2d7006c15fbb2628",
+    "analyze_main.py": "a81ce25419be3f58b8bdae7411fa018c906a4d148bd9679e4515f2990299b209",
+    "build_design.py": "60096ce35454c07543ef164b9f578ecbe28100ab61e360919946f664896d9ad5",
+    "check_analysis.py": "cb266449d55ce9a051f2fcb95f783c0d33dae719ca687b1578edb7e3310b7b5b",
+    "check_offline.py": "68838bcf5e61000ad2d202689c13d4cddb10892b5b7719c9dfdc95836bb06a42",
+    "collect_main.py": "42bead3110810ade56b4cde46a2ff9248e2cc6776eda64466e60eeeca5744dd9",
+    "common.py": "94c3aa7eb251ef24dda4b865acadae0dc991a7d9a1e998c2a5a409bc18f02086",
+    "development/budget_check.json": "cddac02f57b7184ba362d12fe6a7ce4629c1b0f12e418192924d8eed12e3d55a",
+    "development/design_audit.json": "739531dcc56ce4001f9bdede1856d186b2735876630669d05411c2a97dcdb931",
+    "development/excluded_pair_hashes.json": "377e531c2e0bed48f13d8888110f55553ccb1c9be3f9a68119be20fed8efe0a4",
+    "development/independent_validation.json": "924f3f04788c7ff0061f15a4b8de7fadf38f88fd2e00bad1341adcbb2b935035",
+    "development/nested_designs.json": "06de37def0f97bddfde0bc5878e524498be853e249e3c64b2ac087d4af580a3c",
+    "development/offline_analysis_check.json": "47526a461ec3ef67ed6def42c4bb82e3af64aae86b177dfd1168917d8709f424",
+    "development/offline_collector_checks.json": "dcb362a00c62ffff450c11e37b8ff29e7ce773522acc5710e9dbb871e28a434a",
+    "development/pilot_cost_summary.json": "752e090f46e25460ff1f8e2a4c381906f4f482023c8177ee83f9a46f1d05e4fc",
+    "development/pilot_priors.json": "a04b41d302991f622c5bd0e25ccae9faca94296ccb2dac596bba98212554d78d",
+    "development/simulation_results.json": "e51c0ff72b4f7b59100fea5bbba9a216653572a8062472a20c273f20e0c207b0",
+    "development/simulation_test_pairs.json": "5e4c3f6bc39b886baa1025e60aa22d319e87627dadb89d77c628f44db5829f9f",
+    "documentation/build_report.py": "0ee2b6651cd84357d0d0335a8edd23dc48988bdf3109496324e08d95a0dfbf54",
+    "inputs/configuration.json": "cfa7a58171f87464c51c991d5791b88505c72be6abe953de0a0241b0439eb45c",
+    "inputs/core_design.json": "a758d4c0693d31bd2bdce4dcb62d6c8715baf75a5098845ddd15408ef79d61f5",
+    "inputs/diagnostic_assignments.json": "26f9ef0420d815f18a24b120e2715a04864a793b5fa63d2540fa189b965d575c",
+    "inputs/episodes.jsonl": "0bbd82661c355924fe15b3191079251cc28b8dda25d5c8b37bb6582a865e5e60",
+    "inputs/instrument.json": "14df812fdf5b965f68a0dd1be18eee33bcb9796cea8a05d1b14c23acdd56410b",
+    "inputs/protocol.json": "b4fb3ac5f8b54f812cccda6938a5dbbc11730dcc228a80c906b8d12952105256",
+    "inputs/requests.jsonl": "eaf69d59a0c77a18d53b38bee78b11dc7991ff847feb689de72108f5729934cc",
+    "simulate_design.py": "57bedbb61ed533dbb34b8887149f20a31919227e24896518b25960a027e3e3e0",
+    "validate_design.py": "b37f4947f50b94ff5940dc0a5a3b33f97636b098ae878ef2cf1a4e1e5e8b630f"
+  },
+  "public_distribution": {
+    "prepared_date": "2026-10-26",
+    "original_manifest_sha256": "933c1fd15711de0b2ba0ff108d95dcd012a5d5d3a5d9e4d110f4f040595dfc35",
+    "note": "Public hash map after documented administrative redactions. The historical manifest is retained under provenance/original_manifests. Scientific inputs and responses are unchanged."
+  }
+}

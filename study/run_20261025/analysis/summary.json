@@ -1,0 +1,592 @@
+{
+  "planned_calls": 1280,
+  "recorded_calls": 1280,
+  "valid_responses": 1280,
+  "status_counts": {
+    "valid": 1280
+  },
+  "data_origin": "live_main_study",
+  "monetary_estimates": "Not produced automatically. Apply the preregistered interpretation gates.",
+  "prediction_scores": [
+    {
+      "model": "highest_success",
+      "choices": 256,
+      "accuracy": 0.7265625,
+      "log_loss": 0.7234668101706256,
+      "pair_resampling_log_loss": {
+        "mean": 0.7234668101706254,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6624839408811553,
+          0.781739090921741
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.8125,
+          "log_loss": 0.5482249580429359
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.4949515801604851
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9973104999809383
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9973104999809383
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.78125,
+          "log_loss": 0.6547717138078375
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.18798419629490143
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.59375,
+          "log_loss": 0.9623345132349744
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9448465198619925
+        }
+      ]
+    },
+    {
+      "model": "linear_fee",
+      "choices": 256,
+      "accuracy": 0.91015625,
+      "log_loss": 0.24689019490209219,
+      "pair_resampling_log_loss": {
+        "mean": 0.24689019490209219,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.17722398912125012,
+          0.3178943384230496
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.04818548351694117
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.9375,
+          "log_loss": 0.12732548634906612
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.18890288373916025
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.9375,
+          "log_loss": 0.22342000310076482
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.71875,
+          "log_loss": 0.6537430601929572
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.96875,
+          "log_loss": 0.12816253705498698
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.30551671056835744
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.29986539469450335
+        }
+      ]
+    },
+    {
+      "model": "lowest_expected_expenditure",
+      "choices": 256,
+      "accuracy": 0.6875,
+      "log_loss": 0.738237082979275,
+      "pair_resampling_log_loss": {
+        "mean": 0.738237082979275,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6322923168009803,
+          0.8485513181328043
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.949435462893249
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.6875,
+          "log_loss": 0.8428887071283474
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.01680711831638129
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.03390155167568134
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.53125,
+          "log_loss": 1.0244599526416263
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9719959725226803
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.53125,
+          "log_loss": 1.0244599526416263
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 1.0419479460146082
+        }
+      ]
+    },
+    {
+      "model": "lowest_fee",
+      "choices": 256,
+      "accuracy": 0.71875,
+      "log_loss": 0.7550487091714482,
+      "pair_resampling_log_loss": {
+        "mean": 0.7550487091714481,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6416187241499525,
+          0.8663371263407161
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.71875,
+          "log_loss": 0.7856631791037689
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.78125,
+          "log_loss": 0.6791164233388673
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.351059184884893
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.351059184884893
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9771169219762816
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.71875,
+          "log_loss": 0.9246529418573357
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9771169219762816
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.59375,
+          "log_loss": 0.9946049153492635
+        }
+      ]
+    },
+    {
+      "model": "meet_target_then_success",
+      "choices": 256,
+      "accuracy": 0.71875,
+      "log_loss": 0.7114933984290015,
+      "pair_resampling_log_loss": {
+        "mean": 0.7114933984290015,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6114770478832576,
+          0.8330146995037933
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.78125,
+          "log_loss": 0.6258430454564166
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.519296289691515
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.46875,
+          "log_loss": 1.0645568888411914
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.59375,
+          "log_loss": 0.9946049153492635
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.351059184884893
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.90625,
+          "log_loss": 0.23481699937511485
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9596289286032997
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.65625,
+          "log_loss": 0.9421409352303176
+        }
+      ]
+    },
+    {
+      "model": "piecewise_fee",
+      "choices": 256,
+      "accuracy": 0.90234375,
+      "log_loss": 0.24187356060529863,
+      "pair_resampling_log_loss": {
+        "mean": 0.24187356060529863,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.17070437810166414,
+          0.31703249981917925
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.059216109044602734
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.9375,
+          "log_loss": 0.14019248222242275
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.96875,
+          "log_loss": 0.1385201281315725
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.9375,
+          "log_loss": 0.17047751622192572
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.6875,
+          "log_loss": 0.667405233648627
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.96875,
+          "log_loss": 0.1359505876442167
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.3126182827611269
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.3106081451678948
+        }
+      ]
+    },
+    {
+      "model": "shortest_retention",
+      "choices": 256,
+      "accuracy": 0.6328125,
+      "log_loss": 0.79578497587855,
+      "pair_resampling_log_loss": {
+        "mean": 0.7957849758785498,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.7160267914979991,
+          0.8709720797233128
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.6875,
+          "log_loss": 0.8270801065598364
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9336268623247381
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.375,
+          "log_loss": 1.0624317438290132
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.375,
+          "log_loss": 1.0624317438290132
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.65625,
+          "log_loss": 0.9749917769641036
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9749917769641036
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.2653628982787954
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.2653628982787954
+        }
+      ]
+    },
+    {
+      "model": "training_choice_share",
+      "choices": 256,
+      "accuracy": 0.5,
+      "log_loss": 0.7176581539393951,
+      "pair_resampling_log_loss": {
+        "mean": 0.7176581539393949,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6877580349848742,
+          0.7450333966627214
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7181486554982487
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.4375,
+          "log_loss": 0.7762465313282321
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7245605806054779
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7181486554982488
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.53125,
+          "log_loss": 0.7008100533055145
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7027071388158663
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.53125,
+          "log_loss": 0.69935996615367
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7012836503099023
+        }
+      ]
+    }
+  ],
+  "training_base_choices": 512,
+  "heldout_base_choices": 256,
+  "declines": 1,
+  "limits": "Intervals resample the finite set of physical pairs, preserving mandate and target observations; they are not population intervals for human operators. No coefficient-scale comparisons across cells imply relative preference intensity."
+}

@@ -1,0 +1,20 @@
+{
+  "data_origin": "live_model",
+  "diagnostic_id": "F08_scope_clarification_v01",
+  "total_calls": 4,
+  "models": {
+    "sol": {
+      "observed": 2,
+      "correct": 2,
+      "accounted_cost_usd": "0.004496"
+    },
+    "qwen": {
+      "observed": 2,
+      "correct": 2,
+      "accounted_cost_usd": "0.011592"
+    }
+  },
+  "accounted_cost_usd": "0.016088",
+  "original_qualification_scores_unchanged": true,
+  "combined_spend_usd": "0.937766"
+}

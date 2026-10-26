@@ -1,0 +1,13 @@
+{
+  "events": [
+    {
+      "time_utc": "2026-10-25T19:20:37.173894+00:00",
+      "event": "stale_lock_cleared_after_completed_confirmation",
+      "completed_responses_verified": 632,
+      "blocked_start_attempts": 2,
+      "model_requests_from_blocked_starts": 0,
+      "automatic_model_retries": 0,
+      "basis": "Collector session ended with exit_code 0; all 632 attempt records completed; last module status complete."
+    }
+  ]
+}

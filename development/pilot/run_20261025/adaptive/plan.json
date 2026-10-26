@@ -1,0 +1,250 @@
+{
+  "prepared_utc": "2026-10-25T19:13:44.822424+00:00",
+  "rule_source": "frozen_inputs/protocol.json adaptive_rule",
+  "initial_summary_sha256": "97fee4082be1f54bcf3d875f5c79d6a6088bbd09929f211f0741f444718671e6",
+  "eligible_series": 20,
+  "selected_series": [
+    {
+      "case_id": "R01",
+      "ladder": "refund_p95",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "bracket": [
+        "0.019",
+        "0.079"
+      ],
+      "midpoint_premium": "0.049",
+      "improved_fee": "0.050"
+    },
+    {
+      "case_id": "R02",
+      "ladder": "refund_p95",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "bracket": [
+        "0.019",
+        "0.079"
+      ],
+      "midpoint_premium": "0.049",
+      "improved_fee": "0.050"
+    },
+    {
+      "case_id": "R03",
+      "ladder": "refund_p95",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "bracket": [
+        "0.019",
+        "0.079"
+      ],
+      "midpoint_premium": "0.049",
+      "improved_fee": "0.050"
+    },
+    {
+      "case_id": "R04",
+      "ladder": "refund_p95",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "bracket": [
+        "0.019",
+        "0.079"
+      ],
+      "midpoint_premium": "0.049",
+      "improved_fee": "0.050"
+    },
+    {
+      "case_id": "R05",
+      "ladder": "refund_p99",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "bracket": [
+        "0.004",
+        "0.019"
+      ],
+      "midpoint_premium": "0.012",
+      "improved_fee": "0.013"
+    },
+    {
+      "case_id": "R06",
+      "ladder": "refund_p99",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "bracket": [
+        "0.004",
+        "0.019"
+      ],
+      "midpoint_premium": "0.012",
+      "improved_fee": "0.013"
+    },
+    {
+      "case_id": "R07",
+      "ladder": "refund_p99",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "bracket": [
+        "0.004",
+        "0.019"
+      ],
+      "midpoint_premium": "0.012",
+      "improved_fee": "0.013"
+    },
+    {
+      "case_id": "R08",
+      "ladder": "refund_p99",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "bracket": [
+        "0.004",
+        "0.019"
+      ],
+      "midpoint_premium": "0.012",
+      "improved_fee": "0.013"
+    },
+    {
+      "case_id": "R09",
+      "ladder": "reliability_fine",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "bracket": [
+        "0.019",
+        "0.079"
+      ],
+      "midpoint_premium": "0.049",
+      "improved_fee": "0.050"
+    },
+    {
+      "case_id": "R10",
+      "ladder": "reliability_wide",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "bracket": [
+        "0.079",
+        "0.249"
+      ],
+      "midpoint_premium": "0.164",
+      "improved_fee": "0.165"
+    },
+    {
+      "case_id": "R11",
+      "ladder": "reliability_wide",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "bracket": [
+        "0.079",
+        "0.249"
+      ],
+      "midpoint_premium": "0.164",
+      "improved_fee": "0.165"
+    },
+    {
+      "case_id": "R12",
+      "ladder": "retention",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "bracket": [
+        "0.019",
+        "0.079"
+      ],
+      "midpoint_premium": "0.049",
+      "improved_fee": "0.050"
+    },
+    {
+      "case_id": "R13",
+      "ladder": "retention",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "bracket": [
+        "0.079",
+        "0.249"
+      ],
+      "midpoint_premium": "0.164",
+      "improved_fee": "0.165"
+    },
+    {
+      "case_id": "R14",
+      "ladder": "retention",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "bracket": [
+        "0.000",
+        "0.004"
+      ],
+      "midpoint_premium": "0.002",
+      "improved_fee": "0.003"
+    },
+    {
+      "case_id": "R15",
+      "ladder": "timeliness",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "bracket": [
+        "0.079",
+        "0.249"
+      ],
+      "midpoint_premium": "0.164",
+      "improved_fee": "0.165"
+    },
+    {
+      "case_id": "R16",
+      "ladder": "timeliness",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "bracket": [
+        "0.000",
+        "0.004"
+      ],
+      "midpoint_premium": "0.002",
+      "improved_fee": "0.003"
+    },
+    {
+      "case_id": "R17",
+      "ladder": "timeliness",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "bracket": [
+        "0.000",
+        "0.004"
+      ],
+      "midpoint_premium": "0.002",
+      "improved_fee": "0.003"
+    },
+    {
+      "case_id": "R18",
+      "ladder": "timeliness",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "bracket": [
+        "0.000",
+        "0.004"
+      ],
+      "midpoint_premium": "0.002",
+      "improved_fee": "0.003"
+    },
+    {
+      "case_id": "R19",
+      "ladder": "timeliness",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "bracket": [
+        "0.000",
+        "0.004"
+      ],
+      "midpoint_premium": "0.002",
+      "improved_fee": "0.003"
+    },
+    {
+      "case_id": "R20",
+      "ladder": "timeliness",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "bracket": [
+        "0.000",
+        "0.004"
+      ],
+      "midpoint_premium": "0.002",
+      "improved_fee": "0.003"
+    }
+  ],
+  "calls": 40,
+  "uses_heldout_outcomes": false
+}

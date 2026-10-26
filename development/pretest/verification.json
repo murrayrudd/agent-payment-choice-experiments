@@ -1,0 +1,25 @@
+{
+  "input_manifest_verified": true,
+  "models": {
+    "sol": {
+      "unique_completed_episodes": 96,
+      "request_messages_match_frozen_prompts": true,
+      "raw_content_matches_api_response": true,
+      "record_costs_match_api_usage": true,
+      "all_required_checks_pass": true
+    },
+    "qwen": {
+      "unique_completed_episodes": 96,
+      "request_messages_match_frozen_prompts": true,
+      "raw_content_matches_api_response": true,
+      "record_costs_match_api_usage": true,
+      "all_required_checks_pass": false
+    }
+  },
+  "billing_reconciled": true,
+  "main_pretest_calls": 192,
+  "additional_diagnostic_calls": 4,
+  "total_calls": 196,
+  "total_cost_usd": "0.937766",
+  "credentials_included": false
+}

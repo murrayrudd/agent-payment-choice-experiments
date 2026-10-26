@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "immutable_source_files_verified": 1290,
+  "selected_full_coefficients_match_main_archive": true,
+  "reported_compensation_roots_satisfy_equal_utility": true,
+  "all_bootstrap_records_retained_and_intervals_verified": true,
+  "target_strata_reconcile_to_original_matched_contrasts": true,
+  "new_model_calls": 0
+}

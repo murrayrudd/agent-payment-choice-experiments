@@ -1,0 +1,673 @@
+episode_id,case_id,module,mandate,target_seconds,repeat,status,physical_choice,cost_usd
+A1_M1_T5_r1,A1_M1_T5,outside_anchor,Balanced,5,1,valid,alpha,0.001818
+A1_M1_T5_r2,A1_M1_T5,outside_anchor,Balanced,5,2,valid,alpha,0.001808
+A1_M1_T60_r1,A1_M1_T60,outside_anchor,Balanced,60,1,valid,alpha,0.001678
+A1_M1_T60_r2,A1_M1_T60,outside_anchor,Balanced,60,2,valid,alpha,0.001678
+A1_M2_T5_r1,A1_M2_T5,outside_anchor,Economy,5,1,valid,alpha,0.002072
+A1_M2_T5_r2,A1_M2_T5,outside_anchor,Economy,5,2,valid,alpha,0.001942
+A1_M2_T60_r1,A1_M2_T60,outside_anchor,Economy,60,1,valid,alpha,0.002032
+A1_M2_T60_r2,A1_M2_T60,outside_anchor,Economy,60,2,valid,alpha,0.001982
+A1_M3_T5_r1,A1_M3_T5,outside_anchor,Continuity,5,1,valid,alpha,0.001822
+A1_M3_T5_r2,A1_M3_T5,outside_anchor,Continuity,5,2,valid,alpha,0.001822
+A1_M3_T60_r1,A1_M3_T60,outside_anchor,Continuity,60,1,valid,alpha,0.001842
+A1_M3_T60_r2,A1_M3_T60,outside_anchor,Continuity,60,2,valid,alpha,0.001802
+A1_M4_T5_r1,A1_M4_T5,outside_anchor,Data minimization,5,1,valid,alpha,0.001904
+A1_M4_T5_r2,A1_M4_T5,outside_anchor,Data minimization,5,2,valid,alpha,0.001984
+A1_M4_T60_r1,A1_M4_T60,outside_anchor,Data minimization,60,1,valid,alpha,0.001894
+A1_M4_T60_r2,A1_M4_T60,outside_anchor,Data minimization,60,2,valid,alpha,0.001864
+A2_M1_T5_r1,A2_M1_T5,outside_anchor,Balanced,5,1,valid,alpha,0.001968
+A2_M1_T5_r2,A2_M1_T5,outside_anchor,Balanced,5,2,valid,alpha,0.001978
+A2_M1_T60_r1,A2_M1_T60,outside_anchor,Balanced,60,1,valid,alpha,0.001858
+A2_M1_T60_r2,A2_M1_T60,outside_anchor,Balanced,60,2,valid,alpha,0.001818
+A2_M2_T5_r1,A2_M2_T5,outside_anchor,Economy,5,1,valid,alpha,0.002262
+A2_M2_T5_r2,A2_M2_T5,outside_anchor,Economy,5,2,valid,alpha,0.003342
+A2_M2_T60_r1,A2_M2_T60,outside_anchor,Economy,60,1,valid,alpha,0.002332
+A2_M2_T60_r2,A2_M2_T60,outside_anchor,Economy,60,2,valid,alpha,0.001982
+A2_M3_T5_r1,A2_M3_T5,outside_anchor,Continuity,5,1,valid,alpha,0.001872
+A2_M3_T5_r2,A2_M3_T5,outside_anchor,Continuity,5,2,valid,alpha,0.001942
+A2_M3_T60_r1,A2_M3_T60,outside_anchor,Continuity,60,1,valid,alpha,0.001832
+A2_M3_T60_r2,A2_M3_T60,outside_anchor,Continuity,60,2,valid,alpha,0.001792
+A2_M4_T5_r1,A2_M4_T5,outside_anchor,Data minimization,5,1,valid,alpha,0.002274
+A2_M4_T5_r2,A2_M4_T5,outside_anchor,Data minimization,5,2,valid,alpha,0.003264
+A2_M4_T60_r1,A2_M4_T60,outside_anchor,Data minimization,60,1,valid,alpha,0.002004
+A2_M4_T60_r2,A2_M4_T60,outside_anchor,Data minimization,60,2,valid,alpha,0.002204
+C01_M1_T5_r1,C01_M1_T5,core,Balanced,5,1,valid,alpha,0.001948
+C01_M1_T5_r2,C01_M1_T5,core,Balanced,5,2,valid,alpha,0.002088
+C01_M1_T60_r1,C01_M1_T60,core,Balanced,60,1,valid,alpha,0.002018
+C01_M1_T60_r2,C01_M1_T60,core,Balanced,60,2,valid,alpha,0.002038
+C01_M2_T5_r1,C01_M2_T5,core,Economy,5,1,valid,alpha,0.001682
+C01_M2_T5_r2,C01_M2_T5,core,Economy,5,2,valid,alpha,0.001682
+C01_M2_T60_r1,C01_M2_T60,core,Economy,60,1,valid,alpha,0.001682
+C01_M2_T60_r2,C01_M2_T60,core,Economy,60,2,valid,alpha,0.001682
+C01_M3_T5_r1,C01_M3_T5,core,Continuity,5,1,valid,beta,0.002362
+C01_M3_T5_r2,C01_M3_T5,core,Continuity,5,2,valid,beta,0.002372
+C01_M3_T60_r1,C01_M3_T60,core,Continuity,60,1,valid,beta,0.002102
+C01_M3_T60_r2,C01_M3_T60,core,Continuity,60,2,valid,beta,0.002062
+C01_M4_T5_r1,C01_M4_T5,core,Data minimization,5,1,valid,alpha,0.002134
+C01_M4_T5_r2,C01_M4_T5,core,Data minimization,5,2,valid,alpha,0.002074
+C01_M4_T60_r1,C01_M4_T60,core,Data minimization,60,1,valid,alpha,0.002094
+C01_M4_T60_r2,C01_M4_T60,core,Data minimization,60,2,valid,alpha,0.002084
+C02_M1_T5_r1,C02_M1_T5,core,Balanced,5,1,valid,alpha,0.002068
+C02_M1_T5_r2,C02_M1_T5,core,Balanced,5,2,valid,alpha,0.002008
+C02_M1_T60_r1,C02_M1_T60,core,Balanced,60,1,valid,alpha,0.001858
+C02_M1_T60_r2,C02_M1_T60,core,Balanced,60,2,valid,alpha,0.001878
+C02_M2_T5_r1,C02_M2_T5,core,Economy,5,1,valid,alpha,0.002042
+C02_M2_T5_r2,C02_M2_T5,core,Economy,5,2,valid,alpha,0.002002
+C02_M2_T60_r1,C02_M2_T60,core,Economy,60,1,valid,alpha,0.002102
+C02_M2_T60_r2,C02_M2_T60,core,Economy,60,2,valid,alpha,0.002042
+C02_M3_T5_r1,C02_M3_T5,core,Continuity,5,1,valid,beta,0.002412
+C02_M3_T5_r2,C02_M3_T5,core,Continuity,5,2,valid,beta,0.002172
+C02_M3_T60_r1,C02_M3_T60,core,Continuity,60,1,valid,alpha,0.001682
+C02_M3_T60_r2,C02_M3_T60,core,Continuity,60,2,valid,alpha,0.001912
+C02_M4_T5_r1,C02_M4_T5,core,Data minimization,5,1,valid,alpha,0.002324
+C02_M4_T5_r2,C02_M4_T5,core,Data minimization,5,2,valid,alpha,0.002304
+C02_M4_T60_r1,C02_M4_T60,core,Data minimization,60,1,valid,alpha,0.001944
+C02_M4_T60_r2,C02_M4_T60,core,Data minimization,60,2,valid,alpha,0.001984
+C03_M1_T5_r1,C03_M1_T5,core,Balanced,5,1,valid,alpha,0.001868
+C03_M1_T5_r2,C03_M1_T5,core,Balanced,5,2,valid,alpha,0.001888
+C03_M1_T60_r1,C03_M1_T60,core,Balanced,60,1,valid,alpha,0.001888
+C03_M1_T60_r2,C03_M1_T60,core,Balanced,60,2,valid,alpha,0.001908
+C03_M2_T5_r1,C03_M2_T5,core,Economy,5,1,valid,alpha,0.002002
+C03_M2_T5_r2,C03_M2_T5,core,Economy,5,2,valid,alpha,0.002132
+C03_M2_T60_r1,C03_M2_T60,core,Economy,60,1,valid,alpha,0.002052
+C03_M2_T60_r2,C03_M2_T60,core,Economy,60,2,valid,alpha,0.002042
+C03_M3_T5_r1,C03_M3_T5,core,Continuity,5,1,valid,alpha,0.001682
+C03_M3_T5_r2,C03_M3_T5,core,Continuity,5,2,valid,alpha,0.001682
+C03_M3_T60_r1,C03_M3_T60,core,Continuity,60,1,valid,alpha,0.001682
+C03_M3_T60_r2,C03_M3_T60,core,Continuity,60,2,valid,alpha,0.001682
+C03_M4_T5_r1,C03_M4_T5,core,Data minimization,5,1,valid,beta,0.002064
+C03_M4_T5_r2,C03_M4_T5,core,Data minimization,5,2,valid,beta,0.002284
+C03_M4_T60_r1,C03_M4_T60,core,Data minimization,60,1,valid,beta,0.002084
+C03_M4_T60_r2,C03_M4_T60,core,Data minimization,60,2,valid,beta,0.002074
+C04_M1_T5_r1,C04_M1_T5,core,Balanced,5,1,valid,alpha,0.002028
+C04_M1_T5_r2,C04_M1_T5,core,Balanced,5,2,valid,alpha,0.002028
+C04_M1_T60_r1,C04_M1_T60,core,Balanced,60,1,valid,alpha,0.002068
+C04_M1_T60_r2,C04_M1_T60,core,Balanced,60,2,valid,alpha,0.001968
+C04_M2_T5_r1,C04_M2_T5,core,Economy,5,1,valid,alpha,0.002012
+C04_M2_T5_r2,C04_M2_T5,core,Economy,5,2,valid,alpha,0.002082
+C04_M2_T60_r1,C04_M2_T60,core,Economy,60,1,valid,alpha,0.002082
+C04_M2_T60_r2,C04_M2_T60,core,Economy,60,2,valid,alpha,0.002032
+C04_M3_T5_r1,C04_M3_T5,core,Continuity,5,1,valid,alpha,0.002092
+C04_M3_T5_r2,C04_M3_T5,core,Continuity,5,2,valid,alpha,0.002182
+C04_M3_T60_r1,C04_M3_T60,core,Continuity,60,1,valid,alpha,0.002112
+C04_M3_T60_r2,C04_M3_T60,core,Continuity,60,2,valid,alpha,0.002422
+C04_M4_T5_r1,C04_M4_T5,core,Data minimization,5,1,valid,beta,0.002034
+C04_M4_T5_r2,C04_M4_T5,core,Data minimization,5,2,valid,beta,0.002034
+C04_M4_T60_r1,C04_M4_T60,core,Data minimization,60,1,valid,beta,0.002044
+C04_M4_T60_r2,C04_M4_T60,core,Data minimization,60,2,valid,beta,0.002124
+C05_M1_T5_labels_r1,C05_M1_T5_labels,presentation,Balanced,5,1,valid,beta,0.001878
+C05_M1_T5_r1,C05_M1_T5,core,Balanced,5,1,valid,beta,0.002098
+C05_M1_T60_labels_r1,C05_M1_T60_labels,presentation,Balanced,60,1,valid,beta,0.001938
+C05_M1_T60_r1,C05_M1_T60,core,Balanced,60,1,valid,beta,0.001998
+C05_M2_T5_labels_r1,C05_M2_T5_labels,presentation,Economy,5,1,valid,alpha,0.002332
+C05_M2_T5_r1,C05_M2_T5,core,Economy,5,1,valid,alpha,0.002232
+C05_M2_T60_labels_r1,C05_M2_T60_labels,presentation,Economy,60,1,valid,alpha,0.002182
+C05_M2_T60_r1,C05_M2_T60,core,Economy,60,1,valid,alpha,0.002162
+C05_M3_T5_labels_r1,C05_M3_T5_labels,presentation,Continuity,5,1,valid,beta,0.001682
+C05_M3_T5_r1,C05_M3_T5,core,Continuity,5,1,valid,beta,0.001682
+C05_M3_T60_labels_r1,C05_M3_T60_labels,presentation,Continuity,60,1,valid,beta,0.001682
+C05_M3_T60_r1,C05_M3_T60,core,Continuity,60,1,valid,beta,0.001992
+C05_M4_T5_labels_r1,C05_M4_T5_labels,presentation,Data minimization,5,1,valid,beta,0.002014
+C05_M4_T5_r1,C05_M4_T5,core,Data minimization,5,1,valid,beta,0.001694
+C05_M4_T60_labels_r1,C05_M4_T60_labels,presentation,Data minimization,60,1,valid,beta,0.001694
+C05_M4_T60_r1,C05_M4_T60,core,Data minimization,60,1,valid,beta,0.002004
+C06_M1_T5_labels_r1,C06_M1_T5_labels,presentation,Balanced,5,1,valid,alpha,0.001908
+C06_M1_T5_r1,C06_M1_T5,core,Balanced,5,1,valid,alpha,0.001948
+C06_M1_T60_labels_r1,C06_M1_T60_labels,presentation,Balanced,60,1,valid,alpha,0.001678
+C06_M1_T60_r1,C06_M1_T60,core,Balanced,60,1,valid,alpha,0.001678
+C06_M2_T5_labels_r1,C06_M2_T5_labels,presentation,Economy,5,1,valid,alpha,0.002042
+C06_M2_T5_r1,C06_M2_T5,core,Economy,5,1,valid,alpha,0.002092
+C06_M2_T60_labels_r1,C06_M2_T60_labels,presentation,Economy,60,1,valid,alpha,0.001872
+C06_M2_T60_r1,C06_M2_T60,core,Economy,60,1,valid,alpha,0.002032
+C06_M3_T5_labels_r1,C06_M3_T5_labels,presentation,Continuity,5,1,valid,beta,0.003402
+C06_M3_T5_r1,C06_M3_T5,core,Continuity,5,1,valid,beta,0.002952
+C06_M3_T60_labels_r1,C06_M3_T60_labels,presentation,Continuity,60,1,valid,alpha,0.001682
+C06_M3_T60_r1,C06_M3_T60,core,Continuity,60,1,valid,alpha,0.001682
+C06_M4_T5_labels_r1,C06_M4_T5_labels,presentation,Data minimization,5,1,valid,alpha,0.001694
+C06_M4_T5_r1,C06_M4_T5,core,Data minimization,5,1,valid,alpha,0.001694
+C06_M4_T60_labels_r1,C06_M4_T60_labels,presentation,Data minimization,60,1,valid,alpha,0.001694
+C06_M4_T60_r1,C06_M4_T60,core,Data minimization,60,1,valid,alpha,0.001694
+C07_M1_T5_position_r1,C07_M1_T5_position,presentation,Balanced,5,1,valid,alpha,0.002018
+C07_M1_T5_r1,C07_M1_T5,core,Balanced,5,1,valid,alpha,0.002058
+C07_M1_T60_position_r1,C07_M1_T60_position,presentation,Balanced,60,1,valid,alpha,0.002158
+C07_M1_T60_r1,C07_M1_T60,core,Balanced,60,1,valid,alpha,0.002168
+C07_M2_T5_position_r1,C07_M2_T5_position,presentation,Economy,5,1,valid,alpha,0.002052
+C07_M2_T5_r1,C07_M2_T5,core,Economy,5,1,valid,alpha,0.002082
+C07_M2_T60_position_r1,C07_M2_T60_position,presentation,Economy,60,1,valid,alpha,0.001992
+C07_M2_T60_r1,C07_M2_T60,core,Economy,60,1,valid,alpha,0.002062
+C07_M3_T5_position_r1,C07_M3_T5_position,presentation,Continuity,5,1,valid,alpha,0.002042
+C07_M3_T5_r1,C07_M3_T5,core,Continuity,5,1,valid,alpha,0.002072
+C07_M3_T60_position_r1,C07_M3_T60_position,presentation,Continuity,60,1,valid,beta,0.002112
+C07_M3_T60_r1,C07_M3_T60,core,Continuity,60,1,valid,beta,0.002442
+C07_M4_T5_position_r1,C07_M4_T5_position,presentation,Data minimization,5,1,valid,alpha,0.001694
+C07_M4_T5_r1,C07_M4_T5,core,Data minimization,5,1,valid,alpha,0.001984
+C07_M4_T60_position_r1,C07_M4_T60_position,presentation,Data minimization,60,1,valid,alpha,0.001984
+C07_M4_T60_r1,C07_M4_T60,core,Data minimization,60,1,valid,alpha,0.001984
+C08_M1_T5_position_r1,C08_M1_T5_position,presentation,Balanced,5,1,valid,alpha,0.001848
+C08_M1_T5_r1,C08_M1_T5,core,Balanced,5,1,valid,alpha,0.001938
+C08_M1_T60_position_r1,C08_M1_T60_position,presentation,Balanced,60,1,valid,alpha,0.001918
+C08_M1_T60_r1,C08_M1_T60,core,Balanced,60,1,valid,alpha,0.001938
+C08_M2_T5_position_r1,C08_M2_T5_position,presentation,Economy,5,1,valid,alpha,0.002012
+C08_M2_T5_r1,C08_M2_T5,core,Economy,5,1,valid,alpha,0.002082
+C08_M2_T60_position_r1,C08_M2_T60_position,presentation,Economy,60,1,valid,alpha,0.001952
+C08_M2_T60_r1,C08_M2_T60,core,Economy,60,1,valid,alpha,0.001962
+C08_M3_T5_position_r1,C08_M3_T5_position,presentation,Continuity,5,1,valid,alpha,0.001682
+C08_M3_T5_r1,C08_M3_T5,core,Continuity,5,1,valid,alpha,0.001682
+C08_M3_T60_position_r1,C08_M3_T60_position,presentation,Continuity,60,1,valid,alpha,0.001872
+C08_M3_T60_r1,C08_M3_T60,core,Continuity,60,1,valid,alpha,0.001902
+C08_M4_T5_position_r1,C08_M4_T5_position,presentation,Data minimization,5,1,valid,beta,0.001944
+C08_M4_T5_r1,C08_M4_T5,core,Data minimization,5,1,valid,beta,0.002004
+C08_M4_T60_position_r1,C08_M4_T60_position,presentation,Data minimization,60,1,valid,beta,0.002174
+C08_M4_T60_r1,C08_M4_T60,core,Data minimization,60,1,valid,beta,0.002124
+C09_M1_T5_r1,C09_M1_T5,core,Balanced,5,1,valid,beta,0.001878
+C09_M1_T60_r1,C09_M1_T60,core,Balanced,60,1,valid,beta,0.002018
+C09_M2_T5_r1,C09_M2_T5,core,Economy,5,1,valid,alpha,0.002182
+C09_M2_T60_r1,C09_M2_T60,core,Economy,60,1,valid,alpha,0.002232
+C09_M3_T5_r1,C09_M3_T5,core,Continuity,5,1,valid,beta,0.001682
+C09_M3_T60_r1,C09_M3_T60,core,Continuity,60,1,valid,beta,0.001682
+C09_M4_T5_r1,C09_M4_T5,core,Data minimization,5,1,valid,alpha,0.002034
+C09_M4_T60_r1,C09_M4_T60,core,Data minimization,60,1,valid,alpha,0.001944
+C10_M1_T5_r1,C10_M1_T5,core,Balanced,5,1,valid,alpha,0.001938
+C10_M1_T60_r1,C10_M1_T60,core,Balanced,60,1,valid,alpha,0.002138
+C10_M2_T5_r1,C10_M2_T5,core,Economy,5,1,valid,alpha,0.001682
+C10_M2_T60_r1,C10_M2_T60,core,Economy,60,1,valid,alpha,0.002072
+C10_M3_T5_r1,C10_M3_T5,core,Continuity,5,1,valid,alpha,0.002022
+C10_M3_T60_r1,C10_M3_T60,core,Continuity,60,1,valid,beta,0.002122
+C10_M4_T5_r1,C10_M4_T5,core,Data minimization,5,1,valid,alpha,0.001694
+C10_M4_T60_r1,C10_M4_T60,core,Data minimization,60,1,valid,alpha,0.002034
+C11_M1_T5_r1,C11_M1_T5,core,Balanced,5,1,valid,beta,0.001958
+C11_M1_T60_r1,C11_M1_T60,core,Balanced,60,1,valid,beta,0.001988
+C11_M2_T5_r1,C11_M2_T5,core,Economy,5,1,valid,beta,0.002742
+C11_M2_T60_r1,C11_M2_T60,core,Economy,60,1,valid,alpha,0.002412
+C11_M3_T5_r1,C11_M3_T5,core,Continuity,5,1,valid,beta,0.001682
+C11_M3_T60_r1,C11_M3_T60,core,Continuity,60,1,valid,beta,0.002092
+C11_M4_T5_r1,C11_M4_T5,core,Data minimization,5,1,valid,beta,0.001694
+C11_M4_T60_r1,C11_M4_T60,core,Data minimization,60,1,valid,beta,0.002054
+C12_M1_T5_r1,C12_M1_T5,core,Balanced,5,1,valid,alpha,0.002068
+C12_M1_T60_r1,C12_M1_T60,core,Balanced,60,1,valid,alpha,0.002018
+C12_M2_T5_r1,C12_M2_T5,core,Economy,5,1,valid,alpha,0.001992
+C12_M2_T60_r1,C12_M2_T60,core,Economy,60,1,valid,alpha,0.001982
+C12_M3_T5_r1,C12_M3_T5,core,Continuity,5,1,valid,alpha,0.001972
+C12_M3_T60_r1,C12_M3_T60,core,Continuity,60,1,valid,beta,0.002052
+C12_M4_T5_r1,C12_M4_T5,core,Data minimization,5,1,valid,beta,0.001984
+C12_M4_T60_r1,C12_M4_T60,core,Data minimization,60,1,valid,beta,0.001694
+C13_M1_T5_r1,C13_M1_T5,core,Balanced,5,1,valid,beta,0.002038
+C13_M1_T60_r1,C13_M1_T60,core,Balanced,60,1,valid,alpha,0.002588
+C13_M2_T5_r1,C13_M2_T5,core,Economy,5,1,valid,alpha,0.002012
+C13_M2_T60_r1,C13_M2_T60,core,Economy,60,1,valid,alpha,0.002272
+C13_M3_T5_r1,C13_M3_T5,core,Continuity,5,1,valid,beta,0.001682
+C13_M3_T60_r1,C13_M3_T60,core,Continuity,60,1,valid,beta,0.002022
+C13_M4_T5_r1,C13_M4_T5,core,Data minimization,5,1,valid,beta,0.001694
+C13_M4_T60_r1,C13_M4_T60,core,Data minimization,60,1,valid,beta,0.001694
+C14_M1_T5_r1,C14_M1_T5,core,Balanced,5,1,valid,alpha,0.002518
+C14_M1_T60_r1,C14_M1_T60,core,Balanced,60,1,valid,alpha,0.001678
+C14_M2_T5_r1,C14_M2_T5,core,Economy,5,1,valid,alpha,0.001962
+C14_M2_T60_r1,C14_M2_T60,core,Economy,60,1,valid,alpha,0.001682
+C14_M3_T5_r1,C14_M3_T5,core,Continuity,5,1,valid,beta,0.002062
+C14_M3_T60_r1,C14_M3_T60,core,Continuity,60,1,valid,alpha,0.001962
+C14_M4_T5_r1,C14_M4_T5,core,Data minimization,5,1,valid,alpha,0.001694
+C14_M4_T60_r1,C14_M4_T60,core,Data minimization,60,1,valid,alpha,0.001694
+C15_M1_T5_r1,C15_M1_T5,core,Balanced,5,1,valid,alpha,0.002188
+C15_M1_T60_r1,C15_M1_T60,core,Balanced,60,1,valid,alpha,0.002868
+C15_M2_T5_r1,C15_M2_T5,core,Economy,5,1,valid,alpha,0.002142
+C15_M2_T60_r1,C15_M2_T60,core,Economy,60,1,valid,alpha,0.002112
+C15_M3_T5_r1,C15_M3_T5,core,Continuity,5,1,valid,alpha,0.002012
+C15_M3_T60_r1,C15_M3_T60,core,Continuity,60,1,valid,beta,0.002552
+C15_M4_T5_r1,C15_M4_T5,core,Data minimization,5,1,valid,beta,0.002044
+C15_M4_T60_r1,C15_M4_T60,core,Data minimization,60,1,valid,beta,0.002004
+C16_M1_T5_r1,C16_M1_T5,core,Balanced,5,1,valid,alpha,0.002008
+C16_M1_T60_r1,C16_M1_T60,core,Balanced,60,1,valid,alpha,0.001678
+C16_M2_T5_r1,C16_M2_T5,core,Economy,5,1,valid,alpha,0.002052
+C16_M2_T60_r1,C16_M2_T60,core,Economy,60,1,valid,alpha,0.002082
+C16_M3_T5_r1,C16_M3_T5,core,Continuity,5,1,valid,beta,0.002192
+C16_M3_T60_r1,C16_M3_T60,core,Continuity,60,1,valid,alpha,0.001992
+C16_M4_T5_r1,C16_M4_T5,core,Data minimization,5,1,valid,alpha,0.001694
+C16_M4_T60_r1,C16_M4_T60,core,Data minimization,60,1,valid,alpha,0.001944
+C17_M1_T5_r1,C17_M1_T5,core,Balanced,5,1,valid,alpha,0.001888
+C17_M1_T60_r1,C17_M1_T60,core,Balanced,60,1,valid,alpha,0.002428
+C17_M2_T5_r1,C17_M2_T5,core,Economy,5,1,valid,alpha,0.001982
+C17_M2_T60_r1,C17_M2_T60,core,Economy,60,1,valid,alpha,0.001942
+C17_M3_T5_r1,C17_M3_T5,core,Continuity,5,1,valid,alpha,0.002092
+C17_M3_T60_r1,C17_M3_T60,core,Continuity,60,1,valid,beta,0.002002
+C17_M4_T5_r1,C17_M4_T5,core,Data minimization,5,1,valid,alpha,0.001924
+C17_M4_T60_r1,C17_M4_T60,core,Data minimization,60,1,valid,alpha,0.002084
+C18_M1_T5_r1,C18_M1_T5,core,Balanced,5,1,valid,beta,0.002328
+C18_M1_T60_r1,C18_M1_T60,core,Balanced,60,1,valid,beta,0.001968
+C18_M2_T5_r1,C18_M2_T5,core,Economy,5,1,valid,alpha,0.002762
+C18_M2_T60_r1,C18_M2_T60,core,Economy,60,1,valid,alpha,0.003292
+C18_M3_T5_r1,C18_M3_T5,core,Continuity,5,1,valid,alpha,0.002352
+C18_M3_T60_r1,C18_M3_T60,core,Continuity,60,1,valid,beta,0.001932
+C18_M4_T5_r1,C18_M4_T5,core,Data minimization,5,1,valid,beta,0.001934
+C18_M4_T60_r1,C18_M4_T60,core,Data minimization,60,1,valid,beta,0.001694
+C19_M1_T5_r1,C19_M1_T5,core,Balanced,5,1,valid,alpha,0.001888
+C19_M1_T60_r1,C19_M1_T60,core,Balanced,60,1,valid,alpha,0.002218
+C19_M2_T5_r1,C19_M2_T5,core,Economy,5,1,valid,alpha,0.002032
+C19_M2_T60_r1,C19_M2_T60,core,Economy,60,1,valid,alpha,0.001972
+C19_M3_T5_r1,C19_M3_T5,core,Continuity,5,1,valid,alpha,0.002022
+C19_M3_T60_r1,C19_M3_T60,core,Continuity,60,1,valid,beta,0.002282
+C19_M4_T5_r1,C19_M4_T5,core,Data minimization,5,1,valid,alpha,0.002044
+C19_M4_T60_r1,C19_M4_T60,core,Data minimization,60,1,valid,alpha,0.001944
+C20_M1_T5_r1,C20_M1_T5,core,Balanced,5,1,valid,alpha,0.003498
+C20_M1_T60_r1,C20_M1_T60,core,Balanced,60,1,valid,alpha,0.003378
+C20_M2_T5_r1,C20_M2_T5,core,Economy,5,1,valid,alpha,0.001932
+C20_M2_T60_r1,C20_M2_T60,core,Economy,60,1,valid,alpha,0.001912
+C20_M3_T5_r1,C20_M3_T5,core,Continuity,5,1,valid,beta,0.002562
+C20_M3_T60_r1,C20_M3_T60,core,Continuity,60,1,valid,beta,0.002442
+C20_M4_T5_r1,C20_M4_T5,core,Data minimization,5,1,valid,beta,0.001694
+C20_M4_T60_r1,C20_M4_T60,core,Data minimization,60,1,valid,beta,0.001694
+K_C01_M1_T60_r1,K_C01_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.002058
+K_C01_M2_T5_r1,K_C01_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002042
+K_C01_M2_T60_r1,K_C01_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002082
+K_C01_M3_T5_r1,K_C01_M3_T5,presentation_confirmation,Continuity,5,1,valid,beta,0.003132
+K_C01_M3_T60_r1,K_C01_M3_T60,presentation_confirmation,Continuity,60,1,valid,beta,0.002922
+K_C01_M4_T5_r1,K_C01_M4_T5,presentation_confirmation,Data minimization,5,1,valid,alpha,0.002214
+K_C02_M1_T60_r1,K_C02_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.001678
+K_C02_M2_T5_r1,K_C02_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002092
+K_C02_M2_T60_r1,K_C02_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002072
+K_C02_M3_T5_r1,K_C02_M3_T5,presentation_confirmation,Continuity,5,1,valid,beta,0.002532
+K_C02_M3_T60_r1,K_C02_M3_T60,presentation_confirmation,Continuity,60,1,valid,alpha,0.001682
+K_C02_M4_T5_r1,K_C02_M4_T5,presentation_confirmation,Data minimization,5,1,valid,alpha,0.002074
+K_C03_M1_T60_r1,K_C03_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.001868
+K_C03_M2_T5_r1,K_C03_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002292
+K_C03_M2_T60_r1,K_C03_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002012
+K_C03_M3_T5_r1,K_C03_M3_T5,presentation_confirmation,Continuity,5,1,valid,alpha,0.001872
+K_C03_M3_T60_r1,K_C03_M3_T60,presentation_confirmation,Continuity,60,1,valid,alpha,0.001682
+K_C03_M4_T5_r1,K_C03_M4_T5,presentation_confirmation,Data minimization,5,1,valid,beta,0.002074
+K_C04_M1_T60_r1,K_C04_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.002138
+K_C04_M2_T5_r1,K_C04_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002092
+K_C04_M2_T60_r1,K_C04_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002062
+K_C04_M3_T5_r1,K_C04_M3_T5,presentation_confirmation,Continuity,5,1,valid,alpha,0.002222
+K_C04_M3_T60_r1,K_C04_M3_T60,presentation_confirmation,Continuity,60,1,valid,alpha,0.002262
+K_C04_M4_T5_r1,K_C04_M4_T5,presentation_confirmation,Data minimization,5,1,valid,beta,0.002034
+K_C05_M1_T60_r1,K_C05_M1_T60,presentation_confirmation,Balanced,60,1,valid,beta,0.001998
+K_C05_M2_T5_r1,K_C05_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002162
+K_C05_M2_T60_r1,K_C05_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002232
+K_C05_M3_T5_r1,K_C05_M3_T5,presentation_confirmation,Continuity,5,1,valid,beta,0.001852
+K_C05_M3_T60_r1,K_C05_M3_T60,presentation_confirmation,Continuity,60,1,valid,beta,0.002012
+K_C05_M4_T5_r1,K_C05_M4_T5,presentation_confirmation,Data minimization,5,1,valid,beta,0.002054
+K_C06_M1_T60_r1,K_C06_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.001678
+K_C06_M2_T5_r1,K_C06_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002032
+K_C06_M2_T60_r1,K_C06_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.001682
+K_C06_M3_T5_r1,K_C06_M3_T5,presentation_confirmation,Continuity,5,1,valid,beta,0.003212
+K_C06_M3_T60_r1,K_C06_M3_T60,presentation_confirmation,Continuity,60,1,valid,alpha,0.001682
+K_C06_M4_T5_r1,K_C06_M4_T5,presentation_confirmation,Data minimization,5,1,valid,alpha,0.001694
+K_C07_M1_T60_r1,K_C07_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.002218
+K_C07_M2_T5_r1,K_C07_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.001992
+K_C07_M2_T60_r1,K_C07_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002062
+K_C07_M3_T5_r1,K_C07_M3_T5,presentation_confirmation,Continuity,5,1,valid,alpha,0.002132
+K_C07_M3_T60_r1,K_C07_M3_T60,presentation_confirmation,Continuity,60,1,valid,beta,0.002132
+K_C07_M4_T5_r1,K_C07_M4_T5,presentation_confirmation,Data minimization,5,1,valid,alpha,0.001694
+K_C08_M1_T60_r1,K_C08_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.001908
+K_C08_M2_T5_r1,K_C08_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.001952
+K_C08_M2_T60_r1,K_C08_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002042
+K_C08_M3_T5_r1,K_C08_M3_T5,presentation_confirmation,Continuity,5,1,valid,alpha,0.001682
+K_C08_M3_T60_r1,K_C08_M3_T60,presentation_confirmation,Continuity,60,1,valid,alpha,0.001682
+K_C08_M4_T5_r1,K_C08_M4_T5,presentation_confirmation,Data minimization,5,1,valid,beta,0.002104
+K_C09_M1_T60_r1,K_C09_M1_T60,presentation_confirmation,Balanced,60,1,valid,beta,0.002208
+K_C09_M2_T5_r1,K_C09_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002512
+K_C09_M2_T60_r1,K_C09_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002192
+K_C09_M3_T5_r1,K_C09_M3_T5,presentation_confirmation,Continuity,5,1,valid,beta,0.001872
+K_C09_M3_T60_r1,K_C09_M3_T60,presentation_confirmation,Continuity,60,1,valid,beta,0.002062
+K_C09_M4_T5_r1,K_C09_M4_T5,presentation_confirmation,Data minimization,5,1,valid,alpha,0.002154
+K_C10_M1_T60_r1,K_C10_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.002168
+K_C10_M2_T5_r1,K_C10_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.001862
+K_C10_M2_T60_r1,K_C10_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.001682
+K_C10_M3_T5_r1,K_C10_M3_T5,presentation_confirmation,Continuity,5,1,valid,alpha,0.002072
+K_C10_M3_T60_r1,K_C10_M3_T60,presentation_confirmation,Continuity,60,1,valid,beta,0.002222
+K_C10_M4_T5_r1,K_C10_M4_T5,presentation_confirmation,Data minimization,5,1,valid,alpha,0.001904
+K_C11_M1_T60_r1,K_C11_M1_T60,presentation_confirmation,Balanced,60,1,valid,beta,0.001998
+K_C11_M2_T5_r1,K_C11_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.003702
+K_C11_M2_T60_r1,K_C11_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002342
+K_C11_M3_T5_r1,K_C11_M3_T5,presentation_confirmation,Continuity,5,1,valid,beta,0.001682
+K_C11_M3_T60_r1,K_C11_M3_T60,presentation_confirmation,Continuity,60,1,valid,beta,0.002022
+K_C11_M4_T5_r1,K_C11_M4_T5,presentation_confirmation,Data minimization,5,1,valid,beta,0.002064
+K_C12_M1_T60_r1,K_C12_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.002308
+K_C12_M2_T5_r1,K_C12_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002022
+K_C12_M2_T60_r1,K_C12_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002102
+K_C12_M3_T5_r1,K_C12_M3_T5,presentation_confirmation,Continuity,5,1,valid,alpha,0.002132
+K_C12_M3_T60_r1,K_C12_M3_T60,presentation_confirmation,Continuity,60,1,valid,beta,0.002022
+K_C12_M4_T5_r1,K_C12_M4_T5,presentation_confirmation,Data minimization,5,1,valid,beta,0.002084
+K_C13_M1_T60_r1,K_C13_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.002528
+K_C13_M2_T5_r1,K_C13_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002082
+K_C13_M2_T60_r1,K_C13_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.001982
+K_C13_M3_T5_r1,K_C13_M3_T5,presentation_confirmation,Continuity,5,1,valid,beta,0.001682
+K_C13_M3_T60_r1,K_C13_M3_T60,presentation_confirmation,Continuity,60,1,valid,beta,0.002212
+K_C13_M4_T5_r1,K_C13_M4_T5,presentation_confirmation,Data minimization,5,1,valid,beta,0.001694
+K_C14_M1_T60_r1,K_C14_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.001678
+K_C14_M2_T5_r1,K_C14_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.001682
+K_C14_M2_T60_r1,K_C14_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.001682
+K_C14_M3_T5_r1,K_C14_M3_T5,presentation_confirmation,Continuity,5,1,valid,beta,0.002272
+K_C14_M3_T60_r1,K_C14_M3_T60,presentation_confirmation,Continuity,60,1,valid,alpha,0.001682
+K_C14_M4_T5_r1,K_C14_M4_T5,presentation_confirmation,Data minimization,5,1,valid,alpha,0.001914
+K_C15_M1_T60_r1,K_C15_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.002208
+K_C15_M2_T5_r1,K_C15_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.002052
+K_C15_M2_T60_r1,K_C15_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002052
+K_C15_M3_T5_r1,K_C15_M3_T5,presentation_confirmation,Continuity,5,1,valid,alpha,0.002032
+K_C15_M3_T60_r1,K_C15_M3_T60,presentation_confirmation,Continuity,60,1,valid,beta,0.002992
+K_C15_M4_T5_r1,K_C15_M4_T5,presentation_confirmation,Data minimization,5,1,valid,beta,0.002074
+K_C16_M1_T60_r1,K_C16_M1_T60,presentation_confirmation,Balanced,60,1,valid,alpha,0.001988
+K_C16_M2_T5_r1,K_C16_M2_T5,presentation_confirmation,Economy,5,1,valid,alpha,0.001992
+K_C16_M2_T60_r1,K_C16_M2_T60,presentation_confirmation,Economy,60,1,valid,alpha,0.002052
+K_C16_M3_T5_r1,K_C16_M3_T5,presentation_confirmation,Continuity,5,1,valid,beta,0.002012
+K_C16_M3_T60_r1,K_C16_M3_T60,presentation_confirmation,Continuity,60,1,valid,alpha,0.001932
+K_C16_M4_T5_r1,K_C16_M4_T5,presentation_confirmation,Data minimization,5,1,valid,alpha,0.001934
+L1_M1_T60_F1_r1,L1_M1_T60_F1,ladder,Balanced,60,1,valid,beta,0.001678
+L1_M1_T60_F1_r2,L1_M1_T60_F1,ladder,Balanced,60,2,valid,beta,0.001678
+L1_M1_T60_F2_r1,L1_M1_T60_F2,ladder,Balanced,60,1,valid,beta,0.002168
+L1_M1_T60_F2_r2,L1_M1_T60_F2,ladder,Balanced,60,2,valid,beta,0.002088
+L1_M1_T60_F3_r1,L1_M1_T60_F3,ladder,Balanced,60,1,valid,beta,0.002268
+L1_M1_T60_F3_r2,L1_M1_T60_F3,ladder,Balanced,60,2,valid,beta,0.002098
+L1_M1_T60_F4_r1,L1_M1_T60_F4,ladder,Balanced,60,1,valid,beta,0.002548
+L1_M1_T60_F4_r2,L1_M1_T60_F4,ladder,Balanced,60,2,valid,beta,0.002488
+L1_M1_T60_F5_r1,L1_M1_T60_F5,ladder,Balanced,60,1,valid,alpha,0.002268
+L1_M1_T60_F5_r2,L1_M1_T60_F5,ladder,Balanced,60,2,valid,alpha,0.002288
+L1_M2_T60_F1_r1,L1_M2_T60_F1,ladder,Economy,60,1,valid,alpha,0.004542
+L1_M2_T60_F1_r2,L1_M2_T60_F1,ladder,Economy,60,2,valid,alpha,0.003052
+L1_M2_T60_F2_r1,L1_M2_T60_F2,ladder,Economy,60,1,valid,alpha,0.002232
+L1_M2_T60_F2_r2,L1_M2_T60_F2,ladder,Economy,60,2,valid,alpha,0.002122
+L1_M2_T60_F3_r1,L1_M2_T60_F3,ladder,Economy,60,1,valid,alpha,0.002342
+L1_M2_T60_F3_r2,L1_M2_T60_F3,ladder,Economy,60,2,valid,alpha,0.002162
+L1_M2_T60_F4_r1,L1_M2_T60_F4,ladder,Economy,60,1,valid,alpha,0.002072
+L1_M2_T60_F4_r2,L1_M2_T60_F4,ladder,Economy,60,2,valid,alpha,0.002062
+L1_M2_T60_F5_r1,L1_M2_T60_F5,ladder,Economy,60,1,valid,alpha,0.001992
+L1_M2_T60_F5_r2,L1_M2_T60_F5,ladder,Economy,60,2,valid,alpha,0.002062
+L1_M3_T60_F1_r1,L1_M3_T60_F1,ladder,Continuity,60,1,valid,beta,0.001682
+L1_M3_T60_F1_r2,L1_M3_T60_F1,ladder,Continuity,60,2,valid,beta,0.001682
+L1_M3_T60_F2_r1,L1_M3_T60_F2,ladder,Continuity,60,1,valid,beta,0.001682
+L1_M3_T60_F2_r2,L1_M3_T60_F2,ladder,Continuity,60,2,valid,beta,0.001682
+L1_M3_T60_F3_r1,L1_M3_T60_F3,ladder,Continuity,60,1,valid,beta,0.002092
+L1_M3_T60_F3_r2,L1_M3_T60_F3,ladder,Continuity,60,2,valid,beta,0.001682
+L1_M3_T60_F4_r1,L1_M3_T60_F4,ladder,Continuity,60,1,valid,beta,0.002022
+L1_M3_T60_F4_r2,L1_M3_T60_F4,ladder,Continuity,60,2,valid,beta,0.001952
+L1_M3_T60_F5_r1,L1_M3_T60_F5,ladder,Continuity,60,1,valid,beta,0.002102
+L1_M3_T60_F5_r2,L1_M3_T60_F5,ladder,Continuity,60,2,valid,beta,0.002072
+L1_M4_T60_F1_r1,L1_M4_T60_F1,ladder,Data minimization,60,1,valid,beta,0.001964
+L1_M4_T60_F1_r2,L1_M4_T60_F1,ladder,Data minimization,60,2,valid,beta,0.002004
+L1_M4_T60_F2_r1,L1_M4_T60_F2,ladder,Data minimization,60,1,valid,beta,0.001934
+L1_M4_T60_F2_r2,L1_M4_T60_F2,ladder,Data minimization,60,2,valid,beta,0.002234
+L1_M4_T60_F3_r1,L1_M4_T60_F3,ladder,Data minimization,60,1,valid,beta,0.002294
+L1_M4_T60_F3_r2,L1_M4_T60_F3,ladder,Data minimization,60,2,valid,beta,0.002274
+L1_M4_T60_F4_r1,L1_M4_T60_F4,ladder,Data minimization,60,1,valid,beta,0.002844
+L1_M4_T60_F4_r2,L1_M4_T60_F4,ladder,Data minimization,60,2,valid,beta,0.002664
+L1_M4_T60_F5_r1,L1_M4_T60_F5,ladder,Data minimization,60,1,valid,alpha,0.002394
+L1_M4_T60_F5_r2,L1_M4_T60_F5,ladder,Data minimization,60,2,valid,alpha,0.002224
+L2_M1_T60_F1_r1,L2_M1_T60_F1,ladder,Balanced,60,1,valid,beta,0.001948
+L2_M1_T60_F1_r2,L2_M1_T60_F1,ladder,Balanced,60,2,valid,beta,0.001908
+L2_M1_T60_F2_r1,L2_M1_T60_F2,ladder,Balanced,60,1,valid,beta,0.002118
+L2_M1_T60_F2_r2,L2_M1_T60_F2,ladder,Balanced,60,2,valid,beta,0.002108
+L2_M1_T60_F3_r1,L2_M1_T60_F3,ladder,Balanced,60,1,valid,beta,0.002218
+L2_M1_T60_F3_r2,L2_M1_T60_F3,ladder,Balanced,60,2,valid,beta,0.002858
+L2_M1_T60_F4_r1,L2_M1_T60_F4,ladder,Balanced,60,1,valid,alpha,0.002218
+L2_M1_T60_F4_r2,L2_M1_T60_F4,ladder,Balanced,60,2,valid,alpha,0.002148
+L2_M1_T60_F5_r1,L2_M1_T60_F5,ladder,Balanced,60,1,valid,alpha,0.001948
+L2_M1_T60_F5_r2,L2_M1_T60_F5,ladder,Balanced,60,2,valid,alpha,0.001958
+L2_M2_T60_F1_r1,L2_M2_T60_F1,ladder,Economy,60,1,valid,beta,0.003882
+L2_M2_T60_F1_r2,L2_M2_T60_F1,ladder,Economy,60,2,valid,alpha,0.004982
+L2_M2_T60_F2_r1,L2_M2_T60_F2,ladder,Economy,60,1,valid,alpha,0.002102
+L2_M2_T60_F2_r2,L2_M2_T60_F2,ladder,Economy,60,2,valid,alpha,0.002412
+L2_M2_T60_F3_r1,L2_M2_T60_F3,ladder,Economy,60,1,valid,alpha,0.001992
+L2_M2_T60_F3_r2,L2_M2_T60_F3,ladder,Economy,60,2,valid,alpha,0.002002
+L2_M2_T60_F4_r1,L2_M2_T60_F4,ladder,Economy,60,1,valid,alpha,0.002012
+L2_M2_T60_F4_r2,L2_M2_T60_F4,ladder,Economy,60,2,valid,alpha,0.001972
+L2_M2_T60_F5_r1,L2_M2_T60_F5,ladder,Economy,60,1,valid,alpha,0.002002
+L2_M2_T60_F5_r2,L2_M2_T60_F5,ladder,Economy,60,2,valid,alpha,0.001992
+L2_M3_T60_F1_r1,L2_M3_T60_F1,ladder,Continuity,60,1,valid,beta,0.001682
+L2_M3_T60_F1_r2,L2_M3_T60_F1,ladder,Continuity,60,2,valid,beta,0.001912
+L2_M3_T60_F2_r1,L2_M3_T60_F2,ladder,Continuity,60,1,valid,beta,0.002092
+L2_M3_T60_F2_r2,L2_M3_T60_F2,ladder,Continuity,60,2,valid,beta,0.002092
+L2_M3_T60_F3_r1,L2_M3_T60_F3,ladder,Continuity,60,1,valid,beta,0.001952
+L2_M3_T60_F3_r2,L2_M3_T60_F3,ladder,Continuity,60,2,valid,beta,0.001922
+L2_M3_T60_F4_r1,L2_M3_T60_F4,ladder,Continuity,60,1,valid,beta,0.001992
+L2_M3_T60_F4_r2,L2_M3_T60_F4,ladder,Continuity,60,2,valid,beta,0.002002
+L2_M3_T60_F5_r1,L2_M3_T60_F5,ladder,Continuity,60,1,valid,beta,0.002612
+L2_M3_T60_F5_r2,L2_M3_T60_F5,ladder,Continuity,60,2,valid,alpha,0.003682
+L2_M4_T60_F1_r1,L2_M4_T60_F1,ladder,Data minimization,60,1,valid,beta,0.001924
+L2_M4_T60_F1_r2,L2_M4_T60_F1,ladder,Data minimization,60,2,valid,beta,0.001984
+L2_M4_T60_F2_r1,L2_M4_T60_F2,ladder,Data minimization,60,1,valid,beta,0.002294
+L2_M4_T60_F2_r2,L2_M4_T60_F2,ladder,Data minimization,60,2,valid,beta,0.002214
+L2_M4_T60_F3_r1,L2_M4_T60_F3,ladder,Data minimization,60,1,valid,alpha,0.003504
+L2_M4_T60_F3_r2,L2_M4_T60_F3,ladder,Data minimization,60,2,valid,beta,0.002864
+L2_M4_T60_F4_r1,L2_M4_T60_F4,ladder,Data minimization,60,1,valid,alpha,0.002214
+L2_M4_T60_F4_r2,L2_M4_T60_F4,ladder,Data minimization,60,2,valid,alpha,0.002184
+L2_M4_T60_F5_r1,L2_M4_T60_F5,ladder,Data minimization,60,1,valid,alpha,0.002004
+L2_M4_T60_F5_r2,L2_M4_T60_F5,ladder,Data minimization,60,2,valid,alpha,0.002154
+L3_M1_T5_F1_r1,L3_M1_T5_F1,ladder,Balanced,5,1,valid,beta,0.001678
+L3_M1_T5_F1_r2,L3_M1_T5_F1,ladder,Balanced,5,2,valid,beta,0.001678
+L3_M1_T5_F2_r1,L3_M1_T5_F2,ladder,Balanced,5,1,valid,beta,0.001678
+L3_M1_T5_F2_r2,L3_M1_T5_F2,ladder,Balanced,5,2,valid,beta,0.001678
+L3_M1_T5_F3_r1,L3_M1_T5_F3,ladder,Balanced,5,1,valid,beta,0.001958
+L3_M1_T5_F3_r2,L3_M1_T5_F3,ladder,Balanced,5,2,valid,beta,0.001948
+L3_M1_T5_F4_r1,L3_M1_T5_F4,ladder,Balanced,5,1,valid,beta,0.001968
+L3_M1_T5_F4_r2,L3_M1_T5_F4,ladder,Balanced,5,2,valid,beta,0.002058
+L3_M1_T5_F5_r1,L3_M1_T5_F5,ladder,Balanced,5,1,valid,beta,0.003458
+L3_M1_T5_F5_r2,L3_M1_T5_F5,ladder,Balanced,5,2,valid,beta,0.003778
+L3_M1_T60_F1_r1,L3_M1_T60_F1,ladder,Balanced,60,1,valid,beta,0.001678
+L3_M1_T60_F1_r2,L3_M1_T60_F1,ladder,Balanced,60,2,valid,beta,0.001678
+L3_M1_T60_F2_r1,L3_M1_T60_F2,ladder,Balanced,60,1,valid,alpha,0.001978
+L3_M1_T60_F2_r2,L3_M1_T60_F2,ladder,Balanced,60,2,valid,alpha,0.002308
+L3_M1_T60_F3_r1,L3_M1_T60_F3,ladder,Balanced,60,1,valid,alpha,0.001898
+L3_M1_T60_F3_r2,L3_M1_T60_F3,ladder,Balanced,60,2,valid,alpha,0.001978
+L3_M1_T60_F4_r1,L3_M1_T60_F4,ladder,Balanced,60,1,valid,alpha,0.001898
+L3_M1_T60_F4_r2,L3_M1_T60_F4,ladder,Balanced,60,2,valid,alpha,0.001878
+L3_M1_T60_F5_r1,L3_M1_T60_F5,ladder,Balanced,60,1,valid,alpha,0.001908
+L3_M1_T60_F5_r2,L3_M1_T60_F5,ladder,Balanced,60,2,valid,alpha,0.001878
+L3_M2_T5_F1_r1,L3_M2_T5_F1,ladder,Economy,5,1,valid,beta,0.001932
+L3_M2_T5_F1_r2,L3_M2_T5_F1,ladder,Economy,5,2,valid,beta,0.001952
+L3_M2_T5_F2_r1,L3_M2_T5_F2,ladder,Economy,5,1,valid,alpha,0.002072
+L3_M2_T5_F2_r2,L3_M2_T5_F2,ladder,Economy,5,2,valid,alpha,0.002002
+L3_M2_T5_F3_r1,L3_M2_T5_F3,ladder,Economy,5,1,valid,alpha,0.002072
+L3_M2_T5_F3_r2,L3_M2_T5_F3,ladder,Economy,5,2,valid,alpha,0.001892
+L3_M2_T5_F4_r1,L3_M2_T5_F4,ladder,Economy,5,1,valid,alpha,0.001682
+L3_M2_T5_F4_r2,L3_M2_T5_F4,ladder,Economy,5,2,valid,alpha,0.001682
+L3_M2_T5_F5_r1,L3_M2_T5_F5,ladder,Economy,5,1,valid,alpha,0.001982
+L3_M2_T5_F5_r2,L3_M2_T5_F5,ladder,Economy,5,2,valid,alpha,0.001902
+L3_M2_T60_F1_r1,L3_M2_T60_F1,ladder,Economy,60,1,valid,beta,0.001682
+L3_M2_T60_F1_r2,L3_M2_T60_F1,ladder,Economy,60,2,valid,beta,0.001682
+L3_M2_T60_F2_r1,L3_M2_T60_F2,ladder,Economy,60,1,valid,alpha,0.001682
+L3_M2_T60_F2_r2,L3_M2_T60_F2,ladder,Economy,60,2,valid,alpha,0.001682
+L3_M2_T60_F3_r1,L3_M2_T60_F3,ladder,Economy,60,1,valid,alpha,0.001682
+L3_M2_T60_F3_r2,L3_M2_T60_F3,ladder,Economy,60,2,valid,alpha,0.001682
+L3_M2_T60_F4_r1,L3_M2_T60_F4,ladder,Economy,60,1,valid,alpha,0.001682
+L3_M2_T60_F4_r2,L3_M2_T60_F4,ladder,Economy,60,2,valid,alpha,0.001682
+L3_M2_T60_F5_r1,L3_M2_T60_F5,ladder,Economy,60,1,valid,alpha,0.001682
+L3_M2_T60_F5_r2,L3_M2_T60_F5,ladder,Economy,60,2,valid,alpha,0.001682
+L3_M3_T5_F1_r1,L3_M3_T5_F1,ladder,Continuity,5,1,valid,beta,0.001682
+L3_M3_T5_F1_r2,L3_M3_T5_F1,ladder,Continuity,5,2,valid,beta,0.001682
+L3_M3_T5_F2_r1,L3_M3_T5_F2,ladder,Continuity,5,1,valid,beta,0.001682
+L3_M3_T5_F2_r2,L3_M3_T5_F2,ladder,Continuity,5,2,valid,beta,0.001682
+L3_M3_T5_F3_r1,L3_M3_T5_F3,ladder,Continuity,5,1,valid,beta,0.001682
+L3_M3_T5_F3_r2,L3_M3_T5_F3,ladder,Continuity,5,2,valid,beta,0.001682
+L3_M3_T5_F4_r1,L3_M3_T5_F4,ladder,Continuity,5,1,valid,beta,0.001962
+L3_M3_T5_F4_r2,L3_M3_T5_F4,ladder,Continuity,5,2,valid,beta,0.001912
+L3_M3_T5_F5_r1,L3_M3_T5_F5,ladder,Continuity,5,1,valid,beta,0.001942
+L3_M3_T5_F5_r2,L3_M3_T5_F5,ladder,Continuity,5,2,valid,beta,0.002062
+L3_M3_T60_F1_r1,L3_M3_T60_F1,ladder,Continuity,60,1,valid,beta,0.001682
+L3_M3_T60_F1_r2,L3_M3_T60_F1,ladder,Continuity,60,2,valid,beta,0.001682
+L3_M3_T60_F2_r1,L3_M3_T60_F2,ladder,Continuity,60,1,valid,alpha,0.002222
+L3_M3_T60_F2_r2,L3_M3_T60_F2,ladder,Continuity,60,2,valid,alpha,0.001962
+L3_M3_T60_F3_r1,L3_M3_T60_F3,ladder,Continuity,60,1,valid,alpha,0.001902
+L3_M3_T60_F3_r2,L3_M3_T60_F3,ladder,Continuity,60,2,valid,alpha,0.001932
+L3_M3_T60_F4_r1,L3_M3_T60_F4,ladder,Continuity,60,1,valid,alpha,0.001962
+L3_M3_T60_F4_r2,L3_M3_T60_F4,ladder,Continuity,60,2,valid,alpha,0.001972
+L3_M3_T60_F5_r1,L3_M3_T60_F5,ladder,Continuity,60,1,valid,alpha,0.001982
+L3_M3_T60_F5_r2,L3_M3_T60_F5,ladder,Continuity,60,2,valid,alpha,0.001952
+L3_M4_T5_F1_r1,L3_M4_T5_F1,ladder,Data minimization,5,1,valid,beta,0.001694
+L3_M4_T5_F1_r2,L3_M4_T5_F1,ladder,Data minimization,5,2,valid,beta,0.002034
+L3_M4_T5_F2_r1,L3_M4_T5_F2,ladder,Data minimization,5,1,valid,beta,0.001874
+L3_M4_T5_F2_r2,L3_M4_T5_F2,ladder,Data minimization,5,2,valid,beta,0.001994
+L3_M4_T5_F3_r1,L3_M4_T5_F3,ladder,Data minimization,5,1,valid,beta,0.002204
+L3_M4_T5_F3_r2,L3_M4_T5_F3,ladder,Data minimization,5,2,valid,beta,0.002274
+L3_M4_T5_F4_r1,L3_M4_T5_F4,ladder,Data minimization,5,1,valid,beta,0.002594
+L3_M4_T5_F4_r2,L3_M4_T5_F4,ladder,Data minimization,5,2,valid,beta,0.002634
+L3_M4_T5_F5_r1,L3_M4_T5_F5,ladder,Data minimization,5,1,valid,alpha,0.001994
+L3_M4_T5_F5_r2,L3_M4_T5_F5,ladder,Data minimization,5,2,valid,alpha,0.002134
+L3_M4_T60_F1_r1,L3_M4_T60_F1,ladder,Data minimization,60,1,valid,beta,0.001974
+L3_M4_T60_F1_r2,L3_M4_T60_F1,ladder,Data minimization,60,2,valid,beta,0.001964
+L3_M4_T60_F2_r1,L3_M4_T60_F2,ladder,Data minimization,60,1,valid,alpha,0.001894
+L3_M4_T60_F2_r2,L3_M4_T60_F2,ladder,Data minimization,60,2,valid,alpha,0.001954
+L3_M4_T60_F3_r1,L3_M4_T60_F3,ladder,Data minimization,60,1,valid,alpha,0.002014
+L3_M4_T60_F3_r2,L3_M4_T60_F3,ladder,Data minimization,60,2,valid,alpha,0.001934
+L3_M4_T60_F4_r1,L3_M4_T60_F4,ladder,Data minimization,60,1,valid,alpha,0.001984
+L3_M4_T60_F4_r2,L3_M4_T60_F4,ladder,Data minimization,60,2,valid,alpha,0.001974
+L3_M4_T60_F5_r1,L3_M4_T60_F5,ladder,Data minimization,60,1,valid,alpha,0.001984
+L3_M4_T60_F5_r2,L3_M4_T60_F5,ladder,Data minimization,60,2,valid,alpha,0.001894
+L4_M1_T60_F1_r1,L4_M1_T60_F1,ladder,Balanced,60,1,valid,beta,0.001678
+L4_M1_T60_F1_r2,L4_M1_T60_F1,ladder,Balanced,60,2,valid,beta,0.001928
+L4_M1_T60_F2_r1,L4_M1_T60_F2,ladder,Balanced,60,1,valid,beta,0.001978
+L4_M1_T60_F2_r2,L4_M1_T60_F2,ladder,Balanced,60,2,valid,beta,0.001878
+L4_M1_T60_F3_r1,L4_M1_T60_F3,ladder,Balanced,60,1,valid,beta,0.002028
+L4_M1_T60_F3_r2,L4_M1_T60_F3,ladder,Balanced,60,2,valid,beta,0.001978
+L4_M1_T60_F4_r1,L4_M1_T60_F4,ladder,Balanced,60,1,valid,alpha,0.002108
+L4_M1_T60_F4_r2,L4_M1_T60_F4,ladder,Balanced,60,2,valid,alpha,0.002008
+L4_M1_T60_F5_r1,L4_M1_T60_F5,ladder,Balanced,60,1,valid,alpha,0.001998
+L4_M1_T60_F5_r2,L4_M1_T60_F5,ladder,Balanced,60,2,valid,alpha,0.002238
+L4_M2_T60_F1_r1,L4_M2_T60_F1,ladder,Economy,60,1,valid,beta,0.001972
+L4_M2_T60_F1_r2,L4_M2_T60_F1,ladder,Economy,60,2,valid,beta,0.001942
+L4_M2_T60_F2_r1,L4_M2_T60_F2,ladder,Economy,60,1,valid,beta,0.001982
+L4_M2_T60_F2_r2,L4_M2_T60_F2,ladder,Economy,60,2,valid,beta,0.001902
+L4_M2_T60_F3_r1,L4_M2_T60_F3,ladder,Economy,60,1,valid,beta,0.001922
+L4_M2_T60_F3_r2,L4_M2_T60_F3,ladder,Economy,60,2,valid,beta,0.001992
+L4_M2_T60_F4_r1,L4_M2_T60_F4,ladder,Economy,60,1,valid,alpha,0.002092
+L4_M2_T60_F4_r2,L4_M2_T60_F4,ladder,Economy,60,2,valid,alpha,0.002072
+L4_M2_T60_F5_r1,L4_M2_T60_F5,ladder,Economy,60,1,valid,alpha,0.002002
+L4_M2_T60_F5_r2,L4_M2_T60_F5,ladder,Economy,60,2,valid,alpha,0.001972
+L4_M3_T60_F1_r1,L4_M3_T60_F1,ladder,Continuity,60,1,valid,beta,0.001682
+L4_M3_T60_F1_r2,L4_M3_T60_F1,ladder,Continuity,60,2,valid,beta,0.001682
+L4_M3_T60_F2_r1,L4_M3_T60_F2,ladder,Continuity,60,1,valid,beta,0.002012
+L4_M3_T60_F2_r2,L4_M3_T60_F2,ladder,Continuity,60,2,valid,beta,0.001992
+L4_M3_T60_F3_r1,L4_M3_T60_F3,ladder,Continuity,60,1,valid,beta,0.002072
+L4_M3_T60_F3_r2,L4_M3_T60_F3,ladder,Continuity,60,2,valid,beta,0.002102
+L4_M3_T60_F4_r1,L4_M3_T60_F4,ladder,Continuity,60,1,valid,alpha,0.002162
+L4_M3_T60_F4_r2,L4_M3_T60_F4,ladder,Continuity,60,2,valid,alpha,0.002132
+L4_M3_T60_F5_r1,L4_M3_T60_F5,ladder,Continuity,60,1,valid,alpha,0.002102
+L4_M3_T60_F5_r2,L4_M3_T60_F5,ladder,Continuity,60,2,valid,alpha,0.002052
+L4_M4_T60_F1_r1,L4_M4_T60_F1,ladder,Data minimization,60,1,valid,beta,0.001994
+L4_M4_T60_F1_r2,L4_M4_T60_F1,ladder,Data minimization,60,2,valid,beta,0.001694
+L4_M4_T60_F2_r1,L4_M4_T60_F2,ladder,Data minimization,60,1,valid,beta,0.002134
+L4_M4_T60_F2_r2,L4_M4_T60_F2,ladder,Data minimization,60,2,valid,beta,0.002104
+L4_M4_T60_F3_r1,L4_M4_T60_F3,ladder,Data minimization,60,1,valid,beta,0.002144
+L4_M4_T60_F3_r2,L4_M4_T60_F3,ladder,Data minimization,60,2,valid,beta,0.002234
+L4_M4_T60_F4_r1,L4_M4_T60_F4,ladder,Data minimization,60,1,valid,alpha,0.002094
+L4_M4_T60_F4_r2,L4_M4_T60_F4,ladder,Data minimization,60,2,valid,alpha,0.002244
+L4_M4_T60_F5_r1,L4_M4_T60_F5,ladder,Data minimization,60,1,valid,alpha,0.002104
+L4_M4_T60_F5_r2,L4_M4_T60_F5,ladder,Data minimization,60,2,valid,alpha,0.002344
+L5_M1_T60_F1_r1,L5_M1_T60_F1,ladder,Balanced,60,1,valid,beta,0.001678
+L5_M1_T60_F1_r2,L5_M1_T60_F1,ladder,Balanced,60,2,valid,beta,0.001678
+L5_M1_T60_F2_r1,L5_M1_T60_F2,ladder,Balanced,60,1,valid,beta,0.002078
+L5_M1_T60_F2_r2,L5_M1_T60_F2,ladder,Balanced,60,2,valid,beta,0.002048
+L5_M1_T60_F3_r1,L5_M1_T60_F3,ladder,Balanced,60,1,valid,alpha,0.002028
+L5_M1_T60_F3_r2,L5_M1_T60_F3,ladder,Balanced,60,2,valid,alpha,0.002328
+L5_M1_T60_F4_r1,L5_M1_T60_F4,ladder,Balanced,60,1,valid,alpha,0.001948
+L5_M1_T60_F4_r2,L5_M1_T60_F4,ladder,Balanced,60,2,valid,alpha,0.002008
+L5_M1_T60_F5_r1,L5_M1_T60_F5,ladder,Balanced,60,1,valid,alpha,0.001938
+L5_M1_T60_F5_r2,L5_M1_T60_F5,ladder,Balanced,60,2,valid,alpha,0.001898
+L5_M2_T60_F1_r1,L5_M2_T60_F1,ladder,Economy,60,1,valid,beta,0.001932
+L5_M2_T60_F1_r2,L5_M2_T60_F1,ladder,Economy,60,2,valid,beta,0.001682
+L5_M2_T60_F2_r1,L5_M2_T60_F2,ladder,Economy,60,1,valid,beta,0.002092
+L5_M2_T60_F2_r2,L5_M2_T60_F2,ladder,Economy,60,2,valid,beta,0.001862
+L5_M2_T60_F3_r1,L5_M2_T60_F3,ladder,Economy,60,1,valid,alpha,0.002132
+L5_M2_T60_F3_r2,L5_M2_T60_F3,ladder,Economy,60,2,valid,alpha,0.002042
+L5_M2_T60_F4_r1,L5_M2_T60_F4,ladder,Economy,60,1,valid,alpha,0.002062
+L5_M2_T60_F4_r2,L5_M2_T60_F4,ladder,Economy,60,2,valid,alpha,0.002172
+L5_M2_T60_F5_r1,L5_M2_T60_F5,ladder,Economy,60,1,valid,alpha,0.002082
+L5_M2_T60_F5_r2,L5_M2_T60_F5,ladder,Economy,60,2,valid,alpha,0.002022
+L5_M3_T60_F1_r1,L5_M3_T60_F1,ladder,Continuity,60,1,valid,beta,0.001842
+L5_M3_T60_F1_r2,L5_M3_T60_F1,ladder,Continuity,60,2,valid,beta,0.001682
+L5_M3_T60_F2_r1,L5_M3_T60_F2,ladder,Continuity,60,1,valid,beta,0.002082
+L5_M3_T60_F2_r2,L5_M3_T60_F2,ladder,Continuity,60,2,valid,beta,0.001972
+L5_M3_T60_F3_r1,L5_M3_T60_F3,ladder,Continuity,60,1,valid,alpha,0.002132
+L5_M3_T60_F3_r2,L5_M3_T60_F3,ladder,Continuity,60,2,valid,alpha,0.002272
+L5_M3_T60_F4_r1,L5_M3_T60_F4,ladder,Continuity,60,1,valid,alpha,0.002052
+L5_M3_T60_F4_r2,L5_M3_T60_F4,ladder,Continuity,60,2,valid,alpha,0.002012
+L5_M3_T60_F5_r1,L5_M3_T60_F5,ladder,Continuity,60,1,valid,alpha,0.001992
+L5_M3_T60_F5_r2,L5_M3_T60_F5,ladder,Continuity,60,2,valid,alpha,0.002012
+L5_M4_T60_F1_r1,L5_M4_T60_F1,ladder,Data minimization,60,1,valid,beta,0.001994
+L5_M4_T60_F1_r2,L5_M4_T60_F1,ladder,Data minimization,60,2,valid,beta,0.002044
+L5_M4_T60_F2_r1,L5_M4_T60_F2,ladder,Data minimization,60,1,valid,beta,0.002054
+L5_M4_T60_F2_r2,L5_M4_T60_F2,ladder,Data minimization,60,2,valid,beta,0.002044
+L5_M4_T60_F3_r1,L5_M4_T60_F3,ladder,Data minimization,60,1,valid,alpha,0.002354
+L5_M4_T60_F3_r2,L5_M4_T60_F3,ladder,Data minimization,60,2,valid,alpha,0.002114
+L5_M4_T60_F4_r1,L5_M4_T60_F4,ladder,Data minimization,60,1,valid,alpha,0.002344
+L5_M4_T60_F4_r2,L5_M4_T60_F4,ladder,Data minimization,60,2,valid,alpha,0.002054
+L5_M4_T60_F5_r1,L5_M4_T60_F5,ladder,Data minimization,60,1,valid,alpha,0.002014
+L5_M4_T60_F5_r2,L5_M4_T60_F5,ladder,Data minimization,60,2,valid,alpha,0.002084
+L6_M1_T60_F1_r1,L6_M1_T60_F1,ladder,Balanced,60,1,valid,beta,0.001678
+L6_M1_T60_F1_r2,L6_M1_T60_F1,ladder,Balanced,60,2,valid,beta,0.001678
+L6_M1_T60_F2_r1,L6_M1_T60_F2,ladder,Balanced,60,1,valid,beta,0.002038
+L6_M1_T60_F2_r2,L6_M1_T60_F2,ladder,Balanced,60,2,valid,beta,0.002068
+L6_M1_T60_F3_r1,L6_M1_T60_F3,ladder,Balanced,60,1,valid,beta,0.002158
+L6_M1_T60_F3_r2,L6_M1_T60_F3,ladder,Balanced,60,2,valid,beta,0.002938
+L6_M1_T60_F4_r1,L6_M1_T60_F4,ladder,Balanced,60,1,valid,alpha,0.002338
+L6_M1_T60_F4_r2,L6_M1_T60_F4,ladder,Balanced,60,2,valid,alpha,0.002558
+L6_M1_T60_F5_r1,L6_M1_T60_F5,ladder,Balanced,60,1,valid,alpha,0.002038
+L6_M1_T60_F5_r2,L6_M1_T60_F5,ladder,Balanced,60,2,valid,alpha,0.002018
+L6_M2_T60_F1_r1,L6_M2_T60_F1,ladder,Economy,60,1,valid,beta,0.001682
+L6_M2_T60_F1_r2,L6_M2_T60_F1,ladder,Economy,60,2,valid,beta,0.001682
+L6_M2_T60_F2_r1,L6_M2_T60_F2,ladder,Economy,60,1,valid,alpha,0.001992
+L6_M2_T60_F2_r2,L6_M2_T60_F2,ladder,Economy,60,2,valid,alpha,0.001892
+L6_M2_T60_F3_r1,L6_M2_T60_F3,ladder,Economy,60,1,valid,alpha,0.001942
+L6_M2_T60_F3_r2,L6_M2_T60_F3,ladder,Economy,60,2,valid,alpha,0.002042
+L6_M2_T60_F4_r1,L6_M2_T60_F4,ladder,Economy,60,1,valid,alpha,0.002012
+L6_M2_T60_F4_r2,L6_M2_T60_F4,ladder,Economy,60,2,valid,alpha,0.001882
+L6_M2_T60_F5_r1,L6_M2_T60_F5,ladder,Economy,60,1,valid,alpha,0.001942
+L6_M2_T60_F5_r2,L6_M2_T60_F5,ladder,Economy,60,2,valid,alpha,0.002062
+L6_M3_T60_F1_r1,L6_M3_T60_F1,ladder,Continuity,60,1,valid,beta,0.001682
+L6_M3_T60_F1_r2,L6_M3_T60_F1,ladder,Continuity,60,2,valid,beta,0.001682
+L6_M3_T60_F2_r1,L6_M3_T60_F2,ladder,Continuity,60,1,valid,beta,0.001962
+L6_M3_T60_F2_r2,L6_M3_T60_F2,ladder,Continuity,60,2,valid,beta,0.002012
+L6_M3_T60_F3_r1,L6_M3_T60_F3,ladder,Continuity,60,1,valid,beta,0.002042
+L6_M3_T60_F3_r2,L6_M3_T60_F3,ladder,Continuity,60,2,valid,beta,0.002582
+L6_M3_T60_F4_r1,L6_M3_T60_F4,ladder,Continuity,60,1,valid,beta,0.003202
+L6_M3_T60_F4_r2,L6_M3_T60_F4,ladder,Continuity,60,2,valid,beta,0.002792
+L6_M3_T60_F5_r1,L6_M3_T60_F5,ladder,Continuity,60,1,valid,alpha,0.002562
+L6_M3_T60_F5_r2,L6_M3_T60_F5,ladder,Continuity,60,2,valid,alpha,0.002142
+L6_M4_T60_F1_r1,L6_M4_T60_F1,ladder,Data minimization,60,1,valid,beta,0.001694
+L6_M4_T60_F1_r2,L6_M4_T60_F1,ladder,Data minimization,60,2,valid,beta,0.001694
+L6_M4_T60_F2_r1,L6_M4_T60_F2,ladder,Data minimization,60,1,valid,beta,0.001694
+L6_M4_T60_F2_r2,L6_M4_T60_F2,ladder,Data minimization,60,2,valid,beta,0.001694
+L6_M4_T60_F3_r1,L6_M4_T60_F3,ladder,Data minimization,60,1,valid,beta,0.001944
+L6_M4_T60_F3_r2,L6_M4_T60_F3,ladder,Data minimization,60,2,valid,beta,0.001694
+L6_M4_T60_F4_r1,L6_M4_T60_F4,ladder,Data minimization,60,1,valid,beta,0.001964
+L6_M4_T60_F4_r2,L6_M4_T60_F4,ladder,Data minimization,60,2,valid,beta,0.001894
+L6_M4_T60_F5_r1,L6_M4_T60_F5,ladder,Data minimization,60,1,valid,beta,0.001954
+L6_M4_T60_F5_r2,L6_M4_T60_F5,ladder,Data minimization,60,2,valid,beta,0.001954
+R01_r1,R01,adaptive_ladder,Balanced,60,1,valid,beta,0.002088
+R01_r2,R01,adaptive_ladder,Balanced,60,2,valid,beta,0.002038
+R02_r1,R02,adaptive_ladder,Continuity,60,1,valid,beta,0.002072
+R02_r2,R02,adaptive_ladder,Continuity,60,2,valid,beta,0.002122
+R03_r1,R03,adaptive_ladder,Data minimization,60,1,valid,beta,0.002144
+R03_r2,R03,adaptive_ladder,Data minimization,60,2,valid,beta,0.002364
+R04_r1,R04,adaptive_ladder,Economy,60,1,valid,beta,0.002042
+R04_r2,R04,adaptive_ladder,Economy,60,2,valid,beta,0.002162
+R05_r1,R05,adaptive_ladder,Balanced,60,1,valid,alpha,0.002098
+R05_r2,R05,adaptive_ladder,Balanced,60,2,valid,alpha,0.002148
+R06_r1,R06,adaptive_ladder,Continuity,60,1,valid,alpha,0.002262
+R06_r2,R06,adaptive_ladder,Continuity,60,2,valid,alpha,0.002302
+R07_r1,R07,adaptive_ladder,Data minimization,60,1,valid,alpha,0.002404
+R07_r2,R07,adaptive_ladder,Data minimization,60,2,valid,alpha,0.002344
+R08_r1,R08,adaptive_ladder,Economy,60,1,valid,alpha,0.002062
+R08_r2,R08,adaptive_ladder,Economy,60,2,valid,alpha,0.002242
+R09_r1,R09,adaptive_ladder,Balanced,60,1,valid,alpha,0.002558
+R09_r2,R09,adaptive_ladder,Balanced,60,2,valid,alpha,0.002518
+R10_r1,R10,adaptive_ladder,Balanced,60,1,valid,alpha,0.002408
+R10_r2,R10,adaptive_ladder,Balanced,60,2,valid,alpha,0.002678
+R11_r1,R11,adaptive_ladder,Data minimization,60,1,valid,alpha,0.003004
+R11_r2,R11,adaptive_ladder,Data minimization,60,2,valid,alpha,0.002724
+R12_r1,R12,adaptive_ladder,Balanced,60,1,valid,alpha,0.002388
+R12_r2,R12,adaptive_ladder,Balanced,60,2,valid,alpha,0.002688
+R13_r1,R13,adaptive_ladder,Continuity,60,1,valid,alpha,0.002422
+R13_r2,R13,adaptive_ladder,Continuity,60,2,valid,alpha,0.002182
+R14_r1,R14,adaptive_ladder,Economy,60,1,valid,alpha,0.002172
+R14_r2,R14,adaptive_ladder,Economy,60,2,valid,alpha,0.002182
+R15_r1,R15,adaptive_ladder,Data minimization,5,1,valid,alpha,0.002664
+R15_r2,R15,adaptive_ladder,Data minimization,5,2,valid,alpha,0.002324
+R16_r1,R16,adaptive_ladder,Economy,5,1,valid,alpha,0.002042
+R16_r2,R16,adaptive_ladder,Economy,5,2,valid,alpha,0.002052
+R17_r1,R17,adaptive_ladder,Balanced,60,1,valid,alpha,0.002098
+R17_r2,R17,adaptive_ladder,Balanced,60,2,valid,alpha,0.002548
+R18_r1,R18,adaptive_ladder,Continuity,60,1,valid,alpha,0.002132
+R18_r2,R18,adaptive_ladder,Continuity,60,2,valid,alpha,0.002202
+R19_r1,R19,adaptive_ladder,Data minimization,60,1,valid,alpha,0.001964
+R19_r2,R19,adaptive_ladder,Data minimization,60,2,valid,alpha,0.002204
+R20_r1,R20,adaptive_ladder,Economy,60,1,valid,alpha,0.001932
+R20_r2,R20,adaptive_ladder,Economy,60,2,valid,alpha,0.001882

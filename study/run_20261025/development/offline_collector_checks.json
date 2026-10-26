@@ -1,0 +1,40 @@
+{
+  "data_origin": "mock_provider_fixtures",
+  "checks": [
+    {
+      "fixture": "success",
+      "synthetic_calls": 8,
+      "status": "complete",
+      "network_calls": 0,
+      "lock_removed": true
+    },
+    {
+      "fixture": "budget",
+      "synthetic_calls": 2,
+      "status": "budget_stop",
+      "network_calls": 0,
+      "lock_removed": true
+    },
+    {
+      "fixture": "transport",
+      "synthetic_calls": 4,
+      "status": "unresolved_transport",
+      "network_calls": 0,
+      "lock_removed": true
+    },
+    {
+      "fixture": "route",
+      "synthetic_calls": 4,
+      "status": "unresolved_route",
+      "network_calls": 0,
+      "lock_removed": true
+    },
+    {
+      "fixture": "schema",
+      "synthetic_calls": 4,
+      "status": "response_failure",
+      "network_calls": 0,
+      "lock_removed": true
+    }
+  ]
+}

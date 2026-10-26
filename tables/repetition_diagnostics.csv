@@ -1,0 +1,6 @@
+module,valid_sets,disagreeing_sets,calls_per_set
+core_estimation,128,0,2
+core_heldout,64,0,2
+fine_reliability,40,5,4
+outside_anchor,16,1,2
+refund_success,32,0,2

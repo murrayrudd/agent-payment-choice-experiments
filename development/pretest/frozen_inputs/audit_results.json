@@ -1,0 +1,21 @@
+{
+  "data_origin": "deterministic_instrument_audit",
+  "model_calls": 0,
+  "model_responses": 0,
+  "core_profiles_checked": 405,
+  "financial_and_refund_identities_pass": true,
+  "benchmark_oracles_checked": 8,
+  "unique_benchmark_maxima": true,
+  "unique_cases": 48,
+  "episodes_per_configuration": 96,
+  "episodes_by_module": {
+    "presentation": 24,
+    "refund_wording": 32,
+    "known_objective": 16,
+    "comprehension": 24
+  },
+  "positive_negative_mapping_pass": true,
+  "independent_position_and_label_maps_pass": true,
+  "live_model_pretest_status": "not_run_no_active_connection",
+  "operator_review_status": "researcher_desk_assessment_only"
+}

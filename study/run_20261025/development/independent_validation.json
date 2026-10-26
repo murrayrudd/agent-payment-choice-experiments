@@ -1,0 +1,42 @@
+{
+  "data_origin": "independent_offline_validation",
+  "passed": true,
+  "episodes": 1280,
+  "unique_core_pairs": 96,
+  "prior_pair_overlap": 0,
+  "conditional_rank": 12,
+  "presentation_counts": {
+    "estimation": {
+      "[[\"alpha\",\"beta\"],{\"alpha\":\"B\",\"beta\":\"A\"}]": 16,
+      "[[\"beta\",\"alpha\"],{\"alpha\":\"B\",\"beta\":\"A\"}]": 16,
+      "[[\"alpha\",\"beta\"],{\"alpha\":\"A\",\"beta\":\"B\"}]": 16,
+      "[[\"beta\",\"alpha\"],{\"alpha\":\"A\",\"beta\":\"B\"}]": 16
+    },
+    "heldout": {
+      "[[\"alpha\",\"beta\"],{\"alpha\":\"A\",\"beta\":\"B\"}]": 8,
+      "[[\"beta\",\"alpha\"],{\"alpha\":\"B\",\"beta\":\"A\"}]": 8,
+      "[[\"alpha\",\"beta\"],{\"alpha\":\"B\",\"beta\":\"A\"}]": 8,
+      "[[\"beta\",\"alpha\"],{\"alpha\":\"A\",\"beta\":\"B\"}]": 8
+    }
+  },
+  "cv_fold_pair_counts": {
+    "3": 16,
+    "0": 16,
+    "1": 16,
+    "2": 16
+  },
+  "checks": [
+    "counts",
+    "fresh_pair_exclusion",
+    "training_holdout_separation",
+    "same_presentation_across_eight_cells",
+    "balanced_core_presentation",
+    "single_factor_presentation_diagnostics",
+    "exact_repeat_prompt_identity",
+    "all_levels",
+    "financial_identities",
+    "positive_refund_frame",
+    "request_prompt_hashes",
+    "manifest_if_present"
+  ]
+}

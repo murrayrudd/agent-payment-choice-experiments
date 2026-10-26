@@ -1,0 +1,13 @@
+{
+  "independent_display_checks": 536,
+  "common_pair_cells": 20,
+  "cells_per_pair": 8,
+  "repeat_pairs": 188,
+  "all_pass": true,
+  "initial_manifest_sha256": "b627cbcac8da518db62e874efada1f3377b69ff844714bd53bff3ca65b9ba746",
+  "prediction_gradient_checked_against_finite_differences": true,
+  "maximum_gradient_error": 1.0129055372232187e-09,
+  "synthetic_gradient_check_used_live_outcomes": false,
+  "final_independent_display_checks": 672,
+  "all_supplemental_accounting_and_maps_pass": true
+}

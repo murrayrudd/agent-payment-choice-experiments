@@ -1,0 +1,1380 @@
+{
+  "data_origin": "live_model",
+  "instrument_version": "0.2",
+  "models": {
+    "sol": {
+      "configuration": "sol_step5_v02_medium",
+      "required_checks_pass": true,
+      "observed_episodes": 96,
+      "statuses": {
+        "valid": 96
+      },
+      "comprehension": {
+        "valid": 24,
+        "correct": 24,
+        "expected": 24
+      },
+      "known_objective": {
+        "valid": 16,
+        "correct": 16,
+        "expected": 16
+      },
+      "factual_fields_correct": 86,
+      "factual_fields_expected": 86,
+      "authority_violations": 0,
+      "numeric_regret_total_usd": "0.000000",
+      "comparisons": {
+        "repeat_comparisons": {
+          "paired": 28,
+          "disagreements": 0,
+          "unpaired": 0,
+          "cases": {
+            "P3_position": true,
+            "W2_5_returned": true,
+            "P4_position": true,
+            "P4_labels": true,
+            "W2_60_not_returned": true,
+            "P3_base": true,
+            "P3_labels": true,
+            "W1_60_not_returned": true,
+            "W1_5_returned": true,
+            "W4_60_not_returned": true,
+            "P2_position": true,
+            "P2_labels": true,
+            "W2_60_returned": true,
+            "P1_base": true,
+            "P1_labels": true,
+            "W4_5_returned": true,
+            "W2_5_not_returned": true,
+            "W3_60_returned": true,
+            "P4_base": true,
+            "W3_5_not_returned": true,
+            "W1_5_not_returned": true,
+            "W1_60_returned": true,
+            "W3_60_not_returned": true,
+            "W4_5_not_returned": true,
+            "W3_5_returned": true,
+            "P1_position": true,
+            "P2_base": true,
+            "W4_60_returned": true
+          }
+        },
+        "wording_comparisons": {
+          "paired": 16,
+          "disagreements": 0,
+          "unpaired": 0,
+          "cases": {
+            "W1_5_r1": true,
+            "W1_5_r2": true,
+            "W1_60_r1": true,
+            "W1_60_r2": true,
+            "W2_5_r1": true,
+            "W2_5_r2": true,
+            "W2_60_r1": true,
+            "W2_60_r2": true,
+            "W3_5_r1": true,
+            "W3_5_r2": true,
+            "W3_60_r1": true,
+            "W3_60_r2": true,
+            "W4_5_r1": true,
+            "W4_5_r2": true,
+            "W4_60_r1": true,
+            "W4_60_r2": true
+          }
+        },
+        "position_comparisons": {
+          "paired": 8,
+          "disagreements": 0,
+          "unpaired": 0,
+          "cases": {
+            "P1_r1": true,
+            "P1_r2": true,
+            "P2_r1": true,
+            "P2_r2": true,
+            "P3_r1": true,
+            "P3_r2": true,
+            "P4_r1": true,
+            "P4_r2": true
+          }
+        },
+        "label_comparisons": {
+          "paired": 8,
+          "disagreements": 0,
+          "unpaired": 0,
+          "cases": {
+            "P1_r1": true,
+            "P1_r2": true,
+            "P2_r1": true,
+            "P2_r2": true,
+            "P3_r1": true,
+            "P3_r2": true,
+            "P4_r1": true,
+            "P4_r2": true
+          }
+        }
+      },
+      "qualitative_choices": [
+        {
+          "case_id": "P3_position",
+          "module": "presentation",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "beta",
+            "alpha"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W2_5_returned",
+          "module": "refund_wording",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P4_position",
+          "module": "presentation",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "beta",
+            "alpha"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "P4_labels",
+          "module": "presentation",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "B": "alpha",
+            "A": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W2_60_not_returned",
+          "module": "refund_wording",
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P3_base",
+          "module": "presentation",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P3_labels",
+          "module": "presentation",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "B": "alpha",
+            "A": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W1_60_not_returned",
+          "module": "refund_wording",
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W1_5_returned",
+          "module": "refund_wording",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W4_60_not_returned",
+          "module": "refund_wording",
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "P2_position",
+          "module": "presentation",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "beta",
+            "alpha"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P2_labels",
+          "module": "presentation",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "B": "alpha",
+            "A": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W2_60_returned",
+          "module": "refund_wording",
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P1_base",
+          "module": "presentation",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P1_labels",
+          "module": "presentation",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "B": "alpha",
+            "A": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W4_5_returned",
+          "module": "refund_wording",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W2_5_not_returned",
+          "module": "refund_wording",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W3_60_returned",
+          "module": "refund_wording",
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "P4_base",
+          "module": "presentation",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W3_5_not_returned",
+          "module": "refund_wording",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W1_5_not_returned",
+          "module": "refund_wording",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W1_60_returned",
+          "module": "refund_wording",
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W3_60_not_returned",
+          "module": "refund_wording",
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W4_5_not_returned",
+          "module": "refund_wording",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W3_5_returned",
+          "module": "refund_wording",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P1_position",
+          "module": "presentation",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "beta",
+            "alpha"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P2_base",
+          "module": "presentation",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W4_60_returned",
+          "module": "refund_wording",
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        }
+      ],
+      "failed_required_episodes": [],
+      "accounted_cost_usd": "0.204308",
+      "started_utc": "2026-10-25T17:44:10.233636+00:00",
+      "ended_utc": "2026-10-25T17:54:02.167294+00:00",
+      "models": {
+        "openai/gpt-6.1-sol": 96
+      },
+      "providers": {
+        "OpenAI": 96
+      },
+      "usage_totals": {
+        "prompt_tokens": 76804,
+        "completion_tokens": 5070,
+        "total_tokens": 81874
+      }
+    },
+    "qwen": {
+      "configuration": "qwen_step5_v02_medium",
+      "required_checks_pass": false,
+      "observed_episodes": 96,
+      "statuses": {
+        "valid": 96
+      },
+      "comprehension": {
+        "valid": 24,
+        "correct": 22,
+        "expected": 24
+      },
+      "known_objective": {
+        "valid": 16,
+        "correct": 16,
+        "expected": 16
+      },
+      "factual_fields_correct": 84,
+      "factual_fields_expected": 86,
+      "authority_violations": 0,
+      "numeric_regret_total_usd": "0.000000",
+      "comparisons": {
+        "repeat_comparisons": {
+          "paired": 28,
+          "disagreements": 3,
+          "unpaired": 0,
+          "cases": {
+            "P3_position": true,
+            "W2_5_returned": true,
+            "P4_position": true,
+            "P4_labels": true,
+            "W2_60_not_returned": false,
+            "P3_base": true,
+            "P3_labels": true,
+            "W1_60_not_returned": true,
+            "W1_5_returned": true,
+            "W4_60_not_returned": true,
+            "P2_position": true,
+            "P2_labels": true,
+            "W2_60_returned": false,
+            "P1_base": true,
+            "P1_labels": true,
+            "W4_5_returned": true,
+            "W2_5_not_returned": true,
+            "W3_60_returned": true,
+            "P4_base": true,
+            "W3_5_not_returned": true,
+            "W1_5_not_returned": true,
+            "W1_60_returned": true,
+            "W3_60_not_returned": true,
+            "W4_5_not_returned": true,
+            "W3_5_returned": true,
+            "P1_position": false,
+            "P2_base": true,
+            "W4_60_returned": true
+          }
+        },
+        "wording_comparisons": {
+          "paired": 16,
+          "disagreements": 2,
+          "unpaired": 0,
+          "cases": {
+            "W1_5_r1": true,
+            "W1_5_r2": true,
+            "W1_60_r1": true,
+            "W1_60_r2": true,
+            "W2_5_r1": true,
+            "W2_5_r2": true,
+            "W2_60_r1": false,
+            "W2_60_r2": false,
+            "W3_5_r1": true,
+            "W3_5_r2": true,
+            "W3_60_r1": true,
+            "W3_60_r2": true,
+            "W4_5_r1": true,
+            "W4_5_r2": true,
+            "W4_60_r1": true,
+            "W4_60_r2": true
+          }
+        },
+        "position_comparisons": {
+          "paired": 8,
+          "disagreements": 1,
+          "unpaired": 0,
+          "cases": {
+            "P1_r1": false,
+            "P1_r2": true,
+            "P2_r1": true,
+            "P2_r2": true,
+            "P3_r1": true,
+            "P3_r2": true,
+            "P4_r1": true,
+            "P4_r2": true
+          }
+        },
+        "label_comparisons": {
+          "paired": 8,
+          "disagreements": 4,
+          "unpaired": 0,
+          "cases": {
+            "P1_r1": false,
+            "P1_r2": false,
+            "P2_r1": true,
+            "P2_r2": true,
+            "P3_r1": false,
+            "P3_r2": false,
+            "P4_r1": true,
+            "P4_r2": true
+          }
+        }
+      },
+      "qualitative_choices": [
+        {
+          "case_id": "P3_position",
+          "module": "presentation",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "beta",
+            "alpha"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W2_5_returned",
+          "module": "refund_wording",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P4_position",
+          "module": "presentation",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "beta",
+            "alpha"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "P4_labels",
+          "module": "presentation",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "B": "alpha",
+            "A": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W2_60_not_returned",
+          "module": "refund_wording",
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "P3_base",
+          "module": "presentation",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P3_labels",
+          "module": "presentation",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "B": "alpha",
+            "A": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W1_60_not_returned",
+          "module": "refund_wording",
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W1_5_returned",
+          "module": "refund_wording",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W4_60_not_returned",
+          "module": "refund_wording",
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "P2_position",
+          "module": "presentation",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "beta",
+            "alpha"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P2_labels",
+          "module": "presentation",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "B": "alpha",
+            "A": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W2_60_returned",
+          "module": "refund_wording",
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P1_base",
+          "module": "presentation",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P1_labels",
+          "module": "presentation",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "B": "alpha",
+            "A": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W4_5_returned",
+          "module": "refund_wording",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W2_5_not_returned",
+          "module": "refund_wording",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W3_60_returned",
+          "module": "refund_wording",
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "P4_base",
+          "module": "presentation",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W3_5_not_returned",
+          "module": "refund_wording",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W1_5_not_returned",
+          "module": "refund_wording",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W1_60_returned",
+          "module": "refund_wording",
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W3_60_not_returned",
+          "module": "refund_wording",
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W4_5_not_returned",
+          "module": "refund_wording",
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "frame": "not_returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "W3_5_returned",
+          "module": "refund_wording",
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        },
+        {
+          "case_id": "P1_position",
+          "module": "presentation",
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "beta",
+            "alpha"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "P2_base",
+          "module": "presentation",
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "alpha",
+            "alpha"
+          ]
+        },
+        {
+          "case_id": "W4_60_returned",
+          "module": "refund_wording",
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "frame": "returned",
+          "position": [
+            "alpha",
+            "beta"
+          ],
+          "display_map": {
+            "A": "alpha",
+            "B": "beta"
+          },
+          "physical_choices": [
+            "beta",
+            "beta"
+          ]
+        }
+      ],
+      "failed_required_episodes": [
+        {
+          "episode_id": "F08_r1",
+          "module": "comprehension",
+          "status": "valid",
+          "correct": false,
+          "field_scores": {
+            "query_visible": true,
+            "response_visible": true,
+            "persistent_pseudonym_recorded": true,
+            "operator_receipt_survives_deletion": true,
+            "other_records_erased": false
+          }
+        },
+        {
+          "episode_id": "F08_r2",
+          "module": "comprehension",
+          "status": "valid",
+          "correct": false,
+          "field_scores": {
+            "query_visible": true,
+            "response_visible": true,
+            "persistent_pseudonym_recorded": true,
+            "operator_receipt_survives_deletion": true,
+            "other_records_erased": false
+          }
+        }
+      ],
+      "accounted_cost_usd": "0.717370",
+      "started_utc": "2026-10-25T17:54:29.116127+00:00",
+      "ended_utc": "2026-10-25T18:35:58.567494+00:00",
+      "models": {
+        "qwen/qwen3.8-max-0902": 96
+      },
+      "providers": {
+        "Alibaba": 96
+      },
+      "usage_totals": {
+        "prompt_tokens": 80750,
+        "completion_tokens": 92645,
+        "total_tokens": 173395
+      }
+    }
+  },
+  "total_calls": 192,
+  "total_accounted_cost_usd": "0.921678",
+  "scope": "Diagnostic evidence for named model configurations and tested profiles; not population WTP or operator-preference validation.",
+  "scope_diagnostic": {
+    "data_origin": "live_model",
+    "diagnostic_id": "F08_scope_clarification_v01",
+    "total_calls": 4,
+    "models": {
+      "sol": {
+        "observed": 2,
+        "correct": 2,
+        "accounted_cost_usd": "0.004496"
+      },
+      "qwen": {
+        "observed": 2,
+        "correct": 2,
+        "accounted_cost_usd": "0.011592"
+      }
+    },
+    "accounted_cost_usd": "0.016088",
+    "original_qualification_scores_unchanged": true,
+    "combined_spend_usd": "0.937766"
+  },
+  "total_calls_including_followup": 196,
+  "total_cost_including_followup_usd": "0.937766"
+}

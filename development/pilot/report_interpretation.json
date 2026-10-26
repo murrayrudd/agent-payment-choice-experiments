@@ -1,0 +1,35 @@
+{
+  "opening": "The pilot supports a Sol-only main study of conditional payment choices and mandate-dependent trade-offs. The fee range produces usable switching evidence, retention affects choices, and completion targets matter. Monetary coefficient ratios and the value of completing the task remain insufficiently identified.",
+  "main_findings": [
+    "Twenty of 28 initial fee series show a consistent switch between the improved attribute and the reference offer. Four keep the improvement at the maximum $0.249 premium, three vary across identical repetitions, and one consistently selects the reference at equal fees and above. These patterns support both bounded trade-off descriptions and explicit reporting of persistent priorities.",
+    "With presentation held fixed, Economy differs from Balanced in 7 of 32 cases, Continuity in 11, and Data minimization in 13. Changing the completion target changes 8 of 16 Continuity choices, one Balanced choice, and none under the other two mandates. Mandate and context effects therefore belong in the main design.",
+    "Retention remains behaviorally informative. Data minimization retains the one-day record at the largest tested premium, while the other mandates switch within the range. This supports retaining the defined duration attribute for the main design while keeping its substantive relevance separate from its observed choice effect."
+  ],
+  "next_stage": "Proceed to Step 7 with Sol, five attributes, all four mandates, and both completion targets. Concentrate additional fee support near observed switches, increase the number of withheld offer pairs, and compare compensatory models with simple priority rules. Preserve the positive refund wording. Treat monetary summaries as a conditional secondary result.",
+  "fee_findings": [
+    "The target changes the speed trade-off sharply. When 30 seconds misses the five-second target, Balanced and Continuity retain the five-second offer at the largest premium. When both times meet the 60-second target, every mandate switches between a zero premium and $0.002. A single context-free speed coefficient would miss this difference.",
+    "Refund switches move with failure probability. A full $1.00 refund increases expected recovery by $0.05 at 95% success and by $0.01 at 99% success. The observed switching brackets contain these amounts. This is compatible with attention to contingent recovery; it does not establish risk neutrality or a complete expected-utility model.",
+    "Reliability also changes financial exposure. In the reliability ladders, the failure refund is $0.50. Raising success from 95% to 99.9% increases expected expenditure by $0.0245 at equal fees because refunds occur less often. Economy consistently selects 95% success in that series. This exposes a conflict between conserving funds and completing the report when the operator supplies no numerical completion value; it is not a free financial improvement."
+  ],
+  "level_decisions": [
+    "Retain the present broad fee range. Candidate additions within it are fees of $0.003, $0.013, and $0.050, with $0.165 available for upper-range contrasts. These are pilot-informed design candidates, not observed market prices. Step 7 should allocate them efficiently rather than expand the cap to force switches.",
+    "Retain all success, time, refund, and retention levels for design development. The finer 99% to 99.9% reliability comparison contains all three initial ladder repeat disagreements and warrants additional repetition. The pilot does not justify deleting retention or replacing it with an undifferentiated privacy measure."
+  ],
+  "mandate_findings": [
+    "Continuity responds strongly to whether delivery meets the target. Data minimization changes choices relative to Balanced but shows no target response in these 16 pairs. Economy consistently selects the lower-fee offer whenever fees differ in these confirmation cases. These are matched behavioral patterns, not estimates of independent operators' preferences."
+  ],
+  "prediction_findings": [
+    "The models predict 23 to 26 of 32 withheld choices, compared with 23 for the baseline. Performance varies by mandate: at penalty 1, Balanced scores 8/8 and Continuity 7/8, while Data minimization scores 4/8 and Economy 6/8. The baseline scores 8/8 for Economy. This supports using the fits as provisional design inputs, not selecting one as a validated behavioral model.",
+    "Fee coefficients are not uniformly suitable for monetary interpretation. At penalty 1, the Continuity fee coefficient is slightly positive and the Data minimization coefficient is close to zero. Ratios using these estimates would be unstable or misleading. The main study should test more flexible responses and persistent priorities before considering WTP ratios."
+  ],
+  "consistency_findings": [
+    "The original core repeats and the separate label and position tests show no disagreements. The fixed-presentation confirmation reproduces 95 of 96 original choices; one Economy choice changes. This single difference cannot distinguish presentation sensitivity from ordinary response variation. The additional block strengthens the mandate comparisons without erasing the original observations. All 20 midpoint pairs agree and narrow their original switching brackets."
+  ],
+  "outside_findings": [
+    "All 672 responses purchase an offer, including every unfavorable anchor. Thus the outside option remains permissible but its trade-off with completion is not identified by these observations. The finite purchase constant in ridge logit depends on regularization; it does not estimate the value of finishing the report."
+  ],
+  "final_decisions": [
+    "Keep Sol as the main configuration and Qwen as preliminary comparison evidence. Use fixed presentation within matched contrasts and independently counterbalance presentation elsewhere. Reserve new offer pairs for evaluation and retain repetitions near the fine reliability margin.",
+    "The main contribution should explain conditional attribute trade-offs, mandate effects, and target dependence. Retain DECLINE in the instrument and report its use; if it remains absent, emphasize choice among purchase offers and do not claim a measured completion value. Independent operator review remains necessary for linking agent choices to operator welfare."
+  ]
+}

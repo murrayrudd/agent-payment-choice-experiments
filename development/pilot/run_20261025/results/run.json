@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-10-25T18:54:55.758883+00:00",
+  "configuration": {
+    "model": {
+      "model_id": "openai/gpt-6.1-sol-20260929",
+      "catalog_model_id": "openai/gpt-6.1-sol",
+      "canonical_model_id": "openai/gpt-6.1-sol-20260929",
+      "upstream_provider": "openai",
+      "upstream_provider_name": "OpenAI",
+      "endpoint_name": "OpenAI | openai/gpt-6.1-sol-20260929",
+      "expected_returned_model_ids": [
+        "openai/gpt-6.1-sol",
+        "openai/gpt-6.1-sol-20260929"
+      ],
+      "max_output_tokens": 8192,
+      "generation": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "prompt_cache_options": {
+          "mode": "explicit"
+        }
+      },
+      "input_usd_per_million": 2.0,
+      "output_usd_per_million": 10.0
+    },
+    "stage_maximum_usd": "2.00",
+    "maximum_key_limit_usd": "20.00",
+    "max_workers": 4,
+    "seed": 2026102606,
+    "scope": "Sol only; no main-study collection; no automatic retries; all initial episodes predetermined."
+  },
+  "manifest_sha256": "b627cbcac8da518db62e874efada1f3377b69ff844714bd53bff3ca65b9ba746",
+  "initial_episodes": 536
+}

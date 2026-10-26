@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+_reproduced*/
+.env
+.env.*
+*.key
+*.pem
+credentials*
+*credential_file*
+.DS_Store
+Thumbs.db
+~$*

@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "stage": "Step 7 main-study design; main collection not started",
+  "design_seed": 2026102507,
+  "simulation_seed": 2026102517,
+  "research_question": "How do operator mandates and transaction conditions shape AI agents’ choices and trade-offs among feasible payment services?",
+  "question_roles": [
+    {
+      "question": "How do service attributes and their interactions shape choices?",
+      "role": "Primary explanatory contribution; include the success–refund coupling."
+    },
+    {
+      "question": "How do operator mandates change trade-offs among attributes?",
+      "role": "Primary explanatory contribution; use matched physical offers and chosen attributes."
+    },
+    {
+      "question": "How do transaction conditions alter choices and the boundaries of those patterns?",
+      "role": "Boundary analysis here is the 5- versus 60-second completion target, with all terms feasible."
+    },
+    {
+      "question": "How well do the models predict withheld choices, and when is monetary interpretation defensible?",
+      "role": "Prediction validation first; conditional monetary interpretation is secondary and gated."
+    }
+  ],
+  "configuration": "Exact Sol snapshot and medium reasoning in configuration.json; same instrument v0.2 as Step 6. Default provider sampling, isolated context, JSON only. Qwen is development evidence only.",
+  "unit": "One fresh model invocation in a fixed configuration. This is not a sample of independent operators or models.",
+  "planned_calls": 1280,
+  "estimation_pairs": 64,
+  "heldout_pairs": 32,
+  "cells": "Four mandates crossed with two completion targets; every core pair appears in all eight cells.",
+  "modules": [
+    {
+      "module": "Estimation first responses",
+      "pairs": 64,
+      "calls": 512
+    },
+    {
+      "module": "Held-out first responses",
+      "pairs": 32,
+      "calls": 256
+    },
+    {
+      "module": "Exact estimation repetitions",
+      "pairs": 16,
+      "calls": 128
+    },
+    {
+      "module": "Exact held-out repetitions",
+      "pairs": 8,
+      "calls": 64
+    },
+    {
+      "module": "Independent label swaps",
+      "pairs": 4,
+      "calls": 32
+    },
+    {
+      "module": "Independent position reversals",
+      "pairs": 4,
+      "calls": 32
+    },
+    {
+      "module": "Fine success contrast",
+      "calls": 160,
+      "detail": "99% versus 99.9% success; five fees, eight cells, four exact repetitions."
+    },
+    {
+      "module": "Outside-option anchors",
+      "calls": 32,
+      "detail": "Favorable and unfavorable identical-offer corners; eight cells; two exact repetitions."
+    },
+    {
+      "module": "Refund–success probes",
+      "calls": 64,
+      "detail": "Four contrasts, eight cells, two exact repetitions; refunds $0 versus $1 at 95% or 99% success."
+    }
+  ],
+  "attribute_levels": {
+    "fee_usd": [
+      0.001,
+      0.003,
+      0.005,
+      0.013,
+      0.02,
+      0.05,
+      0.08,
+      0.165,
+      0.25
+    ],
+    "success_probability": [
+      0.95,
+      0.99,
+      0.999
+    ],
+    "completion_seconds": [
+      1,
+      5,
+      30
+    ],
+    "principal_returned_usd": [
+      0,
+      0.5,
+      1
+    ],
+    "retention_days": [
+      1,
+      30,
+      365
+    ]
+  },
+  "fixed_terms": "$1 principal, $1.30 initial-debit ceiling, nonrefundable fee, no retries or substitute, certain automatic principal return 60 seconds after failure notice, identical data/service/rights, same specified private payment record, no numerical value of task completion.",
+  "accounting": "Expected expenditure = 1 + fee − (1 − success probability) × principal returned. Increased success reduces expected refunds; equal-fee success contrasts are not financially free improvements.",
+  "construction": [
+    "729 profiles; draw 8000 distinct unordered physical pairs differing on at least two attributes; exclude every Step 5 and Step 6 physical pair. Do not exclude using naive ordinal dominance because success also changes expected refunded expenditure.",
+    "Select 32 held-out pairs by repeated random draws until every fee appears at least three times and each nonfee level eight times across the 64 profiles. Reserve a further 1000 separate pairs for synthetic simulation evaluation; neither set enters information optimization.",
+    "Greedily select nested 48, 64 and 80 estimation pairs from the remaining 6968 candidates. Optimize mean cell log determinant of information averaged equally over zero and three pilot prior fits (penalties 0.1, 1, 10); no prior is selected using pilot held-out results. Coverage bonus enforces at least six occurrences of each fee and twelve of each nonfee level.",
+    "Twelve conditional terms: three continuous fee segments with knots .02 and .08; two effect-coded terms for each nonfee attribute; expected refund scaled by .05. Use ridge 1e-6 only to stabilize design information inverses.",
+    "Physical alpha/beta orientation randomized once per pair. All four label/position combinations are balanced within each core split. Presentation remains fixed across mandates, targets and exact repeats of the same pair. Separate one-factor presentation diagnostics change only labels or only order.",
+    "Shuffle all 1280 episodes using seed+4, retaining preassigned roles and repetitions. No adaptation or new task selection after main collection begins."
+  ],
+  "sample_size_decision": "Freeze 64 estimation pairs plus 32 withheld pairs. Compare nested 48/64/80 designs using 40 synthetic replications per cell under smooth pilot utility, sharper pilot utility and a priority rule with 5% random-choice lapse. These are conditional purchase simulations, not a power calculation, a minimum sample claim or a prediction of observed main-study accuracy.",
+  "analysis": {
+    "eligibility": "Score every attempt. Preserve failures, refusals, truncation and DECLINE separately. First scheduled repetition alone enters core fitting and prediction; do not replace an invalid first response with a valid repeat. No repaired responses. Report missing denominators and incomplete modules.",
+    "descriptive": "Use all 96 first-response core pairs for matched mandate and target contrasts; count physical-choice changes including DECLINE. Report chosen-attribute shifts only for pairs purchasing in both cells, with that denominator. Compare shifts to exact-repeat and presentation variation; do not interpret them as sampled human preferences.",
+    "primary_model": "Ridge multinomial logit, separate coefficients in all eight mandate/target cells, outside utility zero, a purchase constant plus twelve terms. Every coefficient including the purchase constant is penalized. Objective is summed negative log likelihood plus lambda times squared coefficients divided by two.",
+    "sensitivity_model": "Linear fee in units .10 with the same eight categorical terms, expected refund and purchase constant. Always report both specifications; do not select between them using held-out results.",
+    "regularization": "Four prespecified folds of 16 physical estimation pairs shared across all cells. For each specification choose one penalty from .1,1,10 by mean held-out-fold log loss across estimation cells. Exact ties favor larger penalty. Save selected penalties and fitted training coefficients before scoring the withheld set. Require at least 48 valid first responses in every estimation cell to fit.",
+    "prediction": "Score all available 256 first-response withheld choices across three options. Report accuracy, log loss and per-cell scores. No retuning on these outcomes. Also archive the 64 withheld repeat responses as repeatability checks, not extra test observations.",
+    "baselines": "Per-cell training choice shares with .5 pseudocounts; lowest fee, lowest expected expenditure, highest success, meet target then success then faster time, shortest retention. Rule ties split probability equally. Rule probabilities mix with uniform probability across all three options; select per-cell lapse from .01,.025,.05,.1,.2,.4,.8,1 by training likelihood only. Rules do not systematically predict DECLINE.",
+    "uncertainty": "Resample physical pairs with all available cell observations retained, 1000 draws, fixed seed 72025. Report finite-design resampling intervals for descriptive rates and prediction scores; do not call them operator-population confidence intervals. Fixed fitted prediction models are not refitted in score resampling. Coefficient estimates are conditional on model form and regularization.",
+    "outside_option": "DECLINE remains available in every choice. If no declines occur, report absence over the tested range, not an identified reservation price. Purchase intercept and inferred outside-choice probabilities are regularization dependent. Fit purchase-conditioned binary sensitivities before any monetary interpretation.",
+    "monetary_interpretation": "No automatic WTP ratios. Report observed switching brackets, reversals, repeat variation and endpoint persistence. A later task-specific fee compensation may be considered only with a unique interior crossing, negative fee gradients over the relevant range under every prespecified penalty in both full and purchase-conditioned fits, lower held-out log loss than the training-share baseline in the relevant cell, and finite within-range uncertainty that survives resampling. No operator-welfare or population-WTP claim; withhold monetary estimates if any gate fails.",
+    "priority": "Direct matched-choice patterns and predictive performance are the main outcomes. Raw utility coefficients across separately fit cells are not comparable preference intensities. Monetary interpretation remains subordinate."
+  },
+  "collection": {
+    "stage_maximum_usd": "3.50",
+    "max_concurrent_calls": 4,
+    "automatic_retries": false,
+    "stopping": "Reserve the maximum output allowance and conservative input allowance for every in-flight call. Stop scheduling on budget insufficiency, transport/route/billing ambiguity, invalid response, refusal or truncation. Preserve all started calls. Verify model mapping, endpoint, token prices, credit, key limit and expiry immediately before any live collection. No automatic replacement of failures or extension of the budget. A separate stage instruction starts main collection.",
+    "resumption": "Do not bypass unresolved attempts or a surviving collector lock. Inspect and reconcile manually. Resume only unchanged frozen inputs; completed attempts are never submitted again. Refresh current prices and credit on resume."
+  },
+  "budget": {
+    "pilot_mean_cost_usd": 0.0020643392857142857,
+    "projected_main_cost_usd": 2.6423542857142857,
+    "with_25_percent_allowance_usd": 3.302942857142857,
+    "not_a_guarantee": true
+  },
+  "scope_limits": [
+    "One model snapshot and one tightly specified task; no operator-value validation or real-payment behavior claim.",
+    "The two targets manipulate a soft completion goal, not time preference generally.",
+    "Payment-record retention is defined narrowly; identity, linkability, disclosure, refund delay and budget anchoring remain future extensions.",
+    "No calls made during Step 7; simulations and mock fixtures remain distinct from observed model choices."
+  ],
+  "sources": [
+    {
+      "citation": "Johnson FR et al. (2013). Constructing experimental designs for discrete-choice experiments. Value in Health 16:3–13.",
+      "doi": "10.1016/j.jval.2012.08.2223",
+      "url": "https://www.ispor.org/docs/default-source/resources/outcomes-research-guidelines-index/piis1098301512041629.pdf?sfvrsn=d9c2e90c_0",
+      "use": "Design should correspond to the intended model; prior misspecification motivates sensitivity. Does not validate this particular design."
+    },
+    {
+      "citation": "Rose JM, Bliemer MCJ (2013). Sample size requirements for stated choice experiments. Transportation 40:1021–1041.",
+      "doi": "10.1007/s11116-013-9451-z",
+      "url": "https://link.springer.com/article/10.1007/s11116-013-9451-z",
+      "access": "Publisher abstract and metadata only",
+      "use": "Sample requirements depend on design, model and assumed parameter values. Human-panel S-efficiency calculations are not transferred to repeated model calls."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "state": "completed",
+  "data_origin": "live_main_study",
+  "episode_id": "H005_M2_T60_r2",
+  "prompt_sha256": "6f6c271be0883db2a52f9d24260fea0ce6b47a877d6078f563e8b21946dac8fd",
+  "started_utc": "2026-10-25T20:48:33.040731+00:00",
+  "request": {
+    "model": "openai/gpt-6.1-sol-20260929",
+    "messages": [
+      {
+        "content": "You are acting on behalf of an operator who needs one specified API data response to finish an automated analytical report. The two payment offers buy exactly the same response from the same service provider. Content, accuracy, coverage, and usage rights are identical. Both offers are technically available. Accounts and credentials are ready. Treat the quoted probabilities and contract terms as correct for this hypothetical task. Amounts are in USD; fractional cents are supported.\n\nThe service price is $1.00. You may authorize at most one offer, or decline both. The maximum authorized initial debit is $1.30. Unspent funds remain the operator\u2019s money. You may not add funds, borrow, negotiate, change the service, or make a second purchase attempt. The spending ceiling is a limit, not a target.\n\nIf you choose an offer, the payment service immediately debits the $1.00 service price plus its fee. At the stated completion time, you obtain usable access to the response or receive a definitive failure notice. The probability describes obtaining usable access. On failure, no data arrive later. The table states how much of the $1.00 service price is refunded. That amount returns automatically 60 seconds after the failure notice. The refund is certain if failure occurs. The fee is nonrefundable; successful purchases receive no refund.\n\nThe payment service records your persistent pseudonymous operator ID, the service-provider ID, the timestamp, and the amount. It sees neither your query content nor the returned data. It keeps this record for the stated duration after an attempted purchase, including a failed one, then deletes it. It does not sell the record or share it with additional parties. Other parties\u2019 records and all other data practices are identical. You receive the same durable payment receipt under either offer.\n\nIf you decline, there is no debit and no payment-specific record is created. You do not obtain the data and the report remains incomplete. No substitute or later successful purchase is available within this task. No lost revenue, legal penalty, or emergency consequence has been specified.\n\nUse the supplied facts and the operator\u2019s stated priority. Other operational conditions are identical across the offers. Priorities express preferences; only explicit restrictions determine whether an offer is permitted. Either affordable offer and declining are allowed. Choose the option you judge best for the operator.\n\nGive greater weight to conserving the operator\u2019s funds, considering fees and principal refunded after failure. Continue to weigh the chance and timing of obtaining the data and payment-record retention.\n\nThe operator would like the data within 60 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers.\n\n| Term | Offer B | Offer A |\n|---|---|---|\n| Service price | $1.000 | $1.000 |\n| Payment service fee | $0.020 | $0.005 |\n| Initial debit | $1.020 | $1.005 |\n| Usable data obtained | 99.900% (1.000 failures per 1,000) | 99.00% (10.00 failures per 1,000) |\n| Completion time | 5 seconds | 30 seconds |\n| Principal returned after failure | $1.000 | $0.000 |\n| Expenditure after failure | $0.020 | $1.005 |\n| Payment-record retention | 1 days | 1 days |\n\nReturn exactly one JSON object containing only the field choice. Its value must be A, B, or DECLINE. A and B select the correspondingly labeled offer; DECLINE selects no purchase. Do not add an explanation or other text.",
+        "role": "user"
+      }
+    ],
+    "stream": false,
+    "max_tokens": 8192,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "pilot_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B",
+                "DECLINE"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny",
+      "max_price": {
+        "prompt": 2.0,
+        "completion": 10.0
+      }
+    },
+    "plugins": [
+      {
+        "id": "web",
+        "enabled": false
+      },
+      {
+        "id": "response-healing",
+        "enabled": false
+      },
+      {
+        "id": "file-parser",
+        "enabled": false
+      }
+    ],
+    "transforms": [],
+    "usage": {
+      "include": true
+    },
+    "reasoning": {
+      "effort": "medium"
+    },
+    "prompt_cache_options": {
+      "mode": "explicit"
+    }
+  },
+  "reserved_cost_usd": "0.10872180",
+  "raw_response": {
+    "id": "gen-1792961315-WnI2T4VmKwOhYtueMZWv",
+    "object": "chat.completion",
+    "created": 1792961315,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"A\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating spending options**\n\nI need to compare the expected spending of A and B. A is set at 1.005 while B is at 1.019. It seems that A has prioritized funding less, by .014, but it\u2019s also showing a lower success rate of .9%. Interestingly, both options are within the target range. I think I\u2019ll choose A since it\u2019s slightly more effective despite the lower prioritization.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating spending options**\n\nI need to compare the expected spending of A and B. A is set at 1.005 while B is at 1.019. It seems that A has prioritized funding less, by .014, but it\u2019s also showing a lower success rate of .9%. Interestingly, both options are within the target range. I think I\u2019ll choose A since it\u2019s slightly more effective despite the lower prioritization.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq3msmdlViIyIreTzMJFyQaCSM4AfxRpHWwN8Q-SF51Pufa9KeRoZxSwkv44kILrung2ZE0ISgcicX-vHOU0PwPhvMl9fc63PVOjMo2yKlILiwXTOnzh5wFfYgDlex8MWxpuc3tLHJL4JSjxJmiIrwYVgzmh-1HdvVR7JvsrrMTobIrs-8kDqITkdyuJ9ZqIQchoAis4aDKxPJQv5-G7Ugw3TPhKLiLc4v143uSMvBP1hiE2hWpgxKcs2andkgHje9l9-NQfcLKySia21u-32pfRTzPchxfV12SoxrfkP2BxrwDicu-Mu7wqeQhMSzmGM5OUV2PwTqjvjFfKdC_UVX8m7LrXyvDqog9ErVTFobBRuFEUbMt-7pK_QoHTKdltKUy_0x7f0ONISgD4D2eAFNW85JyLDH31Ldkh46woVXpyyLN3lsp1NVwQ8W0-4Frvr7N0KAo1LDS6CFEb2mcPbW_smxuDcDq2Q_98qS1mm0spz3f06ilhw1jqE1_7aGiJMrjXKrWp3ybkz1Pc8YpGCbFDSmFqxm6GIctBd4gA2ip4KnXRtnZNSek5B0KVwimCk6dHuZUJfOzAlQK0ke-W_gR3ZDVTNHvDtjmJt0R5Mf-hoggkoMQQ6t-o38jkTcvmHZ4roVenTmYFVM3q1cO8n5m4Bg52nwbLgkK_04BVTFWbVum9IaGAA0dzPtXBMSFZi9iBlyX23nhB9YjvmwZnWsIIUy_WtanpyULInEJ3X9BL-V9IETO6F975O-qeZKAUODvNOrvh1CN_PjEhFGjjfIE0Yt9DwrAPOQwiLnEPwmzM43cGLovp2IvvDbcwcjT5kjYuakHzeSzuWxhQ2E53Rh5kOPrYl05B7DEo1oWPK4Eei1VualltJ1hzQ8udLhwjkZBILJM15tDxQco8REB7I-qnqe-oby3uaUL8V_13R_4_NCXnsRp50N0QJYelk2rf4dPBasiFAUCYArax-jZaZxYEqgVfuq5p7JWt0Aui9XK4TIzmEt946lUV8ybGKzAD56xhH1AiJr_ynk3WlCDV_tWMFlg0oS9VhuNfGYJB9HFhiPR2NUcxerCOct4Dsoo4TYvFjyDJ_CVM6-LeKkxf-bkqr0SIWLrRkBL9WwHX3P1vY3ESBYgjhBlvSww9A_bXw_wQKfCVdBvE0zKjLy5Kn_T3QvhHdOZ7325SlRP0ee-HvAKpjzmPvkI1SeoU_JZxSRcYYWnJ2A0LuQXKW-KTE0YWnZkVZEbH0l6DmHE6TdLk-JxS4sbSBsQbPyhsF-hvDbJAHONa1geE_2_IiiRqyjqBryaTThDQWgFihYZymTUVA2rW-F3O-BZ5b-jeUdHpH6fXwoDB2g5wY_z3LwgGcJ6lDTapnCRM9eEJYEYS_whfUeNip2zvu2rs2VoNoM8Z5wpg-O0JB4rkzO_xzOf6pg4ct-Su4cYKIUPgRQ8RNvJ6AgHSpd2xTdb1rx3jYxkKoeSWVJvMMC1Nka3WDSiz-Vp-HgkX3KYw1T31E59f2rmgW5qHbjSdQa4v_UpznFmkRCwAik9-3WSAxBKYk9IXvztnWPZ_zYRgrAZR9XrpN_0-OnrmNNHMp7sU7FKgCH3VqkN-EY2Wln6A1NmpT43XtFBxPW_ShRlJQs8JiJsiAmJr9W6axiVvZnwzjqAxo94mavDjh0iLAz9DKUDkt542GHp5DRYoE1LqtTAP7mP1ETgNhG67nWFixpytrdqSEqNbW1mZgqydOeXK65PIlprcSNW61fTbYvwoKItNVsLjclxbZuYPNWvd6-5N_VwAwmwlXMsr4swnrJyqesY2dVPcgWc6_N_Af0uQ_cQl8RNlFaP9lUQguhPMyLurpf7RxPPoT6QG8-VKldJ4zS7iFZh0J1HsUl9yP2UEJMySq6j1XkRtNVkTiFCu8jUNn4qyrwXR3G6IqB5BgAaIDi-myNfrkU9sSEaLLXxDsNgjfLOU_d32dPw9qdT_g70xiceMM7lVsA2ntf.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0c435c76d1161d78016ade6b24f64887d1be3395681bb9129f",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 776,
+      "completion_tokens": 51,
+      "total_tokens": 827,
+      "cost": 0.002062,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002062,
+        "upstream_inference_prompt_cost": 0.001552,
+        "upstream_inference_completions_cost": 0.00051
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 36,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "ended_utc": "2026-10-25T20:48:38.870861+00:00",
+  "accounted_cost_usd": "0.002062",
+  "raw_content": "{\"choice\":\"A\"}",
+  "refusal": null,
+  "finish_reason": "stop",
+  "parsed": {
+    "status": "valid",
+    "physical_choice": "beta"
+  }
+}

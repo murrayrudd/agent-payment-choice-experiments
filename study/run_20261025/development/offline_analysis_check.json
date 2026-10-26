@@ -1,0 +1,11 @@
+{
+  "data_origin": "synthetic_pipeline_fixture",
+  "network_calls": 0,
+  "fixture_responses": 1280,
+  "first_estimation_choices": 512,
+  "heldout_choices": 256,
+  "probability_vectors_checked": 2048,
+  "decline_path_checked": true,
+  "training_fit_hash_unchanged_when_all_nontraining_outcomes_change": true,
+  "invalid_first_response_not_replaced_by_repeat": true
+}

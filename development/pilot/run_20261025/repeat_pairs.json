@@ -1,0 +1,3330 @@
+[
+  {
+    "case_id": "A1_M1_T5",
+    "module": "outside_anchor",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A1_M1_T60",
+    "module": "outside_anchor",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A1_M2_T5",
+    "module": "outside_anchor",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A1_M2_T60",
+    "module": "outside_anchor",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A1_M3_T5",
+    "module": "outside_anchor",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A1_M3_T60",
+    "module": "outside_anchor",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A1_M4_T5",
+    "module": "outside_anchor",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A1_M4_T60",
+    "module": "outside_anchor",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A2_M1_T5",
+    "module": "outside_anchor",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A2_M1_T60",
+    "module": "outside_anchor",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A2_M2_T5",
+    "module": "outside_anchor",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A2_M2_T60",
+    "module": "outside_anchor",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A2_M3_T5",
+    "module": "outside_anchor",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A2_M3_T60",
+    "module": "outside_anchor",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A2_M4_T5",
+    "module": "outside_anchor",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "A2_M4_T60",
+    "module": "outside_anchor",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "purchase",
+      "purchase"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C01_M1_T5",
+    "module": "core",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C01_M1_T60",
+    "module": "core",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C01_M2_T5",
+    "module": "core",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C01_M2_T60",
+    "module": "core",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C01_M3_T5",
+    "module": "core",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C01_M3_T60",
+    "module": "core",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C01_M4_T5",
+    "module": "core",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C01_M4_T60",
+    "module": "core",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C02_M1_T5",
+    "module": "core",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C02_M1_T60",
+    "module": "core",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C02_M2_T5",
+    "module": "core",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C02_M2_T60",
+    "module": "core",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C02_M3_T5",
+    "module": "core",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C02_M3_T60",
+    "module": "core",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C02_M4_T5",
+    "module": "core",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C02_M4_T60",
+    "module": "core",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C03_M1_T5",
+    "module": "core",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C03_M1_T60",
+    "module": "core",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C03_M2_T5",
+    "module": "core",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C03_M2_T60",
+    "module": "core",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C03_M3_T5",
+    "module": "core",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C03_M3_T60",
+    "module": "core",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C03_M4_T5",
+    "module": "core",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C03_M4_T60",
+    "module": "core",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C04_M1_T5",
+    "module": "core",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C04_M1_T60",
+    "module": "core",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C04_M2_T5",
+    "module": "core",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C04_M2_T60",
+    "module": "core",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C04_M3_T5",
+    "module": "core",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C04_M3_T60",
+    "module": "core",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C04_M4_T5",
+    "module": "core",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "C04_M4_T60",
+    "module": "core",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M1_T60_F1",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M1_T60_F2",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M1_T60_F3",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M1_T60_F4",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M1_T60_F5",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M2_T60_F1",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M2_T60_F2",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M2_T60_F3",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M2_T60_F4",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M2_T60_F5",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M3_T60_F1",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M3_T60_F2",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M3_T60_F3",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M3_T60_F4",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M3_T60_F5",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M4_T60_F1",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M4_T60_F2",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M4_T60_F3",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M4_T60_F4",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L1_M4_T60_F5",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M1_T60_F1",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M1_T60_F2",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M1_T60_F3",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M1_T60_F4",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M1_T60_F5",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M2_T60_F1",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "alpha"
+    ],
+    "physical_choices": [
+      "beta",
+      "alpha"
+    ],
+    "disagree": true
+  },
+  {
+    "case_id": "L2_M2_T60_F2",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M2_T60_F3",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M2_T60_F4",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M2_T60_F5",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M3_T60_F1",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M3_T60_F2",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M3_T60_F3",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M3_T60_F4",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M3_T60_F5",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "alpha"
+    ],
+    "physical_choices": [
+      "beta",
+      "alpha"
+    ],
+    "disagree": true
+  },
+  {
+    "case_id": "L2_M4_T60_F1",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M4_T60_F2",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M4_T60_F3",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "beta"
+    ],
+    "physical_choices": [
+      "alpha",
+      "beta"
+    ],
+    "disagree": true
+  },
+  {
+    "case_id": "L2_M4_T60_F4",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L2_M4_T60_F5",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T5_F1",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T5_F2",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T5_F3",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T5_F4",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T5_F5",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T60_F1",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T60_F2",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T60_F3",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T60_F4",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M1_T60_F5",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T5_F1",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T5_F2",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T5_F3",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T5_F4",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T5_F5",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T60_F1",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T60_F2",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T60_F3",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T60_F4",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M2_T60_F5",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T5_F1",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T5_F2",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T5_F3",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T5_F4",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T5_F5",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T60_F1",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T60_F2",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T60_F3",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T60_F4",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M3_T60_F5",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T5_F1",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T5_F2",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T5_F3",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T5_F4",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T5_F5",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T60_F1",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T60_F2",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T60_F3",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T60_F4",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L3_M4_T60_F5",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M1_T60_F1",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M1_T60_F2",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M1_T60_F3",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M1_T60_F4",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M1_T60_F5",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M2_T60_F1",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M2_T60_F2",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M2_T60_F3",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M2_T60_F4",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M2_T60_F5",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M3_T60_F1",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M3_T60_F2",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M3_T60_F3",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M3_T60_F4",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M3_T60_F5",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M4_T60_F1",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M4_T60_F2",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M4_T60_F3",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M4_T60_F4",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L4_M4_T60_F5",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M1_T60_F1",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M1_T60_F2",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M1_T60_F3",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M1_T60_F4",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M1_T60_F5",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M2_T60_F1",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M2_T60_F2",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M2_T60_F3",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M2_T60_F4",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M2_T60_F5",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M3_T60_F1",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M3_T60_F2",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M3_T60_F3",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M3_T60_F4",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M3_T60_F5",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M4_T60_F1",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M4_T60_F2",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M4_T60_F3",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M4_T60_F4",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L5_M4_T60_F5",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M1_T60_F1",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M1_T60_F2",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M1_T60_F3",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M1_T60_F4",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M1_T60_F5",
+    "module": "ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M2_T60_F1",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M2_T60_F2",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M2_T60_F3",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M2_T60_F4",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M2_T60_F5",
+    "module": "ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M3_T60_F1",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M3_T60_F2",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M3_T60_F3",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M3_T60_F4",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M3_T60_F5",
+    "module": "ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M4_T60_F1",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M4_T60_F2",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M4_T60_F3",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M4_T60_F4",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "L6_M4_T60_F5",
+    "module": "ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R01",
+    "module": "adaptive_ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R02",
+    "module": "adaptive_ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R03",
+    "module": "adaptive_ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R04",
+    "module": "adaptive_ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "beta",
+      "beta"
+    ],
+    "physical_choices": [
+      "beta",
+      "beta"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R05",
+    "module": "adaptive_ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R06",
+    "module": "adaptive_ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R07",
+    "module": "adaptive_ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R08",
+    "module": "adaptive_ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R09",
+    "module": "adaptive_ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R10",
+    "module": "adaptive_ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R11",
+    "module": "adaptive_ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R12",
+    "module": "adaptive_ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R13",
+    "module": "adaptive_ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R14",
+    "module": "adaptive_ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R15",
+    "module": "adaptive_ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R16",
+    "module": "adaptive_ladder",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R17",
+    "module": "adaptive_ladder",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R18",
+    "module": "adaptive_ladder",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R19",
+    "module": "adaptive_ladder",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  },
+  {
+    "case_id": "R20",
+    "module": "adaptive_ladder",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "valid_pair": true,
+    "choices": [
+      "alpha",
+      "alpha"
+    ],
+    "physical_choices": [
+      "alpha",
+      "alpha"
+    ],
+    "disagree": false
+  }
+]

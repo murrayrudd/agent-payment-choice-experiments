@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite these replication materials and the accompanying paper when using this study."
+type: software
+title: "Operator mandates and tradeoffs in AI agent payment choices: Replication materials"
+authors:
+  - family-names: "Rudd"
+    given-names: "Murray A."
+version: "0.2.0"
+date-released: 2026-10-26
+repository-code: "https://github.com/murrayrudd/agent-payment-choice-experiments"
+url: "https://github.com/murrayrudd/agent-payment-choice-experiments"
+abstract: "Code, experimental designs, archived model responses, and reproducible analyses for a controlled experiment on operator mandates and AI agent payment choices."
+keywords:
+  - AI agents
+  - discrete choice experiments
+  - delegated decision making
+  - payment services
+  - willingness to pay
+preferred-citation:
+  type: unpublished
+  title: "Operator mandates and tradeoffs in AI agent payment choices"
+  authors:
+    - family-names: "Rudd"
+      given-names: "Murray A."
+  year: 2026

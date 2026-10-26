@@ -1,0 +1,290 @@
+[
+  {
+    "model": "training_choice_share",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "training_lapse": null
+  },
+  {
+    "model": "lowest_fee",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "lowest_expected_expenditure",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "highest_success",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "meet_target_then_success",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "shortest_retention",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "training_choice_share",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "training_lapse": null
+  },
+  {
+    "model": "lowest_fee",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "lowest_expected_expenditure",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "highest_success",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "meet_target_then_success",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "shortest_retention",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "training_choice_share",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "training_lapse": null
+  },
+  {
+    "model": "lowest_fee",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "training_lapse": 0.05
+  },
+  {
+    "model": "lowest_expected_expenditure",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "training_lapse": 0.025
+  },
+  {
+    "model": "highest_success",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "meet_target_then_success",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "shortest_retention",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "training_choice_share",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "training_lapse": null
+  },
+  {
+    "model": "lowest_fee",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "training_lapse": 0.05
+  },
+  {
+    "model": "lowest_expected_expenditure",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "training_lapse": 0.05
+  },
+  {
+    "model": "highest_success",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "meet_target_then_success",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "shortest_retention",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "training_choice_share",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "training_lapse": null
+  },
+  {
+    "model": "lowest_fee",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "lowest_expected_expenditure",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "highest_success",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "training_lapse": 0.4
+  },
+  {
+    "model": "meet_target_then_success",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "training_lapse": 0.05
+  },
+  {
+    "model": "shortest_retention",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "training_choice_share",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "training_lapse": null
+  },
+  {
+    "model": "lowest_fee",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "lowest_expected_expenditure",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "highest_success",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "training_lapse": 0.025
+  },
+  {
+    "model": "meet_target_then_success",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "training_lapse": 0.1
+  },
+  {
+    "model": "shortest_retention",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "training_choice_share",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "training_lapse": null
+  },
+  {
+    "model": "lowest_fee",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "lowest_expected_expenditure",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "highest_success",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "meet_target_then_success",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "shortest_retention",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "training_lapse": 0.01
+  },
+  {
+    "model": "training_choice_share",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "training_lapse": null
+  },
+  {
+    "model": "lowest_fee",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "lowest_expected_expenditure",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "highest_success",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "meet_target_then_success",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "training_lapse": 0.8
+  },
+  {
+    "model": "shortest_retention",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "training_lapse": 0.01
+  }
+]

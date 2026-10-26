@@ -1,0 +1,8 @@
+{
+  "data_origin": "offline_validation_fixtures",
+  "model_calls": 0,
+  "independent_benchmark_answers_checked": 8,
+  "parser_and_mapping_checks": 14,
+  "result": "pass",
+  "interpretation": "Validates instrument arithmetic and scoring code only; no model behavior measured."
+}

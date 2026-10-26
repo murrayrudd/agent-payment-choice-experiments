@@ -1,0 +1,3771 @@
+{
+  "provenance": {
+    "analysis_status": "Exploratory follow-up after manuscript review; not part of prespecified main analysis",
+    "case_selection": "Balanced at 5 seconds was selected because it alone showed a unanimous interior switch in the fine success diagnostic.",
+    "estimation_data": "64 first-response estimation pairs only; diagnostics and withheld outcomes do not enter fitting",
+    "estimand": "Extra fee on the 99.9% offer that equates its fitted utility with the 99% reference; all other contract attributes fixed",
+    "reference": {
+      "fee": "0.001",
+      "success_probability": "0.99",
+      "time_seconds": 5,
+      "refund": "0.50",
+      "retention_days": 30
+    },
+    "improved_at_equal_fee": {
+      "fee": "0.001",
+      "success_probability": "0.999",
+      "time_seconds": 5,
+      "refund": "0.50",
+      "retention_days": 30
+    },
+    "tested_premium_interval_usd": [
+      0.0,
+      0.249
+    ],
+    "observed_switch_bracket_usd": [
+      0.019,
+      0.079
+    ],
+    "expected_expenditure_increment_over_fee_premium_usd": 0.0045,
+    "selected_penalty": 0.1,
+    "sensitivity_penalties": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "bootstrap": {
+      "draws": 1000,
+      "seed": 2026102519,
+      "unit": "physical estimation pair",
+      "sample_size": 64,
+      "refit": true,
+      "penalties_fixed": true,
+      "parameterization_fixed": true,
+      "notes": "Finite-design resampling sensitivity, not operator-population intervals; same resample indices for every fit"
+    },
+    "software": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    }
+  },
+  "target_satisfaction": [
+    {
+      "mandate": "Balanced",
+      "offers_meeting_5_seconds": 0,
+      "pairs": 6,
+      "changed": 0,
+      "short_choice_meets_5": 0,
+      "long_choice_meets_5": 0,
+      "changes_from_meeting_to_missing": 0,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "H001",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H006",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H019",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H024",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H025",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H029",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        }
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "offers_meeting_5_seconds": 1,
+      "pairs": 52,
+      "changed": 8,
+      "short_choice_meets_5": 36,
+      "long_choice_meets_5": 28,
+      "changes_from_meeting_to_missing": 8,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "E001",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E004",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E005",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E007",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E008",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E009",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E010",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E011",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E012",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E015",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E017",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E018",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E022",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E024",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E025",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E026",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E027",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E029",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E031",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E032",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E033",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E035",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E037",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E038",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E039",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E040",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E041",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E042",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E043",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E046",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E050",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E055",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E056",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E057",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E058",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E059",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E060",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E061",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E062",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H002",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H003",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H004",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H005",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H007",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H009",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H013",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H014",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H015",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H021",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H027",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H028",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H030",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "offers_meeting_5_seconds": 2,
+      "pairs": 38,
+      "changed": 1,
+      "short_choice_meets_5": 38,
+      "long_choice_meets_5": 38,
+      "changes_from_meeting_to_missing": 0,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "E002",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E003",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E006",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E013",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E014",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E016",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E019",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E020",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E021",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E023",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E028",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E030",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E034",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E036",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E044",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E045",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E047",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E048",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E049",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E051",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E052",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E053",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E054",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E063",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E064",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H008",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H010",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H011",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H012",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H016",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H017",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H018",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H020",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H022",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H023",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H026",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H031",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H032",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        }
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "offers_meeting_5_seconds": 0,
+      "pairs": 6,
+      "changed": 0,
+      "short_choice_meets_5": 0,
+      "long_choice_meets_5": 0,
+      "changes_from_meeting_to_missing": 0,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "H001",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H006",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H019",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H024",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H025",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H029",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "offers_meeting_5_seconds": 1,
+      "pairs": 52,
+      "changed": 1,
+      "short_choice_meets_5": 28,
+      "long_choice_meets_5": 27,
+      "changes_from_meeting_to_missing": 1,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "E001",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E004",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E005",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E007",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E008",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E009",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E010",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E011",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E012",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E015",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E017",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E018",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E022",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E024",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E025",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E026",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E027",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E029",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E031",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E032",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E033",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E035",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E037",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E038",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E039",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E040",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E041",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E042",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E043",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E046",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E050",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E055",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E056",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E057",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E058",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E059",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E060",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E061",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E062",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H002",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H003",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H004",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H005",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H007",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H009",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H013",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H014",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H015",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H021",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H027",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H028",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H030",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "offers_meeting_5_seconds": 2,
+      "pairs": 38,
+      "changed": 0,
+      "short_choice_meets_5": 38,
+      "long_choice_meets_5": 38,
+      "changes_from_meeting_to_missing": 0,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "E002",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E003",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E006",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E013",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E014",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E016",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E019",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E020",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E021",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E023",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E028",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E030",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E034",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E036",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E044",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E045",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E047",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E048",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E049",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E051",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E052",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E053",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E054",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E063",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E064",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H008",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H010",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H011",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H012",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H016",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H017",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H018",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H020",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H022",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H023",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H026",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H031",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H032",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        }
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "offers_meeting_5_seconds": 0,
+      "pairs": 6,
+      "changed": 0,
+      "short_choice_meets_5": 0,
+      "long_choice_meets_5": 0,
+      "changes_from_meeting_to_missing": 0,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "H001",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H006",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H019",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H024",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H025",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H029",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        }
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "offers_meeting_5_seconds": 1,
+      "pairs": 52,
+      "changed": 26,
+      "short_choice_meets_5": 52,
+      "long_choice_meets_5": 26,
+      "changes_from_meeting_to_missing": 26,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "E001",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E004",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E005",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E007",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E008",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E009",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E010",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E011",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E012",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E015",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E017",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E018",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E022",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E024",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E025",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E026",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E027",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E029",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E031",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E032",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E033",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E035",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E037",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E038",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E039",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E040",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E041",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E042",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E043",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E046",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E050",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E055",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E056",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E057",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E058",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E059",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E060",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E061",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E062",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H002",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H003",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H004",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H005",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H007",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H009",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H013",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H014",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H015",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H021",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H027",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H028",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H030",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "offers_meeting_5_seconds": 2,
+      "pairs": 38,
+      "changed": 1,
+      "short_choice_meets_5": 38,
+      "long_choice_meets_5": 38,
+      "changes_from_meeting_to_missing": 0,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "E002",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E003",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E006",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E013",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E014",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E016",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E019",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E020",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E021",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E023",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E028",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E030",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E034",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E036",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E044",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E045",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E047",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E048",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E049",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E051",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E052",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E053",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E054",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E063",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E064",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H008",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H010",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H011",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H012",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H016",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H017",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H018",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H020",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H022",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H023",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H026",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H031",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H032",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        }
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "offers_meeting_5_seconds": 0,
+      "pairs": 6,
+      "changed": 0,
+      "short_choice_meets_5": 0,
+      "long_choice_meets_5": 0,
+      "changes_from_meeting_to_missing": 0,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "H001",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H006",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H019",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H024",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H025",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H029",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        }
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "offers_meeting_5_seconds": 1,
+      "pairs": 52,
+      "changed": 0,
+      "short_choice_meets_5": 34,
+      "long_choice_meets_5": 34,
+      "changes_from_meeting_to_missing": 0,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "E001",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E004",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E005",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E007",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E008",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E009",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E010",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E011",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E012",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E015",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E017",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E018",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E022",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E024",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E025",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E026",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E027",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E029",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E031",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E032",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E033",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E035",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E037",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E038",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E039",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E040",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E041",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E042",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E043",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E046",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E050",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E055",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E056",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E057",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E058",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E059",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E060",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E061",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E062",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H002",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H003",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H004",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H005",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H007",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H009",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H013",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H014",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H015",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H021",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H027",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H028",
+          "changed": false,
+          "short_choice_meets_5": false,
+          "long_choice_meets_5": false,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H030",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "offers_meeting_5_seconds": 2,
+      "pairs": 38,
+      "changed": 1,
+      "short_choice_meets_5": 38,
+      "long_choice_meets_5": 38,
+      "changes_from_meeting_to_missing": 0,
+      "changes_from_missing_to_meeting": 0,
+      "entries": [
+        {
+          "pair_id": "E002",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E003",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E006",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E013",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E014",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E016",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E019",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E020",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E021",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E023",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E028",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E030",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E034",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E036",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E044",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E045",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E047",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E048",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E049",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E051",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E052",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "E053",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E054",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E063",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "E064",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H008",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H010",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H011",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H012",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H016",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H017",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H018",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H020",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H022",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H023",
+          "changed": true,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H026",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        },
+        {
+          "pair_id": "H031",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "beta",
+          "long_choice": "beta"
+        },
+        {
+          "pair_id": "H032",
+          "changed": false,
+          "short_choice_meets_5": true,
+          "long_choice_meets_5": true,
+          "short_choice": "alpha",
+          "long_choice": "alpha"
+        }
+      ]
+    }
+  ],
+  "compensation_point_checks": [
+    {
+      "specification": "piecewise_fee",
+      "conditional": false,
+      "penalty": 0.1,
+      "fee_gradients_per_usd": [
+        -73.95994178779381,
+        -18.860403250235517,
+        -25.336221885770378
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 1.7540448849549655,
+      "interior_roots_usd": [
+        0.037494089779
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 1.0,
+        "log_loss": 0.05921610904460151
+      },
+      "coefficients": [
+        6.978476967451226,
+        -1.4791988357558763,
+        -1.131624195014131,
+        -4.307157720580965,
+        0.5475061987387031,
+        2.4184630558619977,
+        0.920069639216587,
+        -1.9687338232289022,
+        0.11205391656122918,
+        -0.1724668113572858,
+        -0.007456253632459418,
+        -2.049725340171244,
+        1.2990219129814344
+      ]
+    },
+    {
+      "specification": "piecewise_fee",
+      "conditional": false,
+      "penalty": 1.0,
+      "fee_gradients_per_usd": [
+        -9.991437147425502,
+        -10.850078189458163,
+        -9.387924799202704
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 0.9020754181027675,
+      "interior_roots_usd": [
+        0.085522572586
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 1.0,
+        "log_loss": 0.22498840747183615
+      },
+      "coefficients": [
+        2.971588870984602,
+        -0.19982874294851005,
+        -0.6510046913674897,
+        -1.5959472158644599,
+        0.170703404730914,
+        1.1201045905088818,
+        0.4311463117352586,
+        -0.7966593870245681,
+        -0.03120878857411789,
+        -0.17679207494208346,
+        0.004854657850714472,
+        -1.0949947146019419,
+        0.5258418630577819
+      ]
+    },
+    {
+      "specification": "piecewise_fee",
+      "conditional": false,
+      "penalty": 10.0,
+      "fee_gradients_per_usd": [
+        10.123177261540453,
+        -2.750101584235938,
+        -2.054323339623727
+      ],
+      "all_fee_gradients_negative": false,
+      "equal_fee_utility_increment": 0.40330293736529577,
+      "interior_roots_usd": [],
+      "heldout": {
+        "n": 32,
+        "accuracy": 0.875,
+        "log_loss": 0.6163926356154692
+      },
+      "coefficients": [
+        0.9450985856198598,
+        0.20246354523080906,
+        -0.16500609505415628,
+        -0.34923496773603363,
+        0.04872731686247762,
+        0.4627996089253302,
+        0.17579235722541572,
+        -0.31813952027212195,
+        -0.10202716351275024,
+        -0.16312913950336763,
+        -0.01983514774534473,
+        -0.558604274019968,
+        0.11965949663952
+      ]
+    },
+    {
+      "specification": "piecewise_fee",
+      "conditional": true,
+      "penalty": 0.1,
+      "fee_gradients_per_usd": [
+        -105.25634043506598,
+        -25.30267434689918,
+        -30.84941121623791
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 2.1421819299383076,
+      "interior_roots_usd": [
+        0.024624364434
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 1.0,
+        "log_loss": 0.03415436230113501
+      },
+      "coefficients": [
+        -2.1051268087013195,
+        -1.5181604608139507,
+        -5.244399906760445,
+        0.683460814407636,
+        2.9420495730121234,
+        1.09352742169029,
+        -2.506181266228404,
+        0.17874368084910622,
+        -0.10366168908812948,
+        -0.0634489584092461,
+        -2.4238730523963294,
+        1.2934092074019958
+      ]
+    },
+    {
+      "specification": "piecewise_fee",
+      "conditional": true,
+      "penalty": 1.0,
+      "fee_gradients_per_usd": [
+        -40.006671231288855,
+        -14.299327657513379,
+        -10.997972139894777
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 1.053222345587305,
+      "interior_roots_usd": [
+        0.039497158972
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 1.0,
+        "log_loss": 0.13150946277818132
+      },
+      "coefficients": [
+        -0.8001334246257771,
+        -0.8579596594508027,
+        -1.8696552637821122,
+        0.22665321204718633,
+        1.29796551763911,
+        0.4795190935430845,
+        -0.9832569632031974,
+        0.04490762151234498,
+        -0.10326976637896934,
+        -0.04103061966839221,
+        -1.2693998380966085,
+        0.2009995556068748
+      ]
+    },
+    {
+      "specification": "piecewise_fee",
+      "conditional": true,
+      "penalty": 10.0,
+      "fee_gradients_per_usd": [
+        -11.747138419178981,
+        -5.73127620517409,
+        -2.4931025352331098
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 0.40539420969659995,
+      "interior_roots_usd": [
+        0.050790228426
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 0.9375,
+        "log_loss": 0.36638998712221665
+      },
+      "coefficients": [
+        -0.23494276838357964,
+        -0.34387657231044544,
+        -0.42382743098962866,
+        0.06859588600680974,
+        0.47001009536187566,
+        0.15491129250916705,
+        -0.3013254579480262,
+        -0.04266894231513549,
+        -0.11327196692629621,
+        -0.0703679576606604,
+        -0.5473867990099353,
+        -0.04422222601704525
+      ]
+    },
+    {
+      "specification": "linear_fee",
+      "conditional": false,
+      "penalty": 0.1,
+      "fee_gradients_per_usd": [
+        -29.021700731413887
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 1.6813717009949407,
+      "interior_roots_usd": [
+        0.057934981707
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 1.0,
+        "log_loss": 0.04818548351694123
+      },
+      "coefficients": [
+        6.92073199521472,
+        -2.902170073141389,
+        0.6529774961002914,
+        2.4647369312268372,
+        0.9337489436715154,
+        -2.0252389545002183,
+        0.13919201930673736,
+        -0.19085537570765898,
+        -0.03334845629980471,
+        -2.1001151171994357,
+        1.4487526014622778
+      ],
+      "unrestricted_fee_premium_usd": 0.057934981707497855
+    },
+    {
+      "specification": "linear_fee",
+      "conditional": false,
+      "penalty": 1.0,
+      "fee_gradients_per_usd": [
+        -12.290814640920173
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 0.9345728314235042,
+      "interior_roots_usd": [
+        0.076038314687
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 1.0,
+        "log_loss": 0.19831685085155645
+      },
+      "coefficients": [
+        3.1156797711252477,
+        -1.2290814640920174,
+        0.20516854094489262,
+        1.188012714805579,
+        0.44895397575534834,
+        -0.8777708806639901,
+        -0.017388717312494712,
+        -0.16262223734258616,
+        0.010698588148658724,
+        -1.164821505552901,
+        0.5363482493020232
+      ],
+      "unrestricted_fee_premium_usd": 0.0760383146868071
+    },
+    {
+      "specification": "linear_fee",
+      "conditional": false,
+      "penalty": 10.0,
+      "fee_gradients_per_usd": [
+        -3.1917398540882593
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 0.4187777659342311,
+      "interior_roots_usd": [
+        0.131206735222
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 0.90625,
+        "log_loss": 0.5923212503373467
+      },
+      "coefficients": [
+        1.0515521923477125,
+        -0.31917398540882597,
+        0.04926555577709154,
+        0.48002034407497907,
+        0.17930405374698832,
+        -0.3289545578357875,
+        -0.09883764946506882,
+        -0.15246535851351398,
+        -0.019269080065878623,
+        -0.5659665934917809,
+        0.13307802626284934
+      ],
+      "unrestricted_fee_premium_usd": 0.1312067352224286
+    },
+    {
+      "specification": "linear_fee",
+      "conditional": true,
+      "penalty": 0.1,
+      "fee_gradients_per_usd": [
+        -40.182002066535304
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 2.101105793539734,
+      "interior_roots_usd": [
+        0.052289723893
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 1.0,
+        "log_loss": 0.023489085102069998
+      },
+      "coefficients": [
+        -4.018200206653531,
+        0.90333668004668,
+        3.154244413489259,
+        1.2241319287290022,
+        -2.7116300914091926,
+        0.2298155266532894,
+        -0.12159084742467706,
+        -0.15406135121035705,
+        -2.5761445404719314,
+        1.664465998920503
+      ],
+      "unrestricted_fee_premium_usd": 0.05228972389331475
+    },
+    {
+      "specification": "linear_fee",
+      "conditional": true,
+      "penalty": 1.0,
+      "fee_gradients_per_usd": [
+        -17.63014517579684
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 1.0222704078725249,
+      "interior_roots_usd": [
+        0.057984230855
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 1.0,
+        "log_loss": 0.09942430684714804
+      },
+      "coefficients": [
+        -1.7630145175796843,
+        0.3318996927521562,
+        1.3744445718009148,
+        0.49506534539005975,
+        -1.1002915951924526,
+        0.07798881909050277,
+        -0.10585215516580285,
+        -0.04890839213770647,
+        -1.373645256042256,
+        0.22527190195815142
+      ],
+      "unrestricted_fee_premium_usd": 0.05798423085454375
+    },
+    {
+      "specification": "linear_fee",
+      "conditional": true,
+      "penalty": 10.0,
+      "fee_gradients_per_usd": [
+        -6.230829696003912
+      ],
+      "all_fee_gradients_negative": true,
+      "equal_fee_utility_increment": 0.4050150797614852,
+      "interior_roots_usd": [
+        0.065001789412
+      ],
+      "heldout": {
+        "n": 32,
+        "accuracy": 0.96875,
+        "log_loss": 0.3069107858549167
+      },
+      "coefficients": [
+        -0.6230829696003912,
+        0.09072154298390103,
+        0.49111549938219246,
+        0.15237414247013,
+        -0.31637776743751905,
+        -0.02485434403960159,
+        -0.10505903115451759,
+        -0.0767359046637937,
+        -0.5722825337144476,
+        -0.05134581514659734
+      ],
+      "unrestricted_fee_premium_usd": 0.06500178941196837
+    }
+  ],
+  "compensation_bootstrap": [
+    {
+      "conditional": false,
+      "penalty": 0.1,
+      "draws": 1000,
+      "finite": 1000,
+      "negative_fee": 1000,
+      "interior": 997,
+      "both_negative_and_interior": 997,
+      "percentile_95_usd": [
+        0.016287785472871096,
+        0.1260241554950037
+      ],
+      "median_usd": 0.061200513298999906,
+      "minimum_usd": -0.006112554314692259,
+      "maximum_usd": 0.19410456830516234
+    },
+    {
+      "conditional": false,
+      "penalty": 1.0,
+      "draws": 1000,
+      "finite": 1000,
+      "negative_fee": 1000,
+      "interior": 993,
+      "both_negative_and_interior": 993,
+      "percentile_95_usd": [
+        0.015437332716335931,
+        0.17397051896146798
+      ],
+      "median_usd": 0.08125720978144296,
+      "minimum_usd": -0.02218802685330047,
+      "maximum_usd": 0.2789497435448789
+    },
+    {
+      "conditional": false,
+      "penalty": 10.0,
+      "draws": 1000,
+      "finite": 1000,
+      "negative_fee": 996,
+      "interior": 824,
+      "both_negative_and_interior": 824,
+      "percentile_95_usd": [
+        0.0039726295758510215,
+        0.46936656727383774
+      ],
+      "median_usd": 0.13848876183108152,
+      "minimum_usd": -1.203741308977446,
+      "maximum_usd": 1.8394483876104688
+    },
+    {
+      "conditional": true,
+      "penalty": 0.1,
+      "draws": 1000,
+      "finite": 1000,
+      "negative_fee": 1000,
+      "interior": 999,
+      "both_negative_and_interior": 999,
+      "percentile_95_usd": [
+        0.01436307413336983,
+        0.10308587433110744
+      ],
+      "median_usd": 0.054805442072049765,
+      "minimum_usd": -0.003139750979665758,
+      "maximum_usd": 0.14933570178057035
+    },
+    {
+      "conditional": true,
+      "penalty": 1.0,
+      "draws": 1000,
+      "finite": 1000,
+      "negative_fee": 1000,
+      "interior": 997,
+      "both_negative_and_interior": 997,
+      "percentile_95_usd": [
+        0.014062320702242318,
+        0.1168692470061295
+      ],
+      "median_usd": 0.05973819698170202,
+      "minimum_usd": -0.01309439512216258,
+      "maximum_usd": 0.16040069654768183
+    },
+    {
+      "conditional": true,
+      "penalty": 10.0,
+      "draws": 1000,
+      "finite": 1000,
+      "negative_fee": 1000,
+      "interior": 987,
+      "both_negative_and_interior": 987,
+      "percentile_95_usd": [
+        0.010212883380819758,
+        0.14314914034734916
+      ],
+      "median_usd": 0.0643859015575054,
+      "minimum_usd": -0.013738920158493635,
+      "maximum_usd": 0.20037226156118693
+    }
+  ],
+  "source_hashes": {
+    "run_20261025/common.py": "94c3aa7eb251ef24dda4b865acadae0dc991a7d9a1e998c2a5a409bc18f02086",
+    "run_20261025/analyze_main.py": "a81ce25419be3f58b8bdae7411fa018c906a4d148bd9679e4515f2990299b209",
+    "run_20261025/inputs/protocol.json": "b4fb3ac5f8b54f812cccda6938a5dbbc11730dcc228a80c906b8d12952105256",
+    "run_20261025/inputs/episodes.jsonl": "0bbd82661c355924fe15b3191079251cc28b8dda25d5c8b37bb6582a865e5e60",
+    "run_20261025/analysis/training_fits.json": "688054c897abb3e7c4ed80dd1ec84fdd0259d4bdbf0aae789ebb71bbbc3d3519"
+  }
+}

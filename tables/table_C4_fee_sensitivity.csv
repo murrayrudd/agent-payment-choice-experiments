@@ -1,0 +1,17 @@
+specification,mandate,target_seconds,penalty,all_full_fee_slopes_negative,all_conditional_fee_slopes_negative,heldout_log_loss,share_baseline_log_loss,beats_share_baseline
+piecewise_fee,Balanced,5,0.1,False,True,0.059216109044602734,0.7181486554982487,True
+piecewise_fee,Balanced,60,0.1,False,True,0.14019248222242275,0.7762465313282321,True
+piecewise_fee,Economy,5,0.1,True,True,0.1385201281315725,0.7245605806054779,True
+piecewise_fee,Economy,60,0.1,True,True,0.17047751622192572,0.7181486554982488,True
+piecewise_fee,Continuity,5,0.1,False,False,0.667405233648627,0.7008100533055145,True
+piecewise_fee,Continuity,60,0.1,False,True,0.1359505876442167,0.7027071388158663,True
+piecewise_fee,Data minimization,5,0.1,False,False,0.3126182827611269,0.69935996615367,True
+piecewise_fee,Data minimization,60,0.1,False,False,0.3106081451678948,0.7012836503099023,True
+linear_fee,Balanced,5,0.1,True,True,0.04818548351694117,0.7181486554982487,True
+linear_fee,Balanced,60,0.1,True,True,0.12732548634906612,0.7762465313282321,True
+linear_fee,Economy,5,0.1,True,True,0.18890288373916025,0.7245605806054779,True
+linear_fee,Economy,60,0.1,True,True,0.22342000310076482,0.7181486554982488,True
+linear_fee,Continuity,5,0.1,False,True,0.6537430601929572,0.7008100533055145,True
+linear_fee,Continuity,60,0.1,False,True,0.12816253705498698,0.7027071388158663,True
+linear_fee,Data minimization,5,0.1,False,False,0.30551671056835744,0.69935996615367,True
+linear_fee,Data minimization,60,0.1,False,False,0.29986539469450335,0.7012836503099023,True

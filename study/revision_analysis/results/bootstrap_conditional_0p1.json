@@ -1,0 +1,7002 @@
+[
+  {
+    "replicate": 1,
+    "fee_gradient_per_usd": -34.985275064732896,
+    "fee_premium_usd": 0.06176893184893542,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 2,
+    "fee_gradient_per_usd": -47.074078269675645,
+    "fee_premium_usd": 0.057295412975999147,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 3,
+    "fee_gradient_per_usd": -38.84106218025766,
+    "fee_premium_usd": 0.07029542604058293,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 4,
+    "fee_gradient_per_usd": -40.634534440427196,
+    "fee_premium_usd": 0.08304479951651568,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 5,
+    "fee_gradient_per_usd": -25.784720935618143,
+    "fee_premium_usd": 0.0685234938900512,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 6,
+    "fee_gradient_per_usd": -42.64031204906871,
+    "fee_premium_usd": 0.08521410151711784,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 7,
+    "fee_gradient_per_usd": -37.6237593264732,
+    "fee_premium_usd": 0.05798928817314739,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 8,
+    "fee_gradient_per_usd": -33.72036097976739,
+    "fee_premium_usd": 0.07177119602564042,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 9,
+    "fee_gradient_per_usd": -39.43859496508143,
+    "fee_premium_usd": 0.053695608406930724,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 10,
+    "fee_gradient_per_usd": -35.93625095528072,
+    "fee_premium_usd": 0.07789018625277194,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 11,
+    "fee_gradient_per_usd": -43.16369437671007,
+    "fee_premium_usd": 0.05364879007204892,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 12,
+    "fee_gradient_per_usd": -47.10912343565983,
+    "fee_premium_usd": 0.008103945717372593,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 13,
+    "fee_gradient_per_usd": -46.78883827010802,
+    "fee_premium_usd": 0.04405804884272661,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 14,
+    "fee_gradient_per_usd": -31.814992490793323,
+    "fee_premium_usd": 0.08640839570293123,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 15,
+    "fee_gradient_per_usd": -41.48569977452182,
+    "fee_premium_usd": 0.0701399596999057,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 16,
+    "fee_gradient_per_usd": -33.29081597830969,
+    "fee_premium_usd": 0.08395960756234912,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 17,
+    "fee_gradient_per_usd": -40.72293590891553,
+    "fee_premium_usd": 0.05585386231803203,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 18,
+    "fee_gradient_per_usd": -42.182617511211724,
+    "fee_premium_usd": 0.04297607572361846,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 19,
+    "fee_gradient_per_usd": -51.36120834860625,
+    "fee_premium_usd": 0.03717075930626348,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 20,
+    "fee_gradient_per_usd": -44.581099765481596,
+    "fee_premium_usd": 0.0383331334799563,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 21,
+    "fee_gradient_per_usd": -41.457494908006765,
+    "fee_premium_usd": 0.05065666732935132,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 22,
+    "fee_gradient_per_usd": -39.94086649242854,
+    "fee_premium_usd": 0.06306631084397579,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 23,
+    "fee_gradient_per_usd": -50.55579452866263,
+    "fee_premium_usd": 0.0186118862986541,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 24,
+    "fee_gradient_per_usd": -39.734960731468675,
+    "fee_premium_usd": 0.09337403864052424,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 25,
+    "fee_gradient_per_usd": -42.624205135260034,
+    "fee_premium_usd": 0.07050767825086884,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 26,
+    "fee_gradient_per_usd": -37.83116305507631,
+    "fee_premium_usd": 0.05181684966815045,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 27,
+    "fee_gradient_per_usd": -47.97974874213939,
+    "fee_premium_usd": 0.02870391295560939,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 28,
+    "fee_gradient_per_usd": -49.845978463997675,
+    "fee_premium_usd": 0.025363202177331942,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 29,
+    "fee_gradient_per_usd": -34.338208787152276,
+    "fee_premium_usd": 0.07542760374711484,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 30,
+    "fee_gradient_per_usd": -38.615956015787724,
+    "fee_premium_usd": 0.059060527681020436,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 31,
+    "fee_gradient_per_usd": -40.621901037026426,
+    "fee_premium_usd": 0.047889621561147226,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 32,
+    "fee_gradient_per_usd": -41.809429798696534,
+    "fee_premium_usd": 0.08307033655453563,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 33,
+    "fee_gradient_per_usd": -36.7869959698943,
+    "fee_premium_usd": 0.06597455798575497,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 34,
+    "fee_gradient_per_usd": -42.74287219495687,
+    "fee_premium_usd": 0.040805426542856925,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 35,
+    "fee_gradient_per_usd": -37.20030613515945,
+    "fee_premium_usd": 0.057548069236273286,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 36,
+    "fee_gradient_per_usd": -35.59115513391691,
+    "fee_premium_usd": 0.07840886133222186,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 37,
+    "fee_gradient_per_usd": -31.08198657499142,
+    "fee_premium_usd": 0.08349722933911582,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 38,
+    "fee_gradient_per_usd": -38.95551506126543,
+    "fee_premium_usd": 0.06364468888778588,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 39,
+    "fee_gradient_per_usd": -49.35838468784484,
+    "fee_premium_usd": 0.027872911710621343,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 40,
+    "fee_gradient_per_usd": -39.48947665627783,
+    "fee_premium_usd": 0.06335087681755622,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 41,
+    "fee_gradient_per_usd": -27.857233917120915,
+    "fee_premium_usd": 0.13785518051029116,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 42,
+    "fee_gradient_per_usd": -46.50443781856778,
+    "fee_premium_usd": 0.042374694646602575,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 43,
+    "fee_gradient_per_usd": -40.78659698340497,
+    "fee_premium_usd": 0.05806498753772204,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 44,
+    "fee_gradient_per_usd": -39.47657721595534,
+    "fee_premium_usd": 0.052646705456325944,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 45,
+    "fee_gradient_per_usd": -42.23917061036198,
+    "fee_premium_usd": 0.06507111555346615,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 46,
+    "fee_gradient_per_usd": -41.497546335479335,
+    "fee_premium_usd": 0.05966789878236614,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 47,
+    "fee_gradient_per_usd": -48.1838939090893,
+    "fee_premium_usd": 0.045163877160374226,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 48,
+    "fee_gradient_per_usd": -23.87994804181439,
+    "fee_premium_usd": 0.14781320029715425,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 49,
+    "fee_gradient_per_usd": -44.17033940922014,
+    "fee_premium_usd": 0.03512384097785745,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 50,
+    "fee_gradient_per_usd": -49.65025545175191,
+    "fee_premium_usd": 0.04093932094636658,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 51,
+    "fee_gradient_per_usd": -45.284054467615036,
+    "fee_premium_usd": 0.04827098564983362,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 52,
+    "fee_gradient_per_usd": -44.57739169026363,
+    "fee_premium_usd": 0.06404627110221854,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 53,
+    "fee_gradient_per_usd": -49.31451527210523,
+    "fee_premium_usd": 0.037079650548795653,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 54,
+    "fee_gradient_per_usd": -34.271981355494496,
+    "fee_premium_usd": 0.11203545097683343,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 55,
+    "fee_gradient_per_usd": -43.89365222362926,
+    "fee_premium_usd": 0.04819072032294285,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 56,
+    "fee_gradient_per_usd": -41.08115334456882,
+    "fee_premium_usd": 0.059690042187827086,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 57,
+    "fee_gradient_per_usd": -45.093199701534914,
+    "fee_premium_usd": 0.04402456313096381,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 58,
+    "fee_gradient_per_usd": -33.49751313570135,
+    "fee_premium_usd": 0.09333123403924493,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 59,
+    "fee_gradient_per_usd": -59.11332556634133,
+    "fee_premium_usd": 0.04222596422486362,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 60,
+    "fee_gradient_per_usd": -40.94374549844357,
+    "fee_premium_usd": 0.05318539961168458,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 61,
+    "fee_gradient_per_usd": -38.669350617784865,
+    "fee_premium_usd": 0.08511808233216073,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 62,
+    "fee_gradient_per_usd": -39.14689693528434,
+    "fee_premium_usd": 0.03442226496915477,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 63,
+    "fee_gradient_per_usd": -41.05762850785024,
+    "fee_premium_usd": 0.06895695000293614,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 64,
+    "fee_gradient_per_usd": -44.533932998533516,
+    "fee_premium_usd": 0.04033348512560405,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 65,
+    "fee_gradient_per_usd": -44.82409959586795,
+    "fee_premium_usd": 0.03893193989178346,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 66,
+    "fee_gradient_per_usd": -36.815133030845345,
+    "fee_premium_usd": 0.05193504915906551,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 67,
+    "fee_gradient_per_usd": -49.22653610273203,
+    "fee_premium_usd": 0.033624539850857074,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 68,
+    "fee_gradient_per_usd": -35.52809505227596,
+    "fee_premium_usd": 0.07716468856208208,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 69,
+    "fee_gradient_per_usd": -50.09023696212175,
+    "fee_premium_usd": 0.03813659836998978,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 70,
+    "fee_gradient_per_usd": -22.931772185286672,
+    "fee_premium_usd": 0.00206941856690471,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 71,
+    "fee_gradient_per_usd": -38.89282052370565,
+    "fee_premium_usd": 0.05881272484473847,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 72,
+    "fee_gradient_per_usd": -43.00134475217814,
+    "fee_premium_usd": 0.036145469708989734,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 73,
+    "fee_gradient_per_usd": -43.74687360444754,
+    "fee_premium_usd": 0.06411057339188538,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 74,
+    "fee_gradient_per_usd": -39.29770108085483,
+    "fee_premium_usd": 0.041700144872381446,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 75,
+    "fee_gradient_per_usd": -44.728022170513356,
+    "fee_premium_usd": 0.06549176353450353,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 76,
+    "fee_gradient_per_usd": -48.46114743844866,
+    "fee_premium_usd": 0.04661824425252743,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 77,
+    "fee_gradient_per_usd": -42.754296303105534,
+    "fee_premium_usd": 0.04634749970964909,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 78,
+    "fee_gradient_per_usd": -39.10428936275244,
+    "fee_premium_usd": 0.056919091886464435,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 79,
+    "fee_gradient_per_usd": -48.46465108506301,
+    "fee_premium_usd": 0.04568525765335332,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 80,
+    "fee_gradient_per_usd": -43.50263376375148,
+    "fee_premium_usd": 0.04530927973186267,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 81,
+    "fee_gradient_per_usd": -47.97948739325644,
+    "fee_premium_usd": 0.03505632328108136,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 82,
+    "fee_gradient_per_usd": -41.19119408853559,
+    "fee_premium_usd": 0.05283127747744624,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 83,
+    "fee_gradient_per_usd": -35.460090066465455,
+    "fee_premium_usd": 0.043602024025159926,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 84,
+    "fee_gradient_per_usd": -41.48552227309821,
+    "fee_premium_usd": 0.025627761739481614,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 85,
+    "fee_gradient_per_usd": -45.09163599195965,
+    "fee_premium_usd": 0.04351461876154289,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 86,
+    "fee_gradient_per_usd": -27.98776260992937,
+    "fee_premium_usd": 0.08420126818244414,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 87,
+    "fee_gradient_per_usd": -30.85402888114873,
+    "fee_premium_usd": 0.10697386044692776,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 88,
+    "fee_gradient_per_usd": -39.74354471902799,
+    "fee_premium_usd": 0.06540002490230312,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 89,
+    "fee_gradient_per_usd": -43.33244073469711,
+    "fee_premium_usd": 0.01511223683146947,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 90,
+    "fee_gradient_per_usd": -45.8661936556803,
+    "fee_premium_usd": 0.03814482066142709,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 91,
+    "fee_gradient_per_usd": -34.915278741770344,
+    "fee_premium_usd": 0.05594938718151061,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 92,
+    "fee_gradient_per_usd": -40.748268279923984,
+    "fee_premium_usd": 0.04950023930989125,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 93,
+    "fee_gradient_per_usd": -43.3802601313536,
+    "fee_premium_usd": 0.0310136215658723,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 94,
+    "fee_gradient_per_usd": -40.94057761908488,
+    "fee_premium_usd": 0.07930157008044454,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 95,
+    "fee_gradient_per_usd": -41.94693873035249,
+    "fee_premium_usd": 0.04042214250779685,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 96,
+    "fee_gradient_per_usd": -39.95737194763482,
+    "fee_premium_usd": 0.03549553455776085,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 97,
+    "fee_gradient_per_usd": -40.499536172671036,
+    "fee_premium_usd": 0.08707556570241459,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 98,
+    "fee_gradient_per_usd": -39.23031029268243,
+    "fee_premium_usd": 0.07224005565910079,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 99,
+    "fee_gradient_per_usd": -23.426257198771474,
+    "fee_premium_usd": 0.03968713611458432,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 100,
+    "fee_gradient_per_usd": -48.539276078499846,
+    "fee_premium_usd": 0.04047340023871659,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 101,
+    "fee_gradient_per_usd": -36.23261556526549,
+    "fee_premium_usd": 0.0734105829727992,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 102,
+    "fee_gradient_per_usd": -39.234737233381956,
+    "fee_premium_usd": 0.07228139337874485,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 103,
+    "fee_gradient_per_usd": -37.02277740635738,
+    "fee_premium_usd": 0.06704550569382603,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 104,
+    "fee_gradient_per_usd": -41.12519681334519,
+    "fee_premium_usd": 0.06136718204228198,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 105,
+    "fee_gradient_per_usd": -42.70671289343998,
+    "fee_premium_usd": 0.050808357819492424,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 106,
+    "fee_gradient_per_usd": -39.34315424710853,
+    "fee_premium_usd": 0.05104770081051816,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 107,
+    "fee_gradient_per_usd": -46.76679085738979,
+    "fee_premium_usd": 0.07216783826254171,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 108,
+    "fee_gradient_per_usd": -32.24591043404276,
+    "fee_premium_usd": 0.09904297319031276,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 109,
+    "fee_gradient_per_usd": -41.937056417342475,
+    "fee_premium_usd": 0.06401546202756468,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 110,
+    "fee_gradient_per_usd": -40.8592706076443,
+    "fee_premium_usd": 0.04204876649674353,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 111,
+    "fee_gradient_per_usd": -36.97411048650816,
+    "fee_premium_usd": 0.09139303500887207,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 112,
+    "fee_gradient_per_usd": -40.03202712093259,
+    "fee_premium_usd": 0.06740648784380664,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 113,
+    "fee_gradient_per_usd": -40.79528646042469,
+    "fee_premium_usd": 0.07761724168172464,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 114,
+    "fee_gradient_per_usd": -50.06718401430387,
+    "fee_premium_usd": 0.02815009223398312,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 115,
+    "fee_gradient_per_usd": -42.136359006407865,
+    "fee_premium_usd": 0.059661695626592556,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 116,
+    "fee_gradient_per_usd": -37.81932035033427,
+    "fee_premium_usd": 0.04598122767329821,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 117,
+    "fee_gradient_per_usd": -36.65838876225064,
+    "fee_premium_usd": 0.06096451225544973,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 118,
+    "fee_gradient_per_usd": -37.94097850464498,
+    "fee_premium_usd": 0.01678780463511461,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 119,
+    "fee_gradient_per_usd": -45.586711519886315,
+    "fee_premium_usd": 0.0034393060031688324,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 120,
+    "fee_gradient_per_usd": -35.382673079485585,
+    "fee_premium_usd": 0.0763460757125781,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 121,
+    "fee_gradient_per_usd": -37.78621957762531,
+    "fee_premium_usd": 0.11074121125308452,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 122,
+    "fee_gradient_per_usd": -43.60832867815624,
+    "fee_premium_usd": 0.05456571445290525,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 123,
+    "fee_gradient_per_usd": -31.001729132785833,
+    "fee_premium_usd": 0.0687829757437176,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 124,
+    "fee_gradient_per_usd": -43.14945424943281,
+    "fee_premium_usd": 0.05738680054433141,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 125,
+    "fee_gradient_per_usd": -37.14012637418442,
+    "fee_premium_usd": 0.05565746837595785,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 126,
+    "fee_gradient_per_usd": -43.0794008535057,
+    "fee_premium_usd": 0.059380860746882196,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 127,
+    "fee_gradient_per_usd": -43.322768477150255,
+    "fee_premium_usd": 0.04786661935441698,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 128,
+    "fee_gradient_per_usd": -37.41648277204472,
+    "fee_premium_usd": 0.06956884327650711,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 129,
+    "fee_gradient_per_usd": -41.066318999671886,
+    "fee_premium_usd": 0.06273654586926278,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 130,
+    "fee_gradient_per_usd": -35.32345849422112,
+    "fee_premium_usd": 0.07931358190625412,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 131,
+    "fee_gradient_per_usd": -35.36554735059152,
+    "fee_premium_usd": 0.10179798415592987,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 132,
+    "fee_gradient_per_usd": -42.27549537799407,
+    "fee_premium_usd": 0.012121031807585203,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 133,
+    "fee_gradient_per_usd": -42.25780498326934,
+    "fee_premium_usd": 0.07400661949487304,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 134,
+    "fee_gradient_per_usd": -32.069211506906115,
+    "fee_premium_usd": 0.046821316848874604,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 135,
+    "fee_gradient_per_usd": -44.51248509444755,
+    "fee_premium_usd": 0.06008300087098853,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 136,
+    "fee_gradient_per_usd": -39.27260677566532,
+    "fee_premium_usd": 0.05859666440966423,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 137,
+    "fee_gradient_per_usd": -36.380475153845765,
+    "fee_premium_usd": 0.08715662451955311,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 138,
+    "fee_gradient_per_usd": -35.51414278435884,
+    "fee_premium_usd": 0.09989293283318226,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 139,
+    "fee_gradient_per_usd": -42.77071555966568,
+    "fee_premium_usd": 0.05243295991736724,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 140,
+    "fee_gradient_per_usd": -35.04742898930985,
+    "fee_premium_usd": 0.06484773531420202,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 141,
+    "fee_gradient_per_usd": -39.981056945427476,
+    "fee_premium_usd": 0.07317027189738186,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 142,
+    "fee_gradient_per_usd": -44.40474304536124,
+    "fee_premium_usd": 0.05283481480290292,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 143,
+    "fee_gradient_per_usd": -41.18306042059281,
+    "fee_premium_usd": 0.06227418844022935,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 144,
+    "fee_gradient_per_usd": -39.34083281114689,
+    "fee_premium_usd": 0.052566884033650646,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 145,
+    "fee_gradient_per_usd": -43.397723606281126,
+    "fee_premium_usd": 0.06345265496336377,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 146,
+    "fee_gradient_per_usd": -39.2396726381259,
+    "fee_premium_usd": 0.0398206888491013,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 147,
+    "fee_gradient_per_usd": -35.39835476473624,
+    "fee_premium_usd": 0.09201705207481285,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 148,
+    "fee_gradient_per_usd": -45.77124794021235,
+    "fee_premium_usd": 0.024274578318745913,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 149,
+    "fee_gradient_per_usd": -37.76776409992116,
+    "fee_premium_usd": 0.05479027002830098,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 150,
+    "fee_gradient_per_usd": -33.23998732027945,
+    "fee_premium_usd": 0.0884778560655977,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 151,
+    "fee_gradient_per_usd": -39.894125046706975,
+    "fee_premium_usd": 0.01163248925870376,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 152,
+    "fee_gradient_per_usd": -40.8139839882238,
+    "fee_premium_usd": 0.09315462206501018,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 153,
+    "fee_gradient_per_usd": -43.42451368712597,
+    "fee_premium_usd": 0.01806719880363042,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 154,
+    "fee_gradient_per_usd": -39.705501066362096,
+    "fee_premium_usd": 0.049049517260735365,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 155,
+    "fee_gradient_per_usd": -43.64822981809658,
+    "fee_premium_usd": 0.0309369193629319,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 156,
+    "fee_gradient_per_usd": -43.69335859902204,
+    "fee_premium_usd": 0.051051855579974714,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 157,
+    "fee_gradient_per_usd": -43.125507619357556,
+    "fee_premium_usd": 0.07337879626594793,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 158,
+    "fee_gradient_per_usd": -42.44525295154599,
+    "fee_premium_usd": 0.04827819209202497,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 159,
+    "fee_gradient_per_usd": -49.85976606446924,
+    "fee_premium_usd": 0.02682341459231008,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 160,
+    "fee_gradient_per_usd": -37.69420372265207,
+    "fee_premium_usd": 0.05947661043147803,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 161,
+    "fee_gradient_per_usd": -33.18272571096409,
+    "fee_premium_usd": 0.0930564112493162,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 162,
+    "fee_gradient_per_usd": -42.55352440306571,
+    "fee_premium_usd": 0.0634096804228043,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 163,
+    "fee_gradient_per_usd": -41.27950276103603,
+    "fee_premium_usd": 0.06537453872645214,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 164,
+    "fee_gradient_per_usd": -47.46005821651764,
+    "fee_premium_usd": 0.05761065456166113,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 165,
+    "fee_gradient_per_usd": -47.36104917636922,
+    "fee_premium_usd": 0.04368979546783975,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 166,
+    "fee_gradient_per_usd": -48.62311925097752,
+    "fee_premium_usd": 0.0425002060847996,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 167,
+    "fee_gradient_per_usd": -44.54595936405978,
+    "fee_premium_usd": 0.061678987081103975,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 168,
+    "fee_gradient_per_usd": -43.333317138763974,
+    "fee_premium_usd": 0.050118363802867695,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 169,
+    "fee_gradient_per_usd": -48.27651881230312,
+    "fee_premium_usd": 0.03330666204004026,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 170,
+    "fee_gradient_per_usd": -44.311517945257286,
+    "fee_premium_usd": 0.05806067031823111,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 171,
+    "fee_gradient_per_usd": -39.19201649856213,
+    "fee_premium_usd": 0.061408323145216194,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 172,
+    "fee_gradient_per_usd": -40.93864878661872,
+    "fee_premium_usd": 0.043908167701650166,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 173,
+    "fee_gradient_per_usd": -43.119775673232546,
+    "fee_premium_usd": 0.04795578125026312,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 174,
+    "fee_gradient_per_usd": -44.7735579588039,
+    "fee_premium_usd": 0.03504817285157589,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 175,
+    "fee_gradient_per_usd": -54.19974564515698,
+    "fee_premium_usd": 0.062495951927748754,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 176,
+    "fee_gradient_per_usd": -33.7807221678557,
+    "fee_premium_usd": 0.04537674977407921,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 177,
+    "fee_gradient_per_usd": -41.554050145396005,
+    "fee_premium_usd": 0.05392260194145695,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 178,
+    "fee_gradient_per_usd": -44.48133385375364,
+    "fee_premium_usd": 0.04006044482833095,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 179,
+    "fee_gradient_per_usd": -37.90825780869163,
+    "fee_premium_usd": 0.10955799254098199,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 180,
+    "fee_gradient_per_usd": -41.12836150045043,
+    "fee_premium_usd": 0.02945461048952257,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 181,
+    "fee_gradient_per_usd": -31.522310659645065,
+    "fee_premium_usd": 0.07345967678903678,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 182,
+    "fee_gradient_per_usd": -39.926441623822726,
+    "fee_premium_usd": 0.0454170840221606,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 183,
+    "fee_gradient_per_usd": -36.24002306255992,
+    "fee_premium_usd": 0.08101350442552718,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 184,
+    "fee_gradient_per_usd": -35.772410766835385,
+    "fee_premium_usd": 0.07568570562469308,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 185,
+    "fee_gradient_per_usd": -41.5092860995758,
+    "fee_premium_usd": 0.04109980723787886,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 186,
+    "fee_gradient_per_usd": -38.14800703250416,
+    "fee_premium_usd": 0.06691311101032027,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 187,
+    "fee_gradient_per_usd": -36.095460549170504,
+    "fee_premium_usd": 0.0940505265501734,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 188,
+    "fee_gradient_per_usd": -35.45354889683613,
+    "fee_premium_usd": 0.09010558851202449,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 189,
+    "fee_gradient_per_usd": -40.222610757079174,
+    "fee_premium_usd": 0.06935284385193431,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 190,
+    "fee_gradient_per_usd": -43.47740327829347,
+    "fee_premium_usd": 0.058711136390715644,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 191,
+    "fee_gradient_per_usd": -42.94478683936461,
+    "fee_premium_usd": 0.0422124473040917,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 192,
+    "fee_gradient_per_usd": -44.25435615549742,
+    "fee_premium_usd": 0.04177134864420793,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 193,
+    "fee_gradient_per_usd": -35.37343596072463,
+    "fee_premium_usd": 0.06059692524991694,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 194,
+    "fee_gradient_per_usd": -41.243074099107105,
+    "fee_premium_usd": 0.06081815708546861,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 195,
+    "fee_gradient_per_usd": -39.70761457143302,
+    "fee_premium_usd": 0.09876446206453444,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 196,
+    "fee_gradient_per_usd": -44.170872649176225,
+    "fee_premium_usd": 0.043420231132684596,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 197,
+    "fee_gradient_per_usd": -45.80974381182161,
+    "fee_premium_usd": 0.03918904711791041,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 198,
+    "fee_gradient_per_usd": -43.34349288669541,
+    "fee_premium_usd": 0.07874957564426041,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 199,
+    "fee_gradient_per_usd": -34.93936139477564,
+    "fee_premium_usd": 0.08686945248574318,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 200,
+    "fee_gradient_per_usd": -40.71779768844614,
+    "fee_premium_usd": 0.08216986284258718,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 201,
+    "fee_gradient_per_usd": -32.5562987876312,
+    "fee_premium_usd": 0.07065262830633429,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 202,
+    "fee_gradient_per_usd": -34.0431075752919,
+    "fee_premium_usd": 0.08538436439597567,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 203,
+    "fee_gradient_per_usd": -45.03078176457629,
+    "fee_premium_usd": 0.04223548647753372,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 204,
+    "fee_gradient_per_usd": -41.00423414868769,
+    "fee_premium_usd": 0.06495073481406365,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 205,
+    "fee_gradient_per_usd": -41.322242289443786,
+    "fee_premium_usd": 0.05826949182263383,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 206,
+    "fee_gradient_per_usd": -39.64839316697151,
+    "fee_premium_usd": 0.0353501067208692,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 207,
+    "fee_gradient_per_usd": -47.40835652911753,
+    "fee_premium_usd": 0.021696682280085654,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 208,
+    "fee_gradient_per_usd": -37.305818525112194,
+    "fee_premium_usd": 0.09798825644676695,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 209,
+    "fee_gradient_per_usd": -43.73472444552552,
+    "fee_premium_usd": 0.034556752288870396,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 210,
+    "fee_gradient_per_usd": -39.77525038981817,
+    "fee_premium_usd": 0.08356693656041454,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 211,
+    "fee_gradient_per_usd": -54.130623232322336,
+    "fee_premium_usd": 0.03948210510542269,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 212,
+    "fee_gradient_per_usd": -34.44887768103056,
+    "fee_premium_usd": 0.1174330564966964,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 213,
+    "fee_gradient_per_usd": -40.476946135023475,
+    "fee_premium_usd": 0.02381913659522331,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 214,
+    "fee_gradient_per_usd": -34.945676767731086,
+    "fee_premium_usd": 0.0721511618829932,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 215,
+    "fee_gradient_per_usd": -46.02723381391023,
+    "fee_premium_usd": 0.016183598886341903,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 216,
+    "fee_gradient_per_usd": -40.81428955559828,
+    "fee_premium_usd": 0.04858533591664095,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 217,
+    "fee_gradient_per_usd": -44.81139916853813,
+    "fee_premium_usd": 0.05859202023289954,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 218,
+    "fee_gradient_per_usd": -45.76409483186026,
+    "fee_premium_usd": 0.05238518372382844,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 219,
+    "fee_gradient_per_usd": -37.27063736331152,
+    "fee_premium_usd": 0.057025608123961506,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 220,
+    "fee_gradient_per_usd": -39.27305286917399,
+    "fee_premium_usd": 0.068961568022398,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 221,
+    "fee_gradient_per_usd": -41.816108345016275,
+    "fee_premium_usd": 0.0396218260125961,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 222,
+    "fee_gradient_per_usd": -34.38785508326359,
+    "fee_premium_usd": 0.09524481252277395,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 223,
+    "fee_gradient_per_usd": -48.892539874717066,
+    "fee_premium_usd": 0.05132265375562759,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 224,
+    "fee_gradient_per_usd": -39.19949150853681,
+    "fee_premium_usd": 0.05150234886844593,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 225,
+    "fee_gradient_per_usd": -40.53102135411225,
+    "fee_premium_usd": 0.04156284864465829,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 226,
+    "fee_gradient_per_usd": -29.896655138464382,
+    "fee_premium_usd": 0.026716695355354408,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 227,
+    "fee_gradient_per_usd": -38.4487163962282,
+    "fee_premium_usd": 0.05301929070419992,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 228,
+    "fee_gradient_per_usd": -38.22050396216234,
+    "fee_premium_usd": 0.04192877349042603,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 229,
+    "fee_gradient_per_usd": -40.09089365167573,
+    "fee_premium_usd": 0.08502340483431453,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 230,
+    "fee_gradient_per_usd": -46.38996615889491,
+    "fee_premium_usd": 0.022780117266229097,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 231,
+    "fee_gradient_per_usd": -37.544889970424386,
+    "fee_premium_usd": 0.059983071525467446,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 232,
+    "fee_gradient_per_usd": -42.591058394013054,
+    "fee_premium_usd": 0.07844963725922226,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 233,
+    "fee_gradient_per_usd": -38.37137275863063,
+    "fee_premium_usd": 0.054782900750914805,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 234,
+    "fee_gradient_per_usd": -36.37162923254819,
+    "fee_premium_usd": 0.022251626793404207,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 235,
+    "fee_gradient_per_usd": -41.28500587536481,
+    "fee_premium_usd": 0.07670368192895459,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 236,
+    "fee_gradient_per_usd": -40.36449222440894,
+    "fee_premium_usd": 0.042748857654804906,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 237,
+    "fee_gradient_per_usd": -41.79652572428999,
+    "fee_premium_usd": 0.05031383880130242,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 238,
+    "fee_gradient_per_usd": -39.568495811535506,
+    "fee_premium_usd": 0.06502490306150699,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 239,
+    "fee_gradient_per_usd": -40.588705638708404,
+    "fee_premium_usd": 0.09353511779324912,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 240,
+    "fee_gradient_per_usd": -45.61025852313667,
+    "fee_premium_usd": 0.04105437472750381,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 241,
+    "fee_gradient_per_usd": -41.09650532465925,
+    "fee_premium_usd": 0.059980873678859264,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 242,
+    "fee_gradient_per_usd": -41.263835194442876,
+    "fee_premium_usd": 0.024223996913669645,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 243,
+    "fee_gradient_per_usd": -38.719596321995816,
+    "fee_premium_usd": 0.0552832241803283,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 244,
+    "fee_gradient_per_usd": -38.18480097680519,
+    "fee_premium_usd": 0.06545164758254877,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 245,
+    "fee_gradient_per_usd": -34.74165234352421,
+    "fee_premium_usd": 0.06474887784624561,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 246,
+    "fee_gradient_per_usd": -41.431945472704705,
+    "fee_premium_usd": 0.06959206662656119,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 247,
+    "fee_gradient_per_usd": -40.216460214527004,
+    "fee_premium_usd": 0.043876228098106415,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 248,
+    "fee_gradient_per_usd": -49.98753568912506,
+    "fee_premium_usd": 0.035206443450146244,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 249,
+    "fee_gradient_per_usd": -40.64583605551644,
+    "fee_premium_usd": 0.051684353377294545,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 250,
+    "fee_gradient_per_usd": -43.32506356596346,
+    "fee_premium_usd": 0.03976511882865905,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 251,
+    "fee_gradient_per_usd": -42.80065557648553,
+    "fee_premium_usd": 0.06015145969055507,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 252,
+    "fee_gradient_per_usd": -36.692487355588206,
+    "fee_premium_usd": 0.08697314817864901,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 253,
+    "fee_gradient_per_usd": -43.373979712069826,
+    "fee_premium_usd": 0.07616098642577167,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 254,
+    "fee_gradient_per_usd": -38.53037005275555,
+    "fee_premium_usd": 0.07551620397384677,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 255,
+    "fee_gradient_per_usd": -41.39103866991616,
+    "fee_premium_usd": 0.061004413356144344,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 256,
+    "fee_gradient_per_usd": -46.691960500013025,
+    "fee_premium_usd": 0.0580763732009758,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 257,
+    "fee_gradient_per_usd": -48.280126321653086,
+    "fee_premium_usd": 0.042676335751013456,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 258,
+    "fee_gradient_per_usd": -44.9934447664905,
+    "fee_premium_usd": 0.03240730591501057,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 259,
+    "fee_gradient_per_usd": -47.32744732154696,
+    "fee_premium_usd": 0.01729380555492349,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 260,
+    "fee_gradient_per_usd": -44.339498840960964,
+    "fee_premium_usd": 0.026709689592418276,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 261,
+    "fee_gradient_per_usd": -40.60045122500783,
+    "fee_premium_usd": 0.050473177587494755,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 262,
+    "fee_gradient_per_usd": -36.773951769069654,
+    "fee_premium_usd": 0.05884424105791659,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 263,
+    "fee_gradient_per_usd": -48.88203737711006,
+    "fee_premium_usd": 0.04343975833950194,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 264,
+    "fee_gradient_per_usd": -45.62800452296354,
+    "fee_premium_usd": 0.033542641229601454,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 265,
+    "fee_gradient_per_usd": -44.510879180067725,
+    "fee_premium_usd": 0.005443097173655296,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 266,
+    "fee_gradient_per_usd": -48.598569362471736,
+    "fee_premium_usd": 0.04706803426087935,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 267,
+    "fee_gradient_per_usd": -42.84672785427191,
+    "fee_premium_usd": 0.06010574543898812,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 268,
+    "fee_gradient_per_usd": -45.280726316675256,
+    "fee_premium_usd": 0.02587160913765531,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 269,
+    "fee_gradient_per_usd": -36.70126641734678,
+    "fee_premium_usd": 0.055971134827106354,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 270,
+    "fee_gradient_per_usd": -37.47829712890616,
+    "fee_premium_usd": 0.0686560515897046,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 271,
+    "fee_gradient_per_usd": -37.03099489185398,
+    "fee_premium_usd": 0.06792872177011215,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 272,
+    "fee_gradient_per_usd": -41.398387733358405,
+    "fee_premium_usd": 0.05318932923326537,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 273,
+    "fee_gradient_per_usd": -39.08693451194624,
+    "fee_premium_usd": 0.0819727929563064,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 274,
+    "fee_gradient_per_usd": -35.491944977029334,
+    "fee_premium_usd": 0.034720902902682794,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 275,
+    "fee_gradient_per_usd": -35.06871767807686,
+    "fee_premium_usd": 0.07045596155267266,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 276,
+    "fee_gradient_per_usd": -33.53278461355862,
+    "fee_premium_usd": 0.09363321201863568,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 277,
+    "fee_gradient_per_usd": -44.02159952927003,
+    "fee_premium_usd": 0.05156359694468597,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 278,
+    "fee_gradient_per_usd": -39.004483526889,
+    "fee_premium_usd": 0.07352526644673808,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 279,
+    "fee_gradient_per_usd": -37.36330698011957,
+    "fee_premium_usd": 0.05838198132902436,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 280,
+    "fee_gradient_per_usd": -45.1619919746575,
+    "fee_premium_usd": 0.0517509007932949,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 281,
+    "fee_gradient_per_usd": -46.58306104584739,
+    "fee_premium_usd": 0.04479194156712282,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 282,
+    "fee_gradient_per_usd": -45.14172454229259,
+    "fee_premium_usd": 0.03327727191816069,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 283,
+    "fee_gradient_per_usd": -41.02606118993027,
+    "fee_premium_usd": 0.06570707776445596,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 284,
+    "fee_gradient_per_usd": -42.15131950649067,
+    "fee_premium_usd": 0.029713302994302478,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 285,
+    "fee_gradient_per_usd": -49.36311122622353,
+    "fee_premium_usd": 0.021849024235285962,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 286,
+    "fee_gradient_per_usd": -43.12371995697462,
+    "fee_premium_usd": 0.07935527813410537,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 287,
+    "fee_gradient_per_usd": -44.07150482902738,
+    "fee_premium_usd": 0.05554185527242765,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 288,
+    "fee_gradient_per_usd": -34.46857399755024,
+    "fee_premium_usd": 0.08413893768374638,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 289,
+    "fee_gradient_per_usd": -40.35950953461697,
+    "fee_premium_usd": 0.0901123604727334,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 290,
+    "fee_gradient_per_usd": -38.30835062380779,
+    "fee_premium_usd": 0.040645740763985465,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 291,
+    "fee_gradient_per_usd": -44.74387277346158,
+    "fee_premium_usd": 0.03628296849000048,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 292,
+    "fee_gradient_per_usd": -39.20684458109428,
+    "fee_premium_usd": 0.06753125765083588,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 293,
+    "fee_gradient_per_usd": -27.222225847766214,
+    "fee_premium_usd": 0.14881446304934232,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 294,
+    "fee_gradient_per_usd": -39.541962819370404,
+    "fee_premium_usd": 0.0726290498750638,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 295,
+    "fee_gradient_per_usd": -43.217086085168546,
+    "fee_premium_usd": 0.08433663439943348,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 296,
+    "fee_gradient_per_usd": -53.07080667921898,
+    "fee_premium_usd": 0.005266008201867039,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 297,
+    "fee_gradient_per_usd": -38.04901605107012,
+    "fee_premium_usd": 0.053923750251701305,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 298,
+    "fee_gradient_per_usd": -43.07668760823299,
+    "fee_premium_usd": 0.04464155379521968,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 299,
+    "fee_gradient_per_usd": -36.74477528454245,
+    "fee_premium_usd": 0.03447513523746299,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 300,
+    "fee_gradient_per_usd": -42.720550023018696,
+    "fee_premium_usd": 0.0524604846340949,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 301,
+    "fee_gradient_per_usd": -40.26668586600845,
+    "fee_premium_usd": 0.056225039370241786,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 302,
+    "fee_gradient_per_usd": -38.26966595095195,
+    "fee_premium_usd": 0.05155912231289103,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 303,
+    "fee_gradient_per_usd": -40.028514528111415,
+    "fee_premium_usd": 0.0425991121995545,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 304,
+    "fee_gradient_per_usd": -42.550436704790904,
+    "fee_premium_usd": 0.07187907193161126,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 305,
+    "fee_gradient_per_usd": -48.6620613403256,
+    "fee_premium_usd": 0.03320665105362803,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 306,
+    "fee_gradient_per_usd": -49.96485167761241,
+    "fee_premium_usd": 0.05140328698555215,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 307,
+    "fee_gradient_per_usd": -41.71817006356525,
+    "fee_premium_usd": 0.0649319668691005,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 308,
+    "fee_gradient_per_usd": -38.46741219680238,
+    "fee_premium_usd": 0.04655833697486158,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 309,
+    "fee_gradient_per_usd": -42.404033994547845,
+    "fee_premium_usd": 0.07553391466198436,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 310,
+    "fee_gradient_per_usd": -45.10547620234673,
+    "fee_premium_usd": 0.05166291153120687,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 311,
+    "fee_gradient_per_usd": -46.5749592850304,
+    "fee_premium_usd": 0.04869286329596226,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 312,
+    "fee_gradient_per_usd": -36.680735385648155,
+    "fee_premium_usd": 0.06386140999807685,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 313,
+    "fee_gradient_per_usd": -39.08761420796282,
+    "fee_premium_usd": 0.058511625723950564,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 314,
+    "fee_gradient_per_usd": -43.90960716959612,
+    "fee_premium_usd": 0.07869599219345864,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 315,
+    "fee_gradient_per_usd": -36.11707100399533,
+    "fee_premium_usd": 0.07393288193831994,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 316,
+    "fee_gradient_per_usd": -42.764895503752015,
+    "fee_premium_usd": 0.05955927864241991,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 317,
+    "fee_gradient_per_usd": -35.41108647661042,
+    "fee_premium_usd": 0.09319546223502745,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 318,
+    "fee_gradient_per_usd": -45.527516933575285,
+    "fee_premium_usd": 0.03830249525361325,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 319,
+    "fee_gradient_per_usd": -37.25177743812949,
+    "fee_premium_usd": 0.04350224393782275,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 320,
+    "fee_gradient_per_usd": -41.29108513484116,
+    "fee_premium_usd": 0.05353611502312874,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 321,
+    "fee_gradient_per_usd": -38.072272390419855,
+    "fee_premium_usd": 0.09312505674004919,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 322,
+    "fee_gradient_per_usd": -40.413344259751085,
+    "fee_premium_usd": 0.05372174802459755,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 323,
+    "fee_gradient_per_usd": -45.5219034842928,
+    "fee_premium_usd": 0.03817092813734602,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 324,
+    "fee_gradient_per_usd": -41.55259921244853,
+    "fee_premium_usd": 0.047373336646900924,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 325,
+    "fee_gradient_per_usd": -38.4656346966838,
+    "fee_premium_usd": 0.047260360121256687,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 326,
+    "fee_gradient_per_usd": -36.737138408788915,
+    "fee_premium_usd": 0.06260739242826661,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 327,
+    "fee_gradient_per_usd": -40.55364872762349,
+    "fee_premium_usd": 0.01919252354865599,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 328,
+    "fee_gradient_per_usd": -40.046359626858354,
+    "fee_premium_usd": 0.0913415997454951,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 329,
+    "fee_gradient_per_usd": -45.527944074378915,
+    "fee_premium_usd": 0.032224393661843646,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 330,
+    "fee_gradient_per_usd": -41.695576900359974,
+    "fee_premium_usd": 0.023053707694292654,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 331,
+    "fee_gradient_per_usd": -47.572242615687394,
+    "fee_premium_usd": 0.04007248744038819,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 332,
+    "fee_gradient_per_usd": -43.86195669689134,
+    "fee_premium_usd": 0.07560671761358002,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 333,
+    "fee_gradient_per_usd": -42.46428916108105,
+    "fee_premium_usd": 0.0895254097310441,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 334,
+    "fee_gradient_per_usd": -38.45131503337986,
+    "fee_premium_usd": 0.06878626517757351,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 335,
+    "fee_gradient_per_usd": -34.81744774874381,
+    "fee_premium_usd": 0.06215477687045032,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 336,
+    "fee_gradient_per_usd": -35.32911085765126,
+    "fee_premium_usd": 0.11082964234080316,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 337,
+    "fee_gradient_per_usd": -48.560677832606,
+    "fee_premium_usd": 0.03516730692204702,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 338,
+    "fee_gradient_per_usd": -44.598801342063815,
+    "fee_premium_usd": 0.05637092957617769,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 339,
+    "fee_gradient_per_usd": -42.45426230407491,
+    "fee_premium_usd": 0.04988276701537865,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 340,
+    "fee_gradient_per_usd": -41.62432670478308,
+    "fee_premium_usd": 0.06083855649032365,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 341,
+    "fee_gradient_per_usd": -38.376610622971484,
+    "fee_premium_usd": 0.06163511760386245,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 342,
+    "fee_gradient_per_usd": -37.40635158219022,
+    "fee_premium_usd": 0.03949630217102671,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 343,
+    "fee_gradient_per_usd": -33.840194688550085,
+    "fee_premium_usd": 0.05086381307644402,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 344,
+    "fee_gradient_per_usd": -45.55435097682096,
+    "fee_premium_usd": 0.053801018333631864,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 345,
+    "fee_gradient_per_usd": -30.549039381583224,
+    "fee_premium_usd": 0.06896112390034952,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 346,
+    "fee_gradient_per_usd": -38.464963172882015,
+    "fee_premium_usd": 0.03442753124009841,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 347,
+    "fee_gradient_per_usd": -41.486463941030784,
+    "fee_premium_usd": 0.07691984032648282,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 348,
+    "fee_gradient_per_usd": -37.01576686018335,
+    "fee_premium_usd": 0.06390293955276855,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 349,
+    "fee_gradient_per_usd": -40.133898575065544,
+    "fee_premium_usd": 0.08093146275377897,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 350,
+    "fee_gradient_per_usd": -33.214826963305676,
+    "fee_premium_usd": 0.006482393841287559,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 351,
+    "fee_gradient_per_usd": -44.706870764825375,
+    "fee_premium_usd": 0.05324047116509345,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 352,
+    "fee_gradient_per_usd": -37.40577950423992,
+    "fee_premium_usd": 0.04396025282502245,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 353,
+    "fee_gradient_per_usd": -36.34161938406287,
+    "fee_premium_usd": 0.055733899052624866,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 354,
+    "fee_gradient_per_usd": -51.12329685485077,
+    "fee_premium_usd": 0.021204343705237876,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 355,
+    "fee_gradient_per_usd": -34.67079035625775,
+    "fee_premium_usd": 0.07649587130277467,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 356,
+    "fee_gradient_per_usd": -48.882683714812174,
+    "fee_premium_usd": 0.01861128969822091,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 357,
+    "fee_gradient_per_usd": -33.77849947289512,
+    "fee_premium_usd": 0.07598796694817367,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 358,
+    "fee_gradient_per_usd": -44.75407480610729,
+    "fee_premium_usd": 0.06537703702009154,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 359,
+    "fee_gradient_per_usd": -40.749079263156816,
+    "fee_premium_usd": 0.04556706918199739,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 360,
+    "fee_gradient_per_usd": -41.976703374663856,
+    "fee_premium_usd": 0.049596631196449074,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 361,
+    "fee_gradient_per_usd": -39.01591349059446,
+    "fee_premium_usd": 0.04462610610632272,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 362,
+    "fee_gradient_per_usd": -39.692027830475496,
+    "fee_premium_usd": 0.08326598245411576,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 363,
+    "fee_gradient_per_usd": -35.96172895615068,
+    "fee_premium_usd": 0.06157557906021483,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 364,
+    "fee_gradient_per_usd": -42.62238829183804,
+    "fee_premium_usd": 0.042211212530156375,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 365,
+    "fee_gradient_per_usd": -41.89719378882366,
+    "fee_premium_usd": 0.04813116999485672,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 366,
+    "fee_gradient_per_usd": -33.168077007683486,
+    "fee_premium_usd": 0.06434319320198333,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 367,
+    "fee_gradient_per_usd": -42.19058331116878,
+    "fee_premium_usd": 0.043014601707083405,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 368,
+    "fee_gradient_per_usd": -38.46984856049201,
+    "fee_premium_usd": 0.07308953216539696,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 369,
+    "fee_gradient_per_usd": -43.456608913140485,
+    "fee_premium_usd": 0.052640943608708614,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 370,
+    "fee_gradient_per_usd": -50.685798867566234,
+    "fee_premium_usd": 0.043456284674121125,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 371,
+    "fee_gradient_per_usd": -43.40908756482184,
+    "fee_premium_usd": 0.016965814999810983,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 372,
+    "fee_gradient_per_usd": -39.322202913694994,
+    "fee_premium_usd": 0.06660499957769433,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 373,
+    "fee_gradient_per_usd": -37.14574559654301,
+    "fee_premium_usd": 0.0735420386583452,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 374,
+    "fee_gradient_per_usd": -33.81484638587824,
+    "fee_premium_usd": 0.040572195555755745,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 375,
+    "fee_gradient_per_usd": -42.939978971504864,
+    "fee_premium_usd": 0.045733184259552036,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 376,
+    "fee_gradient_per_usd": -41.066910054996505,
+    "fee_premium_usd": 0.08350991947277708,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 377,
+    "fee_gradient_per_usd": -45.22096047353333,
+    "fee_premium_usd": 0.061520911806281074,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 378,
+    "fee_gradient_per_usd": -38.59345679870319,
+    "fee_premium_usd": 0.0657383378128308,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 379,
+    "fee_gradient_per_usd": -40.39793658002323,
+    "fee_premium_usd": 0.04009919917734063,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 380,
+    "fee_gradient_per_usd": -43.89972716695759,
+    "fee_premium_usd": 0.0457115241405752,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 381,
+    "fee_gradient_per_usd": -37.30665919027082,
+    "fee_premium_usd": 0.03705782800980908,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 382,
+    "fee_gradient_per_usd": -46.447593202618904,
+    "fee_premium_usd": 0.016811195220240778,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 383,
+    "fee_gradient_per_usd": -42.04599232031385,
+    "fee_premium_usd": 0.0350681754505646,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 384,
+    "fee_gradient_per_usd": -42.64327957776132,
+    "fee_premium_usd": 0.04572643401413074,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 385,
+    "fee_gradient_per_usd": -42.832513337044,
+    "fee_premium_usd": 0.007265006188375846,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 386,
+    "fee_gradient_per_usd": -42.239886110587484,
+    "fee_premium_usd": 0.05121996933327892,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 387,
+    "fee_gradient_per_usd": -43.00258629774607,
+    "fee_premium_usd": 0.06938456092604701,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 388,
+    "fee_gradient_per_usd": -46.315415832409954,
+    "fee_premium_usd": 0.034785360519457055,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 389,
+    "fee_gradient_per_usd": -37.146882140340736,
+    "fee_premium_usd": 0.0550004363343194,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 390,
+    "fee_gradient_per_usd": -45.8331520006643,
+    "fee_premium_usd": 0.0911568240769237,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 391,
+    "fee_gradient_per_usd": -45.13311474818832,
+    "fee_premium_usd": 0.07709822925535924,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 392,
+    "fee_gradient_per_usd": -42.30304567343329,
+    "fee_premium_usd": 0.04730763500414611,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 393,
+    "fee_gradient_per_usd": -45.16320708141359,
+    "fee_premium_usd": 0.05421897751289988,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 394,
+    "fee_gradient_per_usd": -27.794667158838195,
+    "fee_premium_usd": 0.07367358408336264,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 395,
+    "fee_gradient_per_usd": -39.1024200893223,
+    "fee_premium_usd": 0.07012737758021632,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 396,
+    "fee_gradient_per_usd": -39.53014287404631,
+    "fee_premium_usd": 0.07837150459494578,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 397,
+    "fee_gradient_per_usd": -52.21155997770057,
+    "fee_premium_usd": 0.046486743809399454,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 398,
+    "fee_gradient_per_usd": -38.112697352541275,
+    "fee_premium_usd": 0.060807829183775725,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 399,
+    "fee_gradient_per_usd": -35.617218961006834,
+    "fee_premium_usd": 0.05429581233643383,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 400,
+    "fee_gradient_per_usd": -44.715805966223705,
+    "fee_premium_usd": 0.05686045873333755,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 401,
+    "fee_gradient_per_usd": -40.72211287779416,
+    "fee_premium_usd": 0.05271679510127405,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 402,
+    "fee_gradient_per_usd": -49.0678227984299,
+    "fee_premium_usd": 0.044239104923082535,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 403,
+    "fee_gradient_per_usd": -33.884617435737304,
+    "fee_premium_usd": 0.0715465883166154,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 404,
+    "fee_gradient_per_usd": -40.46226725339409,
+    "fee_premium_usd": 0.0400484313012705,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 405,
+    "fee_gradient_per_usd": -40.80271010794413,
+    "fee_premium_usd": 0.03417721125451403,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 406,
+    "fee_gradient_per_usd": -35.414583532226835,
+    "fee_premium_usd": 0.05708646747441813,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 407,
+    "fee_gradient_per_usd": -46.6533044627013,
+    "fee_premium_usd": 0.042396534060866034,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 408,
+    "fee_gradient_per_usd": -43.11909868738131,
+    "fee_premium_usd": 0.04446144017005486,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 409,
+    "fee_gradient_per_usd": -37.74370045114605,
+    "fee_premium_usd": 0.0563567574452648,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 410,
+    "fee_gradient_per_usd": -42.5764264863041,
+    "fee_premium_usd": 0.06897497759402059,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 411,
+    "fee_gradient_per_usd": -39.9893145748171,
+    "fee_premium_usd": 0.07251048296169992,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 412,
+    "fee_gradient_per_usd": -39.571933617168455,
+    "fee_premium_usd": 0.010189093820952715,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 413,
+    "fee_gradient_per_usd": -46.93765213205014,
+    "fee_premium_usd": 0.054609834637458936,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 414,
+    "fee_gradient_per_usd": -40.35760392114721,
+    "fee_premium_usd": 0.03652080365842669,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 415,
+    "fee_gradient_per_usd": -47.513391860929396,
+    "fee_premium_usd": 0.04041942256254985,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 416,
+    "fee_gradient_per_usd": -44.00929080573488,
+    "fee_premium_usd": 0.03849419836730299,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 417,
+    "fee_gradient_per_usd": -43.19942910781831,
+    "fee_premium_usd": 0.03975334895550347,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 418,
+    "fee_gradient_per_usd": -34.155182965740366,
+    "fee_premium_usd": 0.06247387636832053,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 419,
+    "fee_gradient_per_usd": -42.14028070549404,
+    "fee_premium_usd": 0.060656763740855144,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 420,
+    "fee_gradient_per_usd": -45.234288122055624,
+    "fee_premium_usd": 0.030869980943091662,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 421,
+    "fee_gradient_per_usd": -48.42140398815389,
+    "fee_premium_usd": 0.03241690472871531,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 422,
+    "fee_gradient_per_usd": -39.38087525499425,
+    "fee_premium_usd": 0.04607163121804822,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 423,
+    "fee_gradient_per_usd": -43.550768694592904,
+    "fee_premium_usd": 0.05366311999207988,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 424,
+    "fee_gradient_per_usd": -44.33492601552828,
+    "fee_premium_usd": 0.028478857253303555,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 425,
+    "fee_gradient_per_usd": -43.043626065711486,
+    "fee_premium_usd": 0.05498397538032323,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 426,
+    "fee_gradient_per_usd": -45.31354164651118,
+    "fee_premium_usd": 0.042098884816966886,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 427,
+    "fee_gradient_per_usd": -31.864134652570687,
+    "fee_premium_usd": 0.09157632241225577,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 428,
+    "fee_gradient_per_usd": -32.77846982827095,
+    "fee_premium_usd": 0.09914580589229885,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 429,
+    "fee_gradient_per_usd": -38.28475620001154,
+    "fee_premium_usd": 0.05126399811547639,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 430,
+    "fee_gradient_per_usd": -35.529535478654836,
+    "fee_premium_usd": 0.0923927730565952,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 431,
+    "fee_gradient_per_usd": -36.554983341418016,
+    "fee_premium_usd": 0.06156098139028123,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 432,
+    "fee_gradient_per_usd": -50.602637762852254,
+    "fee_premium_usd": 0.03581622809349471,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 433,
+    "fee_gradient_per_usd": -43.339239485144,
+    "fee_premium_usd": 0.05583997588593984,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 434,
+    "fee_gradient_per_usd": -41.539632394690216,
+    "fee_premium_usd": 0.06502856764284964,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 435,
+    "fee_gradient_per_usd": -43.26010502213185,
+    "fee_premium_usd": 0.04154270969690586,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 436,
+    "fee_gradient_per_usd": -43.39553376002019,
+    "fee_premium_usd": 0.05143522064420364,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 437,
+    "fee_gradient_per_usd": -41.94798088855423,
+    "fee_premium_usd": 0.031102401890091554,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 438,
+    "fee_gradient_per_usd": -34.56214453554791,
+    "fee_premium_usd": 0.05748031776232054,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 439,
+    "fee_gradient_per_usd": -33.116714649466815,
+    "fee_premium_usd": 0.03739662957495183,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 440,
+    "fee_gradient_per_usd": -40.28878163845939,
+    "fee_premium_usd": 0.023457815401872792,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 441,
+    "fee_gradient_per_usd": -32.86104420919483,
+    "fee_premium_usd": 0.05916937990955999,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 442,
+    "fee_gradient_per_usd": -43.66594170827398,
+    "fee_premium_usd": 0.05091702899251614,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 443,
+    "fee_gradient_per_usd": -39.82307868118888,
+    "fee_premium_usd": 0.04177577297801925,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 444,
+    "fee_gradient_per_usd": -40.3617998814579,
+    "fee_premium_usd": 0.00729692499795471,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 445,
+    "fee_gradient_per_usd": -35.59231110465112,
+    "fee_premium_usd": 0.039417002222351005,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 446,
+    "fee_gradient_per_usd": -41.73821538681125,
+    "fee_premium_usd": 0.04319758662715846,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 447,
+    "fee_gradient_per_usd": -43.42823423292457,
+    "fee_premium_usd": 0.06296980101157752,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 448,
+    "fee_gradient_per_usd": -39.1821604587611,
+    "fee_premium_usd": 0.04299730639216141,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 449,
+    "fee_gradient_per_usd": -38.54288430595263,
+    "fee_premium_usd": 0.07536971332860887,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 450,
+    "fee_gradient_per_usd": -44.826957306345626,
+    "fee_premium_usd": 0.06066565053439798,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 451,
+    "fee_gradient_per_usd": -34.482034694289034,
+    "fee_premium_usd": 0.059742337263997095,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 452,
+    "fee_gradient_per_usd": -38.029674925955014,
+    "fee_premium_usd": 0.0733758222824985,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 453,
+    "fee_gradient_per_usd": -43.10160311930661,
+    "fee_premium_usd": 0.01676315412706819,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 454,
+    "fee_gradient_per_usd": -33.262532779901555,
+    "fee_premium_usd": 0.059721517352002526,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 455,
+    "fee_gradient_per_usd": -33.10084811537845,
+    "fee_premium_usd": 0.03551567134645098,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 456,
+    "fee_gradient_per_usd": -38.33986687987959,
+    "fee_premium_usd": 0.09822621533186227,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 457,
+    "fee_gradient_per_usd": -35.01071656124457,
+    "fee_premium_usd": 0.10509644949770051,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 458,
+    "fee_gradient_per_usd": -31.11060221493267,
+    "fee_premium_usd": 0.023756045737171234,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 459,
+    "fee_gradient_per_usd": -42.58647454841039,
+    "fee_premium_usd": 0.056197974916747606,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 460,
+    "fee_gradient_per_usd": -46.396992789184544,
+    "fee_premium_usd": 0.05089710751164824,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 461,
+    "fee_gradient_per_usd": -34.375896061273004,
+    "fee_premium_usd": 0.08526610616886654,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 462,
+    "fee_gradient_per_usd": -47.93866773602283,
+    "fee_premium_usd": 0.046881912215905854,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 463,
+    "fee_gradient_per_usd": -39.60680732688416,
+    "fee_premium_usd": 0.07535144152673526,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 464,
+    "fee_gradient_per_usd": -38.85870827899184,
+    "fee_premium_usd": 0.054820614115798555,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 465,
+    "fee_gradient_per_usd": -42.91760285125934,
+    "fee_premium_usd": 0.06260082581414486,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 466,
+    "fee_gradient_per_usd": -33.520729146024294,
+    "fee_premium_usd": 0.04438362019594479,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 467,
+    "fee_gradient_per_usd": -46.675662383138295,
+    "fee_premium_usd": 0.03900521791646551,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 468,
+    "fee_gradient_per_usd": -39.47782325263012,
+    "fee_premium_usd": 0.05569606986515892,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 469,
+    "fee_gradient_per_usd": -36.83482929987165,
+    "fee_premium_usd": 0.07984159106155973,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 470,
+    "fee_gradient_per_usd": -46.2083871420789,
+    "fee_premium_usd": 0.05269830672152135,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 471,
+    "fee_gradient_per_usd": -40.87332445863311,
+    "fee_premium_usd": 0.03716959196841319,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 472,
+    "fee_gradient_per_usd": -38.55040296133151,
+    "fee_premium_usd": 0.06122141358051632,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 473,
+    "fee_gradient_per_usd": -46.767913801188556,
+    "fee_premium_usd": 0.07297617636662715,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 474,
+    "fee_gradient_per_usd": -37.34581601230903,
+    "fee_premium_usd": 0.07891172560642754,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 475,
+    "fee_gradient_per_usd": -39.51713229273806,
+    "fee_premium_usd": 0.07107742121035462,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 476,
+    "fee_gradient_per_usd": -46.152375651416286,
+    "fee_premium_usd": 0.060497494324923254,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 477,
+    "fee_gradient_per_usd": -45.277978438712424,
+    "fee_premium_usd": 0.08553634373247469,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 478,
+    "fee_gradient_per_usd": -42.048117765841226,
+    "fee_premium_usd": 0.05699318648300299,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 479,
+    "fee_gradient_per_usd": -36.4988299141215,
+    "fee_premium_usd": 0.080106569687067,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 480,
+    "fee_gradient_per_usd": -48.1391624861034,
+    "fee_premium_usd": 0.040561146209602744,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 481,
+    "fee_gradient_per_usd": -34.469758753434775,
+    "fee_premium_usd": 0.05886950327734114,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 482,
+    "fee_gradient_per_usd": -37.99032912149895,
+    "fee_premium_usd": 0.052747430219614456,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 483,
+    "fee_gradient_per_usd": -43.75746663823652,
+    "fee_premium_usd": 0.05985239781345376,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 484,
+    "fee_gradient_per_usd": -38.53599363172509,
+    "fee_premium_usd": 0.05615495852273249,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 485,
+    "fee_gradient_per_usd": -48.86776857195006,
+    "fee_premium_usd": 0.03885426363144497,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 486,
+    "fee_gradient_per_usd": -44.026880167992424,
+    "fee_premium_usd": 0.06787754171029156,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 487,
+    "fee_gradient_per_usd": -35.06220957249106,
+    "fee_premium_usd": 0.0610646369949975,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 488,
+    "fee_gradient_per_usd": -37.37519164670746,
+    "fee_premium_usd": 0.093314810738691,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 489,
+    "fee_gradient_per_usd": -39.13858090555846,
+    "fee_premium_usd": 0.06229495477481641,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 490,
+    "fee_gradient_per_usd": -38.57474734514258,
+    "fee_premium_usd": 0.05654855327053111,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 491,
+    "fee_gradient_per_usd": -41.93170626346197,
+    "fee_premium_usd": 0.03258212801494263,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 492,
+    "fee_gradient_per_usd": -38.42263941628471,
+    "fee_premium_usd": 0.06469936782725351,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 493,
+    "fee_gradient_per_usd": -36.50875853411801,
+    "fee_premium_usd": 0.05960794285035501,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 494,
+    "fee_gradient_per_usd": -32.827315323239624,
+    "fee_premium_usd": 0.06284796262514995,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 495,
+    "fee_gradient_per_usd": -42.0809900843676,
+    "fee_premium_usd": 0.06053833255343169,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 496,
+    "fee_gradient_per_usd": -45.812348209103725,
+    "fee_premium_usd": 0.05298354517401981,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 497,
+    "fee_gradient_per_usd": -40.0681254259333,
+    "fee_premium_usd": 0.001628751844472569,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 498,
+    "fee_gradient_per_usd": -40.578254047175335,
+    "fee_premium_usd": 0.07462492961979143,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 499,
+    "fee_gradient_per_usd": -35.06818077223785,
+    "fee_premium_usd": 0.1009524642341746,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 500,
+    "fee_gradient_per_usd": -42.8324758115585,
+    "fee_premium_usd": 0.005552488962872229,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 501,
+    "fee_gradient_per_usd": -45.050297821784056,
+    "fee_premium_usd": 0.0162636721922134,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 502,
+    "fee_gradient_per_usd": -38.729949301851946,
+    "fee_premium_usd": 0.03904567817198432,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 503,
+    "fee_gradient_per_usd": -35.47115294491912,
+    "fee_premium_usd": 0.05536501225056124,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 504,
+    "fee_gradient_per_usd": -42.63930268287998,
+    "fee_premium_usd": 0.0972436383096732,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 505,
+    "fee_gradient_per_usd": -40.4998147559628,
+    "fee_premium_usd": 0.041349130810641455,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 506,
+    "fee_gradient_per_usd": -35.05856823153009,
+    "fee_premium_usd": 0.08681128680470118,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 507,
+    "fee_gradient_per_usd": -44.11147600888119,
+    "fee_premium_usd": 0.06025029673037547,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 508,
+    "fee_gradient_per_usd": -44.86556574350099,
+    "fee_premium_usd": 0.006198167038869187,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 509,
+    "fee_gradient_per_usd": -37.13114980711261,
+    "fee_premium_usd": 0.02873759648111389,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 510,
+    "fee_gradient_per_usd": -36.73689562240467,
+    "fee_premium_usd": 0.05969886219034512,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 511,
+    "fee_gradient_per_usd": -46.87040948951664,
+    "fee_premium_usd": 0.013392995133095179,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 512,
+    "fee_gradient_per_usd": -35.18872281337427,
+    "fee_premium_usd": 0.03733432724693185,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 513,
+    "fee_gradient_per_usd": -33.250129777560495,
+    "fee_premium_usd": 0.05754048687806432,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 514,
+    "fee_gradient_per_usd": -41.8646213123815,
+    "fee_premium_usd": 0.04575819625702044,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 515,
+    "fee_gradient_per_usd": -47.08546354796896,
+    "fee_premium_usd": 0.06422781826405585,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 516,
+    "fee_gradient_per_usd": -47.15223482569109,
+    "fee_premium_usd": 0.03857450254197321,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 517,
+    "fee_gradient_per_usd": -39.29373738652581,
+    "fee_premium_usd": 0.09435740684391324,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 518,
+    "fee_gradient_per_usd": -41.655091264168064,
+    "fee_premium_usd": 0.04738538019519688,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 519,
+    "fee_gradient_per_usd": -41.42245506841673,
+    "fee_premium_usd": 0.08628414600214807,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 520,
+    "fee_gradient_per_usd": -40.15907585828676,
+    "fee_premium_usd": 0.0653564383018222,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 521,
+    "fee_gradient_per_usd": -39.759968937095294,
+    "fee_premium_usd": 0.0729188849196307,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 522,
+    "fee_gradient_per_usd": -44.03892652984317,
+    "fee_premium_usd": 0.04686745088601029,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 523,
+    "fee_gradient_per_usd": -47.10239580679795,
+    "fee_premium_usd": 0.040266794764746525,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 524,
+    "fee_gradient_per_usd": -33.29459092794389,
+    "fee_premium_usd": 0.04175424849517301,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 525,
+    "fee_gradient_per_usd": -40.17307690718337,
+    "fee_premium_usd": 0.08072382979924222,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 526,
+    "fee_gradient_per_usd": -29.26508068506589,
+    "fee_premium_usd": 0.14933570178057035,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 527,
+    "fee_gradient_per_usd": -42.9404574912971,
+    "fee_premium_usd": 0.0725281510829184,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 528,
+    "fee_gradient_per_usd": -42.425774701161146,
+    "fee_premium_usd": 0.04920482572475241,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 529,
+    "fee_gradient_per_usd": -37.5926515202649,
+    "fee_premium_usd": 0.06482463622846749,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 530,
+    "fee_gradient_per_usd": -44.86680722159733,
+    "fee_premium_usd": 0.02978297282269469,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 531,
+    "fee_gradient_per_usd": -40.47899784513039,
+    "fee_premium_usd": 0.06836028765174214,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 532,
+    "fee_gradient_per_usd": -40.892019924590215,
+    "fee_premium_usd": 0.02460968354797056,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 533,
+    "fee_gradient_per_usd": -40.41192801733051,
+    "fee_premium_usd": 0.05679526770780278,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 534,
+    "fee_gradient_per_usd": -38.21123205257974,
+    "fee_premium_usd": 0.05150798130464075,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 535,
+    "fee_gradient_per_usd": -40.163247513032104,
+    "fee_premium_usd": 0.07939820539172293,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 536,
+    "fee_gradient_per_usd": -30.545559566464746,
+    "fee_premium_usd": 0.04822658406095575,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 537,
+    "fee_gradient_per_usd": -42.73400706027254,
+    "fee_premium_usd": 0.04461201419267861,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 538,
+    "fee_gradient_per_usd": -42.26407612443337,
+    "fee_premium_usd": 0.05160038153197068,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 539,
+    "fee_gradient_per_usd": -43.06104022987366,
+    "fee_premium_usd": 0.06322593754521959,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 540,
+    "fee_gradient_per_usd": -33.6616043004945,
+    "fee_premium_usd": 0.026519122492989995,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 541,
+    "fee_gradient_per_usd": -40.830376746475174,
+    "fee_premium_usd": 0.06843742681661409,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 542,
+    "fee_gradient_per_usd": -40.45130434508196,
+    "fee_premium_usd": 0.09799267663409612,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 543,
+    "fee_gradient_per_usd": -36.04489573339356,
+    "fee_premium_usd": 0.08352689184744361,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 544,
+    "fee_gradient_per_usd": -36.06119187408049,
+    "fee_premium_usd": 0.08671240022209122,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 545,
+    "fee_gradient_per_usd": -42.59195135996589,
+    "fee_premium_usd": 0.07523429533700667,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 546,
+    "fee_gradient_per_usd": -39.59458608567177,
+    "fee_premium_usd": 0.04384300767402945,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 547,
+    "fee_gradient_per_usd": -35.87237528674605,
+    "fee_premium_usd": 0.04984335585170453,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 548,
+    "fee_gradient_per_usd": -39.548423628922755,
+    "fee_premium_usd": 0.03731546143023119,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 549,
+    "fee_gradient_per_usd": -42.355217234229116,
+    "fee_premium_usd": 0.03403077204951507,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 550,
+    "fee_gradient_per_usd": -38.73869829025735,
+    "fee_premium_usd": 0.06282133762377813,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 551,
+    "fee_gradient_per_usd": -49.87231243491867,
+    "fee_premium_usd": 0.02089088574542471,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 552,
+    "fee_gradient_per_usd": -43.921810159156344,
+    "fee_premium_usd": 0.07007062816376318,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 553,
+    "fee_gradient_per_usd": -37.189285458500386,
+    "fee_premium_usd": 0.09471709339172585,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 554,
+    "fee_gradient_per_usd": -47.14974306443289,
+    "fee_premium_usd": 0.022271105985734518,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 555,
+    "fee_gradient_per_usd": -42.88330071072508,
+    "fee_premium_usd": 0.06011074662417535,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 556,
+    "fee_gradient_per_usd": -42.62012699427539,
+    "fee_premium_usd": 0.08295991123865327,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 557,
+    "fee_gradient_per_usd": -44.010726825882514,
+    "fee_premium_usd": 0.04596882840722425,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 558,
+    "fee_gradient_per_usd": -46.44170506418264,
+    "fee_premium_usd": 0.058250397907381256,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 559,
+    "fee_gradient_per_usd": -43.243369695918425,
+    "fee_premium_usd": 0.050809374726391854,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 560,
+    "fee_gradient_per_usd": -33.637232051931086,
+    "fee_premium_usd": 0.11924266124813017,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 561,
+    "fee_gradient_per_usd": -40.80383201953804,
+    "fee_premium_usd": 0.09098352578154055,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 562,
+    "fee_gradient_per_usd": -41.48177300152389,
+    "fee_premium_usd": 0.06303103772907602,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 563,
+    "fee_gradient_per_usd": -26.43552883381548,
+    "fee_premium_usd": 0.09728367483358986,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 564,
+    "fee_gradient_per_usd": -45.418595674943866,
+    "fee_premium_usd": 0.06897891483343423,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 565,
+    "fee_gradient_per_usd": -42.30334691418468,
+    "fee_premium_usd": 0.036839760813520535,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 566,
+    "fee_gradient_per_usd": -46.51064794822902,
+    "fee_premium_usd": 0.05982928136189602,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 567,
+    "fee_gradient_per_usd": -42.25140802781441,
+    "fee_premium_usd": 0.07456231328646146,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 568,
+    "fee_gradient_per_usd": -48.916967432048835,
+    "fee_premium_usd": 0.036498810212338695,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 569,
+    "fee_gradient_per_usd": -34.999924399580884,
+    "fee_premium_usd": 0.0386519562749681,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 570,
+    "fee_gradient_per_usd": -37.65730340716335,
+    "fee_premium_usd": 0.04164054282669471,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 571,
+    "fee_gradient_per_usd": -33.35814902624394,
+    "fee_premium_usd": 0.06630128912111795,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 572,
+    "fee_gradient_per_usd": -33.6501722791437,
+    "fee_premium_usd": 0.052628031795087876,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 573,
+    "fee_gradient_per_usd": -45.01658128797121,
+    "fee_premium_usd": 0.04076484971708522,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 574,
+    "fee_gradient_per_usd": -39.956382571938626,
+    "fee_premium_usd": 0.06955115270497063,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 575,
+    "fee_gradient_per_usd": -51.801766809891895,
+    "fee_premium_usd": 0.03160202838556373,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 576,
+    "fee_gradient_per_usd": -42.10895291551915,
+    "fee_premium_usd": 0.0389554603329771,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 577,
+    "fee_gradient_per_usd": -43.90552616677504,
+    "fee_premium_usd": 0.056562427588324686,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 578,
+    "fee_gradient_per_usd": -44.187967719553306,
+    "fee_premium_usd": 0.03384358679674873,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 579,
+    "fee_gradient_per_usd": -44.09603828404087,
+    "fee_premium_usd": 0.023090702747695705,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 580,
+    "fee_gradient_per_usd": -40.52329556923107,
+    "fee_premium_usd": 0.06641475273258757,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 581,
+    "fee_gradient_per_usd": -38.81464045159092,
+    "fee_premium_usd": 0.08508188316730145,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 582,
+    "fee_gradient_per_usd": -38.3566945940298,
+    "fee_premium_usd": 0.07830811100210473,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 583,
+    "fee_gradient_per_usd": -42.269951575969955,
+    "fee_premium_usd": 0.03322171640957589,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 584,
+    "fee_gradient_per_usd": -32.668453487023164,
+    "fee_premium_usd": 0.06833845796315173,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 585,
+    "fee_gradient_per_usd": -37.936320125675856,
+    "fee_premium_usd": 0.06262460999412195,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 586,
+    "fee_gradient_per_usd": -35.31317720606322,
+    "fee_premium_usd": 0.03449727940024882,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 587,
+    "fee_gradient_per_usd": -34.135563529460605,
+    "fee_premium_usd": 0.06289365041278219,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 588,
+    "fee_gradient_per_usd": -40.564996393024856,
+    "fee_premium_usd": 0.06165556742506278,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 589,
+    "fee_gradient_per_usd": -45.13047639449198,
+    "fee_premium_usd": 0.061597148415084006,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 590,
+    "fee_gradient_per_usd": -40.31292869571074,
+    "fee_premium_usd": 0.09994146662923369,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 591,
+    "fee_gradient_per_usd": -44.858535782713005,
+    "fee_premium_usd": 0.039238792879864655,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 592,
+    "fee_gradient_per_usd": -42.619057239545164,
+    "fee_premium_usd": 0.05590130956176565,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 593,
+    "fee_gradient_per_usd": -35.926308839623395,
+    "fee_premium_usd": 0.06943466159198733,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 594,
+    "fee_gradient_per_usd": -39.57572837950282,
+    "fee_premium_usd": 0.07564665352003871,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 595,
+    "fee_gradient_per_usd": -42.65230879086428,
+    "fee_premium_usd": 0.08039566966886355,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 596,
+    "fee_gradient_per_usd": -39.317409606212266,
+    "fee_premium_usd": 0.06857957784915837,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 597,
+    "fee_gradient_per_usd": -43.92771439217349,
+    "fee_premium_usd": 0.042484767791914485,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 598,
+    "fee_gradient_per_usd": -37.233858765802374,
+    "fee_premium_usd": 0.07489344240778789,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 599,
+    "fee_gradient_per_usd": -39.96652303325847,
+    "fee_premium_usd": 0.06591830405606318,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 600,
+    "fee_gradient_per_usd": -37.86321169983438,
+    "fee_premium_usd": 0.0632880600275295,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 601,
+    "fee_gradient_per_usd": -45.214231511868995,
+    "fee_premium_usd": 0.043039352876080475,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 602,
+    "fee_gradient_per_usd": -36.65759378381125,
+    "fee_premium_usd": 0.08338164104583885,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 603,
+    "fee_gradient_per_usd": -48.53128292166891,
+    "fee_premium_usd": 0.052753807955377485,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 604,
+    "fee_gradient_per_usd": -33.32249697032622,
+    "fee_premium_usd": 0.11089192801102338,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 605,
+    "fee_gradient_per_usd": -40.83712051381223,
+    "fee_premium_usd": 0.05117330297498501,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 606,
+    "fee_gradient_per_usd": -45.756657793606024,
+    "fee_premium_usd": 0.0470387067239387,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 607,
+    "fee_gradient_per_usd": -41.79128381824221,
+    "fee_premium_usd": 0.07123679001952746,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 608,
+    "fee_gradient_per_usd": -41.941030459274934,
+    "fee_premium_usd": 0.07431403895596343,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 609,
+    "fee_gradient_per_usd": -39.86312425100656,
+    "fee_premium_usd": 0.03122719551220194,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 610,
+    "fee_gradient_per_usd": -40.282015457311445,
+    "fee_premium_usd": 0.026559395485449656,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 611,
+    "fee_gradient_per_usd": -43.33652295574639,
+    "fee_premium_usd": 0.052829184692394324,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 612,
+    "fee_gradient_per_usd": -45.062732581042724,
+    "fee_premium_usd": 0.032931346915073656,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 613,
+    "fee_gradient_per_usd": -39.02594613670376,
+    "fee_premium_usd": 0.1068053747731065,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 614,
+    "fee_gradient_per_usd": -40.97969799293396,
+    "fee_premium_usd": 0.051420244569627634,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 615,
+    "fee_gradient_per_usd": -50.230342704038016,
+    "fee_premium_usd": 0.06447997583014745,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 616,
+    "fee_gradient_per_usd": -36.64427279226526,
+    "fee_premium_usd": 0.013154635069158795,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 617,
+    "fee_gradient_per_usd": -42.12296277926525,
+    "fee_premium_usd": 0.04577734580413032,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 618,
+    "fee_gradient_per_usd": -45.39131035945284,
+    "fee_premium_usd": 0.05505222354493592,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 619,
+    "fee_gradient_per_usd": -45.37256511595839,
+    "fee_premium_usd": 0.0490970267934001,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 620,
+    "fee_gradient_per_usd": -36.5916229294933,
+    "fee_premium_usd": 0.06725676738210791,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 621,
+    "fee_gradient_per_usd": -40.41176484369236,
+    "fee_premium_usd": 0.08299028547460371,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 622,
+    "fee_gradient_per_usd": -35.86796471411428,
+    "fee_premium_usd": 0.09828539365965991,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 623,
+    "fee_gradient_per_usd": -40.21346317444672,
+    "fee_premium_usd": 0.05273203786720425,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 624,
+    "fee_gradient_per_usd": -52.1567407943773,
+    "fee_premium_usd": 0.03806189867940827,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 625,
+    "fee_gradient_per_usd": -30.75776294424543,
+    "fee_premium_usd": 0.09547636402027973,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 626,
+    "fee_gradient_per_usd": -38.64178605419303,
+    "fee_premium_usd": 0.04702174329143833,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 627,
+    "fee_gradient_per_usd": -38.48952710205067,
+    "fee_premium_usd": 0.03828022885828074,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 628,
+    "fee_gradient_per_usd": -39.285913122108454,
+    "fee_premium_usd": 0.06888341217137357,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 629,
+    "fee_gradient_per_usd": -38.845466237430465,
+    "fee_premium_usd": 0.0825193141949001,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 630,
+    "fee_gradient_per_usd": -40.73562065292503,
+    "fee_premium_usd": 0.0645752191165548,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 631,
+    "fee_gradient_per_usd": -39.71289139532692,
+    "fee_premium_usd": 0.07928182652317341,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 632,
+    "fee_gradient_per_usd": -43.9279913142087,
+    "fee_premium_usd": 0.0570634616785118,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 633,
+    "fee_gradient_per_usd": -35.07834402686678,
+    "fee_premium_usd": 0.06001299103297673,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 634,
+    "fee_gradient_per_usd": -36.89286979774405,
+    "fee_premium_usd": 0.054904219526794286,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 635,
+    "fee_gradient_per_usd": -40.890207726323425,
+    "fee_premium_usd": 0.043324908660104446,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 636,
+    "fee_gradient_per_usd": -40.01648319621733,
+    "fee_premium_usd": 0.08024551218400477,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 637,
+    "fee_gradient_per_usd": -48.35845402001939,
+    "fee_premium_usd": 0.04833408848192875,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 638,
+    "fee_gradient_per_usd": -37.88999246193601,
+    "fee_premium_usd": 0.06909925942642374,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 639,
+    "fee_gradient_per_usd": -37.75572129607271,
+    "fee_premium_usd": 0.05720568504570347,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 640,
+    "fee_gradient_per_usd": -31.423972544717554,
+    "fee_premium_usd": 0.05109027825558679,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 641,
+    "fee_gradient_per_usd": -43.68944362222902,
+    "fee_premium_usd": 0.03567953976404655,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 642,
+    "fee_gradient_per_usd": -40.09416313163124,
+    "fee_premium_usd": 0.0711856383042962,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 643,
+    "fee_gradient_per_usd": -39.875746113481405,
+    "fee_premium_usd": 0.04920026505086994,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 644,
+    "fee_gradient_per_usd": -39.459237968440206,
+    "fee_premium_usd": 0.06532309725739095,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 645,
+    "fee_gradient_per_usd": -46.791578104765755,
+    "fee_premium_usd": 0.06985384909932728,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 646,
+    "fee_gradient_per_usd": -36.3197922706741,
+    "fee_premium_usd": 0.026588567889208305,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 647,
+    "fee_gradient_per_usd": -42.413987571533184,
+    "fee_premium_usd": 0.0534502663558064,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 648,
+    "fee_gradient_per_usd": -41.135011695814505,
+    "fee_premium_usd": 0.03859583360100422,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 649,
+    "fee_gradient_per_usd": -35.31004613167531,
+    "fee_premium_usd": 0.04495162307410918,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 650,
+    "fee_gradient_per_usd": -43.92935587590669,
+    "fee_premium_usd": 0.02220336126739278,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 651,
+    "fee_gradient_per_usd": -44.01182141622634,
+    "fee_premium_usd": 0.04792404410090669,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 652,
+    "fee_gradient_per_usd": -30.098125361310377,
+    "fee_premium_usd": 0.10045883621167616,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 653,
+    "fee_gradient_per_usd": -23.61557255161049,
+    "fee_premium_usd": 0.023059482620971003,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 654,
+    "fee_gradient_per_usd": -38.2371053190939,
+    "fee_premium_usd": 0.04978735913668679,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 655,
+    "fee_gradient_per_usd": -41.329820764357095,
+    "fee_premium_usd": 0.06653719172683335,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 656,
+    "fee_gradient_per_usd": -48.04184949762874,
+    "fee_premium_usd": 0.03682120544938209,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 657,
+    "fee_gradient_per_usd": -45.370539977415135,
+    "fee_premium_usd": 0.03187698493748307,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 658,
+    "fee_gradient_per_usd": -46.740755965523526,
+    "fee_premium_usd": 0.05700258134946991,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 659,
+    "fee_gradient_per_usd": -38.1359790029014,
+    "fee_premium_usd": 0.06608897489087871,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 660,
+    "fee_gradient_per_usd": -44.618394103365254,
+    "fee_premium_usd": 0.04551037009672856,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 661,
+    "fee_gradient_per_usd": -34.38308948522519,
+    "fee_premium_usd": 0.05450836080459414,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 662,
+    "fee_gradient_per_usd": -46.065043918502546,
+    "fee_premium_usd": 0.036602020706212136,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 663,
+    "fee_gradient_per_usd": -48.312735565490556,
+    "fee_premium_usd": 0.06290025395326418,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 664,
+    "fee_gradient_per_usd": -32.5868636210999,
+    "fee_premium_usd": 0.09903879831597709,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 665,
+    "fee_gradient_per_usd": -44.028427793952154,
+    "fee_premium_usd": 0.044143658302931536,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 666,
+    "fee_gradient_per_usd": -36.25054828083204,
+    "fee_premium_usd": 0.08048502143111956,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 667,
+    "fee_gradient_per_usd": -38.5444841516083,
+    "fee_premium_usd": 0.04917193421269768,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 668,
+    "fee_gradient_per_usd": -33.05805655188791,
+    "fee_premium_usd": 0.0906714340760951,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 669,
+    "fee_gradient_per_usd": -44.07625223610841,
+    "fee_premium_usd": 0.0596255373686094,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 670,
+    "fee_gradient_per_usd": -45.764725163691566,
+    "fee_premium_usd": 0.02869293565893778,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 671,
+    "fee_gradient_per_usd": -34.02249051611209,
+    "fee_premium_usd": 0.08000623335102143,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 672,
+    "fee_gradient_per_usd": -41.07816479577173,
+    "fee_premium_usd": 0.048807817335683346,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 673,
+    "fee_gradient_per_usd": -43.65766723409784,
+    "fee_premium_usd": 0.043232060004779395,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 674,
+    "fee_gradient_per_usd": -39.787875159741574,
+    "fee_premium_usd": 0.05198774864569921,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 675,
+    "fee_gradient_per_usd": -36.235002782966696,
+    "fee_premium_usd": 0.04191742302752692,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 676,
+    "fee_gradient_per_usd": -44.975218731717966,
+    "fee_premium_usd": 0.05488901928774633,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 677,
+    "fee_gradient_per_usd": -46.94840477632145,
+    "fee_premium_usd": 0.04342614079697123,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 678,
+    "fee_gradient_per_usd": -40.87442379360747,
+    "fee_premium_usd": 0.08854513421563973,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 679,
+    "fee_gradient_per_usd": -37.212754895257156,
+    "fee_premium_usd": 0.055631187877682405,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 680,
+    "fee_gradient_per_usd": -42.35979981581832,
+    "fee_premium_usd": 0.0476056544116491,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 681,
+    "fee_gradient_per_usd": -44.43883931521793,
+    "fee_premium_usd": 0.024082702473610784,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 682,
+    "fee_gradient_per_usd": -33.60963045038932,
+    "fee_premium_usd": 0.04928016378592421,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 683,
+    "fee_gradient_per_usd": -47.53895809829128,
+    "fee_premium_usd": 0.05028121475018749,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 684,
+    "fee_gradient_per_usd": -47.434456315140245,
+    "fee_premium_usd": 0.01586319243899799,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 685,
+    "fee_gradient_per_usd": -37.47900920718024,
+    "fee_premium_usd": 0.0841739975323808,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 686,
+    "fee_gradient_per_usd": -44.8208485730266,
+    "fee_premium_usd": 0.02223826188518911,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 687,
+    "fee_gradient_per_usd": -44.15969426140167,
+    "fee_premium_usd": 0.06433115660124601,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 688,
+    "fee_gradient_per_usd": -38.08194376239033,
+    "fee_premium_usd": 0.08398716302973265,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 689,
+    "fee_gradient_per_usd": -45.28578077227234,
+    "fee_premium_usd": 0.04521153768825938,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 690,
+    "fee_gradient_per_usd": -38.38217918411665,
+    "fee_premium_usd": 0.08395661092318414,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 691,
+    "fee_gradient_per_usd": -36.738263706969015,
+    "fee_premium_usd": 0.09410917285681047,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 692,
+    "fee_gradient_per_usd": -39.370305239588596,
+    "fee_premium_usd": 0.04560160422551002,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 693,
+    "fee_gradient_per_usd": -40.806309115140756,
+    "fee_premium_usd": 0.0868658544865769,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 694,
+    "fee_gradient_per_usd": -41.48757691903166,
+    "fee_premium_usd": 0.04222864856026755,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 695,
+    "fee_gradient_per_usd": -45.59061050409215,
+    "fee_premium_usd": 0.0319191005216949,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 696,
+    "fee_gradient_per_usd": -45.61345389791275,
+    "fee_premium_usd": 0.0639684094893242,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 697,
+    "fee_gradient_per_usd": -46.15747467406513,
+    "fee_premium_usd": 0.04762130708238177,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 698,
+    "fee_gradient_per_usd": -41.00236047741288,
+    "fee_premium_usd": 0.03376666961785817,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 699,
+    "fee_gradient_per_usd": -40.88265806843226,
+    "fee_premium_usd": 0.03588874068900417,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 700,
+    "fee_gradient_per_usd": -49.83769180215651,
+    "fee_premium_usd": 0.04878248829759516,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 701,
+    "fee_gradient_per_usd": -43.512688817078505,
+    "fee_premium_usd": 0.0489944572298966,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 702,
+    "fee_gradient_per_usd": -36.29145888028758,
+    "fee_premium_usd": 0.01970189714994614,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 703,
+    "fee_gradient_per_usd": -38.65802947184647,
+    "fee_premium_usd": 0.04461234311231397,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 704,
+    "fee_gradient_per_usd": -43.698879140996056,
+    "fee_premium_usd": 0.030268669378365136,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 705,
+    "fee_gradient_per_usd": -39.97702031574824,
+    "fee_premium_usd": 0.08025728461396403,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 706,
+    "fee_gradient_per_usd": -38.44562823009918,
+    "fee_premium_usd": 0.09006485260621058,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 707,
+    "fee_gradient_per_usd": -33.383787520224445,
+    "fee_premium_usd": 0.0841280236947321,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 708,
+    "fee_gradient_per_usd": -47.05483181067193,
+    "fee_premium_usd": 0.037857291850837596,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 709,
+    "fee_gradient_per_usd": -43.88836387507073,
+    "fee_premium_usd": 0.07814384440770367,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 710,
+    "fee_gradient_per_usd": -51.266706588693054,
+    "fee_premium_usd": 0.02963255734476632,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 711,
+    "fee_gradient_per_usd": -48.45150421678602,
+    "fee_premium_usd": 0.04640383319324856,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 712,
+    "fee_gradient_per_usd": -41.42840417776083,
+    "fee_premium_usd": 0.07657545884730226,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 713,
+    "fee_gradient_per_usd": -47.519802152620386,
+    "fee_premium_usd": 0.015002610373118699,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 714,
+    "fee_gradient_per_usd": -35.68009144333208,
+    "fee_premium_usd": 0.0614060905261507,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 715,
+    "fee_gradient_per_usd": -57.143550502747026,
+    "fee_premium_usd": 0.035212247663743076,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 716,
+    "fee_gradient_per_usd": -47.751166505425196,
+    "fee_premium_usd": 0.03921747481346963,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 717,
+    "fee_gradient_per_usd": -47.16077066060241,
+    "fee_premium_usd": 0.009086059076819709,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 718,
+    "fee_gradient_per_usd": -43.16072385355971,
+    "fee_premium_usd": 0.07588992155019515,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 719,
+    "fee_gradient_per_usd": -41.918091993718825,
+    "fee_premium_usd": 0.03008493956068446,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 720,
+    "fee_gradient_per_usd": -46.45212354032095,
+    "fee_premium_usd": 0.042691664173557506,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 721,
+    "fee_gradient_per_usd": -35.870928857652714,
+    "fee_premium_usd": 0.05657569364078503,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 722,
+    "fee_gradient_per_usd": -37.90532186500104,
+    "fee_premium_usd": 0.07210456043542603,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 723,
+    "fee_gradient_per_usd": -46.92787335547584,
+    "fee_premium_usd": 0.032999624349627936,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 724,
+    "fee_gradient_per_usd": -51.13540285413448,
+    "fee_premium_usd": 0.03446292655100477,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 725,
+    "fee_gradient_per_usd": -38.78830378649941,
+    "fee_premium_usd": 0.059331689246437946,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 726,
+    "fee_gradient_per_usd": -39.6342558004867,
+    "fee_premium_usd": 0.05608146579734996,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 727,
+    "fee_gradient_per_usd": -43.94429384950375,
+    "fee_premium_usd": 0.06595788452308259,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 728,
+    "fee_gradient_per_usd": -39.19272714257113,
+    "fee_premium_usd": 0.08510281887406002,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 729,
+    "fee_gradient_per_usd": -29.10994288953411,
+    "fee_premium_usd": 0.07789074544827528,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 730,
+    "fee_gradient_per_usd": -37.27524096207919,
+    "fee_premium_usd": 0.05250171101837917,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 731,
+    "fee_gradient_per_usd": -35.66714394799128,
+    "fee_premium_usd": 0.05282421772295251,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 732,
+    "fee_gradient_per_usd": -36.08902286285331,
+    "fee_premium_usd": 0.05033965944900316,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 733,
+    "fee_gradient_per_usd": -50.057716843147205,
+    "fee_premium_usd": 0.04980691415759946,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 734,
+    "fee_gradient_per_usd": -38.29791197164029,
+    "fee_premium_usd": 0.05707592837681873,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 735,
+    "fee_gradient_per_usd": -39.78324243363472,
+    "fee_premium_usd": 0.0927104706833347,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 736,
+    "fee_gradient_per_usd": -48.547247182225,
+    "fee_premium_usd": 0.034463706364837726,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 737,
+    "fee_gradient_per_usd": -35.037892231996125,
+    "fee_premium_usd": 0.014084864566739935,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 738,
+    "fee_gradient_per_usd": -46.783833988089455,
+    "fee_premium_usd": 0.06364014141686387,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 739,
+    "fee_gradient_per_usd": -40.7829707267733,
+    "fee_premium_usd": 0.08696019515874816,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 740,
+    "fee_gradient_per_usd": -42.17554682662422,
+    "fee_premium_usd": 0.03122721561827903,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 741,
+    "fee_gradient_per_usd": -36.510429998849965,
+    "fee_premium_usd": 0.07732831036318016,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 742,
+    "fee_gradient_per_usd": -40.29160963898578,
+    "fee_premium_usd": 0.06563943630760055,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 743,
+    "fee_gradient_per_usd": -44.925631148401415,
+    "fee_premium_usd": 0.03580532526309993,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 744,
+    "fee_gradient_per_usd": -40.595038649044476,
+    "fee_premium_usd": 0.045109351398484564,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 745,
+    "fee_gradient_per_usd": -42.306187849305616,
+    "fee_premium_usd": 0.03239144917436825,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 746,
+    "fee_gradient_per_usd": -35.808553622029855,
+    "fee_premium_usd": 0.04643459137367307,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 747,
+    "fee_gradient_per_usd": -41.46627738937018,
+    "fee_premium_usd": 0.03319352171557613,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 748,
+    "fee_gradient_per_usd": -39.93329705143861,
+    "fee_premium_usd": 0.03454343077115371,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 749,
+    "fee_gradient_per_usd": -35.527218402772995,
+    "fee_premium_usd": 0.06363101088397088,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 750,
+    "fee_gradient_per_usd": -38.796678288465834,
+    "fee_premium_usd": 0.05077815835744895,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 751,
+    "fee_gradient_per_usd": -35.949498655729265,
+    "fee_premium_usd": 0.07997877183539631,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 752,
+    "fee_gradient_per_usd": -30.181625218250673,
+    "fee_premium_usd": 0.10876107296072025,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 753,
+    "fee_gradient_per_usd": -38.86219146957845,
+    "fee_premium_usd": 0.08630076544279429,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 754,
+    "fee_gradient_per_usd": -27.090666557941734,
+    "fee_premium_usd": 0.10658702375692666,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 755,
+    "fee_gradient_per_usd": -47.272794692208606,
+    "fee_premium_usd": 0.04997315391641766,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 756,
+    "fee_gradient_per_usd": -41.53241091516176,
+    "fee_premium_usd": 0.06921556017237433,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 757,
+    "fee_gradient_per_usd": -40.3212883050798,
+    "fee_premium_usd": 0.07930701652134273,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 758,
+    "fee_gradient_per_usd": -52.28545601199227,
+    "fee_premium_usd": 0.0237586783837451,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 759,
+    "fee_gradient_per_usd": -54.124324920887794,
+    "fee_premium_usd": 0.014370207712001367,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 760,
+    "fee_gradient_per_usd": -44.0368568003961,
+    "fee_premium_usd": 0.06181870031085857,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 761,
+    "fee_gradient_per_usd": -47.67800983374299,
+    "fee_premium_usd": 0.012497170575888618,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 762,
+    "fee_gradient_per_usd": -42.08617944811447,
+    "fee_premium_usd": 0.0201633377183606,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 763,
+    "fee_gradient_per_usd": -39.70977928873085,
+    "fee_premium_usd": 0.02816988557285998,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 764,
+    "fee_gradient_per_usd": -37.346157262322016,
+    "fee_premium_usd": 0.061508321142925294,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 765,
+    "fee_gradient_per_usd": -35.34037426328847,
+    "fee_premium_usd": 0.07070758470108422,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 766,
+    "fee_gradient_per_usd": -43.55899301243324,
+    "fee_premium_usd": 0.0422494876277472,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 767,
+    "fee_gradient_per_usd": -35.874644249686995,
+    "fee_premium_usd": 0.04192491344781589,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 768,
+    "fee_gradient_per_usd": -34.20570134346427,
+    "fee_premium_usd": 0.04224250158289049,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 769,
+    "fee_gradient_per_usd": -42.678920387703606,
+    "fee_premium_usd": 0.030703583845499725,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 770,
+    "fee_gradient_per_usd": -43.30472999488749,
+    "fee_premium_usd": 0.05177985907410316,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 771,
+    "fee_gradient_per_usd": -33.02473850233844,
+    "fee_premium_usd": 0.05360960412764555,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 772,
+    "fee_gradient_per_usd": -33.18732219531698,
+    "fee_premium_usd": 0.07276094389894219,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 773,
+    "fee_gradient_per_usd": -40.82335154158573,
+    "fee_premium_usd": 0.03876102607958777,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 774,
+    "fee_gradient_per_usd": -41.49279154892877,
+    "fee_premium_usd": 0.06801098030218615,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 775,
+    "fee_gradient_per_usd": -33.96139735541321,
+    "fee_premium_usd": 0.06519853522071281,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 776,
+    "fee_gradient_per_usd": -33.833100176014504,
+    "fee_premium_usd": 0.052462614715466274,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 777,
+    "fee_gradient_per_usd": -32.700971999403926,
+    "fee_premium_usd": 0.050118874070838995,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 778,
+    "fee_gradient_per_usd": -51.96475565876942,
+    "fee_premium_usd": 0.018911604940399118,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 779,
+    "fee_gradient_per_usd": -34.80901436820871,
+    "fee_premium_usd": 0.05999765857588813,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 780,
+    "fee_gradient_per_usd": -40.75127154040982,
+    "fee_premium_usd": 0.05635276655237076,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 781,
+    "fee_gradient_per_usd": -41.58285856967448,
+    "fee_premium_usd": 0.04889457166106927,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 782,
+    "fee_gradient_per_usd": -48.5071879636938,
+    "fee_premium_usd": 0.03218723061755006,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 783,
+    "fee_gradient_per_usd": -42.47186133552277,
+    "fee_premium_usd": 0.04842466323953332,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 784,
+    "fee_gradient_per_usd": -36.02113925173923,
+    "fee_premium_usd": 0.11924697114433444,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 785,
+    "fee_gradient_per_usd": -36.85322359900263,
+    "fee_premium_usd": 0.07040153412840079,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 786,
+    "fee_gradient_per_usd": -45.24890925451729,
+    "fee_premium_usd": 0.03639686415590681,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 787,
+    "fee_gradient_per_usd": -43.774516051043214,
+    "fee_premium_usd": 0.02137979657649075,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 788,
+    "fee_gradient_per_usd": -46.86061790617316,
+    "fee_premium_usd": 0.03053514223313826,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 789,
+    "fee_gradient_per_usd": -45.64777089500666,
+    "fee_premium_usd": 0.05084933904480946,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 790,
+    "fee_gradient_per_usd": -37.94241404118171,
+    "fee_premium_usd": 0.059356978077468925,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 791,
+    "fee_gradient_per_usd": -42.62310739726573,
+    "fee_premium_usd": 0.04547425783066074,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 792,
+    "fee_gradient_per_usd": -46.79506573379286,
+    "fee_premium_usd": 0.05176193497041169,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 793,
+    "fee_gradient_per_usd": -44.72003134873637,
+    "fee_premium_usd": 0.052336043642297936,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 794,
+    "fee_gradient_per_usd": -38.5369950041157,
+    "fee_premium_usd": 0.03161324050117167,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 795,
+    "fee_gradient_per_usd": -50.451936439965415,
+    "fee_premium_usd": 0.020250709645936508,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 796,
+    "fee_gradient_per_usd": -48.86035553563751,
+    "fee_premium_usd": 0.057680714501482246,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 797,
+    "fee_gradient_per_usd": -44.599093307122786,
+    "fee_premium_usd": 0.04535555193804498,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 798,
+    "fee_gradient_per_usd": -36.41045048361085,
+    "fee_premium_usd": 0.09959666019780068,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 799,
+    "fee_gradient_per_usd": -44.21912770454406,
+    "fee_premium_usd": 0.04025685632680514,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 800,
+    "fee_gradient_per_usd": -33.42581782374795,
+    "fee_premium_usd": 0.0715999518547756,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 801,
+    "fee_gradient_per_usd": -44.914370970478146,
+    "fee_premium_usd": 0.04808014191409677,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 802,
+    "fee_gradient_per_usd": -42.289756966057816,
+    "fee_premium_usd": 0.048030707179488014,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 803,
+    "fee_gradient_per_usd": -33.79419373699862,
+    "fee_premium_usd": 0.09047707393586357,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 804,
+    "fee_gradient_per_usd": -35.28988741374709,
+    "fee_premium_usd": 0.0892052023146823,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 805,
+    "fee_gradient_per_usd": -48.016125424639874,
+    "fee_premium_usd": 0.018257766583035975,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 806,
+    "fee_gradient_per_usd": -38.40164214037074,
+    "fee_premium_usd": 0.0678974872853087,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 807,
+    "fee_gradient_per_usd": -51.23957887749726,
+    "fee_premium_usd": 0.030363846809889464,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 808,
+    "fee_gradient_per_usd": -35.195878393573686,
+    "fee_premium_usd": 0.020981939209399107,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 809,
+    "fee_gradient_per_usd": -38.472725075449354,
+    "fee_premium_usd": 0.07359307502356499,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 810,
+    "fee_gradient_per_usd": -39.89834419608793,
+    "fee_premium_usd": 0.06460594382769347,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 811,
+    "fee_gradient_per_usd": -35.687015717138564,
+    "fee_premium_usd": 0.07134300867462401,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 812,
+    "fee_gradient_per_usd": -47.02918168536888,
+    "fee_premium_usd": 0.054346349820727745,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 813,
+    "fee_gradient_per_usd": -48.08256670929586,
+    "fee_premium_usd": 0.056106403720243635,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 814,
+    "fee_gradient_per_usd": -34.97380516918084,
+    "fee_premium_usd": 0.10308225290894245,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 815,
+    "fee_gradient_per_usd": -43.875027001006984,
+    "fee_premium_usd": 0.030607259579573387,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 816,
+    "fee_gradient_per_usd": -38.254252913334795,
+    "fee_premium_usd": 0.06877111746949698,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 817,
+    "fee_gradient_per_usd": -40.838087019625696,
+    "fee_premium_usd": 0.01585202537261853,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 818,
+    "fee_gradient_per_usd": -39.768090494851975,
+    "fee_premium_usd": 0.046594435446617496,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 819,
+    "fee_gradient_per_usd": -48.5499397667418,
+    "fee_premium_usd": 0.013328872247110338,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 820,
+    "fee_gradient_per_usd": -49.45361954927233,
+    "fee_premium_usd": 0.029817357072575046,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 821,
+    "fee_gradient_per_usd": -48.435792482468656,
+    "fee_premium_usd": 0.016287245468414167,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 822,
+    "fee_gradient_per_usd": -39.80944427411938,
+    "fee_premium_usd": 0.0475996286809488,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 823,
+    "fee_gradient_per_usd": -43.85992710255879,
+    "fee_premium_usd": 0.018045081968936345,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 824,
+    "fee_gradient_per_usd": -37.585562871096734,
+    "fee_premium_usd": 0.05469988670465306,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 825,
+    "fee_gradient_per_usd": -47.3538191810864,
+    "fee_premium_usd": 0.041166813397410885,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 826,
+    "fee_gradient_per_usd": -48.60413327128969,
+    "fee_premium_usd": 0.047838209108736346,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 827,
+    "fee_gradient_per_usd": -52.87757104163731,
+    "fee_premium_usd": 0.036291015289992706,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 828,
+    "fee_gradient_per_usd": -35.39925697282785,
+    "fee_premium_usd": 0.07389215413932625,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 829,
+    "fee_gradient_per_usd": -44.34449750089153,
+    "fee_premium_usd": 0.06547327637675117,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 830,
+    "fee_gradient_per_usd": -39.71818144797239,
+    "fee_premium_usd": 0.04670370814056307,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 831,
+    "fee_gradient_per_usd": -48.73615464054195,
+    "fee_premium_usd": 0.039025912773905734,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 832,
+    "fee_gradient_per_usd": -49.8238179023093,
+    "fee_premium_usd": 0.04121514202505084,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 833,
+    "fee_gradient_per_usd": -40.90065879711503,
+    "fee_premium_usd": 0.05636840305848294,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 834,
+    "fee_gradient_per_usd": -42.565537761578064,
+    "fee_premium_usd": 0.02858275341688472,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 835,
+    "fee_gradient_per_usd": -41.65899827516807,
+    "fee_premium_usd": 0.0706070714092955,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 836,
+    "fee_gradient_per_usd": -45.1913158264172,
+    "fee_premium_usd": 0.06615766782657809,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 837,
+    "fee_gradient_per_usd": -50.75480062664207,
+    "fee_premium_usd": 0.022884354928155114,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 838,
+    "fee_gradient_per_usd": -43.62509326553442,
+    "fee_premium_usd": 0.08146244208868426,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 839,
+    "fee_gradient_per_usd": -38.15121526584578,
+    "fee_premium_usd": 0.0622238437843876,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 840,
+    "fee_gradient_per_usd": -36.62425064344002,
+    "fee_premium_usd": 0.04489801998335214,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 841,
+    "fee_gradient_per_usd": -42.35286643526842,
+    "fee_premium_usd": 0.007070946550132853,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 842,
+    "fee_gradient_per_usd": -34.6319856389219,
+    "fee_premium_usd": 0.07970567679567932,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 843,
+    "fee_gradient_per_usd": -38.03893434138187,
+    "fee_premium_usd": 0.07856666897815238,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 844,
+    "fee_gradient_per_usd": -46.42813844854409,
+    "fee_premium_usd": 0.05088676945060105,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 845,
+    "fee_gradient_per_usd": -45.14811473318602,
+    "fee_premium_usd": 0.060915500963466,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 846,
+    "fee_gradient_per_usd": -44.27875766394609,
+    "fee_premium_usd": 0.03581047371215397,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 847,
+    "fee_gradient_per_usd": -40.929981630342816,
+    "fee_premium_usd": 0.07527373469535473,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 848,
+    "fee_gradient_per_usd": -42.599854204166064,
+    "fee_premium_usd": 0.04056147105754195,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 849,
+    "fee_gradient_per_usd": -40.15668808884572,
+    "fee_premium_usd": 0.06711291427994764,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 850,
+    "fee_gradient_per_usd": -30.56424135580747,
+    "fee_premium_usd": 0.07643417581240088,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 851,
+    "fee_gradient_per_usd": -41.23955731870051,
+    "fee_premium_usd": 0.04593433786404949,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 852,
+    "fee_gradient_per_usd": -39.281129379218996,
+    "fee_premium_usd": 0.052547058421835414,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 853,
+    "fee_gradient_per_usd": -39.92744440493633,
+    "fee_premium_usd": 0.05569939235507339,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 854,
+    "fee_gradient_per_usd": -38.313790434913884,
+    "fee_premium_usd": 0.02764152993368829,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 855,
+    "fee_gradient_per_usd": -28.730489520950524,
+    "fee_premium_usd": 0.11010749980197773,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 856,
+    "fee_gradient_per_usd": -43.7906366089067,
+    "fee_premium_usd": 0.04904951159750571,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 857,
+    "fee_gradient_per_usd": -37.277498833960294,
+    "fee_premium_usd": 0.06494372604544166,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 858,
+    "fee_gradient_per_usd": -48.639391086525364,
+    "fee_premium_usd": 0.04301000294669771,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 859,
+    "fee_gradient_per_usd": -46.93822028216901,
+    "fee_premium_usd": 0.04951082854593098,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 860,
+    "fee_gradient_per_usd": -45.12329882656287,
+    "fee_premium_usd": 0.043026955951804446,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 861,
+    "fee_gradient_per_usd": -47.34299763955555,
+    "fee_premium_usd": 0.05113263285815765,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 862,
+    "fee_gradient_per_usd": -43.911578010393825,
+    "fee_premium_usd": 0.0735583483994856,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 863,
+    "fee_gradient_per_usd": -36.64459253515945,
+    "fee_premium_usd": 0.06991989432101801,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 864,
+    "fee_gradient_per_usd": -34.68333015906824,
+    "fee_premium_usd": 0.07497695305093886,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 865,
+    "fee_gradient_per_usd": -39.35652030099266,
+    "fee_premium_usd": 0.027514964724157886,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 866,
+    "fee_gradient_per_usd": -38.883548590768825,
+    "fee_premium_usd": 0.06253402137113864,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 867,
+    "fee_gradient_per_usd": -38.41009901377037,
+    "fee_premium_usd": 0.017416585722872302,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 868,
+    "fee_gradient_per_usd": -44.156521613114194,
+    "fee_premium_usd": 0.07012675265986747,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 869,
+    "fee_gradient_per_usd": -35.27539435444071,
+    "fee_premium_usd": 0.05574568268693035,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 870,
+    "fee_gradient_per_usd": -47.43871080876625,
+    "fee_premium_usd": 0.06132411476158267,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 871,
+    "fee_gradient_per_usd": -51.552562108993726,
+    "fee_premium_usd": 0.04256883212776139,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 872,
+    "fee_gradient_per_usd": -34.5479082796849,
+    "fee_premium_usd": 0.05529978681066757,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 873,
+    "fee_gradient_per_usd": -36.55674249691544,
+    "fee_premium_usd": 0.04087208941751161,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 874,
+    "fee_gradient_per_usd": -38.133205893700044,
+    "fee_premium_usd": 0.044991338004690566,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 875,
+    "fee_gradient_per_usd": -45.726253826964,
+    "fee_premium_usd": 0.06278792401836587,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 876,
+    "fee_gradient_per_usd": -46.4861241381014,
+    "fee_premium_usd": 0.04487523837739526,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 877,
+    "fee_gradient_per_usd": -36.26652738381404,
+    "fee_premium_usd": 0.09314285848547375,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 878,
+    "fee_gradient_per_usd": -37.482889596270695,
+    "fee_premium_usd": 0.06832698277552499,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 879,
+    "fee_gradient_per_usd": -41.86785227741038,
+    "fee_premium_usd": 0.06819221674445473,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 880,
+    "fee_gradient_per_usd": -46.19748087236411,
+    "fee_premium_usd": 0.028441316103841627,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 881,
+    "fee_gradient_per_usd": -28.435282196036262,
+    "fee_premium_usd": 0.07354515536647581,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 882,
+    "fee_gradient_per_usd": -44.4174088394064,
+    "fee_premium_usd": 0.06534981297598867,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 883,
+    "fee_gradient_per_usd": -37.29985000176759,
+    "fee_premium_usd": 0.04547506266432446,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 884,
+    "fee_gradient_per_usd": -35.10132687278844,
+    "fee_premium_usd": 0.09746790326252286,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 885,
+    "fee_gradient_per_usd": -42.94460959933959,
+    "fee_premium_usd": 0.03629638340495098,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 886,
+    "fee_gradient_per_usd": -47.04933157465203,
+    "fee_premium_usd": 0.046332666390293896,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 887,
+    "fee_gradient_per_usd": -28.879558757051793,
+    "fee_premium_usd": 0.1288238082849534,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 888,
+    "fee_gradient_per_usd": -35.49946744496941,
+    "fee_premium_usd": 0.0907011293517169,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 889,
+    "fee_gradient_per_usd": -44.30342842599115,
+    "fee_premium_usd": 0.08144497959238735,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 890,
+    "fee_gradient_per_usd": -47.25602217832688,
+    "fee_premium_usd": 0.021322294653477455,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 891,
+    "fee_gradient_per_usd": -39.92516988024368,
+    "fee_premium_usd": 0.04853569375598968,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 892,
+    "fee_gradient_per_usd": -41.00415304347896,
+    "fee_premium_usd": 0.03863879887917926,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 893,
+    "fee_gradient_per_usd": -47.96711249587689,
+    "fee_premium_usd": 0.06128701373877528,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 894,
+    "fee_gradient_per_usd": -32.011604793796096,
+    "fee_premium_usd": 0.09003730081840312,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 895,
+    "fee_gradient_per_usd": -41.22945235330544,
+    "fee_premium_usd": 0.07722185227891713,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 896,
+    "fee_gradient_per_usd": -50.22504387207467,
+    "fee_premium_usd": 0.03301527340921208,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 897,
+    "fee_gradient_per_usd": -38.27395525025431,
+    "fee_premium_usd": 0.05782441962596686,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 898,
+    "fee_gradient_per_usd": -41.948792492143475,
+    "fee_premium_usd": 0.03527888207669139,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 899,
+    "fee_gradient_per_usd": -39.35951362230589,
+    "fee_premium_usd": 0.08975251534927962,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 900,
+    "fee_gradient_per_usd": -40.867347135925435,
+    "fee_premium_usd": 0.05226559904282375,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 901,
+    "fee_gradient_per_usd": -38.25206777153764,
+    "fee_premium_usd": 0.04699550442373241,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 902,
+    "fee_gradient_per_usd": -38.37319108538909,
+    "fee_premium_usd": 0.09231270445435703,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 903,
+    "fee_gradient_per_usd": -42.45011513841607,
+    "fee_premium_usd": 0.05510273322443555,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 904,
+    "fee_gradient_per_usd": -37.257384810501996,
+    "fee_premium_usd": 0.04455285429901582,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 905,
+    "fee_gradient_per_usd": -46.34433226192105,
+    "fee_premium_usd": 0.05470571000349945,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 906,
+    "fee_gradient_per_usd": -33.519963840457066,
+    "fee_premium_usd": 0.059792469850824974,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 907,
+    "fee_gradient_per_usd": -44.78944724344263,
+    "fee_premium_usd": 0.018749660845064877,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 908,
+    "fee_gradient_per_usd": -46.1220292105697,
+    "fee_premium_usd": 0.00524742339194416,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 909,
+    "fee_gradient_per_usd": -42.44170299836897,
+    "fee_premium_usd": 0.052867956989136426,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 910,
+    "fee_gradient_per_usd": -39.71803227443623,
+    "fee_premium_usd": 0.0776035190583246,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 911,
+    "fee_gradient_per_usd": -45.06158596021694,
+    "fee_premium_usd": 0.0266101501524685,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 912,
+    "fee_gradient_per_usd": -42.93013652933913,
+    "fee_premium_usd": 0.053087592415504724,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 913,
+    "fee_gradient_per_usd": -33.83900998244968,
+    "fee_premium_usd": 0.06964366147261133,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 914,
+    "fee_gradient_per_usd": -43.46514794010299,
+    "fee_premium_usd": 0.03888748785173662,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 915,
+    "fee_gradient_per_usd": -45.40313788587662,
+    "fee_premium_usd": 0.02882452658081114,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 916,
+    "fee_gradient_per_usd": -35.232478384708145,
+    "fee_premium_usd": 0.10637819062043795,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 917,
+    "fee_gradient_per_usd": -39.13225959580981,
+    "fee_premium_usd": 0.06479630784048099,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 918,
+    "fee_gradient_per_usd": -43.35989953350172,
+    "fee_premium_usd": 0.03570390522826295,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 919,
+    "fee_gradient_per_usd": -35.55930094492416,
+    "fee_premium_usd": 0.10788990957143461,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 920,
+    "fee_gradient_per_usd": -36.867232914304736,
+    "fee_premium_usd": 0.07485223436799228,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 921,
+    "fee_gradient_per_usd": -40.005847637546296,
+    "fee_premium_usd": 0.058685208222562416,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 922,
+    "fee_gradient_per_usd": -38.23876248320508,
+    "fee_premium_usd": 0.08278987654773602,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 923,
+    "fee_gradient_per_usd": -37.831778619938895,
+    "fee_premium_usd": 0.09267427318921402,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 924,
+    "fee_gradient_per_usd": -41.64662057329388,
+    "fee_premium_usd": 0.05358544295880755,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 925,
+    "fee_gradient_per_usd": -37.463988317135346,
+    "fee_premium_usd": 0.055219666053655185,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 926,
+    "fee_gradient_per_usd": -40.32483028731908,
+    "fee_premium_usd": 0.05201358899009368,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 927,
+    "fee_gradient_per_usd": -33.82012842602376,
+    "fee_premium_usd": 0.10789438666614189,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 928,
+    "fee_gradient_per_usd": -42.694362120925206,
+    "fee_premium_usd": 0.029088378195554068,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 929,
+    "fee_gradient_per_usd": -41.88245106836629,
+    "fee_premium_usd": 0.04987451641007822,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 930,
+    "fee_gradient_per_usd": -40.63355666644235,
+    "fee_premium_usd": 0.059267572773246284,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 931,
+    "fee_gradient_per_usd": -41.96471631896916,
+    "fee_premium_usd": 0.058340051035722464,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 932,
+    "fee_gradient_per_usd": -37.63451056048405,
+    "fee_premium_usd": 0.1032271097955423,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 933,
+    "fee_gradient_per_usd": -43.89166856609963,
+    "fee_premium_usd": 0.04762290966567735,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 934,
+    "fee_gradient_per_usd": -41.72839422030827,
+    "fee_premium_usd": 0.06310418355951018,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 935,
+    "fee_gradient_per_usd": -40.515553348992,
+    "fee_premium_usd": 0.040076781913279826,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 936,
+    "fee_gradient_per_usd": -47.093395505222674,
+    "fee_premium_usd": 0.04061871893356102,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 937,
+    "fee_gradient_per_usd": -36.10633617325538,
+    "fee_premium_usd": 0.05996170748218061,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 938,
+    "fee_gradient_per_usd": -41.84780051545229,
+    "fee_premium_usd": 0.04946129498848733,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 939,
+    "fee_gradient_per_usd": -33.15959466897754,
+    "fee_premium_usd": 0.07740499566117817,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 940,
+    "fee_gradient_per_usd": -38.17933613157374,
+    "fee_premium_usd": 0.08630058483467395,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 941,
+    "fee_gradient_per_usd": -49.15761719016652,
+    "fee_premium_usd": 0.017992991681307358,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 942,
+    "fee_gradient_per_usd": -43.263184739830024,
+    "fee_premium_usd": 0.06617536999501944,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 943,
+    "fee_gradient_per_usd": -34.12254099219522,
+    "fee_premium_usd": 0.09485822690082017,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 944,
+    "fee_gradient_per_usd": -35.47619623931888,
+    "fee_premium_usd": 0.08306482353498108,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 945,
+    "fee_gradient_per_usd": -44.657455701433406,
+    "fee_premium_usd": 0.02642201989936182,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 946,
+    "fee_gradient_per_usd": -45.99127203988868,
+    "fee_premium_usd": 0.024946207480525378,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 947,
+    "fee_gradient_per_usd": -42.96367654283168,
+    "fee_premium_usd": -0.003139750979665758,
+    "negative_fee": true,
+    "interior": false
+  },
+  {
+    "replicate": 948,
+    "fee_gradient_per_usd": -33.56685754968385,
+    "fee_premium_usd": 0.0505360096550572,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 949,
+    "fee_gradient_per_usd": -47.47410225761219,
+    "fee_premium_usd": 0.05804670223443506,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 950,
+    "fee_gradient_per_usd": -33.76353516358481,
+    "fee_premium_usd": 0.06011373096626498,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 951,
+    "fee_gradient_per_usd": -34.17580728606389,
+    "fee_premium_usd": 0.1236175268951018,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 952,
+    "fee_gradient_per_usd": -40.55136382147952,
+    "fee_premium_usd": 0.04793131595454702,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 953,
+    "fee_gradient_per_usd": -35.85006678017626,
+    "fee_premium_usd": 0.05488995739837173,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 954,
+    "fee_gradient_per_usd": -35.95954361651174,
+    "fee_premium_usd": 0.11833837285779364,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 955,
+    "fee_gradient_per_usd": -36.84496491210022,
+    "fee_premium_usd": 0.07507470702383434,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 956,
+    "fee_gradient_per_usd": -36.89606183726037,
+    "fee_premium_usd": 0.09110601414117374,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 957,
+    "fee_gradient_per_usd": -40.20177293871843,
+    "fee_premium_usd": 0.09293652454092037,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 958,
+    "fee_gradient_per_usd": -39.54032873783209,
+    "fee_premium_usd": 0.0015723813970476242,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 959,
+    "fee_gradient_per_usd": -45.52178538207742,
+    "fee_premium_usd": 0.06279573992570656,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 960,
+    "fee_gradient_per_usd": -44.48627894767946,
+    "fee_premium_usd": 0.05740261809537541,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 961,
+    "fee_gradient_per_usd": -43.90094964567338,
+    "fee_premium_usd": 0.02294364371981384,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 962,
+    "fee_gradient_per_usd": -37.06813328220679,
+    "fee_premium_usd": 0.06367841577817937,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 963,
+    "fee_gradient_per_usd": -39.19637391436784,
+    "fee_premium_usd": 0.05640299035003138,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 964,
+    "fee_gradient_per_usd": -48.278985173146296,
+    "fee_premium_usd": 0.034829163060077675,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 965,
+    "fee_gradient_per_usd": -37.651926813090114,
+    "fee_premium_usd": 0.07929996811299439,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 966,
+    "fee_gradient_per_usd": -41.23735854342009,
+    "fee_premium_usd": 0.0715431491270468,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 967,
+    "fee_gradient_per_usd": -41.86135188522287,
+    "fee_premium_usd": 0.03395891401095873,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 968,
+    "fee_gradient_per_usd": -40.51091008627117,
+    "fee_premium_usd": 0.09130608478668667,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 969,
+    "fee_gradient_per_usd": -41.90314049440208,
+    "fee_premium_usd": 0.09885574453213386,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 970,
+    "fee_gradient_per_usd": -39.99680145911876,
+    "fee_premium_usd": 0.07381595181198845,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 971,
+    "fee_gradient_per_usd": -42.86517446677675,
+    "fee_premium_usd": 0.02739074742639706,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 972,
+    "fee_gradient_per_usd": -32.82538342388813,
+    "fee_premium_usd": 0.0770102195651911,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 973,
+    "fee_gradient_per_usd": -42.12135780476836,
+    "fee_premium_usd": 0.05628444125764906,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 974,
+    "fee_gradient_per_usd": -47.375668930973205,
+    "fee_premium_usd": 0.049988202024117016,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 975,
+    "fee_gradient_per_usd": -36.17083355229952,
+    "fee_premium_usd": 0.09695999826366747,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 976,
+    "fee_gradient_per_usd": -37.53848331941983,
+    "fee_premium_usd": 0.07925814467320852,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 977,
+    "fee_gradient_per_usd": -42.377983089884275,
+    "fee_premium_usd": 0.06048927379044122,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 978,
+    "fee_gradient_per_usd": -43.355393745554714,
+    "fee_premium_usd": 0.06877899106644049,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 979,
+    "fee_gradient_per_usd": -42.09511109551258,
+    "fee_premium_usd": 0.04921025223880751,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 980,
+    "fee_gradient_per_usd": -44.93643938684787,
+    "fee_premium_usd": 0.041171965301577046,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 981,
+    "fee_gradient_per_usd": -42.47101627340802,
+    "fee_premium_usd": 0.08387249617220112,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 982,
+    "fee_gradient_per_usd": -36.23931405752227,
+    "fee_premium_usd": 0.0447527541229326,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 983,
+    "fee_gradient_per_usd": -48.333254214846505,
+    "fee_premium_usd": 0.024080473036279186,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 984,
+    "fee_gradient_per_usd": -30.852025948681973,
+    "fee_premium_usd": 0.024555452300809324,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 985,
+    "fee_gradient_per_usd": -40.40705699837333,
+    "fee_premium_usd": 0.06999626737003797,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 986,
+    "fee_gradient_per_usd": -45.472036918113524,
+    "fee_premium_usd": 0.04706600933995352,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 987,
+    "fee_gradient_per_usd": -33.207144367844336,
+    "fee_premium_usd": 0.06985890533800794,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 988,
+    "fee_gradient_per_usd": -41.12722499363761,
+    "fee_premium_usd": 0.04641972919930071,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 989,
+    "fee_gradient_per_usd": -44.02462074171641,
+    "fee_premium_usd": 0.04551620620019108,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 990,
+    "fee_gradient_per_usd": -46.08280057392078,
+    "fee_premium_usd": 0.0575209936252059,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 991,
+    "fee_gradient_per_usd": -37.87907513265163,
+    "fee_premium_usd": 0.09973300266616393,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 992,
+    "fee_gradient_per_usd": -41.721138195628,
+    "fee_premium_usd": 0.02821249710590236,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 993,
+    "fee_gradient_per_usd": -45.80273598302911,
+    "fee_premium_usd": 0.014068208279720973,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 994,
+    "fee_gradient_per_usd": -39.2730024477714,
+    "fee_premium_usd": 0.0793228158527436,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 995,
+    "fee_gradient_per_usd": -41.57071348113206,
+    "fee_premium_usd": 0.061715509940167765,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 996,
+    "fee_gradient_per_usd": -39.12194906832803,
+    "fee_premium_usd": 0.05408674832025032,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 997,
+    "fee_gradient_per_usd": -38.52473379014063,
+    "fee_premium_usd": 0.06704118688683877,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 998,
+    "fee_gradient_per_usd": -43.608385720503854,
+    "fee_premium_usd": 0.04642975261267742,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 999,
+    "fee_gradient_per_usd": -43.45647472330521,
+    "fee_premium_usd": 0.02558171944168173,
+    "negative_fee": true,
+    "interior": true
+  },
+  {
+    "replicate": 1000,
+    "fee_gradient_per_usd": -40.25087208292215,
+    "fee_premium_usd": 0.04993656375205311,
+    "negative_fee": true,
+    "interior": true
+  }
+]

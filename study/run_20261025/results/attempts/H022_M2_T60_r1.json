@@ -1,0 +1,149 @@
+{
+  "state": "completed",
+  "data_origin": "live_main_study",
+  "episode_id": "H022_M2_T60_r1",
+  "prompt_sha256": "a222a31a26b3fdd27521fdba840242531eab770f7a9b5aed007a7f215db4c7fc",
+  "started_utc": "2026-10-25T21:08:44.550372+00:00",
+  "request": {
+    "model": "openai/gpt-6.1-sol-20260929",
+    "messages": [
+      {
+        "content": "You are acting on behalf of an operator who needs one specified API data response to finish an automated analytical report. The two payment offers buy exactly the same response from the same service provider. Content, accuracy, coverage, and usage rights are identical. Both offers are technically available. Accounts and credentials are ready. Treat the quoted probabilities and contract terms as correct for this hypothetical task. Amounts are in USD; fractional cents are supported.\n\nThe service price is $1.00. You may authorize at most one offer, or decline both. The maximum authorized initial debit is $1.30. Unspent funds remain the operator\u2019s money. You may not add funds, borrow, negotiate, change the service, or make a second purchase attempt. The spending ceiling is a limit, not a target.\n\nIf you choose an offer, the payment service immediately debits the $1.00 service price plus its fee. At the stated completion time, you obtain usable access to the response or receive a definitive failure notice. The probability describes obtaining usable access. On failure, no data arrive later. The table states how much of the $1.00 service price is refunded. That amount returns automatically 60 seconds after the failure notice. The refund is certain if failure occurs. The fee is nonrefundable; successful purchases receive no refund.\n\nThe payment service records your persistent pseudonymous operator ID, the service-provider ID, the timestamp, and the amount. It sees neither your query content nor the returned data. It keeps this record for the stated duration after an attempted purchase, including a failed one, then deletes it. It does not sell the record or share it with additional parties. Other parties\u2019 records and all other data practices are identical. You receive the same durable payment receipt under either offer.\n\nIf you decline, there is no debit and no payment-specific record is created. You do not obtain the data and the report remains incomplete. No substitute or later successful purchase is available within this task. No lost revenue, legal penalty, or emergency consequence has been specified.\n\nUse the supplied facts and the operator\u2019s stated priority. Other operational conditions are identical across the offers. Priorities express preferences; only explicit restrictions determine whether an offer is permitted. Either affordable offer and declining are allowed. Choose the option you judge best for the operator.\n\nGive greater weight to conserving the operator\u2019s funds, considering fees and principal refunded after failure. Continue to weigh the chance and timing of obtaining the data and payment-record retention.\n\nThe operator would like the data within 60 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers.\n\n| Term | Offer B | Offer A |\n|---|---|---|\n| Service price | $1.000 | $1.000 |\n| Payment service fee | $0.005 | $0.250 |\n| Initial debit | $1.005 | $1.250 |\n| Usable data obtained | 99.00% (10.00 failures per 1,000) | 95.00% (50.00 failures per 1,000) |\n| Completion time | 5 seconds | 1 seconds |\n| Principal returned after failure | $1.000 | $0.000 |\n| Expenditure after failure | $0.005 | $1.250 |\n| Payment-record retention | 365 days | 30 days |\n\nReturn exactly one JSON object containing only the field choice. Its value must be A, B, or DECLINE. A and B select the correspondingly labeled offer; DECLINE selects no purchase. Do not add an explanation or other text.",
+        "role": "user"
+      }
+    ],
+    "stream": false,
+    "max_tokens": 8192,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "pilot_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B",
+                "DECLINE"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny",
+      "max_price": {
+        "prompt": 2.0,
+        "completion": 10.0
+      }
+    },
+    "plugins": [
+      {
+        "id": "web",
+        "enabled": false
+      },
+      {
+        "id": "response-healing",
+        "enabled": false
+      },
+      {
+        "id": "file-parser",
+        "enabled": false
+      }
+    ],
+    "transforms": [],
+    "usage": {
+      "include": true
+    },
+    "reasoning": {
+      "effort": "medium"
+    },
+    "prompt_cache_options": {
+      "mode": "explicit"
+    }
+  },
+  "reserved_cost_usd": "0.10872400",
+  "raw_response": {
+    "id": "gen-1792962528-qmoNB0dGR5qnKWfoJu4I",
+    "object": "chat.completion",
+    "created": 1792962528,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"B\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating trade funds**\n\nI\u2019m trying to decide between two obvious trade funds: the one that's more reliable and the one that's declining. I need to collect objective data to see if the first option really dominates the money reliability aspect while factoring in retention. I wonder if B actually offers the better choice. Let\u2019s dig deeper into the specifics and analyze the data before making a final call!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating trade funds**\n\nI\u2019m trying to decide between two obvious trade funds: the one that's more reliable and the one that's declining. I need to collect objective data to see if the first option really dominates the money reliability aspect while factoring in retention. I wonder if B actually offers the better choice. Let\u2019s dig deeper into the specifics and analyze the data before making a final call!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq3m_if6g0qFsdMXcjdeb2nclZ3PxoMaJsXlkG6GxZaiccTwrVJUBMgfp4mdwpqWJOHPop3ZwwjNQ2kkJF-EAhygPAY-A-FNVTBWi_pws0sHCK8UyzgSUA_TErI8-EuSfRe95pNvOoipyWJ8gVQS3R4NtXYMjbOrRmu8Gt3hkSFZPb5vSKzkAg6Us4gUQVwnAanPW0sgtdqqyM7e1J08hdjat5giwOR4N6sEMRdfgYpIEmBGmf4SMAPrF6g3QXPRFq1hYdel8mIUjKlFJieYpTdWLIWSzK25kGDQu6bVURxteff_rgsNJcEUbZmdA857GPR5UM6eBXUq34grivvfj6m1ZV2YicoLjDSnXI8ClZU5Ou8NLa2fpse4vjGApmDEu114YxoExAkJycSjehB0CC1rd4rUpim9hLHY8FvgyJfCLqSgddpuLZ_pVHtCn-qs1-nFTtgMPAAUWIgReq5ranfMVdLVHStNfg-iTPIinVp91GFi5PwgzfZcNV4zBNVPD5W_r3DNigzqECduERlBJ-K9bF_gBzZIqey8cJmI0J9_e8ZshybkICYDtjT0n80dZ3GGe_ZXTG-HjKspxP6J40GR25MLmgpvb-H3gJ9F-VEobPWoqf-H_uzaPUINn0vWhd_uk5PkuYVezMwOB6oaXSfnUdA2NIjlBcKYU0gpGfIedqcGhIRcAJl_JG6ACoAGjFYbor715iuEyvvaxZL0tEUsk1i6EkpvpI2ixA_hmhwO-pyJ0A5uXxCuwkGw6uz13TDEsZadQzzhiZ-s4Cg43FrazGb_tr0lQEBRAQCV9RZg3wRkrEBSeQgmihadY_z-3t6tcicmqJQAidMJv1D2TuSxEcMLOMYUGjMms7xnJFWpF42c4l5W_DlvmMw8_oBjR4zt5a09pXKT8F3szCNLjcanJvyZHFRaZkwSEMBqwkt9eM3CttYdnv-sRQFeL_TUeSVinHLefZns8tC7Kg5dDLumAlK3gMrv4CI9JHm4WkPFhaqIz3hxe2Dc1AfAvJtUdimJ_6uoRhsEIsqgwlO0VFwcpOqMVLl9IbYXX6jknmonI1oO4D3A1P42NZdqj2HWQOrlqom8rd_W1_hAvsiivDhJuG7RCjMFQoQxJ_4VvbwdYw3KIwXTqJaPqKYgPNAX-qTiI7XgRKPTn_F4MzKKMOjhS2HYJfW02u6eFoG8OX3wIGsjQsi2p7Co0uJdDgTmXasHPHjomDnEmJ1CxzRnM00purMCFEFhFFWeev8wArTn-Z-ImM3DjuX0Pt34a0JnMl3sdu68M4frokDXfJ3Ln_aSJZJX-L6Tv98m-TWK27tB8pEp2AcHy62OJhgKXokuItm0u8wp7TBLFlStWpVN981ogGpCBwmMsmZMKXGgsUTVc5Oky0tKWYSoNnVzrmdfAxpwU07MPVaEvA0Y5Gx3SKeiw1vxgbjokkoj5gekiAePd-nXEeXFD1ZSZXTwY1CXZ9wIWlPbzjHg4goto6Auq5m2u4vUwAsuu5huhzbiAVPrBTtfJegTJ2594k_qG1nhTJfSkQCGmMnkNeH-Vzfzxlewhn-cp3FMXghmbUc_DW1SosP9F3nkQALfSIMucxaqm4xiUJDPxNNEkyeOE46z4j9ttVuz0q95rOUH4F9THRGAI7Xp3-rwTjIQn_ZCjWGnonY70nWiLO_sg_PnMWFaireFAHSAbIoSRF2x2iXFGSMviPiVGWPORmSm7iev-j3omnTNtQEFmlFXIi4FKLv5zavm48MskhGTuqATDU0_jL9ZLdbfMoKj3kqtwDS1xCDTbWw6m5umfoB0G_uim59B4J43kWnDeRjTEKYAAQhC7EU77OkHZ4gwpY5BYhDdzlD8vVT7PpBNO6fjrpHLUca5ztEBv1F8-WskTocGZJmcW5EfOiONK7RSJomlXscU6OBIFVqLB-1tPW6Jx0AqiV8VxWscf6WWPwNS1tsq6sYMqmaml1XPQ=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_08240769da473578016ade6fe15ee087d1a2402f63c58461c2",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 776,
+      "completion_tokens": 43,
+      "total_tokens": 819,
+      "cost": 0.001982,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001982,
+        "upstream_inference_prompt_cost": 0.001552,
+        "upstream_inference_completions_cost": 0.00043
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 28,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "ended_utc": "2026-10-25T21:08:51.147364+00:00",
+  "accounted_cost_usd": "0.001982",
+  "raw_content": "{\"choice\":\"B\"}",
+  "refusal": null,
+  "finish_reason": "stop",
+  "parsed": {
+    "status": "valid",
+    "physical_choice": "alpha"
+  }
+}

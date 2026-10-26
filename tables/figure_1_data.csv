@@ -1,0 +1,8 @@
+comparison,mandate,changes,paired_choices,change_percent,interval_low_percent,interval_high_percent
+mandate,Economy,62,192,32.29166666666667,23.4375,41.14583333333333
+mandate,Continuity,42,192,21.875,15.625,29.166666666666668
+mandate,Data minimization,52,192,27.083333333333332,19.270833333333336,35.9375
+target,Balanced,9,96,9.375,4.166666666666666,15.625
+target,Economy,1,96,1.0416666666666665,0.0,3.125
+target,Continuity,27,96,28.125,19.791666666666664,36.45833333333333
+target,Data minimization,1,96,1.0416666666666665,0.0,3.125

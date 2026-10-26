@@ -1,0 +1,149 @@
+{
+  "state": "completed",
+  "data_origin": "live_main_study",
+  "episode_id": "E056_M2_T60_labels_r1",
+  "prompt_sha256": "84667f7aebae758b5753ad59d37beeeacde0b2ac73cfa2db4137fb1f1572ecb8",
+  "started_utc": "2026-10-25T21:11:34.694062+00:00",
+  "request": {
+    "model": "openai/gpt-6.1-sol-20260929",
+    "messages": [
+      {
+        "content": "You are acting on behalf of an operator who needs one specified API data response to finish an automated analytical report. The two payment offers buy exactly the same response from the same service provider. Content, accuracy, coverage, and usage rights are identical. Both offers are technically available. Accounts and credentials are ready. Treat the quoted probabilities and contract terms as correct for this hypothetical task. Amounts are in USD; fractional cents are supported.\n\nThe service price is $1.00. You may authorize at most one offer, or decline both. The maximum authorized initial debit is $1.30. Unspent funds remain the operator\u2019s money. You may not add funds, borrow, negotiate, change the service, or make a second purchase attempt. The spending ceiling is a limit, not a target.\n\nIf you choose an offer, the payment service immediately debits the $1.00 service price plus its fee. At the stated completion time, you obtain usable access to the response or receive a definitive failure notice. The probability describes obtaining usable access. On failure, no data arrive later. The table states how much of the $1.00 service price is refunded. That amount returns automatically 60 seconds after the failure notice. The refund is certain if failure occurs. The fee is nonrefundable; successful purchases receive no refund.\n\nThe payment service records your persistent pseudonymous operator ID, the service-provider ID, the timestamp, and the amount. It sees neither your query content nor the returned data. It keeps this record for the stated duration after an attempted purchase, including a failed one, then deletes it. It does not sell the record or share it with additional parties. Other parties\u2019 records and all other data practices are identical. You receive the same durable payment receipt under either offer.\n\nIf you decline, there is no debit and no payment-specific record is created. You do not obtain the data and the report remains incomplete. No substitute or later successful purchase is available within this task. No lost revenue, legal penalty, or emergency consequence has been specified.\n\nUse the supplied facts and the operator\u2019s stated priority. Other operational conditions are identical across the offers. Priorities express preferences; only explicit restrictions determine whether an offer is permitted. Either affordable offer and declining are allowed. Choose the option you judge best for the operator.\n\nGive greater weight to conserving the operator\u2019s funds, considering fees and principal refunded after failure. Continue to weigh the chance and timing of obtaining the data and payment-record retention.\n\nThe operator would like the data within 60 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers.\n\n| Term | Offer B | Offer A |\n|---|---|---|\n| Service price | $1.000 | $1.000 |\n| Payment service fee | $0.080 | $0.020 |\n| Initial debit | $1.080 | $1.020 |\n| Usable data obtained | 99.00% (10.00 failures per 1,000) | 95.00% (50.00 failures per 1,000) |\n| Completion time | 30 seconds | 5 seconds |\n| Principal returned after failure | $0.500 | $0.000 |\n| Expenditure after failure | $0.580 | $1.020 |\n| Payment-record retention | 1 days | 365 days |\n\nReturn exactly one JSON object containing only the field choice. Its value must be A, B, or DECLINE. A and B select the correspondingly labeled offer; DECLINE selects no purchase. Do not add an explanation or other text.",
+        "role": "user"
+      }
+    ],
+    "stream": false,
+    "max_tokens": 8192,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "pilot_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B",
+                "DECLINE"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny",
+      "max_price": {
+        "prompt": 2.0,
+        "completion": 10.0
+      }
+    },
+    "plugins": [
+      {
+        "id": "web",
+        "enabled": false
+      },
+      {
+        "id": "response-healing",
+        "enabled": false
+      },
+      {
+        "id": "file-parser",
+        "enabled": false
+      }
+    ],
+    "transforms": [],
+    "usage": {
+      "include": true
+    },
+    "reasoning": {
+      "effort": "medium"
+    },
+    "prompt_cache_options": {
+      "mode": "explicit"
+    }
+  },
+  "reserved_cost_usd": "0.10872400",
+  "raw_response": {
+    "id": "gen-1792962699-dCyVA29i6JLcT5GPIRs9",
+    "object": "chat.completion",
+    "created": 1792962699,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"A\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating money preferences**\n\nI need to choose between two options: A with a preference of 1.02 and B with 1.075. I\u2019m noticing that option A is faster but has lower reliability, which isn't the best. Greater funds usually suggest sticking with option A, though there's a decline in something unspecified. It seems like maintaining a balance in reliability and preference is important, and leaning towards A might be a common choice despite the concerns.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating money preferences**\n\nI need to choose between two options: A with a preference of 1.02 and B with 1.075. I\u2019m noticing that option A is faster but has lower reliability, which isn't the best. Greater funds usually suggest sticking with option A, though there's a decline in something unspecified. It seems like maintaining a balance in reliability and preference is important, and leaning towards A might be a common choice despite the concerns.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq3nCPvnqFzrB73fu-RxNhMDJGyAIhUiuXF8cVs0DHRFwxtPbchPOJlqKY8B_Cyt4c4HewIB-7wCSYI89WBkU7H7PCg1fJCB874EYsRuufRolfTMKzxFvPFglZ8zvYeRe0yU5Lx4AR4DygGoIeUK8aGpd5ePo0q7UI-_iVOMpOoQEaCWgebCDOzB2kbOmxaznt52qdMSxbrDNbrFevAVDi1Ke82Ot_bvK7PbB1X7XklLgPN9KS-aNa5ZajFx1-mlyn9Oc6tZmY_i5xsuRRpKve1q_3mHvZ1hxB40kSsp7o99aeaYdiRyn7EP7csCisU-kvTYkkqJhZ_Sp8S48_XUlEz0GMdvvfBEq559IRwKq9N-SRgsN630OX4dwcm3Dd0B_Nwg-RvCoQGn3fPUi6TJnqfjf1tWN_DNg-nlmlWIdTWEo26raJVuwFSl1AYW1BCmmzT7SGdqYhdig_6z0IKRbfVAH2cOl3mkxeIP2YqoqqawkjugSINItgPnqoLxKPuHpuLrlUXxXhZEmbk6RB0hdu2xB3M1xMy3YHxMLGaPe8svQrGBavp0w9WNBAKhMb4H18B2JiRmH1yE1PoC4C4H2maUbBB2ZPA_1ibeQz6mi067IBQ5lF3IiFGz13Yq39Qs11xL2RfXt_kPSfhndR6qB8GV6KBj34YADVmKbnvGYwqzfaN-mfFbpUuheyiCJniCb0WlglVChqgPAqIg_WUQaLGTghyOssUn91f5gPGv2UEhOT61srS9H0fwrezhZRomepFyZgkQkvAht-5ow41La57mtfI73D4trfy4SOa85FtY5NieuhxxUjmxbvAju_3Isoz_b0LEOFOmIaZ6cutmkMe_sVyFy6IL3QAMIWxUQq-Fq_z2Hl7oeDnOov_kyxsOX24kyLjxcxyliqES58d13NlLyHgbhCIBJtaOmJMPHZr5qHGsR0S9XD0yPmz4yNL9xquNaBEFIUS-NLpiNR9GZQJjDQ7i5nbgQxm4FfQQueXp0b4t6ug_5cBcNvVSphNVJa_pik_42O8jQO2xkOvvGGf8cYC8f6pv0agD9SccHM0KwyNZdJ-RQve1hVcAFcxg4Ddyfn6wAvRMjWcI7PdeGxZrFU4ZtzGAxRYhmxQRFNluMYL1KqKPFTjgWBo5-LmboyFBRam9PbAVWWn9Dc8GSDT4i_lyDZl2qFekAgQVThaaljXdk1udNlQfjXapOCKC5QCJNjLZWGLBWtYV50dS9AGeujb3K1nefLOLypIAV5ucCam3R5yfuQEzpHojEAFNXBKZO_kDB4oF7scHwS9Bt101o6F2sqdtDfBus7WIwgwBemOTTiPrldQj80_abRutPfGJ69twYwDceKIeLH4ZO8gasxr4jOaipyVsOL1JNPSxa1gUH4YlbpOThxjHAM8WojrLsRCdhahPD42HvHEj6_qhwUnFX_4w82-a2Dz93E0UfQCxWTBdmEQH79PNZZYyt4UYFnxwMEyKU7sPF6u1dpqcanN1Jtg7jyZ6ZtpRG6KROentSMJ0DOL1KUR81u2KjQfifmbG2Wmz-Knj7o1DYwv8KH0-KWOd9yphFeLmPZ47bnJnXAeBz1fyU3yhTqG9iSfEnxINnq5llplc0Taiv-A7Ui7zlRrKn3UOD6vQyQ2m78kZBUsvI48YoTLokmby_fZYNeKh5huEls_T9m5z1-nzuOkdNO64D0UqMw2xaRvJjHm1f3USPa1jBQo0uHkgywlWb3P9tUsWZwQtPolqrewZURN2P-cIOZW2rLNmnGdGXPlbOEqua0Wkhb8LfmOJgsaqC6FpzY2RTQu02hRtbt0ry3AjtiAynd3FK_sXk1_x5R_wFrFtKZG5RoMyLEPKwyTstESrZ8dTp-1PMXrRGxyi52gv5m17FlS0M6UzsFi8QYtFboZWe7LjFi9qXB79Ct2oobUvyL4tecaIpvz9ORA8HxO3tub3rKCP8P6-7uAq7vyX3pkTtVZ-NWfhhDQhK_-F1w5Lwe06dBAdHoQOT9K3iXXTif-a9v910iJI_kbrLREJJFLtjw0DhO0K_WQY8zzdeY-v9XH_F72BOcD4AP3IzoatA0drcFVz5dLi5Jl176jSj9ja_6DRbOH1HKbQWhuxB2.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_07837d832f790bbb016ade708d979c87d181119d71423ce13e",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 776,
+      "completion_tokens": 58,
+      "total_tokens": 834,
+      "cost": 0.002132,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002132,
+        "upstream_inference_prompt_cost": 0.001552,
+        "upstream_inference_completions_cost": 0.00058
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 43,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "ended_utc": "2026-10-25T21:11:43.546909+00:00",
+  "accounted_cost_usd": "0.002132",
+  "raw_content": "{\"choice\":\"A\"}",
+  "refusal": null,
+  "finish_reason": "stop",
+  "parsed": {
+    "status": "valid",
+    "physical_choice": "beta"
+  }
+}

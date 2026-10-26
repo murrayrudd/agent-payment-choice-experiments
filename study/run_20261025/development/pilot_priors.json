@@ -1,0 +1,170 @@
+[
+  {
+    "mandate": "Balanced",
+    "penalty": 0.1,
+    "coefficients": {
+      "purchase_constant": 4.810986472112575,
+      "fee_per_0_10": -2.0832248041136583,
+      "success_scaled_0_95_to_0_999": 2.8952103897088897,
+      "log_time_scaled_1_to_30": -1.5510134381987641,
+      "refund_dollars": 1.287141586422233,
+      "expected_refund_per_0_05": 0.43467849261690406,
+      "log_retention_scaled_1_to_365": -0.7448152099621417,
+      "later_than_target": -1.6060090174152906
+    }
+  },
+  {
+    "mandate": "Balanced",
+    "penalty": 1,
+    "coefficients": {
+      "purchase_constant": 2.2397501591908227,
+      "fee_per_0_10": -1.1610990185729761,
+      "success_scaled_0_95_to_0_999": 1.5790766773600737,
+      "log_time_scaled_1_to_30": -0.6434501295205101,
+      "refund_dollars": 0.7953772717346952,
+      "expected_refund_per_0_05": 0.2591341175771159,
+      "log_retention_scaled_1_to_365": -0.2091995178571375,
+      "later_than_target": -0.5774101163098626
+    }
+  },
+  {
+    "mandate": "Balanced",
+    "penalty": 10,
+    "coefficients": {
+      "purchase_constant": 0.6430350651235506,
+      "fee_per_0_10": -0.4744247285965158,
+      "success_scaled_0_95_to_0_999": 0.5409698938835857,
+      "log_time_scaled_1_to_30": 0.0002519490846352174,
+      "refund_dollars": 0.3360045537412797,
+      "expected_refund_per_0_05": 0.09639964550297637,
+      "log_retention_scaled_1_to_365": 0.07792581642969626,
+      "later_than_target": -0.10047330060408709
+    }
+  },
+  {
+    "mandate": "Continuity",
+    "penalty": 0.1,
+    "coefficients": {
+      "purchase_constant": 3.6853296347379967,
+      "fee_per_0_10": -0.16645371747251106,
+      "success_scaled_0_95_to_0_999": 3.5328715926991054,
+      "log_time_scaled_1_to_30": 0.20757608865561616,
+      "refund_dollars": 0.20366033473734785,
+      "expected_refund_per_0_05": 0.7614705561425714,
+      "log_retention_scaled_1_to_365": -0.27295017873011357,
+      "later_than_target": -5.001097019394451
+    }
+  },
+  {
+    "mandate": "Continuity",
+    "penalty": 1,
+    "coefficients": {
+      "purchase_constant": 1.5921740384343128,
+      "fee_per_0_10": 0.02301760358246632,
+      "success_scaled_0_95_to_0_999": 1.6039108511685907,
+      "log_time_scaled_1_to_30": -0.0619847310467743,
+      "refund_dollars": 0.3361915916535664,
+      "expected_refund_per_0_05": 0.12813638335109698,
+      "log_retention_scaled_1_to_365": 0.02825728304597275,
+      "later_than_target": -1.9354182830059665
+    }
+  },
+  {
+    "mandate": "Continuity",
+    "penalty": 10,
+    "coefficients": {
+      "purchase_constant": 0.473128224371296,
+      "fee_per_0_10": 0.17138021320738406,
+      "success_scaled_0_95_to_0_999": 0.5499586833931206,
+      "log_time_scaled_1_to_30": -0.03340319642759587,
+      "refund_dollars": 0.21444790625403096,
+      "expected_refund_per_0_05": 0.004712506972205217,
+      "log_retention_scaled_1_to_365": 0.15233256101100925,
+      "later_than_target": -0.4093781848790872
+    }
+  },
+  {
+    "mandate": "Data minimization",
+    "penalty": 0.1,
+    "coefficients": {
+      "purchase_constant": 4.813864637289606,
+      "fee_per_0_10": -0.40782822939788677,
+      "success_scaled_0_95_to_0_999": 0.3120211167416157,
+      "log_time_scaled_1_to_30": 1.528485034050611,
+      "refund_dollars": 0.24206947162750303,
+      "expected_refund_per_0_05": 0.8565727198717289,
+      "log_retention_scaled_1_to_365": -4.861097486710079,
+      "later_than_target": 0.002510675001340659
+    }
+  },
+  {
+    "mandate": "Data minimization",
+    "penalty": 1,
+    "coefficients": {
+      "purchase_constant": 2.0332049093939375,
+      "fee_per_0_10": -0.060919847895760264,
+      "success_scaled_0_95_to_0_999": 0.31417781857316696,
+      "log_time_scaled_1_to_30": 0.8450817091219323,
+      "refund_dollars": 0.2781575870847979,
+      "expected_refund_per_0_05": 0.5305099093720466,
+      "log_retention_scaled_1_to_365": -2.253755593131488,
+      "later_than_target": 0.10418747494938453
+    }
+  },
+  {
+    "mandate": "Data minimization",
+    "penalty": 10,
+    "coefficients": {
+      "purchase_constant": 0.5431865838785546,
+      "fee_per_0_10": 0.10787794585470581,
+      "success_scaled_0_95_to_0_999": 0.1663889528449526,
+      "log_time_scaled_1_to_30": 0.38810002714062164,
+      "refund_dollars": 0.22265375015299382,
+      "expected_refund_per_0_05": 0.1911426011127006,
+      "log_retention_scaled_1_to_365": -0.6030337753926915,
+      "later_than_target": 0.13640999234014314
+    }
+  },
+  {
+    "mandate": "Economy",
+    "penalty": 0.1,
+    "coefficients": {
+      "purchase_constant": 4.998821812853315,
+      "fee_per_0_10": -2.9272999840201153,
+      "success_scaled_0_95_to_0_999": 0.39855734709570473,
+      "log_time_scaled_1_to_30": 0.8116728091386567,
+      "refund_dollars": 0.28845313713395326,
+      "expected_refund_per_0_05": 2.766417426459617,
+      "log_retention_scaled_1_to_365": 0.6112762145547542,
+      "later_than_target": -0.6788403268987364
+    }
+  },
+  {
+    "mandate": "Economy",
+    "penalty": 1,
+    "coefficients": {
+      "purchase_constant": 2.11236477915778,
+      "fee_per_0_10": -1.4031853816201394,
+      "success_scaled_0_95_to_0_999": 0.35005956061210564,
+      "log_time_scaled_1_to_30": 0.5740398816526849,
+      "refund_dollars": 0.38330785493384706,
+      "expected_refund_per_0_05": 0.9803888548710872,
+      "log_retention_scaled_1_to_365": 0.3741416192930782,
+      "later_than_target": -0.1330380516993822
+    }
+  },
+  {
+    "mandate": "Economy",
+    "penalty": 10,
+    "coefficients": {
+      "purchase_constant": 0.619531601896001,
+      "fee_per_0_10": -0.5772825748039295,
+      "success_scaled_0_95_to_0_999": 0.22332343624829404,
+      "log_time_scaled_1_to_30": 0.34952395728704805,
+      "refund_dollars": 0.24639680852055887,
+      "expected_refund_per_0_05": 0.2349894081497251,
+      "log_retention_scaled_1_to_365": 0.24517513947696323,
+      "later_than_target": 0.08338380763242786
+    }
+  }
+]

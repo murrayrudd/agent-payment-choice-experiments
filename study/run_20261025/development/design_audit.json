@@ -1,0 +1,106 @@
+{
+  "data_origin": "offline_design",
+  "seed": 2026102507,
+  "profiles": 729,
+  "candidate_pool": 6968,
+  "heldout_random_draws": 1,
+  "excluded_development_pairs": 78,
+  "episodes": 1280,
+  "modules": {
+    "refund_success": 64,
+    "core": 960,
+    "fine_reliability": 160,
+    "presentation": 64,
+    "outside_anchor": 32
+  },
+  "core_base_calls": {
+    "heldout": 256,
+    "estimation": 512
+  },
+  "estimation_level_counts": {
+    "fee": {
+      "0.001": 20,
+      "0.003": 9,
+      "0.005": 7,
+      "0.013": 8,
+      "0.020": 26,
+      "0.050": 7,
+      "0.080": 28,
+      "0.165": 6,
+      "0.250": 17
+    },
+    "success_probability": {
+      "0.95": 46,
+      "0.99": 39,
+      "0.999": 43
+    },
+    "time_seconds": {
+      "1": 43,
+      "30": 39,
+      "5": 46
+    },
+    "refund": {
+      "0": 48,
+      "0.5": 35,
+      "1": 45
+    },
+    "retention_days": {
+      "1": 38,
+      "30": 48,
+      "365": 42
+    }
+  },
+  "heldout_level_counts": {
+    "fee": {
+      "0.001": 3,
+      "0.003": 10,
+      "0.005": 8,
+      "0.013": 8,
+      "0.020": 5,
+      "0.050": 10,
+      "0.080": 5,
+      "0.165": 6,
+      "0.250": 9
+    },
+    "success_probability": {
+      "0.95": 22,
+      "0.99": 26,
+      "0.999": 16
+    },
+    "time_seconds": {
+      "1": 21,
+      "30": 25,
+      "5": 18
+    },
+    "refund": {
+      "0": 17,
+      "0.5": 26,
+      "1": 21
+    },
+    "retention_days": {
+      "1": 17,
+      "30": 25,
+      "365": 22
+    }
+  },
+  "conditional_feature_rank": {
+    "48": 12,
+    "64": 12,
+    "80": 12
+  },
+  "information_condition_numbers": {
+    "Balanced|5": 37.30387020929618,
+    "Balanced|60": 37.71053036548947,
+    "Economy|5": 38.77160823493111,
+    "Economy|60": 38.72558372929468,
+    "Continuity|5": 37.785693194887635,
+    "Continuity|60": 37.60465018102951,
+    "Data minimization|5": 37.90243060302699,
+    "Data minimization|60": 37.78856574162485
+  },
+  "mean_logdet_64": 28.110679554988167,
+  "random_64_logdet_mean": 22.32415783595311,
+  "geometric_information_ratio_vs_random_mean": 1.619650108084714,
+  "random_designs_better_than_selected": 0,
+  "criterion": "Greedy mean log determinant across eight cells of information with equally weighted zero and three pilot priors. Coverage bonus until each fee occurs six times and each nonfee level twelve times. Not global optimality or population power."
+}

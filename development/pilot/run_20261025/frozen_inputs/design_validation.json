@@ -1,0 +1,42 @@
+{
+  "episodes": 536,
+  "module_counts": {
+    "ladder": 280,
+    "presentation": 32,
+    "core": 192,
+    "outside_anchor": 32
+  },
+  "unique_prompts": 348,
+  "accounting_pass": true,
+  "source_prompt_byte_match": true,
+  "all_levels_covered_in_calibration": {
+    "fee": {
+      "0.001": 7,
+      "0.250": 12,
+      "0.005": 3,
+      "0.020": 5,
+      "0.080": 5
+    },
+    "success_probability": {
+      "0.95": 13,
+      "0.99": 6,
+      "0.999": 13
+    },
+    "time_seconds": {
+      "30": 15,
+      "1": 11,
+      "5": 6
+    },
+    "refund": {
+      "1": 13,
+      "0": 16,
+      "0.50": 3
+    },
+    "retention_days": {
+      "365": 14,
+      "1": 14,
+      "30": 4
+    }
+  },
+  "combined_feature_rank": 8
+}

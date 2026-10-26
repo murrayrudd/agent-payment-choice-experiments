@@ -1,0 +1,190 @@
+{
+  "status": "passed",
+  "prepared_date": "2026-10-26",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "full_reproduction": {
+    "status": "passed",
+    "mode": "full",
+    "python": "3.12.14",
+    "elapsed_seconds": 35.89,
+    "commands": [
+      {
+        "step": "01_frozen_design",
+        "returncode": 0,
+        "log": "01_frozen_design.log"
+      },
+      {
+        "step": "02_main_analysis",
+        "returncode": 0,
+        "log": "02_main_analysis.log"
+      },
+      {
+        "step": "03_independent_summary",
+        "returncode": 0,
+        "log": "03_independent_summary.log"
+      },
+      {
+        "step": "04_compensation_refits",
+        "returncode": 0,
+        "log": "04_compensation_refits.log"
+      },
+      {
+        "step": "05_compensation_validation",
+        "returncode": 0,
+        "log": "05_compensation_validation.log"
+      },
+      {
+        "step": "06_synthetic_analysis_check",
+        "returncode": 0,
+        "log": "06_synthetic_analysis_check.log"
+      },
+      {
+        "step": "07_mock_collector_check",
+        "returncode": 0,
+        "log": "07_mock_collector_check.log"
+      },
+      {
+        "step": "08_pretest_validation",
+        "returncode": 0,
+        "log": "08_pretest_validation.log"
+      },
+      {
+        "step": "09_pretest_summary",
+        "returncode": 0,
+        "log": "09_pretest_summary.log"
+      },
+      {
+        "step": "10_pilot_summary",
+        "returncode": 0,
+        "log": "10_pilot_summary.log"
+      },
+      {
+        "step": "11_public_exports",
+        "returncode": 0,
+        "log": "11_public_exports.log"
+      }
+    ],
+    "new_model_calls": 0,
+    "python_network_connections_blocked": true,
+    "main_results_match_archive": true,
+    "bootstrap_refits_recomputed": 6000,
+    "development_summaries_recomputed": true,
+    "comparison_tolerance": {
+      "relative": 1e-06,
+      "absolute": 1e-08
+    },
+    "source_verified_before": {
+      "status": "passed",
+      "manifest_files": 2323,
+      "unchanged_source_files": 2269,
+      "main_attempt_records": 1280,
+      "credential_pattern_matches": 0
+    },
+    "source_verified_after": {
+      "status": "passed",
+      "manifest_files": 2323,
+      "unchanged_source_files": 2269,
+      "main_attempt_records": 1280,
+      "credential_pattern_matches": 0
+    }
+  },
+  "final_quick_reproduction": {
+    "status": "passed",
+    "mode": "quick",
+    "python": "3.12.14",
+    "elapsed_seconds": 12.08,
+    "commands": [
+      {
+        "step": "01_frozen_design",
+        "returncode": 0,
+        "log": "01_frozen_design.log"
+      },
+      {
+        "step": "02_main_analysis",
+        "returncode": 0,
+        "log": "02_main_analysis.log"
+      },
+      {
+        "step": "03_independent_summary",
+        "returncode": 0,
+        "log": "03_independent_summary.log"
+      },
+      {
+        "step": "05_compensation_validation",
+        "returncode": 0,
+        "log": "05_compensation_validation.log"
+      },
+      {
+        "step": "06_synthetic_analysis_check",
+        "returncode": 0,
+        "log": "06_synthetic_analysis_check.log"
+      },
+      {
+        "step": "07_mock_collector_check",
+        "returncode": 0,
+        "log": "07_mock_collector_check.log"
+      },
+      {
+        "step": "08_pretest_validation",
+        "returncode": 0,
+        "log": "08_pretest_validation.log"
+      },
+      {
+        "step": "09_pretest_summary",
+        "returncode": 0,
+        "log": "09_pretest_summary.log"
+      },
+      {
+        "step": "10_pilot_summary",
+        "returncode": 0,
+        "log": "10_pilot_summary.log"
+      },
+      {
+        "step": "11_public_exports",
+        "returncode": 0,
+        "log": "11_public_exports.log"
+      }
+    ],
+    "new_model_calls": 0,
+    "python_network_connections_blocked": true,
+    "main_results_match_archive": true,
+    "bootstrap_refits_recomputed": 0,
+    "development_summaries_recomputed": true,
+    "comparison_tolerance": {
+      "relative": 1e-06,
+      "absolute": 1e-08
+    },
+    "source_verified_before": {
+      "status": "passed",
+      "manifest_files": 2324,
+      "unchanged_source_files": 2271,
+      "main_attempt_records": 1280,
+      "credential_pattern_matches": 0
+    },
+    "source_verified_after": {
+      "status": "passed",
+      "manifest_files": 2324,
+      "unchanged_source_files": 2271,
+      "main_attempt_records": 1280,
+      "credential_pattern_matches": 0
+    }
+  },
+  "validation_sequence": "The complete offline rebuild recomputed all 6,000 monetary bootstrap fits. Subsequently, configured pretest spending ceilings were restored in public metadata for consistency with the main study and pilot; these are experimental safeguards rather than account balances. The final quick rebuild reran all non-bootstrap analysis and development checks after this metadata adjustment. Scientific inputs, responses, and analysis code were unchanged.",
+  "packaging_checks": {
+    "private_account_fields_found": 0,
+    "broken_relative_links": 0,
+    "manuscript_files": 0,
+    "git_staged_files": 2325,
+    "git_autocrlf_byte_preservation": "passed",
+    "source_supplement_unchanged": true
+  },
+  "csv_exports_match_full_reproduction": true,
+  "figure_png_matches_full_reproduction": true,
+  "new_model_calls": 0,
+  "github_hosted_workflow_status": "Not run: this package has not been published to GitHub."
+}

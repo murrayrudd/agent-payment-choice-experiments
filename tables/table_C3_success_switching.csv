@@ -1,0 +1,41 @@
+mandate,target_seconds,category,premium_usd,reference_choices,higher_success_choices,decline_choices,unanimous
+Balanced,5,unanimous_monotone_switch,0.000,0,4,0,True
+Balanced,5,unanimous_monotone_switch,0.012,0,4,0,True
+Balanced,5,unanimous_monotone_switch,0.019,0,4,0,True
+Balanced,5,unanimous_monotone_switch,0.079,4,0,0,True
+Balanced,5,unanimous_monotone_switch,0.249,4,0,0,True
+Balanced,60,repeat_variation_or_incomplete,0.000,0,4,0,True
+Balanced,60,repeat_variation_or_incomplete,0.012,1,3,0,False
+Balanced,60,repeat_variation_or_incomplete,0.019,1,3,0,False
+Balanced,60,repeat_variation_or_incomplete,0.079,4,0,0,True
+Balanced,60,repeat_variation_or_incomplete,0.249,4,0,0,True
+Economy,5,reference_selected_at_all_fees,0.000,4,0,0,True
+Economy,5,reference_selected_at_all_fees,0.012,4,0,0,True
+Economy,5,reference_selected_at_all_fees,0.019,4,0,0,True
+Economy,5,reference_selected_at_all_fees,0.079,4,0,0,True
+Economy,5,reference_selected_at_all_fees,0.249,4,0,0,True
+Economy,60,reference_selected_at_all_fees,0.000,4,0,0,True
+Economy,60,reference_selected_at_all_fees,0.012,4,0,0,True
+Economy,60,reference_selected_at_all_fees,0.019,4,0,0,True
+Economy,60,reference_selected_at_all_fees,0.079,4,0,0,True
+Economy,60,reference_selected_at_all_fees,0.249,4,0,0,True
+Continuity,5,repeat_variation_or_incomplete,0.000,0,4,0,True
+Continuity,5,repeat_variation_or_incomplete,0.012,0,4,0,True
+Continuity,5,repeat_variation_or_incomplete,0.019,0,4,0,True
+Continuity,5,repeat_variation_or_incomplete,0.079,0,4,0,True
+Continuity,5,repeat_variation_or_incomplete,0.249,3,1,0,False
+Continuity,60,higher_success_selected_at_maximum_fee,0.000,0,4,0,True
+Continuity,60,higher_success_selected_at_maximum_fee,0.012,0,4,0,True
+Continuity,60,higher_success_selected_at_maximum_fee,0.019,0,4,0,True
+Continuity,60,higher_success_selected_at_maximum_fee,0.079,0,4,0,True
+Continuity,60,higher_success_selected_at_maximum_fee,0.249,0,4,0,True
+Data minimization,5,repeat_variation_or_incomplete,0.000,0,4,0,True
+Data minimization,5,repeat_variation_or_incomplete,0.012,0,4,0,True
+Data minimization,5,repeat_variation_or_incomplete,0.019,1,3,0,False
+Data minimization,5,repeat_variation_or_incomplete,0.079,4,0,0,True
+Data minimization,5,repeat_variation_or_incomplete,0.249,4,0,0,True
+Data minimization,60,repeat_variation_or_incomplete,0.000,0,4,0,True
+Data minimization,60,repeat_variation_or_incomplete,0.012,0,4,0,True
+Data minimization,60,repeat_variation_or_incomplete,0.019,2,2,0,False
+Data minimization,60,repeat_variation_or_incomplete,0.079,4,0,0,True
+Data minimization,60,repeat_variation_or_incomplete,0.249,4,0,0,True

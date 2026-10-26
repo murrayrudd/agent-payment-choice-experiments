@@ -1,0 +1,65 @@
+model,mandate,target_seconds,n,accuracy,log_loss
+highest_success,Balanced,5,32,0.8125,0.5482249580429359
+highest_success,Balanced,60,32,0.875,0.4949515801604851
+highest_success,Economy,5,32,0.625,0.9973104999809383
+highest_success,Economy,60,32,0.625,0.9973104999809383
+highest_success,Continuity,5,32,0.78125,0.6547717138078375
+highest_success,Continuity,60,32,0.875,0.18798419629490143
+highest_success,Data minimization,5,32,0.59375,0.9623345132349744
+highest_success,Data minimization,60,32,0.625,0.9448465198619925
+linear_fee,Balanced,5,32,1.0,0.04818548351694117
+linear_fee,Balanced,60,32,0.9375,0.12732548634906612
+linear_fee,Economy,5,32,1.0,0.18890288373916025
+linear_fee,Economy,60,32,0.9375,0.22342000310076482
+linear_fee,Continuity,5,32,0.71875,0.6537430601929572
+linear_fee,Continuity,60,32,0.96875,0.12816253705498698
+linear_fee,Data minimization,5,32,0.84375,0.30551671056835744
+linear_fee,Data minimization,60,32,0.875,0.29986539469450335
+lowest_expected_expenditure,Balanced,5,32,0.625,0.949435462893249
+lowest_expected_expenditure,Balanced,60,32,0.6875,0.8428887071283474
+lowest_expected_expenditure,Economy,5,32,1.0,0.01680711831638129
+lowest_expected_expenditure,Economy,60,32,1.0,0.03390155167568134
+lowest_expected_expenditure,Continuity,5,32,0.53125,1.0244599526416263
+lowest_expected_expenditure,Continuity,60,32,0.625,0.9719959725226803
+lowest_expected_expenditure,Data minimization,5,32,0.53125,1.0244599526416263
+lowest_expected_expenditure,Data minimization,60,32,0.5,1.0419479460146082
+lowest_fee,Balanced,5,32,0.71875,0.7856631791037689
+lowest_fee,Balanced,60,32,0.78125,0.6791164233388673
+lowest_fee,Economy,5,32,0.84375,0.351059184884893
+lowest_fee,Economy,60,32,0.84375,0.351059184884893
+lowest_fee,Continuity,5,32,0.625,0.9771169219762816
+lowest_fee,Continuity,60,32,0.71875,0.9246529418573357
+lowest_fee,Data minimization,5,32,0.625,0.9771169219762816
+lowest_fee,Data minimization,60,32,0.59375,0.9946049153492635
+meet_target_then_success,Balanced,5,32,0.78125,0.6258430454564166
+meet_target_then_success,Balanced,60,32,0.84375,0.519296289691515
+meet_target_then_success,Economy,5,32,0.46875,1.0645568888411914
+meet_target_then_success,Economy,60,32,0.59375,0.9946049153492635
+meet_target_then_success,Continuity,5,32,0.875,0.351059184884893
+meet_target_then_success,Continuity,60,32,0.90625,0.23481699937511485
+meet_target_then_success,Data minimization,5,32,0.625,0.9596289286032997
+meet_target_then_success,Data minimization,60,32,0.65625,0.9421409352303176
+piecewise_fee,Balanced,5,32,1.0,0.059216109044602734
+piecewise_fee,Balanced,60,32,0.9375,0.14019248222242275
+piecewise_fee,Economy,5,32,0.96875,0.1385201281315725
+piecewise_fee,Economy,60,32,0.9375,0.17047751622192572
+piecewise_fee,Continuity,5,32,0.6875,0.667405233648627
+piecewise_fee,Continuity,60,32,0.96875,0.1359505876442167
+piecewise_fee,Data minimization,5,32,0.84375,0.3126182827611269
+piecewise_fee,Data minimization,60,32,0.875,0.3106081451678948
+shortest_retention,Balanced,5,32,0.6875,0.8270801065598364
+shortest_retention,Balanced,60,32,0.625,0.9336268623247381
+shortest_retention,Economy,5,32,0.375,1.0624317438290132
+shortest_retention,Economy,60,32,0.375,1.0624317438290132
+shortest_retention,Continuity,5,32,0.65625,0.9749917769641036
+shortest_retention,Continuity,60,32,0.625,0.9749917769641036
+shortest_retention,Data minimization,5,32,0.84375,0.2653628982787954
+shortest_retention,Data minimization,60,32,0.875,0.2653628982787954
+training_choice_share,Balanced,5,32,0.5,0.7181486554982487
+training_choice_share,Balanced,60,32,0.4375,0.7762465313282321
+training_choice_share,Economy,5,32,0.5,0.7245605806054779
+training_choice_share,Economy,60,32,0.5,0.7181486554982488
+training_choice_share,Continuity,5,32,0.53125,0.7008100533055145
+training_choice_share,Continuity,60,32,0.5,0.7027071388158663
+training_choice_share,Data minimization,5,32,0.53125,0.69935996615367
+training_choice_share,Data minimization,60,32,0.5,0.7012836503099023

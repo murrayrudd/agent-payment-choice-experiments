@@ -1,0 +1,402 @@
+[
+  {
+    "pair_id": "C01",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.001",
+        "success_probability": "0.95",
+        "time_seconds": 30,
+        "refund": "1",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.99",
+        "time_seconds": 30,
+        "refund": "0",
+        "retention_days": 365
+      }
+    }
+  },
+  {
+    "pair_id": "C02",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.005",
+        "success_probability": "0.999",
+        "time_seconds": 30,
+        "refund": "0.50",
+        "retention_days": 1
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.95",
+        "time_seconds": 1,
+        "refund": "1",
+        "retention_days": 1
+      }
+    }
+  },
+  {
+    "pair_id": "C03",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.001",
+        "success_probability": "0.999",
+        "time_seconds": 1,
+        "refund": "1",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.020",
+        "success_probability": "0.95",
+        "time_seconds": 1,
+        "refund": "0",
+        "retention_days": 30
+      }
+    }
+  },
+  {
+    "pair_id": "C04",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.020",
+        "success_probability": "0.99",
+        "time_seconds": 5,
+        "refund": "0",
+        "retention_days": 30
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.99",
+        "time_seconds": 5,
+        "refund": "0.50",
+        "retention_days": 1
+      }
+    }
+  },
+  {
+    "pair_id": "C05",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.001",
+        "success_probability": "0.95",
+        "time_seconds": 30,
+        "refund": "0.50",
+        "retention_days": 30
+      },
+      "beta": {
+        "fee": "0.005",
+        "success_probability": "0.999",
+        "time_seconds": 5,
+        "refund": "0",
+        "retention_days": 1
+      }
+    }
+  },
+  {
+    "pair_id": "C06",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.020",
+        "success_probability": "0.999",
+        "time_seconds": 30,
+        "refund": "1",
+        "retention_days": 1
+      },
+      "beta": {
+        "fee": "0.080",
+        "success_probability": "0.95",
+        "time_seconds": 1,
+        "refund": "0",
+        "retention_days": 365
+      }
+    }
+  },
+  {
+    "pair_id": "C07",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.005",
+        "success_probability": "0.99",
+        "time_seconds": 1,
+        "refund": "0",
+        "retention_days": 1
+      },
+      "beta": {
+        "fee": "0.080",
+        "success_probability": "0.999",
+        "time_seconds": 30,
+        "refund": "1",
+        "retention_days": 365
+      }
+    }
+  },
+  {
+    "pair_id": "C08",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.080",
+        "success_probability": "0.999",
+        "time_seconds": 5,
+        "refund": "0",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.95",
+        "time_seconds": 30,
+        "refund": "0",
+        "retention_days": 1
+      }
+    }
+  },
+  {
+    "pair_id": "C09",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.250",
+        "success_probability": "0.95",
+        "time_seconds": 30,
+        "refund": "1",
+        "retention_days": 30
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.999",
+        "time_seconds": 1,
+        "refund": "1",
+        "retention_days": 365
+      }
+    }
+  },
+  {
+    "pair_id": "C10",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.020",
+        "success_probability": "0.95",
+        "time_seconds": 5,
+        "refund": "0",
+        "retention_days": 1
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.999",
+        "time_seconds": 30,
+        "refund": "0",
+        "retention_days": 365
+      }
+    }
+  },
+  {
+    "pair_id": "C11",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.020",
+        "success_probability": "0.95",
+        "time_seconds": 30,
+        "refund": "0",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.080",
+        "success_probability": "0.95",
+        "time_seconds": 1,
+        "refund": "1",
+        "retention_days": 1
+      }
+    }
+  },
+  {
+    "pair_id": "C12",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.001",
+        "success_probability": "0.95",
+        "time_seconds": 1,
+        "refund": "1",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.99",
+        "time_seconds": 30,
+        "refund": "0",
+        "retention_days": 1
+      }
+    }
+  },
+  {
+    "pair_id": "C13",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.001",
+        "success_probability": "0.99",
+        "time_seconds": 30,
+        "refund": "0",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.999",
+        "time_seconds": 1,
+        "refund": "1",
+        "retention_days": 1
+      }
+    }
+  },
+  {
+    "pair_id": "C14",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.001",
+        "success_probability": "0.999",
+        "time_seconds": 30,
+        "refund": "1",
+        "retention_days": 1
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.999",
+        "time_seconds": 1,
+        "refund": "0",
+        "retention_days": 365
+      }
+    }
+  },
+  {
+    "pair_id": "C15",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.080",
+        "success_probability": "0.95",
+        "time_seconds": 1,
+        "refund": "0",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.95",
+        "time_seconds": 30,
+        "refund": "1",
+        "retention_days": 1
+      }
+    }
+  },
+  {
+    "pair_id": "C16",
+    "split": "calibration",
+    "profiles": {
+      "alpha": {
+        "fee": "0.001",
+        "success_probability": "0.999",
+        "time_seconds": 30,
+        "refund": "0",
+        "retention_days": 1
+      },
+      "beta": {
+        "fee": "0.250",
+        "success_probability": "0.999",
+        "time_seconds": 5,
+        "refund": "1",
+        "retention_days": 365
+      }
+    }
+  },
+  {
+    "pair_id": "C17",
+    "split": "heldout",
+    "profiles": {
+      "alpha": {
+        "fee": "0.005",
+        "success_probability": "0.99",
+        "time_seconds": 1,
+        "refund": "1",
+        "retention_days": 30
+      },
+      "beta": {
+        "fee": "0.080",
+        "success_probability": "0.999",
+        "time_seconds": 30,
+        "refund": "0.50",
+        "retention_days": 30
+      }
+    }
+  },
+  {
+    "pair_id": "C18",
+    "split": "heldout",
+    "profiles": {
+      "alpha": {
+        "fee": "0.001",
+        "success_probability": "0.95",
+        "time_seconds": 1,
+        "refund": "0.50",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.001",
+        "success_probability": "0.99",
+        "time_seconds": 30,
+        "refund": "1",
+        "retention_days": 1
+      }
+    }
+  },
+  {
+    "pair_id": "C19",
+    "split": "heldout",
+    "profiles": {
+      "alpha": {
+        "fee": "0.005",
+        "success_probability": "0.99",
+        "time_seconds": 1,
+        "refund": "1",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.080",
+        "success_probability": "0.999",
+        "time_seconds": 30,
+        "refund": "0",
+        "retention_days": 365
+      }
+    }
+  },
+  {
+    "pair_id": "C20",
+    "split": "heldout",
+    "profiles": {
+      "alpha": {
+        "fee": "0.020",
+        "success_probability": "0.99",
+        "time_seconds": 5,
+        "refund": "1",
+        "retention_days": 365
+      },
+      "beta": {
+        "fee": "0.080",
+        "success_probability": "0.99",
+        "time_seconds": 1,
+        "refund": "1",
+        "retention_days": 1
+      }
+    }
+  }
+]

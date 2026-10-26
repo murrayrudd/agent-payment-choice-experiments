@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "frozen_utc": "2026-10-25T18:54:32.182743+00:00",
+  "stage": "Step 6 calibration pilot",
+  "research_question": "How do operator mandates and transaction conditions shape AI agents choices and trade-offs among feasible payment services?",
+  "episodes": 536,
+  "modules": {
+    "ladder": 280,
+    "presentation": 32,
+    "core": 192,
+    "outside_anchor": 32
+  },
+  "core_design": "16 calibration and 4 held-out multidimensional pairs crossed with 4 mandates and 2 targets; 4 calibration pairs repeated per cell; two independent label and two position flips per cell.",
+  "ladders": "Six improvement contrasts; timeliness at both targets. Five fee levels, four mandates, two exact repetitions. Reference fee $0.001; maximum premium $0.249.",
+  "outside_option": "Two identical offers at favorable or unfavorable corners; analyze purchase versus decline, not tie-breaking between identical A/B.",
+  "analysis": [
+    "Keep API/schema failures and declines distinct; normalize choices to physical offers.",
+    "Report exact-repeat, position, and label disagreements separately. Repetitions characterize one configuration, not independent operators.",
+    "Fit exploratory ridge multinomial logit on base first-repetition calibration choices only, with separate coefficients by mandate and common feature scaling. Each mandate may respond to every attribute; lateness distinguishes targets. Use penalties 0.1, 1, and 10, selected before results. Do not calculate WTP ratios or p-values.",
+    "Report prediction accuracy and log loss on the four held-out pairs in each mandate and target. Compare against each cell training majority choice. Keep held-out pairs out of adaptive decisions and fitting.",
+    "Ladder outcomes identify tested switching brackets only when both repetitions agree and choices are monotone in premium. Report inconsistent, declining, endpoint-persistent, and equal-fee dominated choices explicitly. No inference of infinite value or population WTP.",
+    "Refund ladders at 95% and 99% success compare responses with expected refund increments $0.05 and $0.01; the qualitative mandate supplies no unique correct choice.",
+    "Retain level ranges unless evidence and substantive interpretation justify changes; zero response alone is not grounds for deleting a construct."
+  ],
+  "adaptive_rule": "After the initial battery, refine at most 24 adjacent premium brackets (at most 48 calls). Eligible series have exact agreement at every level, no decline, improved offer at zero premium, a single switch to the reference, and no reversals. Use one fee midpoint rounded to $0.001 within each bracket, two exact repetitions with the original presentation. Process by ladder name, target, and mandate; use no held-out results. No range expansion, new mandate, or new construct. Skip if budget cannot reserve calls.",
+  "stopping": "Stop scheduling after transport/route/billing ambiguity or budget exhaustion; preserve all started attempts, never automatically replace failed responses.",
+  "scope_limits": "Calibration observations are development evidence, separate from a future main study. This pilot cannot validate operator values or actual market fee levels. Identity, linkability, refund delay, and budget anchoring remain separate proposed diagnostics."
+}

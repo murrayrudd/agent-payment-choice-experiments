@@ -1,0 +1,20 @@
+{
+  "instrument_version": "0.2",
+  "seed": 20261025,
+  "repeats": 2,
+  "files": {
+    "README.md": "6c8247712d855bbc296f7748de139435f34e35a9b7893bf2db17859502737bb2",
+    "answer_key.jsonl": "e14eae7efc19794728c80b2f153a80fd6dc9e08ef639e7f67daf75b7f702b57d",
+    "audit_results.json": "f0875296fe3a099aac4cdf8d706c28912610a8b2e8c85e1b41a650c60ab195d6",
+    "benchmark_answers.json": "3812420c436892d8c2df3c8eba576b358b6838e6d611cafcfec12113bb5eb018",
+    "build_pretest.py": "c9b0d378a2c4c63385434f7380d41b0a52bf6d17f8b570a6f5d9c8584c6f959d",
+    "collect_pretest.py": "dee7450eef6127ebfdea79d5547c94be6c9491c0bdb3d593d9f6e93cad84c583",
+    "configuration.json": "5640160d56dd3a1761a63a3a7b20775a1cce16a24398373923f6bd4f5a365d63",
+    "episodes.jsonl": "d1858f11121df1af16f43717c11e4d35f306f5afef9a45aa5d72094d4411682e",
+    "grade_responses.py": "015b59a4713e84dbcaa9f1cc56332f9a7e2355dff408198d99d40948bd801d12",
+    "instrument.json": "efe60b13dd44d6b8550312c1abad98f714e6e037559eca7b596da57c93c4e151",
+    "package_validation.json": "3a4ffe51509fcb4954c427e4f8403ebd520ad4295ce71a9573254a67e52482fe",
+    "requests.jsonl": "1ad0cda580b97cd90a45f6d54d13f4533d7818f29add5f69783d5692cbffc717",
+    "validate_package.py": "73bef85c2e1ac39c74080ec62585d14c0d75592f13030cb7ad9e644215d487be"
+  }
+}

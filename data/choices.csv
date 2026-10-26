@@ -1,0 +1,1281 @@
+episode_id,case_id,pair_id,module,split,repeat,mandate,target_seconds,status,physical_choice,displayed_choice,fee_usd,success_probability,time_seconds,principal_return_usd,retention_days
+R4_M4_T60_r2,R4_M4_T60,R4,refund_success,diagnostic,2,Data minimization,60,valid,alpha,A,0.001,0.95,5,0,30
+H029_M3_T60_r1,H029_M3_T60,H029,core,heldout,1,Continuity,60,valid,beta,B,0.003,0.99,30,0,1
+H025_M1_T60_r1,H025_M1_T60,H025,core,heldout,1,Balanced,60,valid,beta,B,0.080,0.999,30,1,1
+E004_M2_T60_r1,E004_M2_T60,E004,core,estimation,1,Economy,60,valid,alpha,A,0.001,0.95,1,0,30
+E059_M3_T60_r1,E059_M3_T60,E059,core,estimation,1,Continuity,60,valid,alpha,B,0.001,0.999,30,1,30
+E049_M2_T5_r1,E049_M2_T5,E049,core,estimation,1,Economy,5,valid,alpha,B,0.020,0.95,1,0,1
+H015_M3_T60_r2,H015_M3_T60,H015,core,heldout,2,Continuity,60,valid,beta,B,0.050,0.999,1,1,30
+E022_M3_T5_r1,E022_M3_T5,E022,core,estimation,1,Continuity,5,valid,alpha,A,0.013,0.999,1,0,365
+E063_M1_T60_r1,E063_M1_T60,E063,core,estimation,1,Balanced,60,valid,beta,B,0.005,0.95,1,0,30
+H012_M1_T60_r1,H012_M1_T60,H012,core,heldout,1,Balanced,60,valid,alpha,A,0.165,0.99,5,0.5,1
+H006_M3_T5_r1,H006_M3_T5,H006,core,heldout,1,Continuity,5,valid,beta,A,0.080,0.99,30,0.5,1
+F1_M1_T5_r1,F1_M1_T5,F1,fine_reliability,diagnostic,1,Balanced,5,valid,beta,B,0.001,0.999,5,0.50,30
+E032_M4_T5_r1,E032_M4_T5,E032,core,estimation,1,Data minimization,5,valid,beta,B,0.080,0.95,1,1,1
+E010_M1_T60_r1,E010_M1_T60,E010,core,estimation,1,Balanced,60,valid,beta,A,0.020,0.999,30,1,30
+H017_M1_T60_r1,H017_M1_T60,H017,core,heldout,1,Balanced,60,valid,alpha,B,0.050,0.999,1,0,365
+H031_M2_T5_r1,H031_M2_T5,H031,core,heldout,1,Economy,5,valid,beta,B,0.013,0.999,1,0,365
+E029_M3_T5_r1,E029_M3_T5,E029,core,estimation,1,Continuity,5,valid,alpha,B,0.001,0.999,5,1,30
+E028_M2_T60_labels_r1,E028_M2_T60_labels,E028,presentation,diagnostic,1,Economy,60,valid,alpha,A,0.080,0.95,5,0,30
+F3_M4_T5_r1,F3_M4_T5,F3,fine_reliability,diagnostic,1,Data minimization,5,valid,beta,B,0.020,0.999,5,0.50,30
+E055_M1_T5_r1,E055_M1_T5,E055,core,estimation,1,Balanced,5,valid,alpha,A,0.001,0.99,5,0.5,30
+E057_M1_T5_r1,E057_M1_T5,E057,core,estimation,1,Balanced,5,valid,beta,B,0.080,0.95,5,0,1
+E005_M2_T60_r1,E005_M2_T60,E005,core,estimation,1,Economy,60,valid,beta,B,0.001,0.999,1,0.5,1
+E026_M1_T60_r1,E026_M1_T60,E026,core,estimation,1,Balanced,60,valid,beta,B,0.165,0.99,30,1,365
+F3_M1_T60_r4,F3_M1_T60,F3,fine_reliability,diagnostic,4,Balanced,60,valid,beta,B,0.020,0.999,5,0.50,30
+E057_M2_T60_r1,E057_M2_T60,E057,core,estimation,1,Economy,60,valid,beta,B,0.080,0.95,5,0,1
+E005_M3_T5_r1,E005_M3_T5,E005,core,estimation,1,Continuity,5,valid,beta,B,0.001,0.999,1,0.5,1
+E014_M2_T60_r1,E014_M2_T60,E014,core,estimation,1,Economy,60,valid,beta,A,0.001,0.99,1,0.5,365
+H013_M4_T5_r1,H013_M4_T5,H013,core,heldout,1,Data minimization,5,valid,alpha,B,0.250,0.95,5,1,30
+E028_M3_T5_r1,E028_M3_T5,E028,core,estimation,1,Continuity,5,valid,alpha,B,0.080,0.95,5,0,30
+E059_M1_T60_r1,E059_M1_T60,E059,core,estimation,1,Balanced,60,valid,alpha,B,0.001,0.999,30,1,30
+E051_M1_T5_r1,E051_M1_T5,E051,core,estimation,1,Balanced,5,valid,beta,B,0.020,0.99,1,0,30
+H010_M4_T60_r1,H010_M4_T60,H010,core,heldout,1,Data minimization,60,valid,alpha,A,0.080,0.95,5,1,365
+E047_M2_T60_r1,E047_M2_T60,E047,core,estimation,1,Economy,60,valid,beta,B,0.020,0.99,5,0,365
+E064_M4_T60_r2,E064_M4_T60,E064,core,estimation,2,Data minimization,60,valid,beta,A,0.020,0.999,5,0.5,30
+E041_M4_T60_r1,E041_M4_T60,E041,core,estimation,1,Data minimization,60,valid,beta,A,0.080,0.95,5,1,30
+R4_M3_T5_r2,R4_M3_T5,R4,refund_success,diagnostic,2,Continuity,5,valid,alpha,A,0.001,0.95,5,0,30
+F5_M3_T60_r3,F5_M3_T60,F5,fine_reliability,diagnostic,3,Continuity,60,valid,beta,B,0.250,0.999,5,0.50,30
+R3_M3_T60_r1,R3_M3_T60,R3,refund_success,diagnostic,1,Continuity,60,valid,beta,B,0.050,0.95,5,1,30
+F5_M2_T5_r4,F5_M2_T5,F5,fine_reliability,diagnostic,4,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E026_M1_T5_r1,E026_M1_T5,E026,core,estimation,1,Balanced,5,valid,alpha,A,0.165,0.95,1,0.5,30
+E011_M4_T60_r1,E011_M4_T60,E011,core,estimation,1,Data minimization,60,valid,beta,A,0.080,0.99,5,0.5,1
+H016_M1_T60_r1,H016_M1_T60,H016,core,heldout,1,Balanced,60,valid,alpha,B,0.001,0.99,5,1,365
+E059_M4_T60_r1,E059_M4_T60,E059,core,estimation,1,Data minimization,60,valid,beta,A,0.020,0.99,1,0.5,1
+E022_M1_T5_r2,E022_M1_T5,E022,core,estimation,2,Balanced,5,valid,alpha,A,0.013,0.999,1,0,365
+E023_M3_T60_r1,E023_M3_T60,E023,core,estimation,1,Continuity,60,valid,alpha,A,0.013,0.999,5,0.5,30
+F2_M1_T5_r4,F2_M1_T5,F2,fine_reliability,diagnostic,4,Balanced,5,valid,beta,B,0.013,0.999,5,0.50,30
+E027_M4_T60_r1,E027_M4_T60,E027,core,estimation,1,Data minimization,60,valid,alpha,B,0.165,0.999,30,1,30
+R2_M1_T5_r1,R2_M1_T5,R2,refund_success,diagnostic,1,Balanced,5,valid,alpha,A,0.001,0.99,5,0,30
+R4_M2_T5_r1,R4_M2_T5,R4,refund_success,diagnostic,1,Economy,5,valid,alpha,A,0.001,0.95,5,0,30
+H013_M4_T60_r1,H013_M4_T60,H013,core,heldout,1,Data minimization,60,valid,alpha,B,0.250,0.95,5,1,30
+R2_M1_T60_r2,R2_M1_T60,R2,refund_success,diagnostic,2,Balanced,60,valid,alpha,A,0.001,0.99,5,0,30
+R4_M2_T60_r1,R4_M2_T60,R4,refund_success,diagnostic,1,Economy,60,valid,alpha,A,0.001,0.95,5,0,30
+F5_M1_T60_r2,F5_M1_T60,F5,fine_reliability,diagnostic,2,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+F2_M1_T60_r3,F2_M1_T60,F2,fine_reliability,diagnostic,3,Balanced,60,valid,beta,B,0.013,0.999,5,0.50,30
+F3_M3_T5_r3,F3_M3_T5,F3,fine_reliability,diagnostic,3,Continuity,5,valid,beta,B,0.020,0.999,5,0.50,30
+H027_M4_T60_r1,H027_M4_T60,H027,core,heldout,1,Data minimization,60,valid,alpha,A,0.050,0.999,30,0.5,30
+E029_M3_T60_r1,E029_M3_T60,E029,core,estimation,1,Continuity,60,valid,alpha,B,0.001,0.999,5,1,30
+E034_M4_T5_r1,E034_M4_T5,E034,core,estimation,1,Data minimization,5,valid,alpha,B,0.250,0.95,5,0,1
+H019_M4_T5_r1,H019_M4_T5,H019,core,heldout,1,Data minimization,5,valid,alpha,B,0.020,0.999,30,1,30
+E019_M2_T5_r1,E019_M2_T5,E019,core,estimation,1,Economy,5,valid,alpha,A,0.013,0.95,1,0,30
+E022_M3_T60_r2,E022_M3_T60,E022,core,estimation,2,Continuity,60,valid,alpha,A,0.013,0.999,1,0,365
+R3_M2_T60_r1,R3_M2_T60,R3,refund_success,diagnostic,1,Economy,60,valid,beta,B,0.050,0.95,5,1,30
+H001_M4_T60_r1,H001_M4_T60,H001,core,heldout,1,Data minimization,60,valid,alpha,A,0.003,0.99,30,0,365
+R2_M3_T60_r2,R2_M3_T60,R2,refund_success,diagnostic,2,Continuity,60,valid,alpha,A,0.001,0.99,5,0,30
+E064_M3_T5_r2,E064_M3_T5,E064,core,estimation,2,Continuity,5,valid,beta,A,0.020,0.999,5,0.5,30
+F4_M1_T5_r2,F4_M1_T5,F4,fine_reliability,diagnostic,2,Balanced,5,valid,alpha,A,0.001,0.99,5,0.50,30
+F3_M3_T60_r2,F3_M3_T60,F3,fine_reliability,diagnostic,2,Continuity,60,valid,beta,B,0.020,0.999,5,0.50,30
+H017_M4_T5_r1,H017_M4_T5,H017,core,heldout,1,Data minimization,5,valid,alpha,B,0.050,0.999,1,0,365
+H013_M1_T60_r1,H013_M1_T60,H013,core,heldout,1,Balanced,60,valid,beta,A,0.003,0.99,30,0.5,365
+E049_M4_T5_r1,E049_M4_T5,E049,core,estimation,1,Data minimization,5,valid,alpha,B,0.020,0.95,1,0,1
+F5_M3_T5_r4,F5_M3_T5,F5,fine_reliability,diagnostic,4,Continuity,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E050_M2_T5_r1,E050_M2_T5,E050,core,estimation,1,Economy,5,valid,beta,A,0.001,0.95,30,0.5,30
+E005_M1_T5_r1,E005_M1_T5,E005,core,estimation,1,Balanced,5,valid,beta,B,0.001,0.999,1,0.5,1
+E056_M3_T60_r1,E056_M3_T60,E056,core,estimation,1,Continuity,60,valid,alpha,A,0.080,0.99,30,0.5,1
+H014_M3_T5_r1,H014_M3_T5,H014,core,heldout,1,Continuity,5,valid,beta,B,0.001,0.999,5,1,1
+E047_M1_T5_r1,E047_M1_T5,E047,core,estimation,1,Balanced,5,valid,beta,B,0.020,0.99,5,0,365
+E059_M1_T5_r1,E059_M1_T5,E059,core,estimation,1,Balanced,5,valid,beta,A,0.020,0.99,1,0.5,1
+E021_M2_T60_r1,E021_M2_T60,E021,core,estimation,1,Economy,60,valid,alpha,B,0.005,0.99,5,0,30
+E017_M4_T60_r1,E017_M4_T60,E017,core,estimation,1,Data minimization,60,valid,alpha,B,0.250,0.99,30,0.5,30
+H030_M3_T60_r1,H030_M3_T60,H030,core,heldout,1,Continuity,60,valid,alpha,A,0.080,0.99,1,0.5,365
+F5_M4_T60_r4,F5_M4_T60,F5,fine_reliability,diagnostic,4,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H032_M4_T60_r1,H032_M4_T60,H032,core,heldout,1,Data minimization,60,valid,alpha,B,0.165,0.95,1,0.5,1
+E010_M2_T60_r1,E010_M2_T60,E010,core,estimation,1,Economy,60,valid,beta,A,0.020,0.999,30,1,30
+E033_M4_T60_r1,E033_M4_T60,E033,core,estimation,1,Data minimization,60,valid,alpha,A,0.250,0.999,1,1,30
+E016_M2_T60_labels_r1,E016_M2_T60_labels,E016,presentation,diagnostic,1,Economy,60,valid,beta,B,0.080,0.95,5,0,1
+H016_M3_T60_r1,H016_M3_T60,H016,core,heldout,1,Continuity,60,valid,beta,A,0.005,0.99,1,0.5,30
+E016_M4_T60_r1,E016_M4_T60,E016,core,estimation,1,Data minimization,60,valid,beta,A,0.080,0.95,5,0,1
+R2_M4_T60_r1,R2_M4_T60,R2,refund_success,diagnostic,1,Data minimization,60,valid,alpha,A,0.001,0.99,5,0,30
+F3_M2_T5_r3,F3_M2_T5,F3,fine_reliability,diagnostic,3,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E031_M3_T60_r1,E031_M3_T60,E031,core,estimation,1,Continuity,60,valid,alpha,A,0.080,0.999,30,1,365
+E035_M3_T60_r1,E035_M3_T60,E035,core,estimation,1,Continuity,60,valid,beta,B,0.080,0.999,5,0.5,1
+E062_M1_T60_r1,E062_M1_T60,E062,core,estimation,1,Balanced,60,valid,beta,A,0.001,0.99,5,1,1
+E025_M4_T5_r1,E025_M4_T5,E025,core,estimation,1,Data minimization,5,valid,beta,A,0.013,0.95,5,0,1
+E059_M1_T60_r2,E059_M1_T60,E059,core,estimation,2,Balanced,60,valid,alpha,B,0.001,0.999,30,1,30
+E059_M2_T60_labels_r1,E059_M2_T60_labels,E059,presentation,diagnostic,1,Economy,60,valid,alpha,A,0.001,0.999,30,1,30
+E039_M3_T5_r1,E039_M3_T5,E039,core,estimation,1,Continuity,5,valid,alpha,A,0.020,0.99,5,0,365
+E012_M1_T60_position_r1,E012_M1_T60_position,E012,presentation,diagnostic,1,Balanced,60,valid,alpha,B,0.020,0.999,1,0,365
+E030_M3_T5_r1,E030_M3_T5,E030,core,estimation,1,Continuity,5,valid,beta,B,0.013,0.95,1,0,1
+E007_M3_T60_r1,E007_M3_T60,E007,core,estimation,1,Continuity,60,valid,alpha,B,0.165,0.999,5,1,30
+H019_M1_T5_r1,H019_M1_T5,H019,core,heldout,1,Balanced,5,valid,alpha,B,0.020,0.999,30,1,30
+E017_M1_T5_r1,E017_M1_T5,E017,core,estimation,1,Balanced,5,valid,beta,A,0.005,0.95,5,1,365
+E015_M2_T60_r2,E015_M2_T60,E015,core,estimation,2,Economy,60,valid,beta,A,0.003,0.999,30,0,1
+E031_M3_T5_r1,E031_M3_T5,E031,core,estimation,1,Continuity,5,valid,beta,B,0.020,0.95,5,1,30
+E015_M2_T5_r1,E015_M2_T5,E015,core,estimation,1,Economy,5,valid,beta,A,0.003,0.999,30,0,1
+R3_M1_T5_r1,R3_M1_T5,R3,refund_success,diagnostic,1,Balanced,5,valid,beta,B,0.050,0.95,5,1,30
+E002_M3_T60_r1,E002_M3_T60,E002,core,estimation,1,Continuity,60,valid,beta,A,0.050,0.99,1,0,1
+E050_M3_T60_r1,E050_M3_T60,E050,core,estimation,1,Continuity,60,valid,alpha,B,0.250,0.999,1,1,1
+E029_M4_T60_r2,E029_M4_T60,E029,core,estimation,2,Data minimization,60,valid,alpha,B,0.001,0.999,5,1,30
+E062_M3_T60_r2,E062_M3_T60,E062,core,estimation,2,Continuity,60,valid,beta,A,0.001,0.99,5,1,1
+H004_M4_T5_r1,H004_M4_T5,H004,core,heldout,1,Data minimization,5,valid,beta,A,0.250,0.95,30,0,1
+E008_M1_T5_r1,E008_M1_T5,E008,core,estimation,1,Balanced,5,valid,beta,B,0.003,0.99,30,1,365
+E028_M4_T5_labels_r1,E028_M4_T5_labels,E028,presentation,diagnostic,1,Data minimization,5,valid,beta,B,0.250,0.95,1,1,1
+F4_M2_T5_r2,F4_M2_T5,F4,fine_reliability,diagnostic,2,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E041_M3_T60_r2,E041_M3_T60,E041,core,estimation,2,Continuity,60,valid,alpha,B,0.001,0.999,30,0.5,365
+E047_M4_T5_r1,E047_M4_T5,E047,core,estimation,1,Data minimization,5,valid,alpha,A,0.080,0.95,1,0.5,30
+E003_M1_T5_r1,E003_M1_T5,E003,core,estimation,1,Balanced,5,valid,beta,B,0.001,0.95,5,0,1
+E023_M2_T60_r1,E023_M2_T60,E023,core,estimation,1,Economy,60,valid,beta,B,0.003,0.99,1,0,1
+E043_M4_T5_r1,E043_M4_T5,E043,core,estimation,1,Data minimization,5,valid,alpha,B,0.250,0.99,5,0,30
+F3_M1_T5_r2,F3_M1_T5,F3,fine_reliability,diagnostic,2,Balanced,5,valid,beta,B,0.020,0.999,5,0.50,30
+E043_M3_T60_r1,E043_M3_T60,E043,core,estimation,1,Continuity,60,valid,beta,A,0.080,0.999,30,1,365
+H004_M2_T5_r1,H004_M2_T5,H004,core,heldout,1,Economy,5,valid,alpha,B,0.013,0.95,5,1,30
+H028_M4_T5_r2,H028_M4_T5,H028,core,heldout,2,Data minimization,5,valid,beta,B,0.020,0.99,30,1,30
+E046_M1_T60_r1,E046_M1_T60,E046,core,estimation,1,Balanced,60,valid,alpha,A,0.020,0.999,1,0.5,1
+F3_M2_T60_r3,F3_M2_T60,F3,fine_reliability,diagnostic,3,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E005_M4_T60_r1,E005_M4_T60,E005,core,estimation,1,Data minimization,60,valid,beta,B,0.001,0.999,1,0.5,1
+H011_M1_T5_r1,H011_M1_T5,H011,core,heldout,1,Balanced,5,valid,beta,B,0.020,0.999,5,1,1
+R4_M1_T60_r2,R4_M1_T60,R4,refund_success,diagnostic,2,Balanced,60,valid,alpha,A,0.001,0.95,5,0,30
+A1_M1_T5_r2,A1_M1_T5,A1,outside_anchor,diagnostic,2,Balanced,5,valid,alpha,A,0.001,0.999,1,1,1
+E058_M1_T60_r1,E058_M1_T60,E058,core,estimation,1,Balanced,60,valid,alpha,A,0.001,0.999,5,0,1
+E052_M3_T5_r1,E052_M3_T5,E052,core,estimation,1,Continuity,5,valid,alpha,A,0.013,0.95,5,0,30
+E029_M1_T5_r1,E029_M1_T5,E029,core,estimation,1,Balanced,5,valid,alpha,B,0.001,0.999,5,1,30
+E028_M1_T60_r2,E028_M1_T60,E028,core,estimation,2,Balanced,60,valid,alpha,B,0.080,0.95,5,0,30
+E020_M3_T5_r2,E020_M3_T5,E020,core,estimation,2,Continuity,5,valid,beta,B,0.003,0.99,1,0,1
+H023_M3_T60_r1,H023_M3_T60,H023,core,heldout,1,Continuity,60,valid,alpha,B,0.005,0.999,5,0,30
+H006_M2_T5_r1,H006_M2_T5,H006,core,heldout,1,Economy,5,valid,alpha,B,0.013,0.95,30,1,365
+H002_M3_T5_r1,H002_M3_T5,H002,core,heldout,1,Continuity,5,valid,beta,B,0.013,0.99,1,1,30
+H026_M4_T60_r1,H026_M4_T60,H026,core,heldout,1,Data minimization,60,valid,alpha,B,0.003,0.95,5,0.5,30
+E020_M3_T60_r2,E020_M3_T60,E020,core,estimation,2,Continuity,60,valid,beta,B,0.003,0.99,1,0,1
+E025_M2_T60_r1,E025_M2_T60,E025,core,estimation,1,Economy,60,valid,alpha,B,0.005,0.99,30,0.5,30
+F3_M1_T60_r3,F3_M1_T60,F3,fine_reliability,diagnostic,3,Balanced,60,valid,beta,B,0.020,0.999,5,0.50,30
+E053_M1_T5_r1,E053_M1_T5,E053,core,estimation,1,Balanced,5,valid,beta,A,0.050,0.999,1,0,30
+H029_M4_T60_r1,H029_M4_T60,H029,core,heldout,1,Data minimization,60,valid,beta,B,0.003,0.99,30,0,1
+H005_M2_T60_r2,H005_M2_T60,H005,core,heldout,2,Economy,60,valid,beta,A,0.005,0.99,30,0,1
+E002_M2_T60_position_r1,E002_M2_T60_position,E002,presentation,diagnostic,1,Economy,60,valid,alpha,B,0.001,0.95,5,1,30
+F1_M4_T60_r2,F1_M4_T60,F1,fine_reliability,diagnostic,2,Data minimization,60,valid,beta,B,0.001,0.999,5,0.50,30
+F1_M4_T60_r3,F1_M4_T60,F1,fine_reliability,diagnostic,3,Data minimization,60,valid,beta,B,0.001,0.999,5,0.50,30
+H012_M2_T60_r1,H012_M2_T60,H012,core,heldout,1,Economy,60,valid,beta,B,0.165,0.95,1,0.5,30
+E011_M3_T5_r1,E011_M3_T5,E011,core,estimation,1,Continuity,5,valid,beta,A,0.080,0.99,5,0.5,1
+E015_M1_T5_r1,E015_M1_T5,E015,core,estimation,1,Balanced,5,valid,beta,A,0.003,0.999,30,0,1
+E044_M4_T60_position_r1,E044_M4_T60_position,E044,presentation,diagnostic,1,Data minimization,60,valid,alpha,A,0.080,0.99,5,1,1
+E029_M3_T5_r2,E029_M3_T5,E029,core,estimation,2,Continuity,5,valid,alpha,B,0.001,0.999,5,1,30
+E045_M4_T60_r1,E045_M4_T60,E045,core,estimation,1,Data minimization,60,valid,alpha,A,0.250,0.99,1,1,30
+H002_M1_T60_r1,H002_M1_T60,H002,core,heldout,1,Balanced,60,valid,alpha,A,0.001,0.999,30,0.5,365
+E056_M3_T5_r1,E056_M3_T5,E056,core,estimation,1,Continuity,5,valid,beta,B,0.020,0.95,5,0,365
+H025_M4_T60_r1,H025_M4_T60,H025,core,heldout,1,Data minimization,60,valid,beta,B,0.080,0.999,30,1,1
+H014_M2_T60_r1,H014_M2_T60,H014,core,heldout,1,Economy,60,valid,beta,B,0.001,0.999,5,1,1
+F1_M3_T60_r3,F1_M3_T60,F1,fine_reliability,diagnostic,3,Continuity,60,valid,beta,B,0.001,0.999,5,0.50,30
+E015_M3_T60_r1,E015_M3_T60,E015,core,estimation,1,Continuity,60,valid,beta,A,0.003,0.999,30,0,1
+E045_M3_T5_r1,E045_M3_T5,E045,core,estimation,1,Continuity,5,valid,beta,B,0.080,0.999,5,0,365
+H008_M4_T5_r2,H008_M4_T5,H008,core,heldout,2,Data minimization,5,valid,alpha,B,0.005,0.95,5,1,1
+E033_M1_T5_r1,E033_M1_T5,E033,core,estimation,1,Balanced,5,valid,alpha,A,0.250,0.999,1,1,30
+E059_M4_T5_r1,E059_M4_T5,E059,core,estimation,1,Data minimization,5,valid,beta,A,0.020,0.99,1,0.5,1
+E022_M4_T60_r2,E022_M4_T60,E022,core,estimation,2,Data minimization,60,valid,beta,B,0.005,0.99,30,1,1
+F2_M2_T5_r2,F2_M2_T5,F2,fine_reliability,diagnostic,2,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E061_M2_T5_r1,E061_M2_T5,E061,core,estimation,1,Economy,5,valid,beta,B,0.003,0.95,30,1,365
+R2_M4_T60_r2,R2_M4_T60,R2,refund_success,diagnostic,2,Data minimization,60,valid,alpha,A,0.001,0.99,5,0,30
+E061_M4_T60_r1,E061_M4_T60,E061,core,estimation,1,Data minimization,60,valid,alpha,A,0.080,0.95,5,0,30
+H018_M3_T5_r1,H018_M3_T5,H018,core,heldout,1,Continuity,5,valid,alpha,A,0.020,0.99,5,0.5,1
+E013_M1_T5_r1,E013_M1_T5,E013,core,estimation,1,Balanced,5,valid,beta,A,0.001,0.999,5,0,365
+E035_M1_T60_r1,E035_M1_T60,E035,core,estimation,1,Balanced,60,valid,beta,B,0.080,0.999,5,0.5,1
+E028_M2_T5_r2,E028_M2_T5,E028,core,estimation,2,Economy,5,valid,alpha,B,0.080,0.95,5,0,30
+H017_M3_T60_r2,H017_M3_T60,H017,core,heldout,2,Continuity,60,valid,alpha,B,0.050,0.999,1,0,365
+E044_M2_T60_r1,E044_M2_T60,E044,core,estimation,1,Economy,60,valid,beta,B,0.001,0.999,1,0,30
+H006_M2_T60_r1,H006_M2_T60,H006,core,heldout,1,Economy,60,valid,alpha,B,0.013,0.95,30,1,365
+E032_M2_T5_r1,E032_M2_T5,E032,core,estimation,1,Economy,5,valid,alpha,A,0.020,0.999,30,0.5,365
+E028_M1_T60_labels_r1,E028_M1_T60_labels,E028,presentation,diagnostic,1,Balanced,60,valid,alpha,A,0.080,0.95,5,0,30
+E012_M4_T5_r1,E012_M4_T5,E012,core,estimation,1,Data minimization,5,valid,alpha,B,0.020,0.999,1,0,365
+H030_M4_T60_r1,H030_M4_T60,H030,core,heldout,1,Data minimization,60,valid,alpha,A,0.080,0.99,1,0.5,365
+E020_M1_T60_r1,E020_M1_T60,E020,core,estimation,1,Balanced,60,valid,beta,B,0.003,0.99,1,0,1
+F3_M1_T60_r1,F3_M1_T60,F3,fine_reliability,diagnostic,1,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E026_M3_T60_r1,E026_M3_T60,E026,core,estimation,1,Continuity,60,valid,beta,B,0.165,0.99,30,1,365
+R3_M2_T60_r2,R3_M2_T60,R3,refund_success,diagnostic,2,Economy,60,valid,beta,B,0.050,0.95,5,1,30
+E022_M2_T5_r1,E022_M2_T5,E022,core,estimation,1,Economy,5,valid,beta,B,0.005,0.99,30,1,1
+H007_M2_T5_r1,H007_M2_T5,H007,core,heldout,1,Economy,5,valid,beta,A,0.013,0.99,1,0,1
+E037_M4_T60_r1,E037_M4_T60,E037,core,estimation,1,Data minimization,60,valid,alpha,A,0.020,0.999,1,0,1
+H003_M3_T60_r1,H003_M3_T60,H003,core,heldout,1,Continuity,60,valid,alpha,B,0.005,0.999,1,0.5,365
+F1_M2_T60_r4,F1_M2_T60,F1,fine_reliability,diagnostic,4,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E020_M3_T5_r1,E020_M3_T5,E020,core,estimation,1,Continuity,5,valid,beta,B,0.003,0.99,1,0,1
+E032_M3_T5_r1,E032_M3_T5,E032,core,estimation,1,Continuity,5,valid,beta,B,0.080,0.95,1,1,1
+E053_M3_T5_r2,E053_M3_T5,E053,core,estimation,2,Continuity,5,valid,beta,A,0.050,0.999,1,0,30
+E015_M4_T5_r1,E015_M4_T5,E015,core,estimation,1,Data minimization,5,valid,beta,A,0.003,0.999,30,0,1
+E051_M3_T5_r1,E051_M3_T5,E051,core,estimation,1,Continuity,5,valid,alpha,A,0.250,0.999,5,0.5,365
+E019_M4_T5_r2,E019_M4_T5,E019,core,estimation,2,Data minimization,5,valid,alpha,A,0.013,0.95,1,0,30
+E058_M3_T60_r1,E058_M3_T60,E058,core,estimation,1,Continuity,60,valid,alpha,A,0.001,0.999,5,0,1
+A2_M1_T5_r1,A2_M1_T5,A2,outside_anchor,diagnostic,1,Balanced,5,valid,alpha,A,0.250,0.95,30,0,365
+H019_M2_T5_r1,H019_M2_T5,H019,core,heldout,1,Economy,5,valid,alpha,B,0.020,0.999,30,1,30
+E004_M2_T5_r1,E004_M2_T5,E004,core,estimation,1,Economy,5,valid,alpha,A,0.001,0.95,1,0,30
+E006_M3_T5_r1,E006_M3_T5,E006,core,estimation,1,Continuity,5,valid,alpha,A,0.080,0.999,1,1,365
+R2_M3_T60_r1,R2_M3_T60,R2,refund_success,diagnostic,1,Continuity,60,valid,alpha,A,0.001,0.99,5,0,30
+E064_M2_T60_r2,E064_M2_T60,E064,core,estimation,2,Economy,60,valid,beta,A,0.020,0.999,5,0.5,30
+E040_M1_T60_r1,E040_M1_T60,E040,core,estimation,1,Balanced,60,valid,alpha,B,0.020,0.999,30,0.5,30
+E036_M2_T60_r1,E036_M2_T60,E036,core,estimation,1,Economy,60,valid,beta,A,0.001,0.99,5,0.5,1
+E012_M3_T5_position_r1,E012_M3_T5_position,E012,presentation,diagnostic,1,Continuity,5,valid,alpha,B,0.020,0.999,1,0,365
+E046_M2_T60_r1,E046_M2_T60,E046,core,estimation,1,Economy,60,valid,alpha,A,0.020,0.999,1,0.5,1
+F4_M3_T5_r3,F4_M3_T5,F4,fine_reliability,diagnostic,3,Continuity,5,valid,beta,B,0.080,0.999,5,0.50,30
+E037_M1_T60_r1,E037_M1_T60,E037,core,estimation,1,Balanced,60,valid,alpha,A,0.020,0.999,1,0,1
+H003_M2_T5_r1,H003_M2_T5,H003,core,heldout,1,Economy,5,valid,alpha,B,0.005,0.999,1,0.5,365
+E026_M4_T5_r1,E026_M4_T5,E026,core,estimation,1,Data minimization,5,valid,alpha,A,0.165,0.95,1,0.5,30
+E018_M4_T5_r1,E018_M4_T5,E018,core,estimation,1,Data minimization,5,valid,beta,A,0.050,0.99,5,1,1
+H012_M3_T60_r1,H012_M3_T60,H012,core,heldout,1,Continuity,60,valid,alpha,A,0.165,0.99,5,0.5,1
+A1_M2_T5_r2,A1_M2_T5,A1,outside_anchor,diagnostic,2,Economy,5,valid,alpha,A,0.001,0.999,1,1,1
+E056_M4_T60_labels_r1,E056_M4_T60_labels,E056,presentation,diagnostic,1,Data minimization,60,valid,alpha,B,0.080,0.99,30,0.5,1
+E041_M3_T60_r1,E041_M3_T60,E041,core,estimation,1,Continuity,60,valid,alpha,B,0.001,0.999,30,0.5,365
+F3_M3_T5_r4,F3_M3_T5,F3,fine_reliability,diagnostic,4,Continuity,5,valid,beta,B,0.020,0.999,5,0.50,30
+H011_M3_T60_r1,H011_M3_T60,H011,core,heldout,1,Continuity,60,valid,beta,B,0.020,0.999,5,1,1
+E003_M1_T60_r1,E003_M1_T60,E003,core,estimation,1,Balanced,60,valid,beta,B,0.001,0.95,5,0,1
+E016_M3_T5_r1,E016_M3_T5,E016,core,estimation,1,Continuity,5,valid,alpha,B,0.250,0.999,1,0,365
+E016_M1_T5_r1,E016_M1_T5,E016,core,estimation,1,Balanced,5,valid,beta,A,0.080,0.95,5,0,1
+E003_M3_T5_r1,E003_M3_T5,E003,core,estimation,1,Continuity,5,valid,alpha,A,0.080,0.99,1,0.5,30
+E024_M4_T60_r1,E024_M4_T60,E024,core,estimation,1,Data minimization,60,valid,alpha,B,0.050,0.999,30,0,30
+E002_M1_T60_position_r1,E002_M1_T60_position,E002,presentation,diagnostic,1,Balanced,60,valid,beta,A,0.050,0.99,1,0,1
+F4_M1_T60_r1,F4_M1_T60,F4,fine_reliability,diagnostic,1,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H005_M2_T5_r2,H005_M2_T5,H005,core,heldout,2,Economy,5,valid,beta,A,0.005,0.99,30,0,1
+E002_M4_T60_r1,E002_M4_T60,E002,core,estimation,1,Data minimization,60,valid,beta,A,0.050,0.99,1,0,1
+E061_M1_T5_r1,E061_M1_T5,E061,core,estimation,1,Balanced,5,valid,alpha,A,0.080,0.95,5,0,30
+E012_M1_T60_r1,E012_M1_T60,E012,core,estimation,1,Balanced,60,valid,alpha,B,0.020,0.999,1,0,365
+H019_M2_T60_r1,H019_M2_T60,H019,core,heldout,1,Economy,60,valid,alpha,B,0.020,0.999,30,1,30
+E059_M4_T5_labels_r1,E059_M4_T5_labels,E059,presentation,diagnostic,1,Data minimization,5,valid,beta,B,0.020,0.99,1,0.5,1
+H001_M4_T5_r1,H001_M4_T5,H001,core,heldout,1,Data minimization,5,valid,alpha,A,0.003,0.99,30,0,365
+H005_M3_T60_r1,H005_M3_T60,H005,core,heldout,1,Continuity,60,valid,alpha,B,0.020,0.999,5,1,1
+R1_M1_T5_r1,R1_M1_T5,R1,refund_success,diagnostic,1,Balanced,5,valid,beta,B,0.003,0.99,5,1,30
+H032_M4_T5_r1,H032_M4_T5,H032,core,heldout,1,Data minimization,5,valid,alpha,B,0.165,0.95,1,0.5,1
+E053_M4_T5_r2,E053_M4_T5,E053,core,estimation,2,Data minimization,5,valid,beta,A,0.050,0.999,1,0,30
+H022_M3_T60_r1,H022_M3_T60,H022,core,heldout,1,Continuity,60,valid,alpha,B,0.005,0.99,5,1,365
+E002_M2_T60_r1,E002_M2_T60,E002,core,estimation,1,Economy,60,valid,alpha,B,0.001,0.95,5,1,30
+E003_M3_T60_r1,E003_M3_T60,E003,core,estimation,1,Continuity,60,valid,alpha,A,0.080,0.99,1,0.5,30
+E031_M2_T60_r1,E031_M2_T60,E031,core,estimation,1,Economy,60,valid,beta,B,0.020,0.95,5,1,30
+E037_M2_T60_r1,E037_M2_T60,E037,core,estimation,1,Economy,60,valid,alpha,A,0.020,0.999,1,0,1
+E031_M2_T60_position_r1,E031_M2_T60_position,E031,presentation,diagnostic,1,Economy,60,valid,beta,B,0.020,0.95,5,1,30
+E005_M1_T60_r1,E005_M1_T60,E005,core,estimation,1,Balanced,60,valid,beta,B,0.001,0.999,1,0.5,1
+F4_M3_T5_r2,F4_M3_T5,F4,fine_reliability,diagnostic,2,Continuity,5,valid,beta,B,0.080,0.999,5,0.50,30
+H024_M3_T60_r1,H024_M3_T60,H024,core,heldout,1,Continuity,60,valid,alpha,A,0.005,0.99,30,0.5,1
+E019_M2_T5_r2,E019_M2_T5,E019,core,estimation,2,Economy,5,valid,alpha,A,0.013,0.95,1,0,30
+F2_M3_T60_r2,F2_M3_T60,F2,fine_reliability,diagnostic,2,Continuity,60,valid,beta,B,0.013,0.999,5,0.50,30
+H028_M3_T60_r2,H028_M3_T60,H028,core,heldout,2,Continuity,60,valid,beta,B,0.020,0.99,30,1,30
+F2_M2_T5_r3,F2_M2_T5,F2,fine_reliability,diagnostic,3,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+R1_M3_T5_r1,R1_M3_T5,R1,refund_success,diagnostic,1,Continuity,5,valid,beta,B,0.003,0.99,5,1,30
+R4_M3_T60_r1,R4_M3_T60,R4,refund_success,diagnostic,1,Continuity,60,valid,alpha,A,0.001,0.95,5,0,30
+E059_M1_T5_r2,E059_M1_T5,E059,core,estimation,2,Balanced,5,valid,beta,A,0.020,0.99,1,0.5,1
+R2_M2_T5_r2,R2_M2_T5,R2,refund_success,diagnostic,2,Economy,5,valid,alpha,A,0.001,0.99,5,0,30
+F2_M2_T60_r4,F2_M2_T60,F2,fine_reliability,diagnostic,4,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H015_M3_T5_r1,H015_M3_T5,H015,core,heldout,1,Continuity,5,valid,beta,B,0.050,0.999,1,1,30
+E053_M1_T60_r1,E053_M1_T60,E053,core,estimation,1,Balanced,60,valid,beta,A,0.050,0.999,1,0,30
+H007_M3_T60_r2,H007_M3_T60,H007,core,heldout,2,Continuity,60,valid,beta,A,0.013,0.99,1,0,1
+E048_M1_T5_r1,E048_M1_T5,E048,core,estimation,1,Balanced,5,valid,beta,B,0.001,0.99,1,0,1
+H011_M4_T5_r1,H011_M4_T5,H011,core,heldout,1,Data minimization,5,valid,beta,B,0.020,0.999,5,1,1
+F2_M1_T5_r1,F2_M1_T5,F2,fine_reliability,diagnostic,1,Balanced,5,valid,beta,B,0.013,0.999,5,0.50,30
+E024_M1_T5_r1,E024_M1_T5,E024,core,estimation,1,Balanced,5,valid,alpha,B,0.050,0.999,30,0,30
+E015_M3_T60_r2,E015_M3_T60,E015,core,estimation,2,Continuity,60,valid,beta,A,0.003,0.999,30,0,1
+F4_M1_T60_r2,F4_M1_T60,F4,fine_reliability,diagnostic,2,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E024_M3_T5_r1,E024_M3_T5,E024,core,estimation,1,Continuity,5,valid,beta,A,0.003,0.95,5,0.5,365
+E053_M4_T60_r1,E053_M4_T60,E053,core,estimation,1,Data minimization,60,valid,beta,A,0.050,0.999,1,0,30
+E045_M2_T60_r1,E045_M2_T60,E045,core,estimation,1,Economy,60,valid,beta,B,0.080,0.999,5,0,365
+H020_M3_T60_r1,H020_M3_T60,H020,core,heldout,1,Continuity,60,valid,beta,B,0.003,0.999,1,0.5,1
+H008_M1_T5_r1,H008_M1_T5,H008,core,heldout,1,Balanced,5,valid,alpha,B,0.005,0.95,5,1,1
+H027_M1_T60_r1,H027_M1_T60,H027,core,heldout,1,Balanced,60,valid,alpha,A,0.050,0.999,30,0.5,30
+H021_M4_T5_r1,H021_M4_T5,H021,core,heldout,1,Data minimization,5,valid,alpha,B,0.003,0.95,30,0,1
+E012_M3_T60_r2,E012_M3_T60,E012,core,estimation,2,Continuity,60,valid,alpha,B,0.020,0.999,1,0,365
+E059_M3_T5_r1,E059_M3_T5,E059,core,estimation,1,Continuity,5,valid,beta,A,0.020,0.99,1,0.5,1
+E002_M2_T5_position_r1,E002_M2_T5_position,E002,presentation,diagnostic,1,Economy,5,valid,alpha,B,0.001,0.95,5,1,30
+E038_M2_T5_r1,E038_M2_T5,E038,core,estimation,1,Economy,5,valid,alpha,A,0.020,0.95,30,1,365
+E042_M4_T60_r1,E042_M4_T60,E042,core,estimation,1,Data minimization,60,valid,alpha,B,0.001,0.999,30,0,1
+F4_M2_T60_r3,F4_M2_T60,F4,fine_reliability,diagnostic,3,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H029_M2_T60_r1,H029_M2_T60,H029,core,heldout,1,Economy,60,valid,alpha,A,0.005,0.99,30,0.5,365
+H015_M4_T60_r1,H015_M4_T60,H015,core,heldout,1,Data minimization,60,valid,beta,B,0.050,0.999,1,1,30
+H022_M1_T5_r2,H022_M1_T5,H022,core,heldout,2,Balanced,5,valid,alpha,B,0.005,0.99,5,1,365
+R4_M2_T5_r2,R4_M2_T5,R4,refund_success,diagnostic,2,Economy,5,valid,alpha,A,0.001,0.95,5,0,30
+H001_M3_T5_r1,H001_M3_T5,H001,core,heldout,1,Continuity,5,valid,alpha,A,0.003,0.99,30,0,365
+H017_M4_T5_r2,H017_M4_T5,H017,core,heldout,2,Data minimization,5,valid,alpha,B,0.050,0.999,1,0,365
+E019_M3_T5_r1,E019_M3_T5,E019,core,estimation,1,Continuity,5,valid,alpha,A,0.013,0.95,1,0,30
+F2_M4_T60_r3,F2_M4_T60,F2,fine_reliability,diagnostic,3,Data minimization,60,valid,beta,B,0.013,0.999,5,0.50,30
+E010_M4_T5_r1,E010_M4_T5,E010,core,estimation,1,Data minimization,5,valid,alpha,B,0.250,0.99,1,0.5,1
+E028_M4_T5_r1,E028_M4_T5,E028,core,estimation,1,Data minimization,5,valid,beta,A,0.250,0.95,1,1,1
+E007_M2_T60_r1,E007_M2_T60,E007,core,estimation,1,Economy,60,valid,beta,A,0.020,0.95,30,0.5,365
+E049_M3_T60_r1,E049_M3_T60,E049,core,estimation,1,Continuity,60,valid,beta,A,0.080,0.999,5,0,30
+E015_M1_T5_r2,E015_M1_T5,E015,core,estimation,2,Balanced,5,valid,beta,A,0.003,0.999,30,0,1
+R1_M2_T60_r1,R1_M2_T60,R1,refund_success,diagnostic,1,Economy,60,valid,beta,B,0.003,0.99,5,1,30
+F1_M3_T60_r1,F1_M3_T60,F1,fine_reliability,diagnostic,1,Continuity,60,valid,beta,B,0.001,0.999,5,0.50,30
+H021_M3_T5_r1,H021_M3_T5,H021,core,heldout,1,Continuity,5,valid,beta,A,0.050,0.99,5,1,30
+F3_M2_T60_r1,F3_M2_T60,F3,fine_reliability,diagnostic,1,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E008_M3_T60_r1,E008_M3_T60,E008,core,estimation,1,Continuity,60,valid,beta,B,0.003,0.99,30,1,365
+E011_M3_T60_r1,E011_M3_T60,E011,core,estimation,1,Continuity,60,valid,beta,A,0.080,0.99,5,0.5,1
+E052_M1_T60_r2,E052_M1_T60,E052,core,estimation,2,Balanced,60,valid,alpha,A,0.013,0.95,5,0,30
+E056_M2_T5_r1,E056_M2_T5,E056,core,estimation,1,Economy,5,valid,beta,B,0.020,0.95,5,0,365
+E001_M2_T5_r1,E001_M2_T5,E001,core,estimation,1,Economy,5,valid,alpha,B,0.050,0.95,1,1,1
+E044_M4_T60_r1,E044_M4_T60,E044,core,estimation,1,Data minimization,60,valid,alpha,A,0.080,0.99,5,1,1
+F4_M4_T5_r1,F4_M4_T5,F4,fine_reliability,diagnostic,1,Data minimization,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H032_M1_T5_r1,H032_M1_T5,H032,core,heldout,1,Balanced,5,valid,beta,A,0.013,0.99,5,0,365
+R3_M4_T60_r1,R3_M4_T60,R3,refund_success,diagnostic,1,Data minimization,60,valid,beta,B,0.050,0.95,5,1,30
+E062_M4_T60_r2,E062_M4_T60,E062,core,estimation,2,Data minimization,60,valid,beta,A,0.001,0.99,5,1,1
+R2_M4_T5_r2,R2_M4_T5,R2,refund_success,diagnostic,2,Data minimization,5,valid,alpha,A,0.001,0.99,5,0,30
+E028_M4_T60_labels_r1,E028_M4_T60_labels,E028,presentation,diagnostic,1,Data minimization,60,valid,beta,B,0.250,0.95,1,1,1
+E042_M1_T60_r2,E042_M1_T60,E042,core,estimation,2,Balanced,60,valid,alpha,B,0.001,0.999,30,0,1
+E037_M1_T5_r1,E037_M1_T5,E037,core,estimation,1,Balanced,5,valid,alpha,A,0.020,0.999,1,0,1
+F1_M1_T60_r3,F1_M1_T60,F1,fine_reliability,diagnostic,3,Balanced,60,valid,beta,B,0.001,0.999,5,0.50,30
+E012_M3_T5_r2,E012_M3_T5,E012,core,estimation,2,Continuity,5,valid,alpha,B,0.020,0.999,1,0,365
+E041_M4_T60_r2,E041_M4_T60,E041,core,estimation,2,Data minimization,60,valid,beta,A,0.080,0.95,5,1,30
+E008_M2_T60_r1,E008_M2_T60,E008,core,estimation,1,Economy,60,valid,beta,B,0.003,0.99,30,1,365
+H011_M1_T60_r1,H011_M1_T60,H011,core,heldout,1,Balanced,60,valid,beta,B,0.020,0.999,5,1,1
+R4_M1_T5_r2,R4_M1_T5,R4,refund_success,diagnostic,2,Balanced,5,valid,alpha,A,0.001,0.95,5,0,30
+F4_M2_T60_r4,F4_M2_T60,F4,fine_reliability,diagnostic,4,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+F5_M4_T60_r3,F5_M4_T60,F5,fine_reliability,diagnostic,3,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+R3_M3_T5_r1,R3_M3_T5,R3,refund_success,diagnostic,1,Continuity,5,valid,beta,B,0.050,0.95,5,1,30
+E004_M1_T5_r1,E004_M1_T5,E004,core,estimation,1,Balanced,5,valid,beta,B,0.050,0.999,30,0.5,1
+H004_M3_T60_r1,H004_M3_T60,H004,core,heldout,1,Continuity,60,valid,alpha,B,0.013,0.95,5,1,30
+F3_M3_T60_r3,F3_M3_T60,F3,fine_reliability,diagnostic,3,Continuity,60,valid,beta,B,0.020,0.999,5,0.50,30
+E002_M1_T5_position_r1,E002_M1_T5_position,E002,presentation,diagnostic,1,Balanced,5,valid,beta,A,0.050,0.99,1,0,1
+H031_M3_T60_r1,H031_M3_T60,H031,core,heldout,1,Continuity,60,valid,beta,B,0.013,0.999,1,0,365
+E014_M4_T60_r1,E014_M4_T60,E014,core,estimation,1,Data minimization,60,valid,alpha,B,0.013,0.999,5,0,1
+E063_M1_T5_r1,E063_M1_T5,E063,core,estimation,1,Balanced,5,valid,beta,B,0.005,0.95,1,0,30
+H019_M3_T5_r1,H019_M3_T5,H019,core,heldout,1,Continuity,5,valid,alpha,B,0.020,0.999,30,1,30
+E041_M2_T60_r1,E041_M2_T60,E041,core,estimation,1,Economy,60,valid,alpha,B,0.001,0.999,30,0.5,365
+E037_M3_T5_r1,E037_M3_T5,E037,core,estimation,1,Continuity,5,valid,alpha,A,0.020,0.999,1,0,1
+H031_M4_T60_r1,H031_M4_T60,H031,core,heldout,1,Data minimization,60,valid,beta,B,0.013,0.999,1,0,365
+R2_M2_T60_r2,R2_M2_T60,R2,refund_success,diagnostic,2,Economy,60,valid,alpha,A,0.001,0.99,5,0,30
+A2_M1_T60_r1,A2_M1_T60,A2,outside_anchor,diagnostic,1,Balanced,60,valid,alpha,A,0.250,0.95,30,0,365
+H014_M3_T60_r1,H014_M3_T60,H014,core,heldout,1,Continuity,60,valid,beta,B,0.001,0.999,5,1,1
+E052_M3_T60_r2,E052_M3_T60,E052,core,estimation,2,Continuity,60,valid,alpha,A,0.013,0.95,5,0,30
+E025_M2_T5_r1,E025_M2_T5,E025,core,estimation,1,Economy,5,valid,alpha,B,0.005,0.99,30,0.5,30
+E021_M3_T5_r1,E021_M3_T5,E021,core,estimation,1,Continuity,5,valid,beta,A,0.050,0.999,1,1,365
+F4_M2_T60_r1,F4_M2_T60,F4,fine_reliability,diagnostic,1,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E054_M4_T5_r1,E054_M4_T5,E054,core,estimation,1,Data minimization,5,valid,beta,B,0.020,0.95,5,1,1
+E059_M3_T60_r2,E059_M3_T60,E059,core,estimation,2,Continuity,60,valid,alpha,B,0.001,0.999,30,1,30
+E042_M1_T5_r2,E042_M1_T5,E042,core,estimation,2,Balanced,5,valid,alpha,B,0.001,0.999,30,0,1
+E015_M4_T5_r2,E015_M4_T5,E015,core,estimation,2,Data minimization,5,valid,beta,A,0.003,0.999,30,0,1
+H022_M1_T60_r1,H022_M1_T60,H022,core,heldout,1,Balanced,60,valid,alpha,B,0.005,0.99,5,1,365
+E025_M1_T60_r1,E025_M1_T60,E025,core,estimation,1,Balanced,60,valid,alpha,B,0.005,0.99,30,0.5,30
+E059_M1_T60_labels_r1,E059_M1_T60_labels,E059,presentation,diagnostic,1,Balanced,60,valid,alpha,A,0.001,0.999,30,1,30
+H011_M3_T5_r1,H011_M3_T5,H011,core,heldout,1,Continuity,5,valid,beta,B,0.020,0.999,5,1,1
+F1_M4_T60_r4,F1_M4_T60,F1,fine_reliability,diagnostic,4,Data minimization,60,valid,beta,B,0.001,0.999,5,0.50,30
+H014_M1_T60_r1,H014_M1_T60,H014,core,heldout,1,Balanced,60,valid,beta,B,0.001,0.999,5,1,1
+H012_M2_T5_r1,H012_M2_T5,H012,core,heldout,1,Economy,5,valid,beta,B,0.165,0.95,1,0.5,30
+H015_M2_T5_r1,H015_M2_T5,H015,core,heldout,1,Economy,5,valid,beta,B,0.050,0.999,1,1,30
+H025_M2_T60_r1,H025_M2_T60,H025,core,heldout,1,Economy,60,valid,alpha,A,0.013,0.99,30,0.5,365
+F2_M3_T5_r1,F2_M3_T5,F2,fine_reliability,diagnostic,1,Continuity,5,valid,beta,B,0.013,0.999,5,0.50,30
+H020_M2_T60_r1,H020_M2_T60,H020,core,heldout,1,Economy,60,valid,beta,B,0.003,0.999,1,0.5,1
+E024_M2_T60_r1,E024_M2_T60,E024,core,estimation,1,Economy,60,valid,beta,A,0.003,0.95,5,0.5,365
+E029_M3_T60_r2,E029_M3_T60,E029,core,estimation,2,Continuity,60,valid,alpha,B,0.001,0.999,5,1,30
+E033_M4_T5_r1,E033_M4_T5,E033,core,estimation,1,Data minimization,5,valid,alpha,A,0.250,0.999,1,1,30
+E049_M3_T5_r1,E049_M3_T5,E049,core,estimation,1,Continuity,5,valid,beta,A,0.080,0.999,5,0,30
+H017_M4_T60_r1,H017_M4_T60,H017,core,heldout,1,Data minimization,60,valid,alpha,B,0.050,0.999,1,0,365
+E054_M2_T60_r1,E054_M2_T60,E054,core,estimation,1,Economy,60,valid,beta,B,0.020,0.95,5,1,1
+E060_M2_T5_r1,E060_M2_T5,E060,core,estimation,1,Economy,5,valid,beta,A,0.001,0.95,1,1,30
+E064_M1_T60_r2,E064_M1_T60,E064,core,estimation,2,Balanced,60,valid,beta,A,0.020,0.999,5,0.5,30
+E022_M1_T60_r1,E022_M1_T60,E022,core,estimation,1,Balanced,60,valid,beta,B,0.005,0.99,30,1,1
+H011_M2_T60_r1,H011_M2_T60,H011,core,heldout,1,Economy,60,valid,beta,B,0.020,0.999,5,1,1
+E034_M1_T60_r1,E034_M1_T60,E034,core,estimation,1,Balanced,60,valid,beta,A,0.003,0.95,1,1,365
+E038_M4_T60_r1,E038_M4_T60,E038,core,estimation,1,Data minimization,60,valid,beta,B,0.001,0.99,1,0.5,30
+E016_M2_T60_r1,E016_M2_T60,E016,core,estimation,1,Economy,60,valid,beta,A,0.080,0.95,5,0,1
+E036_M4_T60_r1,E036_M4_T60,E036,core,estimation,1,Data minimization,60,valid,beta,A,0.001,0.99,5,0.5,1
+E002_M3_T60_position_r1,E002_M3_T60_position,E002,presentation,diagnostic,1,Continuity,60,valid,beta,A,0.050,0.99,1,0,1
+R4_M1_T5_r1,R4_M1_T5,R4,refund_success,diagnostic,1,Balanced,5,valid,alpha,A,0.001,0.95,5,0,30
+H022_M3_T5_r2,H022_M3_T5,H022,core,heldout,2,Continuity,5,valid,alpha,B,0.005,0.99,5,1,365
+F1_M1_T5_r2,F1_M1_T5,F1,fine_reliability,diagnostic,2,Balanced,5,valid,beta,B,0.001,0.999,5,0.50,30
+F3_M4_T60_r3,F3_M4_T60,F3,fine_reliability,diagnostic,3,Data minimization,60,valid,beta,B,0.020,0.999,5,0.50,30
+F1_M1_T60_r2,F1_M1_T60,F1,fine_reliability,diagnostic,2,Balanced,60,valid,beta,B,0.001,0.999,5,0.50,30
+E031_M3_T60_position_r1,E031_M3_T60_position,E031,presentation,diagnostic,1,Continuity,60,valid,alpha,A,0.080,0.999,30,1,365
+F1_M3_T5_r1,F1_M3_T5,F1,fine_reliability,diagnostic,1,Continuity,5,valid,beta,B,0.001,0.999,5,0.50,30
+E050_M1_T60_r1,E050_M1_T60,E050,core,estimation,1,Balanced,60,valid,alpha,B,0.250,0.999,1,1,1
+E054_M3_T60_r1,E054_M3_T60,E054,core,estimation,1,Continuity,60,valid,alpha,A,0.080,0.99,1,0,365
+E022_M4_T60_r1,E022_M4_T60,E022,core,estimation,1,Data minimization,60,valid,beta,B,0.005,0.99,30,1,1
+E042_M1_T5_r1,E042_M1_T5,E042,core,estimation,1,Balanced,5,valid,alpha,B,0.001,0.999,30,0,1
+E035_M4_T60_r1,E035_M4_T60,E035,core,estimation,1,Data minimization,60,valid,beta,B,0.080,0.999,5,0.5,1
+F3_M1_T5_r1,F3_M1_T5,F3,fine_reliability,diagnostic,1,Balanced,5,valid,beta,B,0.020,0.999,5,0.50,30
+E014_M3_T60_r1,E014_M3_T60,E014,core,estimation,1,Continuity,60,valid,alpha,B,0.013,0.999,5,0,1
+R4_M3_T5_r1,R4_M3_T5,R4,refund_success,diagnostic,1,Continuity,5,valid,alpha,A,0.001,0.95,5,0,30
+R3_M3_T60_r2,R3_M3_T60,R3,refund_success,diagnostic,2,Continuity,60,valid,beta,B,0.050,0.95,5,1,30
+E026_M2_T60_r1,E026_M2_T60,E026,core,estimation,1,Economy,60,valid,alpha,A,0.165,0.95,1,0.5,30
+E004_M3_T5_r1,E004_M3_T5,E004,core,estimation,1,Continuity,5,valid,alpha,A,0.001,0.95,1,0,30
+E055_M2_T5_r1,E055_M2_T5,E055,core,estimation,1,Economy,5,valid,alpha,A,0.001,0.99,5,0.5,30
+E043_M2_T60_r1,E043_M2_T60,E043,core,estimation,1,Economy,60,valid,beta,A,0.080,0.999,30,1,365
+F5_M3_T60_r2,F5_M3_T60,F5,fine_reliability,diagnostic,2,Continuity,60,valid,beta,B,0.250,0.999,5,0.50,30
+E048_M4_T5_r1,E048_M4_T5,E048,core,estimation,1,Data minimization,5,valid,beta,B,0.001,0.99,1,0,1
+H014_M1_T60_r2,H014_M1_T60,H014,core,heldout,2,Balanced,60,valid,beta,B,0.001,0.999,5,1,1
+E059_M2_T60_r2,E059_M2_T60,E059,core,estimation,2,Economy,60,valid,alpha,B,0.001,0.999,30,1,30
+F3_M4_T5_r2,F3_M4_T5,F3,fine_reliability,diagnostic,2,Data minimization,5,valid,beta,B,0.020,0.999,5,0.50,30
+E021_M1_T5_r1,E021_M1_T5,E021,core,estimation,1,Balanced,5,valid,alpha,B,0.005,0.99,5,0,30
+E063_M4_T5_r1,E063_M4_T5,E063,core,estimation,1,Data minimization,5,valid,beta,B,0.005,0.95,1,0,30
+E063_M3_T60_r1,E063_M3_T60,E063,core,estimation,1,Continuity,60,valid,beta,B,0.005,0.95,1,0,30
+H013_M1_T5_r1,H013_M1_T5,H013,core,heldout,1,Balanced,5,valid,beta,A,0.003,0.99,30,0.5,365
+E003_M4_T5_r2,E003_M4_T5,E003,core,estimation,2,Data minimization,5,valid,beta,B,0.001,0.95,5,0,1
+R3_M1_T60_r1,R3_M1_T60,R3,refund_success,diagnostic,1,Balanced,60,valid,beta,B,0.050,0.95,5,1,30
+F2_M3_T5_r4,F2_M3_T5,F2,fine_reliability,diagnostic,4,Continuity,5,valid,beta,B,0.013,0.999,5,0.50,30
+F4_M1_T5_r3,F4_M1_T5,F4,fine_reliability,diagnostic,3,Balanced,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E041_M2_T60_r2,E041_M2_T60,E041,core,estimation,2,Economy,60,valid,alpha,B,0.001,0.999,30,0.5,365
+E012_M4_T60_position_r1,E012_M4_T60_position,E012,presentation,diagnostic,1,Data minimization,60,valid,alpha,B,0.020,0.999,1,0,365
+E043_M2_T5_r1,E043_M2_T5,E043,core,estimation,1,Economy,5,valid,beta,A,0.080,0.999,30,1,365
+E028_M1_T5_r1,E028_M1_T5,E028,core,estimation,1,Balanced,5,valid,alpha,B,0.080,0.95,5,0,30
+E015_M2_T5_r2,E015_M2_T5,E015,core,estimation,2,Economy,5,valid,beta,A,0.003,0.999,30,0,1
+E044_M3_T5_r1,E044_M3_T5,E044,core,estimation,1,Continuity,5,valid,beta,B,0.001,0.999,1,0,30
+H024_M3_T5_r1,H024_M3_T5,H024,core,heldout,1,Continuity,5,valid,alpha,A,0.005,0.99,30,0.5,1
+E036_M3_T5_r1,E036_M3_T5,E036,core,estimation,1,Continuity,5,valid,alpha,B,0.080,0.999,1,0,30
+E009_M1_T60_r1,E009_M1_T60,E009,core,estimation,1,Balanced,60,valid,alpha,B,0.020,0.999,5,0.5,365
+E003_M2_T5_r2,E003_M2_T5,E003,core,estimation,2,Economy,5,valid,beta,B,0.001,0.95,5,0,1
+H007_M3_T5_r1,H007_M3_T5,H007,core,heldout,1,Continuity,5,valid,beta,A,0.013,0.99,1,0,1
+R4_M1_T60_r1,R4_M1_T60,R4,refund_success,diagnostic,1,Balanced,60,valid,alpha,A,0.001,0.95,5,0,30
+E043_M1_T5_r1,E043_M1_T5,E043,core,estimation,1,Balanced,5,valid,beta,A,0.080,0.999,30,1,365
+F5_M1_T60_r1,F5_M1_T60,F5,fine_reliability,diagnostic,1,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E002_M3_T5_r1,E002_M3_T5,E002,core,estimation,1,Continuity,5,valid,beta,A,0.050,0.99,1,0,1
+E002_M4_T5_r1,E002_M4_T5,E002,core,estimation,1,Data minimization,5,valid,beta,A,0.050,0.99,1,0,1
+E062_M2_T5_r1,E062_M2_T5,E062,core,estimation,1,Economy,5,valid,beta,A,0.001,0.99,5,1,1
+E019_M1_T5_r1,E019_M1_T5,E019,core,estimation,1,Balanced,5,valid,alpha,A,0.013,0.95,1,0,30
+H024_M1_T60_r1,H024_M1_T60,H024,core,heldout,1,Balanced,60,valid,alpha,A,0.005,0.99,30,0.5,1
+H018_M2_T5_r1,H018_M2_T5,H018,core,heldout,1,Economy,5,valid,beta,B,0.003,0.95,1,0.5,30
+H015_M2_T60_r1,H015_M2_T60,H015,core,heldout,1,Economy,60,valid,beta,B,0.050,0.999,1,1,30
+R1_M4_T60_r2,R1_M4_T60,R1,refund_success,diagnostic,2,Data minimization,60,valid,beta,B,0.003,0.99,5,1,30
+E021_M3_T60_r1,E021_M3_T60,E021,core,estimation,1,Continuity,60,valid,beta,A,0.050,0.999,1,1,365
+E047_M3_T60_r1,E047_M3_T60,E047,core,estimation,1,Continuity,60,valid,beta,B,0.020,0.99,5,0,365
+E044_M1_T60_position_r1,E044_M1_T60_position,E044,presentation,diagnostic,1,Balanced,60,valid,beta,B,0.001,0.999,1,0,30
+E011_M2_T60_r1,E011_M2_T60,E011,core,estimation,1,Economy,60,valid,beta,A,0.080,0.99,5,0.5,1
+A1_M3_T60_r2,A1_M3_T60,A1,outside_anchor,diagnostic,2,Continuity,60,valid,alpha,A,0.001,0.999,1,1,1
+H010_M2_T60_r1,H010_M2_T60,H010,core,heldout,1,Economy,60,valid,alpha,A,0.080,0.95,5,1,365
+E058_M2_T60_r1,E058_M2_T60,E058,core,estimation,1,Economy,60,valid,alpha,A,0.001,0.999,5,0,1
+E053_M3_T5_r1,E053_M3_T5,E053,core,estimation,1,Continuity,5,valid,beta,A,0.050,0.999,1,0,30
+E023_M2_T5_r1,E023_M2_T5,E023,core,estimation,1,Economy,5,valid,beta,B,0.003,0.99,1,0,1
+F1_M3_T5_r4,F1_M3_T5,F1,fine_reliability,diagnostic,4,Continuity,5,valid,beta,B,0.001,0.999,5,0.50,30
+F1_M4_T5_r1,F1_M4_T5,F1,fine_reliability,diagnostic,1,Data minimization,5,valid,beta,B,0.001,0.999,5,0.50,30
+E062_M1_T60_r2,E062_M1_T60,E062,core,estimation,2,Balanced,60,valid,beta,A,0.001,0.99,5,1,1
+E062_M2_T60_r2,E062_M2_T60,E062,core,estimation,2,Economy,60,valid,beta,A,0.001,0.99,5,1,1
+E020_M2_T5_r1,E020_M2_T5,E020,core,estimation,1,Economy,5,valid,beta,B,0.003,0.99,1,0,1
+E003_M4_T60_r1,E003_M4_T60,E003,core,estimation,1,Data minimization,60,valid,beta,B,0.001,0.95,5,0,1
+A2_M4_T5_r1,A2_M4_T5,A2,outside_anchor,diagnostic,1,Data minimization,5,valid,alpha,A,0.250,0.95,30,0,365
+E003_M2_T60_r2,E003_M2_T60,E003,core,estimation,2,Economy,60,valid,beta,B,0.001,0.95,5,0,1
+H023_M2_T5_r1,H023_M2_T5,H023,core,heldout,1,Economy,5,valid,beta,A,0.003,0.99,1,1,30
+E020_M4_T60_r2,E020_M4_T60,E020,core,estimation,2,Data minimization,60,valid,beta,B,0.003,0.99,1,0,1
+H015_M2_T5_r2,H015_M2_T5,H015,core,heldout,2,Economy,5,valid,beta,B,0.050,0.999,1,1,30
+E028_M2_T60_r1,E028_M2_T60,E028,core,estimation,1,Economy,60,valid,alpha,B,0.080,0.95,5,0,30
+H032_M1_T60_r1,H032_M1_T60,H032,core,heldout,1,Balanced,60,valid,beta,A,0.013,0.99,5,0,365
+E003_M4_T60_r2,E003_M4_T60,E003,core,estimation,2,Data minimization,60,valid,beta,B,0.001,0.95,5,0,1
+F4_M3_T60_r3,F4_M3_T60,F4,fine_reliability,diagnostic,3,Continuity,60,valid,beta,B,0.080,0.999,5,0.50,30
+E038_M4_T5_r1,E038_M4_T5,E038,core,estimation,1,Data minimization,5,valid,beta,B,0.001,0.99,1,0.5,30
+E031_M4_T5_r1,E031_M4_T5,E031,core,estimation,1,Data minimization,5,valid,beta,B,0.020,0.95,5,1,30
+E040_M2_T60_r1,E040_M2_T60,E040,core,estimation,1,Economy,60,valid,beta,A,0.003,0.95,1,0,365
+E041_M3_T5_r2,E041_M3_T5,E041,core,estimation,2,Continuity,5,valid,beta,A,0.080,0.95,5,1,30
+E060_M3_T5_r1,E060_M3_T5,E060,core,estimation,1,Continuity,5,valid,beta,A,0.001,0.95,1,1,30
+H018_M4_T60_r1,H018_M4_T60,H018,core,heldout,1,Data minimization,60,valid,alpha,A,0.020,0.99,5,0.5,1
+E053_M2_T60_r2,E053_M2_T60,E053,core,estimation,2,Economy,60,valid,alpha,B,0.001,0.99,5,1,365
+E056_M1_T5_labels_r1,E056_M1_T5_labels,E056,presentation,diagnostic,1,Balanced,5,valid,alpha,B,0.080,0.99,30,0.5,1
+H028_M1_T5_r1,H028_M1_T5,H028,core,heldout,1,Balanced,5,valid,beta,B,0.020,0.99,30,1,30
+E023_M4_T5_r1,E023_M4_T5,E023,core,estimation,1,Data minimization,5,valid,beta,B,0.003,0.99,1,0,1
+E051_M4_T5_r1,E051_M4_T5,E051,core,estimation,1,Data minimization,5,valid,beta,B,0.020,0.99,1,0,30
+H012_M1_T5_r1,H012_M1_T5,H012,core,heldout,1,Balanced,5,valid,alpha,A,0.165,0.99,5,0.5,1
+E007_M1_T5_r1,E007_M1_T5,E007,core,estimation,1,Balanced,5,valid,alpha,B,0.165,0.999,5,1,30
+E051_M4_T60_r1,E051_M4_T60,E051,core,estimation,1,Data minimization,60,valid,beta,B,0.020,0.99,1,0,30
+F4_M1_T5_r1,F4_M1_T5,F4,fine_reliability,diagnostic,1,Balanced,5,valid,alpha,A,0.001,0.99,5,0.50,30
+F1_M2_T5_r4,F1_M2_T5,F1,fine_reliability,diagnostic,4,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H021_M2_T5_r1,H021_M2_T5,H021,core,heldout,1,Economy,5,valid,alpha,B,0.003,0.95,30,0,1
+E008_M4_T5_r1,E008_M4_T5,E008,core,estimation,1,Data minimization,5,valid,alpha,A,0.080,0.95,1,0.5,30
+H024_M2_T5_r1,H024_M2_T5,H024,core,heldout,1,Economy,5,valid,alpha,A,0.005,0.99,30,0.5,1
+E052_M1_T5_r2,E052_M1_T5,E052,core,estimation,2,Balanced,5,valid,alpha,A,0.013,0.95,5,0,30
+F5_M2_T60_r4,F5_M2_T60,F5,fine_reliability,diagnostic,4,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E018_M2_T5_r1,E018_M2_T5,E018,core,estimation,1,Economy,5,valid,alpha,B,0.003,0.95,30,0.5,1
+E052_M3_T5_r2,E052_M3_T5,E052,core,estimation,2,Continuity,5,valid,alpha,A,0.013,0.95,5,0,30
+H023_M2_T60_r1,H023_M2_T60,H023,core,heldout,1,Economy,60,valid,beta,A,0.003,0.99,1,1,30
+E064_M2_T60_r1,E064_M2_T60,E064,core,estimation,1,Economy,60,valid,beta,A,0.020,0.999,5,0.5,30
+E052_M1_T5_r1,E052_M1_T5,E052,core,estimation,1,Balanced,5,valid,alpha,A,0.013,0.95,5,0,30
+H017_M4_T60_r2,H017_M4_T60,H017,core,heldout,2,Data minimization,60,valid,alpha,B,0.050,0.999,1,0,365
+E046_M1_T5_r1,E046_M1_T5,E046,core,estimation,1,Balanced,5,valid,alpha,A,0.020,0.999,1,0.5,1
+E064_M2_T5_r1,E064_M2_T5,E064,core,estimation,1,Economy,5,valid,beta,A,0.020,0.999,5,0.5,30
+H022_M4_T5_r2,H022_M4_T5,H022,core,heldout,2,Data minimization,5,valid,beta,A,0.250,0.95,1,0,30
+E016_M2_T5_r1,E016_M2_T5,E016,core,estimation,1,Economy,5,valid,beta,A,0.080,0.95,5,0,1
+E025_M3_T5_r1,E025_M3_T5,E025,core,estimation,1,Continuity,5,valid,beta,A,0.013,0.95,5,0,1
+E064_M1_T5_r1,E064_M1_T5,E064,core,estimation,1,Balanced,5,valid,beta,A,0.020,0.999,5,0.5,30
+E021_M2_T5_r1,E021_M2_T5,E021,core,estimation,1,Economy,5,valid,alpha,B,0.005,0.99,5,0,30
+F2_M1_T60_r1,F2_M1_T60,F2,fine_reliability,diagnostic,1,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E019_M1_T60_r2,E019_M1_T60,E019,core,estimation,2,Balanced,60,valid,alpha,A,0.013,0.95,1,0,30
+E026_M4_T60_r1,E026_M4_T60,E026,core,estimation,1,Data minimization,60,valid,alpha,A,0.165,0.95,1,0.5,30
+E054_M2_T5_r1,E054_M2_T5,E054,core,estimation,1,Economy,5,valid,beta,B,0.020,0.95,5,1,1
+H021_M4_T60_r1,H021_M4_T60,H021,core,heldout,1,Data minimization,60,valid,alpha,B,0.003,0.95,30,0,1
+H013_M3_T60_r1,H013_M3_T60,H013,core,heldout,1,Continuity,60,valid,beta,A,0.003,0.99,30,0.5,365
+F4_M4_T60_r3,F4_M4_T60,F4,fine_reliability,diagnostic,3,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E045_M1_T5_r1,E045_M1_T5,E045,core,estimation,1,Balanced,5,valid,beta,B,0.080,0.999,5,0,365
+F4_M1_T5_r4,F4_M1_T5,F4,fine_reliability,diagnostic,4,Balanced,5,valid,alpha,A,0.001,0.99,5,0.50,30
+F5_M1_T5_r1,F5_M1_T5,F5,fine_reliability,diagnostic,1,Balanced,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E001_M3_T60_r1,E001_M3_T60,E001,core,estimation,1,Continuity,60,valid,beta,A,0.005,0.999,30,0,30
+E043_M4_T60_r1,E043_M4_T60,E043,core,estimation,1,Data minimization,60,valid,alpha,B,0.250,0.99,5,0,30
+E034_M1_T5_r1,E034_M1_T5,E034,core,estimation,1,Balanced,5,valid,beta,A,0.003,0.95,1,1,365
+H005_M4_T60_r2,H005_M4_T60,H005,core,heldout,2,Data minimization,60,valid,alpha,B,0.020,0.999,5,1,1
+H018_M1_T5_r1,H018_M1_T5,H018,core,heldout,1,Balanced,5,valid,alpha,A,0.020,0.99,5,0.5,1
+H003_M2_T60_r1,H003_M2_T60,H003,core,heldout,1,Economy,60,valid,alpha,B,0.005,0.999,1,0.5,365
+E060_M4_T5_r1,E060_M4_T5,E060,core,estimation,1,Data minimization,5,valid,alpha,B,0.250,0.95,30,0,1
+H004_M1_T5_r1,H004_M1_T5,H004,core,heldout,1,Balanced,5,valid,alpha,B,0.013,0.95,5,1,30
+F5_M1_T60_r3,F5_M1_T60,F5,fine_reliability,diagnostic,3,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E014_M3_T5_r1,E014_M3_T5,E014,core,estimation,1,Continuity,5,valid,alpha,B,0.013,0.999,5,0,1
+E006_M4_T5_r1,E006_M4_T5,E006,core,estimation,1,Data minimization,5,valid,beta,B,0.020,0.99,5,0.5,30
+E015_M4_T60_r1,E015_M4_T60,E015,core,estimation,1,Data minimization,60,valid,beta,A,0.003,0.999,30,0,1
+H013_M3_T5_r1,H013_M3_T5,H013,core,heldout,1,Continuity,5,valid,alpha,B,0.250,0.95,5,1,30
+E042_M4_T5_r1,E042_M4_T5,E042,core,estimation,1,Data minimization,5,valid,alpha,B,0.001,0.999,30,0,1
+F2_M1_T60_r4,F2_M1_T60,F2,fine_reliability,diagnostic,4,Balanced,60,valid,beta,B,0.013,0.999,5,0.50,30
+H008_M3_T60_r2,H008_M3_T60,H008,core,heldout,2,Continuity,60,valid,alpha,B,0.005,0.95,5,1,1
+E053_M1_T60_r2,E053_M1_T60,E053,core,estimation,2,Balanced,60,valid,beta,A,0.050,0.999,1,0,30
+E016_M1_T60_r2,E016_M1_T60,E016,core,estimation,2,Balanced,60,valid,beta,A,0.080,0.95,5,0,1
+E012_M2_T60_position_r1,E012_M2_T60_position,E012,presentation,diagnostic,1,Economy,60,valid,alpha,B,0.020,0.999,1,0,365
+H027_M3_T60_r1,H027_M3_T60,H027,core,heldout,1,Continuity,60,valid,alpha,A,0.050,0.999,30,0.5,30
+H008_M1_T5_r2,H008_M1_T5,H008,core,heldout,2,Balanced,5,valid,alpha,B,0.005,0.95,5,1,1
+E039_M1_T5_r1,E039_M1_T5,E039,core,estimation,1,Balanced,5,valid,beta,B,0.080,0.999,30,1,1
+H025_M1_T5_r1,H025_M1_T5,H025,core,heldout,1,Balanced,5,valid,beta,B,0.080,0.999,30,1,1
+E007_M4_T60_r1,E007_M4_T60,E007,core,estimation,1,Data minimization,60,valid,alpha,B,0.165,0.999,5,1,30
+H024_M4_T60_r1,H024_M4_T60,H024,core,heldout,1,Data minimization,60,valid,alpha,A,0.005,0.99,30,0.5,1
+E028_M3_T60_r1,E028_M3_T60,E028,core,estimation,1,Continuity,60,valid,alpha,B,0.080,0.95,5,0,30
+E014_M2_T5_r1,E014_M2_T5,E014,core,estimation,1,Economy,5,valid,beta,A,0.001,0.99,1,0.5,365
+H031_M3_T5_r1,H031_M3_T5,H031,core,heldout,1,Continuity,5,valid,beta,B,0.013,0.999,1,0,365
+H019_M3_T60_r1,H019_M3_T60,H019,core,heldout,1,Continuity,60,valid,alpha,B,0.020,0.999,30,1,30
+H016_M4_T60_r1,H016_M4_T60,H016,core,heldout,1,Data minimization,60,valid,beta,A,0.005,0.99,1,0.5,30
+H028_M4_T60_r2,H028_M4_T60,H028,core,heldout,2,Data minimization,60,valid,beta,B,0.020,0.99,30,1,30
+H005_M3_T5_r2,H005_M3_T5,H005,core,heldout,2,Continuity,5,valid,alpha,B,0.020,0.999,5,1,1
+E023_M1_T60_r1,E023_M1_T60,E023,core,estimation,1,Balanced,60,valid,beta,B,0.003,0.99,1,0,1
+F3_M1_T5_r3,F3_M1_T5,F3,fine_reliability,diagnostic,3,Balanced,5,valid,beta,B,0.020,0.999,5,0.50,30
+H004_M2_T60_r1,H004_M2_T60,H004,core,heldout,1,Economy,60,valid,alpha,B,0.013,0.95,5,1,30
+R1_M1_T5_r2,R1_M1_T5,R1,refund_success,diagnostic,2,Balanced,5,valid,beta,B,0.003,0.99,5,1,30
+E042_M4_T60_r2,E042_M4_T60,E042,core,estimation,2,Data minimization,60,valid,alpha,B,0.001,0.999,30,0,1
+E064_M4_T60_r1,E064_M4_T60,E064,core,estimation,1,Data minimization,60,valid,beta,A,0.020,0.999,5,0.5,30
+H017_M3_T60_r1,H017_M3_T60,H017,core,heldout,1,Continuity,60,valid,alpha,B,0.050,0.999,1,0,365
+E010_M2_T5_r1,E010_M2_T5,E010,core,estimation,1,Economy,5,valid,beta,A,0.020,0.999,30,1,30
+F1_M3_T60_r2,F1_M3_T60,F1,fine_reliability,diagnostic,2,Continuity,60,valid,beta,B,0.001,0.999,5,0.50,30
+E053_M3_T60_r1,E053_M3_T60,E053,core,estimation,1,Continuity,60,valid,beta,A,0.050,0.999,1,0,30
+H030_M2_T5_r1,H030_M2_T5,H030,core,heldout,1,Economy,5,valid,alpha,A,0.080,0.99,1,0.5,365
+R1_M2_T5_r2,R1_M2_T5,R1,refund_success,diagnostic,2,Economy,5,valid,beta,B,0.003,0.99,5,1,30
+E046_M3_T60_r1,E046_M3_T60,E046,core,estimation,1,Continuity,60,valid,alpha,A,0.020,0.999,1,0.5,1
+R2_M3_T5_r2,R2_M3_T5,R2,refund_success,diagnostic,2,Continuity,5,valid,alpha,A,0.001,0.99,5,0,30
+E046_M4_T5_r1,E046_M4_T5,E046,core,estimation,1,Data minimization,5,valid,alpha,A,0.020,0.999,1,0.5,1
+H004_M4_T60_r1,H004_M4_T60,H004,core,heldout,1,Data minimization,60,valid,beta,A,0.250,0.95,30,0,1
+H023_M1_T5_r1,H023_M1_T5,H023,core,heldout,1,Balanced,5,valid,alpha,B,0.005,0.999,5,0,30
+E003_M2_T60_r1,E003_M2_T60,E003,core,estimation,1,Economy,60,valid,beta,B,0.001,0.95,5,0,1
+H029_M2_T5_r1,H029_M2_T5,H029,core,heldout,1,Economy,5,valid,alpha,A,0.005,0.99,30,0.5,365
+E030_M2_T5_r1,E030_M2_T5,E030,core,estimation,1,Economy,5,valid,beta,B,0.013,0.95,1,0,1
+E041_M2_T5_r1,E041_M2_T5,E041,core,estimation,1,Economy,5,valid,alpha,B,0.001,0.999,30,0.5,365
+H011_M2_T5_r1,H011_M2_T5,H011,core,heldout,1,Economy,5,valid,beta,B,0.020,0.999,5,1,1
+E020_M1_T5_r1,E020_M1_T5,E020,core,estimation,1,Balanced,5,valid,beta,B,0.003,0.99,1,0,1
+E010_M3_T5_r1,E010_M3_T5,E010,core,estimation,1,Continuity,5,valid,alpha,B,0.250,0.99,1,0.5,1
+E022_M3_T60_r1,E022_M3_T60,E022,core,estimation,1,Continuity,60,valid,alpha,A,0.013,0.999,1,0,365
+F5_M3_T60_r1,F5_M3_T60,F5,fine_reliability,diagnostic,1,Continuity,60,valid,beta,B,0.250,0.999,5,0.50,30
+H012_M3_T5_r1,H012_M3_T5,H012,core,heldout,1,Continuity,5,valid,alpha,A,0.165,0.99,5,0.5,1
+F5_M2_T5_r1,F5_M2_T5,F5,fine_reliability,diagnostic,1,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E028_M2_T60_r2,E028_M2_T60,E028,core,estimation,2,Economy,60,valid,alpha,B,0.080,0.95,5,0,30
+E052_M4_T60_r1,E052_M4_T60,E052,core,estimation,1,Data minimization,60,valid,alpha,A,0.013,0.95,5,0,30
+E018_M4_T60_r1,E018_M4_T60,E018,core,estimation,1,Data minimization,60,valid,beta,A,0.050,0.99,5,1,1
+H015_M3_T5_r2,H015_M3_T5,H015,core,heldout,2,Continuity,5,valid,beta,B,0.050,0.999,1,1,30
+R1_M1_T60_r2,R1_M1_T60,R1,refund_success,diagnostic,2,Balanced,60,valid,beta,B,0.003,0.99,5,1,30
+H009_M2_T60_r1,H009_M2_T60,H009,core,heldout,1,Economy,60,valid,beta,A,0.003,0.999,1,0.5,30
+H022_M1_T5_r1,H022_M1_T5,H022,core,heldout,1,Balanced,5,valid,alpha,B,0.005,0.99,5,1,365
+F4_M4_T5_r4,F4_M4_T5,F4,fine_reliability,diagnostic,4,Data minimization,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E024_M4_T5_r1,E024_M4_T5,E024,core,estimation,1,Data minimization,5,valid,alpha,B,0.050,0.999,30,0,30
+H028_M4_T60_r1,H028_M4_T60,H028,core,heldout,1,Data minimization,60,valid,beta,B,0.020,0.99,30,1,30
+H015_M1_T5_r1,H015_M1_T5,H015,core,heldout,1,Balanced,5,valid,beta,B,0.050,0.999,1,1,30
+E059_M1_T5_labels_r1,E059_M1_T5_labels,E059,presentation,diagnostic,1,Balanced,5,valid,beta,B,0.020,0.99,1,0.5,1
+F2_M3_T60_r3,F2_M3_T60,F2,fine_reliability,diagnostic,3,Continuity,60,valid,beta,B,0.013,0.999,5,0.50,30
+H010_M1_T5_r1,H010_M1_T5,H010,core,heldout,1,Balanced,5,valid,alpha,A,0.080,0.95,5,1,365
+H020_M1_T60_r1,H020_M1_T60,H020,core,heldout,1,Balanced,60,valid,beta,B,0.003,0.999,1,0.5,1
+E062_M2_T5_r2,E062_M2_T5,E062,core,estimation,2,Economy,5,valid,beta,A,0.001,0.99,5,1,1
+E012_M3_T60_r1,E012_M3_T60,E012,core,estimation,1,Continuity,60,valid,alpha,B,0.020,0.999,1,0,365
+E015_M4_T60_r2,E015_M4_T60,E015,core,estimation,2,Data minimization,60,valid,beta,A,0.003,0.999,30,0,1
+E046_M2_T5_r1,E046_M2_T5,E046,core,estimation,1,Economy,5,valid,alpha,A,0.020,0.999,1,0.5,1
+H006_M1_T5_r1,H006_M1_T5,H006,core,heldout,1,Balanced,5,valid,beta,A,0.080,0.99,30,0.5,1
+R2_M2_T5_r1,R2_M2_T5,R2,refund_success,diagnostic,1,Economy,5,valid,alpha,A,0.001,0.99,5,0,30
+E043_M3_T5_r1,E043_M3_T5,E043,core,estimation,1,Continuity,5,valid,alpha,B,0.250,0.99,5,0,30
+E058_M1_T5_r1,E058_M1_T5,E058,core,estimation,1,Balanced,5,valid,alpha,A,0.001,0.999,5,0,1
+F5_M3_T60_r4,F5_M3_T60,F5,fine_reliability,diagnostic,4,Continuity,60,valid,beta,B,0.250,0.999,5,0.50,30
+F5_M4_T60_r2,F5_M4_T60,F5,fine_reliability,diagnostic,2,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E036_M1_T60_r1,E036_M1_T60,E036,core,estimation,1,Balanced,60,valid,beta,A,0.001,0.99,5,0.5,1
+E052_M4_T5_r1,E052_M4_T5,E052,core,estimation,1,Data minimization,5,valid,alpha,A,0.013,0.95,5,0,30
+R1_M1_T60_r1,R1_M1_T60,R1,refund_success,diagnostic,1,Balanced,60,valid,beta,B,0.003,0.99,5,1,30
+E023_M4_T60_r1,E023_M4_T60,E023,core,estimation,1,Data minimization,60,valid,beta,B,0.003,0.99,1,0,1
+E019_M1_T5_r2,E019_M1_T5,E019,core,estimation,2,Balanced,5,valid,alpha,A,0.013,0.95,1,0,30
+E035_M3_T5_r1,E035_M3_T5,E035,core,estimation,1,Continuity,5,valid,beta,B,0.080,0.999,5,0.5,1
+E056_M4_T5_r1,E056_M4_T5,E056,core,estimation,1,Data minimization,5,valid,alpha,A,0.080,0.99,30,0.5,1
+E053_M4_T60_r2,E053_M4_T60,E053,core,estimation,2,Data minimization,60,valid,beta,A,0.050,0.999,1,0,30
+E008_M3_T5_r1,E008_M3_T5,E008,core,estimation,1,Continuity,5,valid,alpha,A,0.080,0.95,1,0.5,30
+E063_M2_T60_r1,E063_M2_T60,E063,core,estimation,1,Economy,60,valid,beta,B,0.005,0.95,1,0,30
+E041_M4_T5_r1,E041_M4_T5,E041,core,estimation,1,Data minimization,5,valid,beta,A,0.080,0.95,5,1,30
+F2_M2_T5_r1,F2_M2_T5,F2,fine_reliability,diagnostic,1,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H022_M3_T60_r2,H022_M3_T60,H022,core,heldout,2,Continuity,60,valid,alpha,B,0.005,0.99,5,1,365
+E054_M1_T60_r1,E054_M1_T60,E054,core,estimation,1,Balanced,60,valid,beta,B,0.020,0.95,5,1,1
+E015_M3_T5_r2,E015_M3_T5,E015,core,estimation,2,Continuity,5,valid,alpha,B,0.020,0.99,5,1,365
+E061_M3_T60_r1,E061_M3_T60,E061,core,estimation,1,Continuity,60,valid,beta,B,0.003,0.95,30,1,365
+F1_M4_T5_r3,F1_M4_T5,F1,fine_reliability,diagnostic,3,Data minimization,5,valid,beta,B,0.001,0.999,5,0.50,30
+F5_M4_T5_r3,F5_M4_T5,F5,fine_reliability,diagnostic,3,Data minimization,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H028_M2_T5_r1,H028_M2_T5,H028,core,heldout,1,Economy,5,valid,beta,B,0.020,0.99,30,1,30
+E050_M4_T60_r1,E050_M4_T60,E050,core,estimation,1,Data minimization,60,valid,alpha,B,0.250,0.999,1,1,1
+E036_M1_T5_r1,E036_M1_T5,E036,core,estimation,1,Balanced,5,valid,beta,A,0.001,0.99,5,0.5,1
+E018_M1_T60_r1,E018_M1_T60,E018,core,estimation,1,Balanced,60,valid,beta,A,0.050,0.99,5,1,1
+E042_M2_T60_r2,E042_M2_T60,E042,core,estimation,2,Economy,60,valid,alpha,B,0.001,0.999,30,0,1
+E034_M3_T60_r1,E034_M3_T60,E034,core,estimation,1,Continuity,60,valid,beta,A,0.003,0.95,1,1,365
+E041_M2_T5_r2,E041_M2_T5,E041,core,estimation,2,Economy,5,valid,alpha,B,0.001,0.999,30,0.5,365
+F1_M1_T5_r3,F1_M1_T5,F1,fine_reliability,diagnostic,3,Balanced,5,valid,beta,B,0.001,0.999,5,0.50,30
+H020_M3_T5_r1,H020_M3_T5,H020,core,heldout,1,Continuity,5,valid,beta,B,0.003,0.999,1,0.5,1
+R1_M4_T5_r2,R1_M4_T5,R1,refund_success,diagnostic,2,Data minimization,5,valid,beta,B,0.003,0.99,5,1,30
+E048_M2_T5_r1,E048_M2_T5,E048,core,estimation,1,Economy,5,valid,beta,B,0.001,0.99,1,0,1
+E019_M1_T60_r1,E019_M1_T60,E019,core,estimation,1,Balanced,60,valid,alpha,A,0.013,0.95,1,0,30
+E038_M3_T60_r1,E038_M3_T60,E038,core,estimation,1,Continuity,60,valid,beta,B,0.001,0.99,1,0.5,30
+H007_M4_T60_r2,H007_M4_T60,H007,core,heldout,2,Data minimization,60,valid,beta,A,0.013,0.99,1,0,1
+A2_M2_T60_r1,A2_M2_T60,A2,outside_anchor,diagnostic,1,Economy,60,valid,alpha,A,0.250,0.95,30,0,365
+R4_M4_T5_r2,R4_M4_T5,R4,refund_success,diagnostic,2,Data minimization,5,valid,alpha,A,0.001,0.95,5,0,30
+H028_M1_T60_r1,H028_M1_T60,H028,core,heldout,1,Balanced,60,valid,beta,B,0.020,0.99,30,1,30
+E052_M4_T60_r2,E052_M4_T60,E052,core,estimation,2,Data minimization,60,valid,alpha,A,0.013,0.95,5,0,30
+R1_M2_T60_r2,R1_M2_T60,R1,refund_success,diagnostic,2,Economy,60,valid,beta,B,0.003,0.99,5,1,30
+E055_M1_T60_r1,E055_M1_T60,E055,core,estimation,1,Balanced,60,valid,beta,B,0.020,0.999,30,0,1
+E062_M2_T60_r1,E062_M2_T60,E062,core,estimation,1,Economy,60,valid,beta,A,0.001,0.99,5,1,1
+F4_M4_T5_r3,F4_M4_T5,F4,fine_reliability,diagnostic,3,Data minimization,5,valid,alpha,A,0.001,0.99,5,0.50,30
+F5_M1_T60_r4,F5_M1_T60,F5,fine_reliability,diagnostic,4,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H028_M1_T60_r2,H028_M1_T60,H028,core,heldout,2,Balanced,60,valid,beta,B,0.020,0.99,30,1,30
+E030_M3_T60_r1,E030_M3_T60,E030,core,estimation,1,Continuity,60,valid,beta,B,0.013,0.95,1,0,1
+E019_M2_T60_r2,E019_M2_T60,E019,core,estimation,2,Economy,60,valid,alpha,A,0.013,0.95,1,0,30
+E059_M4_T60_r2,E059_M4_T60,E059,core,estimation,2,Data minimization,60,valid,beta,A,0.020,0.99,1,0.5,1
+E059_M4_T60_labels_r1,E059_M4_T60_labels,E059,presentation,diagnostic,1,Data minimization,60,valid,beta,B,0.020,0.99,1,0.5,1
+E061_M4_T5_r1,E061_M4_T5,E061,core,estimation,1,Data minimization,5,valid,alpha,A,0.080,0.95,5,0,30
+E013_M3_T5_r1,E013_M3_T5,E013,core,estimation,1,Continuity,5,valid,beta,A,0.001,0.999,5,0,365
+E058_M4_T60_r1,E058_M4_T60,E058,core,estimation,1,Data minimization,60,valid,alpha,A,0.001,0.999,5,0,1
+F2_M3_T60_r1,F2_M3_T60,F2,fine_reliability,diagnostic,1,Continuity,60,valid,beta,B,0.013,0.999,5,0.50,30
+H026_M1_T5_r1,H026_M1_T5,H026,core,heldout,1,Balanced,5,valid,alpha,B,0.003,0.95,5,0.5,30
+H017_M2_T60_r1,H017_M2_T60,H017,core,heldout,1,Economy,60,valid,beta,A,0.050,0.95,1,1,365
+H001_M2_T5_r1,H001_M2_T5,H001,core,heldout,1,Economy,5,valid,beta,B,0.013,0.95,30,0.5,365
+R1_M3_T60_r2,R1_M3_T60,R1,refund_success,diagnostic,2,Continuity,60,valid,beta,B,0.003,0.99,5,1,30
+H008_M1_T60_r1,H008_M1_T60,H008,core,heldout,1,Balanced,60,valid,alpha,B,0.005,0.95,5,1,1
+H009_M1_T60_r1,H009_M1_T60,H009,core,heldout,1,Balanced,60,valid,beta,A,0.003,0.999,1,0.5,30
+E041_M1_T5_r1,E041_M1_T5,E041,core,estimation,1,Balanced,5,valid,alpha,B,0.001,0.999,30,0.5,365
+H017_M3_T5_r1,H017_M3_T5,H017,core,heldout,1,Continuity,5,valid,alpha,B,0.050,0.999,1,0,365
+E012_M1_T5_position_r1,E012_M1_T5_position,E012,presentation,diagnostic,1,Balanced,5,valid,alpha,B,0.020,0.999,1,0,365
+E050_M3_T5_r1,E050_M3_T5,E050,core,estimation,1,Continuity,5,valid,alpha,B,0.250,0.999,1,1,1
+F1_M2_T5_r1,F1_M2_T5,F1,fine_reliability,diagnostic,1,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H028_M3_T5_r2,H028_M3_T5,H028,core,heldout,2,Continuity,5,valid,alpha,A,0.050,0.95,5,0.5,30
+H016_M3_T5_r1,H016_M3_T5,H016,core,heldout,1,Continuity,5,valid,alpha,B,0.001,0.99,5,1,365
+E047_M4_T60_r1,E047_M4_T60,E047,core,estimation,1,Data minimization,60,valid,alpha,A,0.080,0.95,1,0.5,30
+R4_M3_T60_r2,R4_M3_T60,R4,refund_success,diagnostic,2,Continuity,60,valid,alpha,A,0.001,0.95,5,0,30
+E033_M3_T60_r1,E033_M3_T60,E033,core,estimation,1,Continuity,60,valid,alpha,A,0.250,0.999,1,1,30
+H029_M3_T5_r1,H029_M3_T5,H029,core,heldout,1,Continuity,5,valid,beta,B,0.003,0.99,30,0,1
+H015_M3_T60_r1,H015_M3_T60,H015,core,heldout,1,Continuity,60,valid,beta,B,0.050,0.999,1,1,30
+E010_M1_T5_r1,E010_M1_T5,E010,core,estimation,1,Balanced,5,valid,beta,A,0.020,0.999,30,1,30
+E039_M4_T5_r1,E039_M4_T5,E039,core,estimation,1,Data minimization,5,valid,beta,B,0.080,0.999,30,1,1
+E056_M1_T5_r1,E056_M1_T5,E056,core,estimation,1,Balanced,5,valid,alpha,A,0.080,0.99,30,0.5,1
+E061_M1_T60_r1,E061_M1_T60,E061,core,estimation,1,Balanced,60,valid,beta,B,0.003,0.95,30,1,365
+H020_M2_T5_r1,H020_M2_T5,H020,core,heldout,1,Economy,5,valid,beta,B,0.003,0.999,1,0.5,1
+E028_M4_T60_r1,E028_M4_T60,E028,core,estimation,1,Data minimization,60,valid,beta,A,0.250,0.95,1,1,1
+E024_M2_T5_r1,E024_M2_T5,E024,core,estimation,1,Economy,5,valid,beta,A,0.003,0.95,5,0.5,365
+A1_M2_T60_r2,A1_M2_T60,A1,outside_anchor,diagnostic,2,Economy,60,valid,alpha,A,0.001,0.999,1,1,1
+H022_M2_T5_r1,H022_M2_T5,H022,core,heldout,1,Economy,5,valid,alpha,B,0.005,0.99,5,1,365
+F4_M4_T60_r1,F4_M4_T60,F4,fine_reliability,diagnostic,1,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E060_M4_T60_r1,E060_M4_T60,E060,core,estimation,1,Data minimization,60,valid,alpha,B,0.250,0.95,30,0,1
+H015_M1_T5_r2,H015_M1_T5,H015,core,heldout,2,Balanced,5,valid,beta,B,0.050,0.999,1,1,30
+H007_M3_T60_r1,H007_M3_T60,H007,core,heldout,1,Continuity,60,valid,beta,A,0.013,0.99,1,0,1
+F3_M4_T60_r4,F3_M4_T60,F3,fine_reliability,diagnostic,4,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E024_M3_T60_r1,E024_M3_T60,E024,core,estimation,1,Continuity,60,valid,alpha,B,0.050,0.999,30,0,30
+A2_M2_T60_r2,A2_M2_T60,A2,outside_anchor,diagnostic,2,Economy,60,valid,alpha,A,0.250,0.95,30,0,365
+F2_M4_T5_r4,F2_M4_T5,F2,fine_reliability,diagnostic,4,Data minimization,5,valid,beta,B,0.013,0.999,5,0.50,30
+H010_M3_T5_r1,H010_M3_T5,H010,core,heldout,1,Continuity,5,valid,alpha,A,0.080,0.95,5,1,365
+E040_M2_T5_r1,E040_M2_T5,E040,core,estimation,1,Economy,5,valid,beta,A,0.003,0.95,1,0,365
+R1_M4_T5_r1,R1_M4_T5,R1,refund_success,diagnostic,1,Data minimization,5,valid,beta,B,0.003,0.99,5,1,30
+H007_M3_T5_r2,H007_M3_T5,H007,core,heldout,2,Continuity,5,valid,beta,A,0.013,0.99,1,0,1
+H014_M3_T60_r2,H014_M3_T60,H014,core,heldout,2,Continuity,60,valid,beta,B,0.001,0.999,5,1,1
+E013_M2_T5_r1,E013_M2_T5,E013,core,estimation,1,Economy,5,valid,beta,A,0.001,0.999,5,0,365
+E032_M1_T60_r1,E032_M1_T60,E032,core,estimation,1,Balanced,60,valid,alpha,A,0.020,0.999,30,0.5,365
+H007_M2_T60_r1,H007_M2_T60,H007,core,heldout,1,Economy,60,valid,beta,A,0.013,0.99,1,0,1
+E018_M3_T5_r1,E018_M3_T5,E018,core,estimation,1,Continuity,5,valid,beta,A,0.050,0.99,5,1,1
+E044_M3_T60_position_r1,E044_M3_T60_position,E044,presentation,diagnostic,1,Continuity,60,valid,beta,B,0.001,0.999,1,0,30
+H014_M2_T5_r1,H014_M2_T5,H014,core,heldout,1,Economy,5,valid,beta,B,0.001,0.999,5,1,1
+H010_M1_T60_r1,H010_M1_T60,H010,core,heldout,1,Balanced,60,valid,alpha,A,0.080,0.95,5,1,365
+E053_M3_T60_r2,E053_M3_T60,E053,core,estimation,2,Continuity,60,valid,beta,A,0.050,0.999,1,0,30
+H022_M1_T60_r2,H022_M1_T60,H022,core,heldout,2,Balanced,60,valid,alpha,B,0.005,0.99,5,1,365
+E042_M2_T60_r1,E042_M2_T60,E042,core,estimation,1,Economy,60,valid,alpha,B,0.001,0.999,30,0,1
+E027_M1_T5_r1,E027_M1_T5,E027,core,estimation,1,Balanced,5,valid,alpha,B,0.165,0.999,30,1,30
+E007_M3_T5_r1,E007_M3_T5,E007,core,estimation,1,Continuity,5,valid,alpha,B,0.165,0.999,5,1,30
+H022_M3_T5_r1,H022_M3_T5,H022,core,heldout,1,Continuity,5,valid,alpha,B,0.005,0.99,5,1,365
+E053_M2_T5_r1,E053_M2_T5,E053,core,estimation,1,Economy,5,valid,alpha,B,0.001,0.99,5,1,365
+E019_M4_T5_r1,E019_M4_T5,E019,core,estimation,1,Data minimization,5,valid,alpha,A,0.013,0.95,1,0,30
+E045_M2_T5_r1,E045_M2_T5,E045,core,estimation,1,Economy,5,valid,beta,B,0.080,0.999,5,0,365
+E056_M3_T60_labels_r1,E056_M3_T60_labels,E056,presentation,diagnostic,1,Continuity,60,valid,alpha,B,0.080,0.99,30,0.5,1
+H032_M2_T60_r1,H032_M2_T60,H032,core,heldout,1,Economy,60,valid,beta,A,0.013,0.99,5,0,365
+E040_M3_T60_r1,E040_M3_T60,E040,core,estimation,1,Continuity,60,valid,alpha,B,0.020,0.999,30,0.5,30
+E027_M3_T5_r1,E027_M3_T5,E027,core,estimation,1,Continuity,5,valid,beta,A,0.165,0.99,5,0,365
+R3_M3_T5_r2,R3_M3_T5,R3,refund_success,diagnostic,2,Continuity,5,valid,beta,B,0.050,0.95,5,1,30
+E028_M3_T5_r2,E028_M3_T5,E028,core,estimation,2,Continuity,5,valid,alpha,B,0.080,0.95,5,0,30
+H030_M1_T5_r1,H030_M1_T5,H030,core,heldout,1,Balanced,5,valid,alpha,A,0.080,0.99,1,0.5,365
+A2_M1_T5_r2,A2_M1_T5,A2,outside_anchor,diagnostic,2,Balanced,5,valid,alpha,A,0.250,0.95,30,0,365
+E041_M4_T5_r2,E041_M4_T5,E041,core,estimation,2,Data minimization,5,valid,beta,A,0.080,0.95,5,1,30
+E033_M2_T5_r1,E033_M2_T5,E033,core,estimation,1,Economy,5,valid,beta,B,0.080,0.99,30,0,365
+E029_M1_T5_r2,E029_M1_T5,E029,core,estimation,2,Balanced,5,valid,alpha,B,0.001,0.999,5,1,30
+E062_M1_T5_r2,E062_M1_T5,E062,core,estimation,2,Balanced,5,valid,beta,A,0.001,0.99,5,1,1
+E002_M1_T60_r1,E002_M1_T60,E002,core,estimation,1,Balanced,60,valid,beta,A,0.050,0.99,1,0,1
+E010_M4_T60_r1,E010_M4_T60,E010,core,estimation,1,Data minimization,60,valid,alpha,B,0.250,0.99,1,0.5,1
+H008_M4_T60_r1,H008_M4_T60,H008,core,heldout,1,Data minimization,60,valid,alpha,B,0.005,0.95,5,1,1
+E044_M3_T5_position_r1,E044_M3_T5_position,E044,presentation,diagnostic,1,Continuity,5,valid,beta,B,0.001,0.999,1,0,30
+E006_M1_T5_r1,E006_M1_T5,E006,core,estimation,1,Balanced,5,valid,beta,B,0.020,0.99,5,0.5,30
+E006_M3_T60_r1,E006_M3_T60,E006,core,estimation,1,Continuity,60,valid,alpha,A,0.080,0.999,1,1,365
+E016_M4_T60_r2,E016_M4_T60,E016,core,estimation,2,Data minimization,60,valid,beta,A,0.080,0.95,5,0,1
+E015_M1_T60_r1,E015_M1_T60,E015,core,estimation,1,Balanced,60,valid,beta,A,0.003,0.999,30,0,1
+H013_M2_T60_r1,H013_M2_T60,H013,core,heldout,1,Economy,60,valid,beta,A,0.003,0.99,30,0.5,365
+H030_M2_T60_r1,H030_M2_T60,H030,core,heldout,1,Economy,60,valid,alpha,A,0.080,0.99,1,0.5,365
+E002_M4_T5_position_r1,E002_M4_T5_position,E002,presentation,diagnostic,1,Data minimization,5,valid,beta,A,0.050,0.99,1,0,1
+E031_M1_T5_position_r1,E031_M1_T5_position,E031,presentation,diagnostic,1,Balanced,5,valid,beta,B,0.020,0.95,5,1,30
+H031_M1_T60_r1,H031_M1_T60,H031,core,heldout,1,Balanced,60,valid,beta,B,0.013,0.999,1,0,365
+F3_M4_T60_r2,F3_M4_T60,F3,fine_reliability,diagnostic,2,Data minimization,60,valid,beta,B,0.020,0.999,5,0.50,30
+A2_M4_T60_r1,A2_M4_T60,A2,outside_anchor,diagnostic,1,Data minimization,60,valid,alpha,A,0.250,0.95,30,0,365
+H008_M2_T60_r1,H008_M2_T60,H008,core,heldout,1,Economy,60,valid,alpha,B,0.005,0.95,5,1,1
+E009_M3_T60_r1,E009_M3_T60,E009,core,estimation,1,Continuity,60,valid,alpha,B,0.020,0.999,5,0.5,365
+F2_M3_T5_r3,F2_M3_T5,F2,fine_reliability,diagnostic,3,Continuity,5,valid,beta,B,0.013,0.999,5,0.50,30
+H001_M1_T5_r1,H001_M1_T5,H001,core,heldout,1,Balanced,5,valid,alpha,A,0.003,0.99,30,0,365
+E042_M3_T60_r1,E042_M3_T60,E042,core,estimation,1,Continuity,60,valid,alpha,B,0.001,0.999,30,0,1
+H006_M1_T60_r1,H006_M1_T60,H006,core,heldout,1,Balanced,60,valid,beta,A,0.080,0.99,30,0.5,1
+F3_M3_T5_r1,F3_M3_T5,F3,fine_reliability,diagnostic,1,Continuity,5,valid,beta,B,0.020,0.999,5,0.50,30
+H021_M2_T60_r1,H021_M2_T60,H021,core,heldout,1,Economy,60,valid,alpha,B,0.003,0.95,30,0,1
+E042_M4_T5_r2,E042_M4_T5,E042,core,estimation,2,Data minimization,5,valid,alpha,B,0.001,0.999,30,0,1
+H028_M3_T60_r1,H028_M3_T60,H028,core,heldout,1,Continuity,60,valid,beta,B,0.020,0.99,30,1,30
+E060_M1_T5_r1,E060_M1_T5,E060,core,estimation,1,Balanced,5,valid,beta,A,0.001,0.95,1,1,30
+E014_M1_T60_r1,E014_M1_T60,E014,core,estimation,1,Balanced,60,valid,alpha,B,0.013,0.999,5,0,1
+E060_M3_T60_r1,E060_M3_T60,E060,core,estimation,1,Continuity,60,valid,beta,A,0.001,0.95,1,1,30
+E030_M1_T5_r1,E030_M1_T5,E030,core,estimation,1,Balanced,5,valid,beta,B,0.013,0.95,1,0,1
+F2_M3_T5_r2,F2_M3_T5,F2,fine_reliability,diagnostic,2,Continuity,5,valid,beta,B,0.013,0.999,5,0.50,30
+E016_M1_T60_labels_r1,E016_M1_T60_labels,E016,presentation,diagnostic,1,Balanced,60,valid,beta,B,0.080,0.95,5,0,1
+E023_M1_T5_r1,E023_M1_T5,E023,core,estimation,1,Balanced,5,valid,beta,B,0.003,0.99,1,0,1
+E062_M3_T60_r1,E062_M3_T60,E062,core,estimation,1,Continuity,60,valid,beta,A,0.001,0.99,5,1,1
+E005_M3_T60_r1,E005_M3_T60,E005,core,estimation,1,Continuity,60,valid,beta,B,0.001,0.999,1,0.5,1
+E013_M1_T60_r1,E013_M1_T60,E013,core,estimation,1,Balanced,60,valid,beta,A,0.001,0.999,5,0,365
+E063_M3_T5_r1,E063_M3_T5,E063,core,estimation,1,Continuity,5,valid,beta,B,0.005,0.95,1,0,30
+F5_M3_T5_r1,F5_M3_T5,F5,fine_reliability,diagnostic,1,Continuity,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E009_M2_T5_r1,E009_M2_T5,E009,core,estimation,1,Economy,5,valid,beta,A,0.005,0.95,30,1,30
+H028_M2_T60_r1,H028_M2_T60,H028,core,heldout,1,Economy,60,valid,beta,B,0.020,0.99,30,1,30
+E012_M4_T5_position_r1,E012_M4_T5_position,E012,presentation,diagnostic,1,Data minimization,5,valid,alpha,B,0.020,0.999,1,0,365
+H014_M2_T60_r2,H014_M2_T60,H014,core,heldout,2,Economy,60,valid,beta,B,0.001,0.999,5,1,1
+F5_M2_T60_r3,F5_M2_T60,F5,fine_reliability,diagnostic,3,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+F4_M3_T5_r4,F4_M3_T5,F4,fine_reliability,diagnostic,4,Continuity,5,valid,beta,B,0.080,0.999,5,0.50,30
+E058_M4_T5_r1,E058_M4_T5,E058,core,estimation,1,Data minimization,5,valid,alpha,A,0.001,0.999,5,0,1
+E037_M4_T5_r1,E037_M4_T5,E037,core,estimation,1,Data minimization,5,valid,alpha,A,0.020,0.999,1,0,1
+E051_M2_T5_r1,E051_M2_T5,E051,core,estimation,1,Economy,5,valid,beta,B,0.020,0.99,1,0,30
+F4_M2_T5_r3,F4_M2_T5,F4,fine_reliability,diagnostic,3,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H016_M2_T5_r1,H016_M2_T5,H016,core,heldout,1,Economy,5,valid,alpha,B,0.001,0.99,5,1,365
+E035_M4_T5_r1,E035_M4_T5,E035,core,estimation,1,Data minimization,5,valid,beta,B,0.080,0.999,5,0.5,1
+F2_M4_T60_r2,F2_M4_T60,F2,fine_reliability,diagnostic,2,Data minimization,60,valid,beta,B,0.013,0.999,5,0.50,30
+E021_M4_T60_r1,E021_M4_T60,E021,core,estimation,1,Data minimization,60,valid,alpha,B,0.005,0.99,5,0,30
+H002_M1_T5_r1,H002_M1_T5,H002,core,heldout,1,Balanced,5,valid,beta,B,0.013,0.99,1,1,30
+H014_M2_T5_r2,H014_M2_T5,H014,core,heldout,2,Economy,5,valid,beta,B,0.001,0.999,5,1,1
+E019_M3_T5_r2,E019_M3_T5,E019,core,estimation,2,Continuity,5,valid,alpha,A,0.013,0.95,1,0,30
+E008_M4_T60_r1,E008_M4_T60,E008,core,estimation,1,Data minimization,60,valid,alpha,A,0.080,0.95,1,0.5,30
+H004_M1_T60_r1,H004_M1_T60,H004,core,heldout,1,Balanced,60,valid,alpha,B,0.013,0.95,5,1,30
+F1_M2_T60_r1,F1_M2_T60,F1,fine_reliability,diagnostic,1,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E021_M1_T60_r1,E021_M1_T60,E021,core,estimation,1,Balanced,60,valid,alpha,B,0.005,0.99,5,0,30
+E041_M3_T5_r1,E041_M3_T5,E041,core,estimation,1,Continuity,5,valid,beta,A,0.080,0.95,5,1,30
+E037_M2_T5_r1,E037_M2_T5,E037,core,estimation,1,Economy,5,valid,alpha,A,0.020,0.999,1,0,1
+F4_M2_T60_r2,F4_M2_T60,F4,fine_reliability,diagnostic,2,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+F3_M2_T5_r1,F3_M2_T5,F3,fine_reliability,diagnostic,1,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E017_M1_T60_r1,E017_M1_T60,E017,core,estimation,1,Balanced,60,valid,beta,A,0.005,0.95,5,1,365
+H031_M2_T60_r1,H031_M2_T60,H031,core,heldout,1,Economy,60,valid,beta,B,0.013,0.999,1,0,365
+H006_M4_T60_r1,H006_M4_T60,H006,core,heldout,1,Data minimization,60,valid,beta,A,0.080,0.99,30,0.5,1
+E044_M1_T5_r1,E044_M1_T5,E044,core,estimation,1,Balanced,5,valid,beta,B,0.001,0.999,1,0,30
+E007_M4_T5_r1,E007_M4_T5,E007,core,estimation,1,Data minimization,5,valid,alpha,B,0.165,0.999,5,1,30
+E029_M2_T5_r2,E029_M2_T5,E029,core,estimation,2,Economy,5,valid,alpha,B,0.001,0.999,5,1,30
+E012_M4_T60_r2,E012_M4_T60,E012,core,estimation,2,Data minimization,60,valid,alpha,B,0.020,0.999,1,0,365
+H030_M3_T5_r1,H030_M3_T5,H030,core,heldout,1,Continuity,5,valid,alpha,A,0.080,0.99,1,0.5,365
+E016_M2_T5_labels_r1,E016_M2_T5_labels,E016,presentation,diagnostic,1,Economy,5,valid,beta,B,0.080,0.95,5,0,1
+F5_M4_T5_r2,F5_M4_T5,F5,fine_reliability,diagnostic,2,Data minimization,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E012_M2_T5_r1,E012_M2_T5,E012,core,estimation,1,Economy,5,valid,alpha,B,0.020,0.999,1,0,365
+E052_M2_T60_r2,E052_M2_T60,E052,core,estimation,2,Economy,60,valid,alpha,A,0.013,0.95,5,0,30
+E004_M1_T60_r1,E004_M1_T60,E004,core,estimation,1,Balanced,60,valid,beta,B,0.050,0.999,30,0.5,1
+E020_M2_T60_r1,E020_M2_T60,E020,core,estimation,1,Economy,60,valid,beta,B,0.003,0.99,1,0,1
+H024_M2_T60_r1,H024_M2_T60,H024,core,heldout,1,Economy,60,valid,alpha,A,0.005,0.99,30,0.5,1
+F1_M3_T60_r4,F1_M3_T60,F1,fine_reliability,diagnostic,4,Continuity,60,valid,beta,B,0.001,0.999,5,0.50,30
+E002_M3_T5_position_r1,E002_M3_T5_position,E002,presentation,diagnostic,1,Continuity,5,valid,beta,A,0.050,0.99,1,0,1
+H015_M4_T5_r1,H015_M4_T5,H015,core,heldout,1,Data minimization,5,valid,beta,B,0.050,0.999,1,1,30
+H023_M3_T5_r1,H023_M3_T5,H023,core,heldout,1,Continuity,5,valid,alpha,B,0.005,0.999,5,0,30
+E014_M4_T5_r1,E014_M4_T5,E014,core,estimation,1,Data minimization,5,valid,alpha,B,0.013,0.999,5,0,1
+E022_M2_T60_r2,E022_M2_T60,E022,core,estimation,2,Economy,60,valid,beta,B,0.005,0.99,30,1,1
+E049_M2_T60_r1,E049_M2_T60,E049,core,estimation,1,Economy,60,valid,alpha,B,0.020,0.95,1,0,1
+E038_M2_T60_r1,E038_M2_T60,E038,core,estimation,1,Economy,60,valid,alpha,A,0.020,0.95,30,1,365
+H018_M4_T5_r1,H018_M4_T5,H018,core,heldout,1,Data minimization,5,valid,alpha,A,0.020,0.99,5,0.5,1
+E047_M3_T5_r1,E047_M3_T5,E047,core,estimation,1,Continuity,5,valid,beta,B,0.020,0.99,5,0,365
+H015_M2_T60_r2,H015_M2_T60,H015,core,heldout,2,Economy,60,valid,beta,B,0.050,0.999,1,1,30
+F3_M2_T60_r4,F3_M2_T60,F3,fine_reliability,diagnostic,4,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H026_M4_T5_r1,H026_M4_T5,H026,core,heldout,1,Data minimization,5,valid,alpha,B,0.003,0.95,5,0.5,30
+E053_M4_T5_r1,E053_M4_T5,E053,core,estimation,1,Data minimization,5,valid,beta,A,0.050,0.999,1,0,30
+E062_M4_T5_r2,E062_M4_T5,E062,core,estimation,2,Data minimization,5,valid,beta,A,0.001,0.99,5,1,1
+E022_M1_T60_r2,E022_M1_T60,E022,core,estimation,2,Balanced,60,valid,beta,B,0.005,0.99,30,1,1
+F4_M1_T60_r3,F4_M1_T60,F4,fine_reliability,diagnostic,3,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E064_M1_T60_r1,E064_M1_T60,E064,core,estimation,1,Balanced,60,valid,beta,A,0.020,0.999,5,0.5,30
+H022_M2_T60_r1,H022_M2_T60,H022,core,heldout,1,Economy,60,valid,alpha,B,0.005,0.99,5,1,365
+E055_M4_T5_r1,E055_M4_T5,E055,core,estimation,1,Data minimization,5,valid,beta,B,0.020,0.999,30,0,1
+E028_M4_T5_r2,E028_M4_T5,E028,core,estimation,2,Data minimization,5,valid,beta,A,0.250,0.95,1,1,1
+E031_M4_T60_position_r1,E031_M4_T60_position,E031,presentation,diagnostic,1,Data minimization,60,valid,beta,B,0.020,0.95,5,1,30
+H003_M1_T5_r1,H003_M1_T5,H003,core,heldout,1,Balanced,5,valid,alpha,B,0.005,0.999,1,0.5,365
+E041_M1_T5_r2,E041_M1_T5,E041,core,estimation,2,Balanced,5,valid,alpha,B,0.001,0.999,30,0.5,365
+H017_M2_T5_r2,H017_M2_T5,H017,core,heldout,2,Economy,5,valid,beta,A,0.050,0.95,1,1,365
+H026_M2_T60_r1,H026_M2_T60,H026,core,heldout,1,Economy,60,valid,alpha,B,0.003,0.95,5,0.5,30
+F4_M3_T60_r1,F4_M3_T60,F4,fine_reliability,diagnostic,1,Continuity,60,valid,beta,B,0.080,0.999,5,0.50,30
+H015_M4_T60_r2,H015_M4_T60,H015,core,heldout,2,Data minimization,60,valid,beta,B,0.050,0.999,1,1,30
+E039_M3_T60_r1,E039_M3_T60,E039,core,estimation,1,Continuity,60,valid,beta,B,0.080,0.999,30,1,1
+H026_M3_T60_r1,H026_M3_T60,H026,core,heldout,1,Continuity,60,valid,beta,A,0.250,0.999,1,1,30
+H025_M3_T60_r1,H025_M3_T60,H025,core,heldout,1,Continuity,60,valid,beta,B,0.080,0.999,30,1,1
+F3_M1_T60_r2,F3_M1_T60,F3,fine_reliability,diagnostic,2,Balanced,60,valid,beta,B,0.020,0.999,5,0.50,30
+H007_M4_T60_r1,H007_M4_T60,H007,core,heldout,1,Data minimization,60,valid,beta,A,0.013,0.99,1,0,1
+E047_M1_T60_r1,E047_M1_T60,E047,core,estimation,1,Balanced,60,valid,beta,B,0.020,0.99,5,0,365
+E020_M4_T60_r1,E020_M4_T60,E020,core,estimation,1,Data minimization,60,valid,beta,B,0.003,0.99,1,0,1
+H008_M3_T5_r2,H008_M3_T5,H008,core,heldout,2,Continuity,5,valid,alpha,B,0.005,0.95,5,1,1
+E063_M4_T60_r1,E063_M4_T60,E063,core,estimation,1,Data minimization,60,valid,beta,B,0.005,0.95,1,0,30
+E059_M3_T5_r2,E059_M3_T5,E059,core,estimation,2,Continuity,5,valid,beta,A,0.020,0.99,1,0.5,1
+H026_M2_T5_r1,H026_M2_T5,H026,core,heldout,1,Economy,5,valid,alpha,B,0.003,0.95,5,0.5,30
+E025_M1_T5_r1,E025_M1_T5,E025,core,estimation,1,Balanced,5,valid,alpha,B,0.005,0.99,30,0.5,30
+E016_M3_T5_labels_r1,E016_M3_T5_labels,E016,presentation,diagnostic,1,Continuity,5,valid,alpha,A,0.250,0.999,1,0,365
+E011_M1_T5_r1,E011_M1_T5,E011,core,estimation,1,Balanced,5,valid,beta,A,0.080,0.99,5,0.5,1
+E016_M3_T60_labels_r1,E016_M3_T60_labels,E016,presentation,diagnostic,1,Continuity,60,valid,alpha,A,0.250,0.999,1,0,365
+H030_M1_T60_r1,H030_M1_T60,H030,core,heldout,1,Balanced,60,valid,alpha,A,0.080,0.99,1,0.5,365
+E025_M4_T60_r1,E025_M4_T60,E025,core,estimation,1,Data minimization,60,valid,beta,A,0.013,0.95,5,0,1
+E057_M3_T60_r1,E057_M3_T60,E057,core,estimation,1,Continuity,60,valid,alpha,A,0.250,0.999,30,0.5,30
+R1_M3_T5_r2,R1_M3_T5,R1,refund_success,diagnostic,2,Continuity,5,valid,beta,B,0.003,0.99,5,1,30
+E029_M4_T60_r1,E029_M4_T60,E029,core,estimation,1,Data minimization,60,valid,alpha,B,0.001,0.999,5,1,30
+R4_M2_T60_r2,R4_M2_T60,R4,refund_success,diagnostic,2,Economy,60,valid,alpha,A,0.001,0.95,5,0,30
+E038_M1_T5_r1,E038_M1_T5,E038,core,estimation,1,Balanced,5,valid,beta,B,0.001,0.99,1,0.5,30
+E061_M3_T5_r1,E061_M3_T5,E061,core,estimation,1,Continuity,5,valid,alpha,A,0.080,0.95,5,0,30
+E032_M4_T60_r1,E032_M4_T60,E032,core,estimation,1,Data minimization,60,valid,beta,B,0.080,0.95,1,1,1
+H005_M4_T5_r1,H005_M4_T5,H005,core,heldout,1,Data minimization,5,valid,alpha,B,0.020,0.999,5,1,1
+F2_M2_T5_r4,F2_M2_T5,F2,fine_reliability,diagnostic,4,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E045_M4_T5_r1,E045_M4_T5,E045,core,estimation,1,Data minimization,5,valid,alpha,A,0.250,0.99,1,1,30
+H016_M4_T5_r1,H016_M4_T5,H016,core,heldout,1,Data minimization,5,valid,beta,A,0.005,0.99,1,0.5,30
+E062_M1_T5_r1,E062_M1_T5,E062,core,estimation,1,Balanced,5,valid,beta,A,0.001,0.99,5,1,1
+H029_M1_T60_r1,H029_M1_T60,H029,core,heldout,1,Balanced,60,valid,beta,B,0.003,0.99,30,0,1
+E056_M3_T5_labels_r1,E056_M3_T5_labels,E056,presentation,diagnostic,1,Continuity,5,valid,beta,A,0.020,0.95,5,0,365
+E056_M1_T60_r1,E056_M1_T60,E056,core,estimation,1,Balanced,60,valid,alpha,A,0.080,0.99,30,0.5,1
+E056_M1_T60_labels_r1,E056_M1_T60_labels,E056,presentation,diagnostic,1,Balanced,60,valid,alpha,B,0.080,0.99,30,0.5,1
+F3_M4_T5_r3,F3_M4_T5,F3,fine_reliability,diagnostic,3,Data minimization,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H027_M2_T5_r1,H027_M2_T5,H027,core,heldout,1,Economy,5,valid,alpha,A,0.050,0.999,30,0.5,30
+E017_M4_T5_r1,E017_M4_T5,E017,core,estimation,1,Data minimization,5,valid,alpha,B,0.250,0.99,30,0.5,30
+H022_M2_T5_r2,H022_M2_T5,H022,core,heldout,2,Economy,5,valid,alpha,B,0.005,0.99,5,1,365
+E032_M3_T60_r1,E032_M3_T60,E032,core,estimation,1,Continuity,60,valid,alpha,A,0.020,0.999,30,0.5,365
+F5_M4_T5_r1,F5_M4_T5,F5,fine_reliability,diagnostic,1,Data minimization,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E007_M1_T60_r1,E007_M1_T60,E007,core,estimation,1,Balanced,60,valid,alpha,B,0.165,0.999,5,1,30
+A1_M1_T60_r1,A1_M1_T60,A1,outside_anchor,diagnostic,1,Balanced,60,valid,alpha,A,0.001,0.999,1,1,1
+H021_M1_T60_r1,H021_M1_T60,H021,core,heldout,1,Balanced,60,valid,beta,A,0.050,0.99,5,1,30
+E056_M4_T60_r1,E056_M4_T60,E056,core,estimation,1,Data minimization,60,valid,alpha,A,0.080,0.99,30,0.5,1
+E012_M1_T5_r2,E012_M1_T5,E012,core,estimation,2,Balanced,5,valid,alpha,B,0.020,0.999,1,0,365
+E028_M1_T5_r2,E028_M1_T5,E028,core,estimation,2,Balanced,5,valid,alpha,B,0.080,0.95,5,0,30
+F2_M1_T5_r2,F2_M1_T5,F2,fine_reliability,diagnostic,2,Balanced,5,valid,beta,B,0.013,0.999,5,0.50,30
+F1_M3_T5_r3,F1_M3_T5,F1,fine_reliability,diagnostic,3,Continuity,5,valid,beta,B,0.001,0.999,5,0.50,30
+E028_M2_T5_r1,E028_M2_T5,E028,core,estimation,1,Economy,5,valid,alpha,B,0.080,0.95,5,0,30
+H023_M4_T60_r1,H023_M4_T60,H023,core,heldout,1,Data minimization,60,valid,alpha,B,0.005,0.999,5,0,30
+H012_M4_T5_r1,H012_M4_T5,H012,core,heldout,1,Data minimization,5,valid,alpha,A,0.165,0.99,5,0.5,1
+F5_M2_T60_r2,F5_M2_T60,F5,fine_reliability,diagnostic,2,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E059_M2_T5_labels_r1,E059_M2_T5_labels,E059,presentation,diagnostic,1,Economy,5,valid,alpha,A,0.001,0.999,30,1,30
+E044_M3_T60_r1,E044_M3_T60,E044,core,estimation,1,Continuity,60,valid,beta,B,0.001,0.999,1,0,30
+F4_M4_T60_r2,F4_M4_T60,F4,fine_reliability,diagnostic,2,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E048_M1_T60_r1,E048_M1_T60,E048,core,estimation,1,Balanced,60,valid,beta,B,0.001,0.99,1,0,1
+E042_M1_T60_r1,E042_M1_T60,E042,core,estimation,1,Balanced,60,valid,alpha,B,0.001,0.999,30,0,1
+H022_M4_T60_r1,H022_M4_T60,H022,core,heldout,1,Data minimization,60,valid,beta,A,0.250,0.95,1,0,30
+H018_M3_T60_r1,H018_M3_T60,H018,core,heldout,1,Continuity,60,valid,alpha,A,0.020,0.99,5,0.5,1
+E029_M2_T60_r2,E029_M2_T60,E029,core,estimation,2,Economy,60,valid,alpha,B,0.001,0.999,5,1,30
+E041_M1_T60_r2,E041_M1_T60,E041,core,estimation,2,Balanced,60,valid,alpha,B,0.001,0.999,30,0.5,365
+R3_M1_T60_r2,R3_M1_T60,R3,refund_success,diagnostic,2,Balanced,60,valid,beta,B,0.050,0.95,5,1,30
+E056_M4_T5_labels_r1,E056_M4_T5_labels,E056,presentation,diagnostic,1,Data minimization,5,valid,alpha,B,0.080,0.99,30,0.5,1
+H007_M1_T5_r1,H007_M1_T5,H007,core,heldout,1,Balanced,5,valid,beta,A,0.013,0.99,1,0,1
+H006_M3_T60_r1,H006_M3_T60,H006,core,heldout,1,Continuity,60,valid,beta,A,0.080,0.99,30,0.5,1
+E040_M3_T5_r1,E040_M3_T5,E040,core,estimation,1,Continuity,5,valid,beta,A,0.003,0.95,1,0,365
+R3_M4_T5_r2,R3_M4_T5,R3,refund_success,diagnostic,2,Data minimization,5,valid,beta,B,0.050,0.95,5,1,30
+H007_M1_T5_r2,H007_M1_T5,H007,core,heldout,2,Balanced,5,valid,beta,A,0.013,0.99,1,0,1
+H031_M1_T5_r1,H031_M1_T5,H031,core,heldout,1,Balanced,5,valid,beta,B,0.013,0.999,1,0,365
+E045_M3_T60_r1,E045_M3_T60,E045,core,estimation,1,Continuity,60,valid,beta,B,0.080,0.999,5,0,365
+E034_M2_T60_r1,E034_M2_T60,E034,core,estimation,1,Economy,60,valid,beta,A,0.003,0.95,1,1,365
+H008_M2_T5_r1,H008_M2_T5,H008,core,heldout,1,Economy,5,valid,alpha,B,0.005,0.95,5,1,1
+E056_M2_T60_labels_r1,E056_M2_T60_labels,E056,presentation,diagnostic,1,Economy,60,valid,beta,A,0.020,0.95,5,0,365
+F2_M1_T60_r2,F2_M1_T60,F2,fine_reliability,diagnostic,2,Balanced,60,valid,beta,B,0.013,0.999,5,0.50,30
+E015_M2_T60_r1,E015_M2_T60,E015,core,estimation,1,Economy,60,valid,beta,A,0.003,0.999,30,0,1
+A2_M3_T60_r1,A2_M3_T60,A2,outside_anchor,diagnostic,1,Continuity,60,valid,alpha,A,0.250,0.95,30,0,365
+E027_M2_T5_r1,E027_M2_T5,E027,core,estimation,1,Economy,5,valid,alpha,B,0.165,0.999,30,1,30
+E044_M2_T5_r1,E044_M2_T5,E044,core,estimation,1,Economy,5,valid,beta,B,0.001,0.999,1,0,30
+E009_M1_T5_r1,E009_M1_T5,E009,core,estimation,1,Balanced,5,valid,alpha,B,0.020,0.999,5,0.5,365
+E031_M1_T60_position_r1,E031_M1_T60_position,E031,presentation,diagnostic,1,Balanced,60,valid,alpha,A,0.080,0.999,30,1,365
+R3_M2_T5_r1,R3_M2_T5,R3,refund_success,diagnostic,1,Economy,5,valid,beta,B,0.050,0.95,5,1,30
+A1_M4_T5_r1,A1_M4_T5,A1,outside_anchor,diagnostic,1,Data minimization,5,valid,alpha,A,0.001,0.999,1,1,1
+A2_M3_T5_r2,A2_M3_T5,A2,outside_anchor,diagnostic,2,Continuity,5,valid,alpha,A,0.250,0.95,30,0,365
+H025_M3_T5_r1,H025_M3_T5,H025,core,heldout,1,Continuity,5,valid,beta,B,0.080,0.999,30,1,1
+E013_M2_T60_r1,E013_M2_T60,E013,core,estimation,1,Economy,60,valid,beta,A,0.001,0.999,5,0,365
+H022_M4_T60_r2,H022_M4_T60,H022,core,heldout,2,Data minimization,60,valid,beta,A,0.250,0.95,1,0,30
+E009_M4_T5_r1,E009_M4_T5,E009,core,estimation,1,Data minimization,5,valid,beta,A,0.005,0.95,30,1,30
+E062_M3_T5_r1,E062_M3_T5,E062,core,estimation,1,Continuity,5,valid,beta,A,0.001,0.99,5,1,1
+E005_M4_T5_r1,E005_M4_T5,E005,core,estimation,1,Data minimization,5,valid,beta,B,0.001,0.999,1,0.5,1
+E042_M3_T5_r2,E042_M3_T5,E042,core,estimation,2,Continuity,5,valid,beta,A,0.020,0.95,1,0.5,365
+E006_M1_T60_r1,E006_M1_T60,E006,core,estimation,1,Balanced,60,valid,beta,B,0.020,0.99,5,0.5,30
+E020_M2_T5_r2,E020_M2_T5,E020,core,estimation,2,Economy,5,valid,beta,B,0.003,0.99,1,0,1
+A1_M4_T60_r2,A1_M4_T60,A1,outside_anchor,diagnostic,2,Data minimization,60,valid,alpha,A,0.001,0.999,1,1,1
+H032_M3_T60_r1,H032_M3_T60,H032,core,heldout,1,Continuity,60,valid,beta,A,0.013,0.99,5,0,365
+E016_M1_T5_labels_r1,E016_M1_T5_labels,E016,presentation,diagnostic,1,Balanced,5,valid,beta,B,0.080,0.95,5,0,1
+E020_M1_T60_r2,E020_M1_T60,E020,core,estimation,2,Balanced,60,valid,beta,B,0.003,0.99,1,0,1
+E044_M2_T60_position_r1,E044_M2_T60_position,E044,presentation,diagnostic,1,Economy,60,valid,beta,B,0.001,0.999,1,0,30
+H016_M2_T60_r1,H016_M2_T60,H016,core,heldout,1,Economy,60,valid,alpha,B,0.001,0.99,5,1,365
+E001_M2_T60_r1,E001_M2_T60,E001,core,estimation,1,Economy,60,valid,alpha,B,0.050,0.95,1,1,1
+H027_M4_T5_r1,H027_M4_T5,H027,core,heldout,1,Data minimization,5,valid,alpha,A,0.050,0.999,30,0.5,30
+E018_M3_T60_r1,E018_M3_T60,E018,core,estimation,1,Continuity,60,valid,beta,A,0.050,0.99,5,1,1
+E022_M2_T5_r2,E022_M2_T5,E022,core,estimation,2,Economy,5,valid,beta,B,0.005,0.99,30,1,1
+E020_M4_T5_r2,E020_M4_T5,E020,core,estimation,2,Data minimization,5,valid,beta,B,0.003,0.99,1,0,1
+E046_M4_T60_r1,E046_M4_T60,E046,core,estimation,1,Data minimization,60,valid,alpha,A,0.020,0.999,1,0.5,1
+E016_M1_T60_r1,E016_M1_T60,E016,core,estimation,1,Balanced,60,valid,beta,A,0.080,0.95,5,0,1
+E056_M2_T60_r1,E056_M2_T60,E056,core,estimation,1,Economy,60,valid,beta,B,0.020,0.95,5,0,365
+A2_M1_T60_r2,A2_M1_T60,A2,outside_anchor,diagnostic,2,Balanced,60,valid,alpha,A,0.250,0.95,30,0,365
+R2_M2_T60_r1,R2_M2_T60,R2,refund_success,diagnostic,1,Economy,60,valid,alpha,A,0.001,0.99,5,0,30
+H028_M4_T5_r1,H028_M4_T5,H028,core,heldout,1,Data minimization,5,valid,beta,B,0.020,0.99,30,1,30
+H026_M1_T60_r1,H026_M1_T60,H026,core,heldout,1,Balanced,60,valid,alpha,B,0.003,0.95,5,0.5,30
+H019_M4_T60_r1,H019_M4_T60,H019,core,heldout,1,Data minimization,60,valid,alpha,B,0.020,0.999,30,1,30
+H032_M2_T5_r1,H032_M2_T5,H032,core,heldout,1,Economy,5,valid,beta,A,0.013,0.99,5,0,365
+E047_M2_T5_r1,E047_M2_T5,E047,core,estimation,1,Economy,5,valid,beta,B,0.020,0.99,5,0,365
+E029_M4_T5_r2,E029_M4_T5,E029,core,estimation,2,Data minimization,5,valid,alpha,B,0.001,0.999,5,1,30
+H026_M3_T5_r1,H026_M3_T5,H026,core,heldout,1,Continuity,5,valid,beta,A,0.250,0.999,1,1,30
+E012_M4_T5_r2,E012_M4_T5,E012,core,estimation,2,Data minimization,5,valid,alpha,B,0.020,0.999,1,0,365
+E028_M1_T5_labels_r1,E028_M1_T5_labels,E028,presentation,diagnostic,1,Balanced,5,valid,alpha,A,0.080,0.95,5,0,30
+H015_M1_T60_r1,H015_M1_T60,H015,core,heldout,1,Balanced,60,valid,beta,B,0.050,0.999,1,1,30
+E006_M2_T60_r1,E006_M2_T60,E006,core,estimation,1,Economy,60,valid,beta,B,0.020,0.99,5,0.5,30
+F4_M2_T5_r4,F4_M2_T5,F4,fine_reliability,diagnostic,4,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+F1_M4_T5_r2,F1_M4_T5,F1,fine_reliability,diagnostic,2,Data minimization,5,valid,beta,B,0.001,0.999,5,0.50,30
+E036_M3_T60_r1,E036_M3_T60,E036,core,estimation,1,Continuity,60,valid,alpha,B,0.080,0.999,1,0,30
+E034_M2_T5_r1,E034_M2_T5,E034,core,estimation,1,Economy,5,valid,beta,A,0.003,0.95,1,1,365
+F2_M4_T5_r3,F2_M4_T5,F2,fine_reliability,diagnostic,3,Data minimization,5,valid,beta,B,0.013,0.999,5,0.50,30
+H005_M2_T60_r1,H005_M2_T60,H005,core,heldout,1,Economy,60,valid,beta,A,0.005,0.99,30,0,1
+H024_M4_T5_r1,H024_M4_T5,H024,core,heldout,1,Data minimization,5,valid,alpha,A,0.005,0.99,30,0.5,1
+F2_M3_T60_r4,F2_M3_T60,F2,fine_reliability,diagnostic,4,Continuity,60,valid,beta,B,0.013,0.999,5,0.50,30
+E029_M2_T5_r1,E029_M2_T5,E029,core,estimation,1,Economy,5,valid,alpha,B,0.001,0.999,5,1,30
+E058_M2_T5_r1,E058_M2_T5,E058,core,estimation,1,Economy,5,valid,alpha,A,0.001,0.999,5,0,1
+E027_M2_T60_r1,E027_M2_T60,E027,core,estimation,1,Economy,60,valid,alpha,B,0.165,0.999,30,1,30
+H005_M1_T5_r1,H005_M1_T5,H005,core,heldout,1,Balanced,5,valid,alpha,B,0.020,0.999,5,1,1
+H010_M2_T5_r1,H010_M2_T5,H010,core,heldout,1,Economy,5,valid,alpha,A,0.080,0.95,5,1,365
+E022_M1_T5_r1,E022_M1_T5,E022,core,estimation,1,Balanced,5,valid,alpha,A,0.013,0.999,1,0,365
+H013_M2_T5_r1,H013_M2_T5,H013,core,heldout,1,Economy,5,valid,beta,A,0.003,0.99,30,0.5,365
+F5_M3_T5_r3,F5_M3_T5,F5,fine_reliability,diagnostic,3,Continuity,5,valid,alpha,A,0.001,0.99,5,0.50,30
+F3_M2_T60_r2,F3_M2_T60,F3,fine_reliability,diagnostic,2,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E004_M3_T60_r1,E004_M3_T60,E004,core,estimation,1,Continuity,60,valid,beta,B,0.050,0.999,30,0.5,1
+H014_M4_T60_r1,H014_M4_T60,H014,core,heldout,1,Data minimization,60,valid,beta,B,0.001,0.999,5,1,1
+E007_M2_T5_r1,E007_M2_T5,E007,core,estimation,1,Economy,5,valid,beta,A,0.020,0.95,30,0.5,365
+E023_M3_T5_r1,E023_M3_T5,E023,core,estimation,1,Continuity,5,valid,alpha,A,0.013,0.999,5,0.5,30
+E003_M1_T60_r2,E003_M1_T60,E003,core,estimation,2,Balanced,60,valid,beta,B,0.001,0.95,5,0,1
+E043_M1_T60_r1,E043_M1_T60,E043,core,estimation,1,Balanced,60,valid,beta,A,0.080,0.999,30,1,365
+E016_M4_T5_r1,E016_M4_T5,E016,core,estimation,1,Data minimization,5,valid,beta,A,0.080,0.95,5,0,1
+H004_M3_T5_r1,H004_M3_T5,H004,core,heldout,1,Continuity,5,valid,alpha,B,0.013,0.95,5,1,30
+H014_M1_T5_r1,H014_M1_T5,H014,core,heldout,1,Balanced,5,valid,beta,B,0.001,0.999,5,1,1
+H023_M4_T5_r1,H023_M4_T5,H023,core,heldout,1,Data minimization,5,valid,beta,A,0.003,0.99,1,1,30
+E042_M2_T5_r1,E042_M2_T5,E042,core,estimation,1,Economy,5,valid,beta,A,0.020,0.95,1,0.5,365
+E052_M2_T60_r1,E052_M2_T60,E052,core,estimation,1,Economy,60,valid,alpha,A,0.013,0.95,5,0,30
+E028_M4_T60_r2,E028_M4_T60,E028,core,estimation,2,Data minimization,60,valid,beta,A,0.250,0.95,1,1,1
+E064_M4_T5_r1,E064_M4_T5,E064,core,estimation,1,Data minimization,5,valid,beta,A,0.020,0.999,5,0.5,30
+E016_M1_T5_r2,E016_M1_T5,E016,core,estimation,2,Balanced,5,valid,beta,A,0.080,0.95,5,0,1
+H029_M4_T5_r1,H029_M4_T5,H029,core,heldout,1,Data minimization,5,valid,beta,B,0.003,0.99,30,0,1
+E036_M4_T5_r1,E036_M4_T5,E036,core,estimation,1,Data minimization,5,valid,beta,A,0.001,0.99,5,0.5,1
+A2_M3_T60_r2,A2_M3_T60,A2,outside_anchor,diagnostic,2,Continuity,60,valid,alpha,A,0.250,0.95,30,0,365
+E044_M4_T5_r1,E044_M4_T5,E044,core,estimation,1,Data minimization,5,valid,alpha,A,0.080,0.99,5,1,1
+E035_M2_T60_r1,E035_M2_T60,E035,core,estimation,1,Economy,60,valid,alpha,A,0.020,0.99,30,1,30
+E001_M4_T5_r1,E001_M4_T5,E001,core,estimation,1,Data minimization,5,valid,alpha,B,0.050,0.95,1,1,1
+E039_M4_T60_r1,E039_M4_T60,E039,core,estimation,1,Data minimization,60,valid,beta,B,0.080,0.999,30,1,1
+H020_M4_T5_r1,H020_M4_T5,H020,core,heldout,1,Data minimization,5,valid,beta,B,0.003,0.999,1,0.5,1
+E042_M2_T5_r2,E042_M2_T5,E042,core,estimation,2,Economy,5,valid,beta,A,0.020,0.95,1,0.5,365
+F3_M4_T60_r1,F3_M4_T60,F3,fine_reliability,diagnostic,1,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E048_M3_T5_r1,E048_M3_T5,E048,core,estimation,1,Continuity,5,valid,alpha,A,0.020,0.999,5,1,30
+E064_M2_T5_r2,E064_M2_T5,E064,core,estimation,2,Economy,5,valid,beta,A,0.020,0.999,5,0.5,30
+E050_M2_T60_r1,E050_M2_T60,E050,core,estimation,1,Economy,60,valid,beta,A,0.001,0.95,30,0.5,30
+A1_M2_T5_r1,A1_M2_T5,A1,outside_anchor,diagnostic,1,Economy,5,valid,alpha,A,0.001,0.999,1,1,1
+H001_M2_T60_r1,H001_M2_T60,H001,core,heldout,1,Economy,60,valid,beta,B,0.013,0.95,30,0.5,365
+H008_M4_T5_r1,H008_M4_T5,H008,core,heldout,1,Data minimization,5,valid,alpha,B,0.005,0.95,5,1,1
+E062_M4_T5_r1,E062_M4_T5,E062,core,estimation,1,Data minimization,5,valid,beta,A,0.001,0.99,5,1,1
+E018_M1_T5_r1,E018_M1_T5,E018,core,estimation,1,Balanced,5,valid,beta,A,0.050,0.99,5,1,1
+H010_M3_T60_r1,H010_M3_T60,H010,core,heldout,1,Continuity,60,valid,alpha,A,0.080,0.95,5,1,365
+H016_M1_T5_r1,H016_M1_T5,H016,core,heldout,1,Balanced,5,valid,beta,A,0.005,0.99,1,0.5,30
+H005_M4_T5_r2,H005_M4_T5,H005,core,heldout,2,Data minimization,5,valid,alpha,B,0.020,0.999,5,1,1
+E019_M4_T60_r2,E019_M4_T60,E019,core,estimation,2,Data minimization,60,valid,alpha,A,0.013,0.95,1,0,30
+H009_M4_T5_r1,H009_M4_T5,H009,core,heldout,1,Data minimization,5,valid,beta,A,0.003,0.999,1,0.5,30
+E053_M2_T5_r2,E053_M2_T5,E053,core,estimation,2,Economy,5,valid,alpha,B,0.001,0.99,5,1,365
+F3_M2_T5_r2,F3_M2_T5,F3,fine_reliability,diagnostic,2,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E029_M1_T60_r1,E029_M1_T60,E029,core,estimation,1,Balanced,60,valid,alpha,B,0.001,0.999,5,1,30
+E022_M2_T60_r1,E022_M2_T60,E022,core,estimation,1,Economy,60,valid,beta,B,0.005,0.99,30,1,1
+H002_M2_T5_r1,H002_M2_T5,H002,core,heldout,1,Economy,5,valid,alpha,A,0.001,0.999,30,0.5,365
+H003_M4_T5_r1,H003_M4_T5,H003,core,heldout,1,Data minimization,5,valid,beta,A,0.050,0.95,30,0,30
+E055_M2_T60_r1,E055_M2_T60,E055,core,estimation,1,Economy,60,valid,alpha,A,0.001,0.99,5,0.5,30
+E057_M1_T60_r1,E057_M1_T60,E057,core,estimation,1,Balanced,60,valid,beta,B,0.080,0.95,5,0,1
+E050_M1_T5_r1,E050_M1_T5,E050,core,estimation,1,Balanced,5,valid,alpha,B,0.250,0.999,1,1,1
+H028_M2_T60_r2,H028_M2_T60,H028,core,heldout,2,Economy,60,valid,beta,B,0.020,0.99,30,1,30
+F2_M4_T60_r1,F2_M4_T60,F2,fine_reliability,diagnostic,1,Data minimization,60,valid,beta,B,0.013,0.999,5,0.50,30
+E002_M2_T5_r1,E002_M2_T5,E002,core,estimation,1,Economy,5,valid,alpha,B,0.001,0.95,5,1,30
+E059_M2_T5_r1,E059_M2_T5,E059,core,estimation,1,Economy,5,valid,alpha,B,0.001,0.999,30,1,30
+F1_M2_T5_r2,F1_M2_T5,F1,fine_reliability,diagnostic,2,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+F3_M3_T60_r1,F3_M3_T60,F3,fine_reliability,diagnostic,1,Continuity,60,valid,beta,B,0.020,0.999,5,0.50,30
+H003_M4_T60_r1,H003_M4_T60,H003,core,heldout,1,Data minimization,60,valid,beta,A,0.050,0.95,30,0,30
+R1_M4_T60_r1,R1_M4_T60,R1,refund_success,diagnostic,1,Data minimization,60,valid,beta,B,0.003,0.99,5,1,30
+E006_M2_T5_r1,E006_M2_T5,E006,core,estimation,1,Economy,5,valid,beta,B,0.020,0.99,5,0.5,30
+E039_M1_T60_r1,E039_M1_T60,E039,core,estimation,1,Balanced,60,valid,beta,B,0.080,0.999,30,1,1
+E064_M3_T5_r1,E064_M3_T5,E064,core,estimation,1,Continuity,5,valid,beta,A,0.020,0.999,5,0.5,30
+E009_M4_T60_r1,E009_M4_T60,E009,core,estimation,1,Data minimization,60,valid,beta,A,0.005,0.95,30,1,30
+E010_M3_T60_r1,E010_M3_T60,E010,core,estimation,1,Continuity,60,valid,beta,A,0.020,0.999,30,1,30
+E034_M3_T5_r1,E034_M3_T5,E034,core,estimation,1,Continuity,5,valid,beta,A,0.003,0.95,1,1,365
+H030_M4_T5_r1,H030_M4_T5,H030,core,heldout,1,Data minimization,5,valid,alpha,A,0.080,0.99,1,0.5,365
+E059_M3_T5_labels_r1,E059_M3_T5_labels,E059,presentation,diagnostic,1,Continuity,5,valid,beta,B,0.020,0.99,1,0.5,1
+H007_M2_T5_r2,H007_M2_T5,H007,core,heldout,2,Economy,5,valid,beta,A,0.013,0.99,1,0,1
+E001_M3_T5_r1,E001_M3_T5,E001,core,estimation,1,Continuity,5,valid,alpha,B,0.050,0.95,1,1,1
+E042_M3_T5_r1,E042_M3_T5,E042,core,estimation,1,Continuity,5,valid,beta,A,0.020,0.95,1,0.5,365
+F1_M4_T60_r1,F1_M4_T60,F1,fine_reliability,diagnostic,1,Data minimization,60,valid,beta,B,0.001,0.999,5,0.50,30
+H025_M4_T5_r1,H025_M4_T5,H025,core,heldout,1,Data minimization,5,valid,beta,B,0.080,0.999,30,1,1
+R3_M1_T5_r2,R3_M1_T5,R3,refund_success,diagnostic,2,Balanced,5,valid,beta,B,0.050,0.95,5,1,30
+H002_M2_T60_r1,H002_M2_T60,H002,core,heldout,1,Economy,60,valid,alpha,A,0.001,0.999,30,0.5,365
+H015_M1_T60_r2,H015_M1_T60,H015,core,heldout,2,Balanced,60,valid,beta,B,0.050,0.999,1,1,30
+F2_M2_T60_r1,F2_M2_T60,F2,fine_reliability,diagnostic,1,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E045_M1_T60_r1,E045_M1_T60,E045,core,estimation,1,Balanced,60,valid,beta,B,0.080,0.999,5,0,365
+H028_M2_T5_r2,H028_M2_T5,H028,core,heldout,2,Economy,5,valid,beta,B,0.020,0.99,30,1,30
+E011_M1_T60_r1,E011_M1_T60,E011,core,estimation,1,Balanced,60,valid,beta,A,0.080,0.99,5,0.5,1
+E033_M1_T60_r1,E033_M1_T60,E033,core,estimation,1,Balanced,60,valid,alpha,A,0.250,0.999,1,1,30
+F5_M1_T5_r2,F5_M1_T5,F5,fine_reliability,diagnostic,2,Balanced,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H023_M1_T60_r1,H023_M1_T60,H023,core,heldout,1,Balanced,60,valid,alpha,B,0.005,0.999,5,0,30
+E054_M1_T5_r1,E054_M1_T5,E054,core,estimation,1,Balanced,5,valid,beta,B,0.020,0.95,5,1,1
+E012_M1_T60_r2,E012_M1_T60,E012,core,estimation,2,Balanced,60,valid,alpha,B,0.020,0.999,1,0,365
+H008_M4_T60_r2,H008_M4_T60,H008,core,heldout,2,Data minimization,60,valid,alpha,B,0.005,0.95,5,1,1
+H017_M1_T5_r1,H017_M1_T5,H017,core,heldout,1,Balanced,5,valid,alpha,B,0.050,0.999,1,0,365
+E013_M4_T60_r1,E013_M4_T60,E013,core,estimation,1,Data minimization,60,valid,alpha,B,0.013,0.99,1,1,30
+A1_M4_T60_r1,A1_M4_T60,A1,outside_anchor,diagnostic,1,Data minimization,60,valid,alpha,A,0.001,0.999,1,1,1
+E029_M2_T60_r1,E029_M2_T60,E029,core,estimation,1,Economy,60,valid,alpha,B,0.001,0.999,5,1,30
+E025_M3_T60_r1,E025_M3_T60,E025,core,estimation,1,Continuity,60,valid,alpha,B,0.005,0.99,30,0.5,30
+E044_M1_T5_position_r1,E044_M1_T5_position,E044,presentation,diagnostic,1,Balanced,5,valid,beta,B,0.001,0.999,1,0,30
+E048_M3_T60_r1,E048_M3_T60,E048,core,estimation,1,Continuity,60,valid,alpha,A,0.020,0.999,5,1,30
+H017_M2_T5_r1,H017_M2_T5,H017,core,heldout,1,Economy,5,valid,beta,A,0.050,0.95,1,1,365
+E022_M4_T5_r2,E022_M4_T5,E022,core,estimation,2,Data minimization,5,valid,beta,B,0.005,0.99,30,1,1
+F3_M2_T5_r4,F3_M2_T5,F3,fine_reliability,diagnostic,4,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H022_M4_T5_r1,H022_M4_T5,H022,core,heldout,1,Data minimization,5,valid,beta,A,0.250,0.95,1,0,30
+H007_M1_T60_r2,H007_M1_T60,H007,core,heldout,2,Balanced,60,valid,beta,A,0.013,0.99,1,0,1
+H002_M4_T60_r1,H002_M4_T60,H002,core,heldout,1,Data minimization,60,valid,beta,B,0.013,0.99,1,1,30
+E011_M4_T5_r1,E011_M4_T5,E011,core,estimation,1,Data minimization,5,valid,beta,A,0.080,0.99,5,0.5,1
+E061_M2_T60_r1,E061_M2_T60,E061,core,estimation,1,Economy,60,valid,beta,B,0.003,0.95,30,1,365
+E012_M1_T5_r1,E012_M1_T5,E012,core,estimation,1,Balanced,5,valid,alpha,B,0.020,0.999,1,0,365
+H018_M1_T60_r1,H018_M1_T60,H018,core,heldout,1,Balanced,60,valid,alpha,A,0.020,0.99,5,0.5,1
+H005_M3_T60_r2,H005_M3_T60,H005,core,heldout,2,Continuity,60,valid,alpha,B,0.020,0.999,5,1,1
+F3_M3_T60_r4,F3_M3_T60,F3,fine_reliability,diagnostic,4,Continuity,60,valid,beta,B,0.020,0.999,5,0.50,30
+E016_M2_T5_r2,E016_M2_T5,E016,core,estimation,2,Economy,5,valid,beta,A,0.080,0.95,5,0,1
+E019_M3_T60_r1,E019_M3_T60,E019,core,estimation,1,Continuity,60,valid,alpha,A,0.013,0.95,1,0,30
+H008_M3_T5_r1,H008_M3_T5,H008,core,heldout,1,Continuity,5,valid,alpha,B,0.005,0.95,5,1,1
+E017_M3_T5_r1,E017_M3_T5,E017,core,estimation,1,Continuity,5,valid,beta,A,0.005,0.95,5,1,365
+R4_M4_T60_r1,R4_M4_T60,R4,refund_success,diagnostic,1,Data minimization,60,valid,alpha,A,0.001,0.95,5,0,30
+E051_M2_T60_r1,E051_M2_T60,E051,core,estimation,1,Economy,60,valid,beta,B,0.020,0.99,1,0,30
+H027_M1_T5_r1,H027_M1_T5,H027,core,heldout,1,Balanced,5,valid,alpha,A,0.050,0.999,30,0.5,30
+E057_M4_T5_r1,E057_M4_T5,E057,core,estimation,1,Data minimization,5,valid,beta,B,0.080,0.95,5,0,1
+E003_M2_T5_r1,E003_M2_T5,E003,core,estimation,1,Economy,5,valid,beta,B,0.001,0.95,5,0,1
+F3_M1_T5_r4,F3_M1_T5,F3,fine_reliability,diagnostic,4,Balanced,5,valid,beta,B,0.020,0.999,5,0.50,30
+E038_M1_T60_r1,E038_M1_T60,E038,core,estimation,1,Balanced,60,valid,beta,B,0.001,0.99,1,0.5,30
+A1_M1_T60_r2,A1_M1_T60,A1,outside_anchor,diagnostic,2,Balanced,60,valid,alpha,A,0.001,0.999,1,1,1
+H009_M2_T5_r1,H009_M2_T5,H009,core,heldout,1,Economy,5,valid,beta,A,0.003,0.999,1,0.5,30
+H005_M1_T60_r2,H005_M1_T60,H005,core,heldout,2,Balanced,60,valid,alpha,B,0.020,0.999,5,1,1
+E052_M4_T5_r2,E052_M4_T5,E052,core,estimation,2,Data minimization,5,valid,alpha,A,0.013,0.95,5,0,30
+E016_M4_T5_labels_r1,E016_M4_T5_labels,E016,presentation,diagnostic,1,Data minimization,5,valid,beta,B,0.080,0.95,5,0,1
+H009_M4_T60_r1,H009_M4_T60,H009,core,heldout,1,Data minimization,60,valid,beta,A,0.003,0.999,1,0.5,30
+R4_M4_T5_r1,R4_M4_T5,R4,refund_success,diagnostic,1,Data minimization,5,valid,alpha,A,0.001,0.95,5,0,30
+R3_M4_T5_r1,R3_M4_T5,R3,refund_success,diagnostic,1,Data minimization,5,valid,beta,B,0.050,0.95,5,1,30
+E049_M4_T60_r1,E049_M4_T60,E049,core,estimation,1,Data minimization,60,valid,alpha,B,0.020,0.95,1,0,1
+F5_M1_T5_r4,F5_M1_T5,F5,fine_reliability,diagnostic,4,Balanced,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E057_M2_T5_r1,E057_M2_T5,E057,core,estimation,1,Economy,5,valid,beta,B,0.080,0.95,5,0,1
+E039_M2_T60_r1,E039_M2_T60,E039,core,estimation,1,Economy,60,valid,alpha,A,0.020,0.99,5,0,365
+F5_M2_T5_r2,F5_M2_T5,F5,fine_reliability,diagnostic,2,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H014_M4_T5_r1,H014_M4_T5,H014,core,heldout,1,Data minimization,5,valid,beta,B,0.001,0.999,5,1,1
+E031_M4_T60_r1,E031_M4_T60,E031,core,estimation,1,Data minimization,60,valid,beta,B,0.020,0.95,5,1,30
+A2_M4_T60_r2,A2_M4_T60,A2,outside_anchor,diagnostic,2,Data minimization,60,valid,alpha,A,0.250,0.95,30,0,365
+E064_M3_T60_r1,E064_M3_T60,E064,core,estimation,1,Continuity,60,valid,beta,A,0.020,0.999,5,0.5,30
+E059_M2_T5_r2,E059_M2_T5,E059,core,estimation,2,Economy,5,valid,alpha,B,0.001,0.999,30,1,30
+E034_M4_T60_r1,E034_M4_T60,E034,core,estimation,1,Data minimization,60,valid,alpha,B,0.250,0.95,5,0,1
+E051_M3_T60_r1,E051_M3_T60,E051,core,estimation,1,Continuity,60,valid,alpha,A,0.250,0.999,5,0.5,365
+E035_M2_T5_r1,E035_M2_T5,E035,core,estimation,1,Economy,5,valid,alpha,A,0.020,0.99,30,1,30
+E062_M3_T5_r2,E062_M3_T5,E062,core,estimation,2,Continuity,5,valid,beta,A,0.001,0.99,5,1,1
+E012_M4_T60_r1,E012_M4_T60,E012,core,estimation,1,Data minimization,60,valid,alpha,B,0.020,0.999,1,0,365
+H019_M1_T60_r1,H019_M1_T60,H019,core,heldout,1,Balanced,60,valid,alpha,B,0.020,0.999,30,1,30
+E006_M4_T60_r1,E006_M4_T60,E006,core,estimation,1,Data minimization,60,valid,beta,B,0.020,0.99,5,0.5,30
+F4_M3_T60_r4,F4_M3_T60,F4,fine_reliability,diagnostic,4,Continuity,60,valid,beta,B,0.080,0.999,5,0.50,30
+E027_M4_T5_r1,E027_M4_T5,E027,core,estimation,1,Data minimization,5,valid,alpha,B,0.165,0.999,30,1,30
+E013_M4_T5_r1,E013_M4_T5,E013,core,estimation,1,Data minimization,5,valid,alpha,B,0.013,0.99,1,1,30
+E055_M3_T60_r1,E055_M3_T60,E055,core,estimation,1,Continuity,60,valid,beta,B,0.020,0.999,30,0,1
+E040_M1_T5_r1,E040_M1_T5,E040,core,estimation,1,Balanced,5,valid,alpha,B,0.020,0.999,30,0.5,30
+H002_M3_T60_r1,H002_M3_T60,H002,core,heldout,1,Continuity,60,valid,alpha,A,0.001,0.999,30,0.5,365
+A2_M3_T5_r1,A2_M3_T5,A2,outside_anchor,diagnostic,1,Continuity,5,valid,alpha,A,0.250,0.95,30,0,365
+E036_M2_T5_r1,E036_M2_T5,E036,core,estimation,1,Economy,5,valid,beta,A,0.001,0.99,5,0.5,1
+F4_M3_T60_r2,F4_M3_T60,F4,fine_reliability,diagnostic,2,Continuity,60,valid,beta,B,0.080,0.999,5,0.50,30
+E052_M2_T5_r1,E052_M2_T5,E052,core,estimation,1,Economy,5,valid,alpha,A,0.013,0.95,5,0,30
+E031_M3_T5_position_r1,E031_M3_T5_position,E031,presentation,diagnostic,1,Continuity,5,valid,beta,B,0.020,0.95,5,1,30
+H008_M2_T60_r2,H008_M2_T60,H008,core,heldout,2,Economy,60,valid,alpha,B,0.005,0.95,5,1,1
+H024_M1_T5_r1,H024_M1_T5,H024,core,heldout,1,Balanced,5,valid,alpha,A,0.005,0.99,30,0.5,1
+E016_M3_T60_r2,E016_M3_T60,E016,core,estimation,2,Continuity,60,valid,alpha,B,0.250,0.999,1,0,365
+E016_M3_T5_r2,E016_M3_T5,E016,core,estimation,2,Continuity,5,valid,alpha,B,0.250,0.999,1,0,365
+E049_M1_T5_r1,E049_M1_T5,E049,core,estimation,1,Balanced,5,valid,beta,A,0.080,0.999,5,0,30
+E057_M3_T5_r1,E057_M3_T5,E057,core,estimation,1,Continuity,5,valid,beta,B,0.080,0.95,5,0,1
+H031_M4_T5_r1,H031_M4_T5,H031,core,heldout,1,Data minimization,5,valid,beta,B,0.013,0.999,1,0,365
+E020_M3_T60_r1,E020_M3_T60,E020,core,estimation,1,Continuity,60,valid,beta,B,0.003,0.99,1,0,1
+H009_M3_T60_r1,H009_M3_T60,H009,core,heldout,1,Continuity,60,valid,beta,A,0.003,0.999,1,0.5,30
+E059_M2_T60_r1,E059_M2_T60,E059,core,estimation,1,Economy,60,valid,alpha,B,0.001,0.999,30,1,30
+H007_M1_T60_r1,H007_M1_T60,H007,core,heldout,1,Balanced,60,valid,beta,A,0.013,0.99,1,0,1
+E003_M1_T5_r2,E003_M1_T5,E003,core,estimation,2,Balanced,5,valid,beta,B,0.001,0.95,5,0,1
+E012_M2_T5_position_r1,E012_M2_T5_position,E012,presentation,diagnostic,1,Economy,5,valid,alpha,B,0.020,0.999,1,0,365
+R1_M3_T60_r1,R1_M3_T60,R1,refund_success,diagnostic,1,Continuity,60,valid,beta,B,0.003,0.99,5,1,30
+H005_M3_T5_r1,H005_M3_T5,H005,core,heldout,1,Continuity,5,valid,alpha,B,0.020,0.999,5,1,1
+E012_M2_T60_r2,E012_M2_T60,E012,core,estimation,2,Economy,60,valid,alpha,B,0.020,0.999,1,0,365
+F5_M4_T5_r4,F5_M4_T5,F5,fine_reliability,diagnostic,4,Data minimization,5,valid,alpha,A,0.001,0.99,5,0.50,30
+A1_M3_T60_r1,A1_M3_T60,A1,outside_anchor,diagnostic,1,Continuity,60,valid,alpha,A,0.001,0.999,1,1,1
+F2_M4_T60_r4,F2_M4_T60,F2,fine_reliability,diagnostic,4,Data minimization,60,valid,beta,B,0.013,0.999,5,0.50,30
+E001_M1_T60_r1,E001_M1_T60,E001,core,estimation,1,Balanced,60,valid,beta,A,0.005,0.999,30,0,30
+F1_M2_T60_r3,F1_M2_T60,F1,fine_reliability,diagnostic,3,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H014_M1_T5_r2,H014_M1_T5,H014,core,heldout,2,Balanced,5,valid,beta,B,0.001,0.999,5,1,1
+E048_M2_T60_r1,E048_M2_T60,E048,core,estimation,1,Economy,60,valid,beta,B,0.001,0.99,1,0,1
+A1_M4_T5_r2,A1_M4_T5,A1,outside_anchor,diagnostic,2,Data minimization,5,valid,alpha,A,0.001,0.999,1,1,1
+E058_M3_T5_r1,E058_M3_T5,E058,core,estimation,1,Continuity,5,valid,alpha,A,0.001,0.999,5,0,1
+E027_M3_T60_r1,E027_M3_T60,E027,core,estimation,1,Continuity,60,valid,alpha,B,0.165,0.999,30,1,30
+E028_M2_T5_labels_r1,E028_M2_T5_labels,E028,presentation,diagnostic,1,Economy,5,valid,alpha,A,0.080,0.95,5,0,30
+F5_M4_T60_r1,F5_M4_T60,F5,fine_reliability,diagnostic,1,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+F4_M3_T5_r1,F4_M3_T5,F4,fine_reliability,diagnostic,1,Continuity,5,valid,beta,B,0.080,0.999,5,0.50,30
+E021_M4_T5_r1,E021_M4_T5,E021,core,estimation,1,Data minimization,5,valid,alpha,B,0.005,0.99,5,0,30
+E032_M1_T5_r1,E032_M1_T5,E032,core,estimation,1,Balanced,5,valid,beta,B,0.080,0.95,1,1,1
+H006_M4_T5_r1,H006_M4_T5,H006,core,heldout,1,Data minimization,5,valid,beta,A,0.080,0.99,30,0.5,1
+E033_M2_T60_r1,E033_M2_T60,E033,core,estimation,1,Economy,60,valid,beta,B,0.080,0.99,30,0,365
+H020_M4_T60_r1,H020_M4_T60,H020,core,heldout,1,Data minimization,60,valid,beta,B,0.003,0.999,1,0.5,1
+E004_M4_T5_r1,E004_M4_T5,E004,core,estimation,1,Data minimization,5,valid,beta,B,0.050,0.999,30,0.5,1
+E003_M3_T5_r2,E003_M3_T5,E003,core,estimation,2,Continuity,5,valid,alpha,A,0.080,0.99,1,0.5,30
+H017_M3_T5_r2,H017_M3_T5,H017,core,heldout,2,Continuity,5,valid,alpha,B,0.050,0.999,1,0,365
+E001_M1_T5_r1,E001_M1_T5,E001,core,estimation,1,Balanced,5,valid,alpha,B,0.050,0.95,1,1,1
+E064_M1_T5_r2,E064_M1_T5,E064,core,estimation,2,Balanced,5,valid,beta,A,0.020,0.999,5,0.5,30
+H001_M1_T60_r1,H001_M1_T60,H001,core,heldout,1,Balanced,60,valid,alpha,A,0.003,0.99,30,0,365
+H005_M4_T60_r1,H005_M4_T60,H005,core,heldout,1,Data minimization,60,valid,alpha,B,0.020,0.999,5,1,1
+E032_M2_T60_r1,E032_M2_T60,E032,core,estimation,1,Economy,60,valid,alpha,A,0.020,0.999,30,0.5,365
+E016_M4_T60_labels_r1,E016_M4_T60_labels,E016,presentation,diagnostic,1,Data minimization,60,valid,beta,B,0.080,0.95,5,0,1
+E029_M4_T5_r1,E029_M4_T5,E029,core,estimation,1,Data minimization,5,valid,alpha,B,0.001,0.999,5,1,30
+E040_M4_T60_r1,E040_M4_T60,E040,core,estimation,1,Data minimization,60,valid,alpha,B,0.020,0.999,30,0.5,30
+E053_M1_T5_r2,E053_M1_T5,E053,core,estimation,2,Balanced,5,valid,beta,A,0.050,0.999,1,0,30
+E026_M3_T5_r1,E026_M3_T5,E026,core,estimation,1,Continuity,5,valid,alpha,A,0.165,0.95,1,0.5,30
+F2_M1_T5_r3,F2_M1_T5,F2,fine_reliability,diagnostic,3,Balanced,5,valid,beta,B,0.013,0.999,5,0.50,30
+E042_M3_T60_r2,E042_M3_T60,E042,core,estimation,2,Continuity,60,valid,alpha,B,0.001,0.999,30,0,1
+F5_M1_T5_r3,F5_M1_T5,F5,fine_reliability,diagnostic,3,Balanced,5,valid,alpha,A,0.001,0.99,5,0.50,30
+F1_M1_T60_r1,F1_M1_T60,F1,fine_reliability,diagnostic,1,Balanced,60,valid,beta,B,0.001,0.999,5,0.50,30
+E052_M1_T60_r1,E052_M1_T60,E052,core,estimation,1,Balanced,60,valid,alpha,A,0.013,0.95,5,0,30
+H017_M1_T5_r2,H017_M1_T5,H017,core,heldout,2,Balanced,5,valid,alpha,B,0.050,0.999,1,0,365
+E027_M1_T60_r1,E027_M1_T60,E027,core,estimation,1,Balanced,60,valid,alpha,B,0.165,0.999,30,1,30
+H005_M1_T60_r1,H005_M1_T60,H005,core,heldout,1,Balanced,60,valid,alpha,B,0.020,0.999,5,1,1
+F4_M4_T5_r2,F4_M4_T5,F4,fine_reliability,diagnostic,2,Data minimization,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H021_M1_T5_r1,H021_M1_T5,H021,core,heldout,1,Balanced,5,valid,beta,A,0.050,0.99,5,1,30
+F4_M1_T60_r4,F4_M1_T60,F4,fine_reliability,diagnostic,4,Balanced,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E030_M4_T5_r1,E030_M4_T5,E030,core,estimation,1,Data minimization,5,valid,beta,B,0.013,0.95,1,0,1
+E044_M1_T60_r1,E044_M1_T60,E044,core,estimation,1,Balanced,60,valid,beta,B,0.001,0.999,1,0,30
+E062_M4_T60_r1,E062_M4_T60,E062,core,estimation,1,Data minimization,60,valid,beta,A,0.001,0.99,5,1,1
+H020_M1_T5_r1,H020_M1_T5,H020,core,heldout,1,Balanced,5,valid,beta,B,0.003,0.999,1,0.5,1
+H014_M3_T5_r2,H014_M3_T5,H014,core,heldout,2,Continuity,5,valid,beta,B,0.001,0.999,5,1,1
+E031_M1_T5_r1,E031_M1_T5,E031,core,estimation,1,Balanced,5,valid,beta,B,0.020,0.95,5,1,30
+E031_M4_T5_position_r1,E031_M4_T5_position,E031,presentation,diagnostic,1,Data minimization,5,valid,beta,B,0.020,0.95,5,1,30
+E020_M2_T60_r2,E020_M2_T60,E020,core,estimation,2,Economy,60,valid,beta,B,0.003,0.99,1,0,1
+E028_M3_T5_labels_r1,E028_M3_T5_labels,E028,presentation,diagnostic,1,Continuity,5,valid,alpha,A,0.080,0.95,5,0,30
+E030_M4_T60_r1,E030_M4_T60,E030,core,estimation,1,Data minimization,60,valid,beta,B,0.013,0.95,1,0,1
+E009_M3_T5_r1,E009_M3_T5,E009,core,estimation,1,Continuity,5,valid,alpha,B,0.020,0.999,5,0.5,365
+R1_M2_T5_r1,R1_M2_T5,R1,refund_success,diagnostic,1,Economy,5,valid,beta,B,0.003,0.99,5,1,30
+H028_M1_T5_r2,H028_M1_T5,H028,core,heldout,2,Balanced,5,valid,beta,B,0.020,0.99,30,1,30
+F3_M3_T5_r2,F3_M3_T5,F3,fine_reliability,diagnostic,2,Continuity,5,valid,beta,B,0.020,0.999,5,0.50,30
+E031_M2_T5_r1,E031_M2_T5,E031,core,estimation,1,Economy,5,valid,beta,B,0.020,0.95,5,1,30
+H009_M3_T5_r1,H009_M3_T5,H009,core,heldout,1,Continuity,5,valid,beta,A,0.003,0.999,1,0.5,30
+E064_M4_T5_r2,E064_M4_T5,E064,core,estimation,2,Data minimization,5,valid,beta,A,0.020,0.999,5,0.5,30
+F5_M2_T5_r3,F5_M2_T5,F5,fine_reliability,diagnostic,3,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+E019_M3_T60_r2,E019_M3_T60,E019,core,estimation,2,Continuity,60,valid,alpha,A,0.013,0.95,1,0,30
+H001_M3_T60_r1,H001_M3_T60,H001,core,heldout,1,Continuity,60,valid,alpha,A,0.003,0.99,30,0,365
+A2_M2_T5_r2,A2_M2_T5,A2,outside_anchor,diagnostic,2,Economy,5,valid,alpha,A,0.250,0.95,30,0,365
+E040_M4_T5_r1,E040_M4_T5,E040,core,estimation,1,Data minimization,5,valid,alpha,B,0.020,0.999,30,0.5,30
+R2_M1_T60_r1,R2_M1_T60,R2,refund_success,diagnostic,1,Balanced,60,valid,alpha,A,0.001,0.99,5,0,30
+H003_M3_T5_r1,H003_M3_T5,H003,core,heldout,1,Continuity,5,valid,alpha,B,0.005,0.999,1,0.5,365
+H022_M2_T60_r2,H022_M2_T60,H022,core,heldout,2,Economy,60,valid,alpha,B,0.005,0.99,5,1,365
+H032_M3_T5_r1,H032_M3_T5,H032,core,heldout,1,Continuity,5,valid,beta,A,0.013,0.99,5,0,365
+E016_M3_T60_r1,E016_M3_T60,E016,core,estimation,1,Continuity,60,valid,alpha,B,0.250,0.999,1,0,365
+A2_M2_T5_r1,A2_M2_T5,A2,outside_anchor,diagnostic,1,Economy,5,valid,alpha,A,0.250,0.95,30,0,365
+E026_M2_T5_r1,E026_M2_T5,E026,core,estimation,1,Economy,5,valid,alpha,A,0.165,0.95,1,0.5,30
+E016_M2_T60_r2,E016_M2_T60,E016,core,estimation,2,Economy,60,valid,beta,A,0.080,0.95,5,0,1
+F2_M4_T5_r2,F2_M4_T5,F2,fine_reliability,diagnostic,2,Data minimization,5,valid,beta,B,0.013,0.999,5,0.50,30
+E020_M1_T5_r2,E020_M1_T5,E020,core,estimation,2,Balanced,5,valid,beta,B,0.003,0.99,1,0,1
+E049_M1_T60_r1,E049_M1_T60,E049,core,estimation,1,Balanced,60,valid,beta,A,0.080,0.999,5,0,30
+F5_M2_T60_r1,F5_M2_T60,F5,fine_reliability,diagnostic,1,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E017_M2_T5_r1,E017_M2_T5,E017,core,estimation,1,Economy,5,valid,beta,A,0.005,0.95,5,1,365
+A2_M4_T5_r2,A2_M4_T5,A2,outside_anchor,diagnostic,2,Data minimization,5,valid,DECLINE,DECLINE,,,,,
+F1_M4_T5_r4,F1_M4_T5,F1,fine_reliability,diagnostic,4,Data minimization,5,valid,beta,B,0.001,0.999,5,0.50,30
+R2_M3_T5_r1,R2_M3_T5,R2,refund_success,diagnostic,1,Continuity,5,valid,alpha,A,0.001,0.99,5,0,30
+H007_M4_T5_r1,H007_M4_T5,H007,core,heldout,1,Data minimization,5,valid,beta,A,0.013,0.99,1,0,1
+H009_M1_T5_r1,H009_M1_T5,H009,core,heldout,1,Balanced,5,valid,beta,A,0.003,0.999,1,0.5,30
+E030_M2_T60_r1,E030_M2_T60,E030,core,estimation,1,Economy,60,valid,beta,B,0.013,0.95,1,0,1
+H027_M3_T5_r1,H027_M3_T5,H027,core,heldout,1,Continuity,5,valid,beta,B,0.250,0.95,1,0.5,365
+E028_M3_T60_labels_r1,E028_M3_T60_labels,E028,presentation,diagnostic,1,Continuity,60,valid,alpha,A,0.080,0.95,5,0,30
+E012_M2_T60_r1,E012_M2_T60,E012,core,estimation,1,Economy,60,valid,alpha,B,0.020,0.999,1,0,365
+A1_M3_T5_r2,A1_M3_T5,A1,outside_anchor,diagnostic,2,Continuity,5,valid,alpha,A,0.001,0.999,1,1,1
+E004_M4_T60_r1,E004_M4_T60,E004,core,estimation,1,Data minimization,60,valid,beta,B,0.050,0.999,30,0.5,1
+E048_M4_T60_r1,E048_M4_T60,E048,core,estimation,1,Data minimization,60,valid,beta,B,0.001,0.99,1,0,1
+E052_M3_T60_r1,E052_M3_T60,E052,core,estimation,1,Continuity,60,valid,alpha,A,0.013,0.95,5,0,30
+H027_M2_T60_r1,H027_M2_T60,H027,core,heldout,1,Economy,60,valid,alpha,A,0.050,0.999,30,0.5,30
+E002_M4_T60_position_r1,E002_M4_T60_position,E002,presentation,diagnostic,1,Data minimization,60,valid,beta,A,0.050,0.99,1,0,1
+F5_M3_T5_r2,F5_M3_T5,F5,fine_reliability,diagnostic,2,Continuity,5,valid,beta,B,0.250,0.999,5,0.50,30
+H010_M4_T5_r1,H010_M4_T5,H010,core,heldout,1,Data minimization,5,valid,alpha,A,0.080,0.95,5,1,365
+H011_M4_T60_r1,H011_M4_T60,H011,core,heldout,1,Data minimization,60,valid,beta,B,0.020,0.999,5,1,1
+R3_M2_T5_r2,R3_M2_T5,R3,refund_success,diagnostic,2,Economy,5,valid,beta,B,0.050,0.95,5,1,30
+E064_M3_T60_r2,E064_M3_T60,E064,core,estimation,2,Continuity,60,valid,beta,A,0.020,0.999,5,0.5,30
+E020_M4_T5_r1,E020_M4_T5,E020,core,estimation,1,Data minimization,5,valid,beta,B,0.003,0.99,1,0,1
+E017_M2_T60_r1,E017_M2_T60,E017,core,estimation,1,Economy,60,valid,beta,A,0.005,0.95,5,1,365
+H014_M4_T60_r2,H014_M4_T60,H014,core,heldout,2,Data minimization,60,valid,beta,B,0.001,0.999,5,1,1
+H012_M4_T60_r1,H012_M4_T60,H012,core,heldout,1,Data minimization,60,valid,alpha,A,0.165,0.99,5,0.5,1
+A1_M2_T60_r1,A1_M2_T60,A1,outside_anchor,diagnostic,1,Economy,60,valid,alpha,A,0.001,0.999,1,1,1
+E022_M4_T5_r1,E022_M4_T5,E022,core,estimation,1,Data minimization,5,valid,beta,B,0.005,0.99,30,1,1
+E015_M1_T60_r2,E015_M1_T60,E015,core,estimation,2,Balanced,60,valid,beta,A,0.003,0.999,30,0,1
+E053_M2_T60_r1,E053_M2_T60,E053,core,estimation,1,Economy,60,valid,alpha,B,0.001,0.99,5,1,365
+E039_M2_T5_r1,E039_M2_T5,E039,core,estimation,1,Economy,5,valid,alpha,A,0.020,0.99,5,0,365
+F1_M2_T5_r3,F1_M2_T5,F1,fine_reliability,diagnostic,3,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H017_M1_T60_r2,H017_M1_T60,H017,core,heldout,2,Balanced,60,valid,alpha,B,0.050,0.999,1,0,365
+E008_M1_T60_r1,E008_M1_T60,E008,core,estimation,1,Balanced,60,valid,beta,B,0.003,0.99,30,1,365
+E003_M3_T60_r2,E003_M3_T60,E003,core,estimation,2,Continuity,60,valid,alpha,A,0.080,0.99,1,0.5,30
+H007_M2_T60_r2,H007_M2_T60,H007,core,heldout,2,Economy,60,valid,beta,A,0.013,0.99,1,0,1
+E063_M2_T5_r1,E063_M2_T5,E063,core,estimation,1,Economy,5,valid,beta,B,0.005,0.95,1,0,30
+E030_M1_T60_r1,E030_M1_T60,E030,core,estimation,1,Balanced,60,valid,beta,B,0.013,0.95,1,0,1
+E038_M3_T5_r1,E038_M3_T5,E038,core,estimation,1,Continuity,5,valid,beta,B,0.001,0.99,1,0.5,30
+F3_M4_T5_r4,F3_M4_T5,F3,fine_reliability,diagnostic,4,Data minimization,5,valid,beta,B,0.020,0.999,5,0.50,30
+F1_M1_T60_r4,F1_M1_T60,F1,fine_reliability,diagnostic,4,Balanced,60,valid,beta,B,0.001,0.999,5,0.50,30
+E013_M3_T60_r1,E013_M3_T60,E013,core,estimation,1,Continuity,60,valid,beta,A,0.001,0.999,5,0,365
+F1_M3_T5_r2,F1_M3_T5,F1,fine_reliability,diagnostic,2,Continuity,5,valid,beta,B,0.001,0.999,5,0.50,30
+H015_M4_T5_r2,H015_M4_T5,H015,core,heldout,2,Data minimization,5,valid,beta,B,0.050,0.999,1,1,30
+H025_M2_T5_r1,H025_M2_T5,H025,core,heldout,1,Economy,5,valid,alpha,A,0.013,0.99,30,0.5,365
+E055_M4_T60_r1,E055_M4_T60,E055,core,estimation,1,Data minimization,60,valid,beta,B,0.020,0.999,30,0,1
+E044_M4_T5_position_r1,E044_M4_T5_position,E044,presentation,diagnostic,1,Data minimization,5,valid,alpha,A,0.080,0.99,5,1,1
+E002_M1_T5_r1,E002_M1_T5,E002,core,estimation,1,Balanced,5,valid,beta,A,0.050,0.99,1,0,1
+E033_M3_T5_r1,E033_M3_T5,E033,core,estimation,1,Continuity,5,valid,alpha,A,0.250,0.999,1,1,30
+E057_M4_T60_r1,E057_M4_T60,E057,core,estimation,1,Data minimization,60,valid,beta,B,0.080,0.95,5,0,1
+E012_M3_T5_r1,E012_M3_T5,E012,core,estimation,1,Continuity,5,valid,alpha,B,0.020,0.999,1,0,365
+E016_M4_T5_r2,E016_M4_T5,E016,core,estimation,2,Data minimization,5,valid,beta,A,0.080,0.95,5,0,1
+E017_M3_T60_r1,E017_M3_T60,E017,core,estimation,1,Continuity,60,valid,alpha,B,0.250,0.99,30,0.5,30
+F4_M4_T60_r4,F4_M4_T60,F4,fine_reliability,diagnostic,4,Data minimization,60,valid,alpha,A,0.001,0.99,5,0.50,30
+E001_M4_T60_r1,E001_M4_T60,E001,core,estimation,1,Data minimization,60,valid,alpha,B,0.050,0.95,1,1,1
+E060_M2_T60_r1,E060_M2_T60,E060,core,estimation,1,Economy,60,valid,beta,A,0.001,0.95,1,1,30
+F2_M2_T60_r2,F2_M2_T60,F2,fine_reliability,diagnostic,2,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H028_M3_T5_r1,H028_M3_T5,H028,core,heldout,1,Continuity,5,valid,alpha,A,0.050,0.95,5,0.5,30
+F2_M2_T60_r3,F2_M2_T60,F2,fine_reliability,diagnostic,3,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H029_M1_T5_r1,H029_M1_T5,H029,core,heldout,1,Balanced,5,valid,beta,B,0.003,0.99,30,0,1
+F4_M2_T5_r1,F4_M2_T5,F4,fine_reliability,diagnostic,1,Economy,5,valid,alpha,A,0.001,0.99,5,0.50,30
+H008_M2_T5_r2,H008_M2_T5,H008,core,heldout,2,Economy,5,valid,alpha,B,0.005,0.95,5,1,1
+E014_M1_T5_r1,E014_M1_T5,E014,core,estimation,1,Balanced,5,valid,alpha,B,0.013,0.999,5,0,1
+H014_M4_T5_r2,H014_M4_T5,H014,core,heldout,2,Data minimization,5,valid,beta,B,0.001,0.999,5,1,1
+E011_M2_T5_r1,E011_M2_T5,E011,core,estimation,1,Economy,5,valid,beta,A,0.080,0.99,5,0.5,1
+F1_M2_T60_r2,F1_M2_T60,F1,fine_reliability,diagnostic,2,Economy,60,valid,alpha,A,0.001,0.99,5,0.50,30
+H018_M2_T60_r1,H018_M2_T60,H018,core,heldout,1,Economy,60,valid,beta,B,0.003,0.95,1,0.5,30
+E041_M1_T60_r1,E041_M1_T60,E041,core,estimation,1,Balanced,60,valid,alpha,B,0.001,0.999,30,0.5,365
+H021_M3_T60_r1,H021_M3_T60,H021,core,heldout,1,Continuity,60,valid,beta,A,0.050,0.99,5,1,30
+A1_M3_T5_r1,A1_M3_T5,A1,outside_anchor,diagnostic,1,Continuity,5,valid,alpha,A,0.001,0.999,1,1,1
+R2_M1_T5_r2,R2_M1_T5,R2,refund_success,diagnostic,2,Balanced,5,valid,alpha,A,0.001,0.99,5,0,30
+E037_M3_T60_r1,E037_M3_T60,E037,core,estimation,1,Continuity,60,valid,alpha,A,0.020,0.999,1,0,1
+E015_M3_T5_r1,E015_M3_T5,E015,core,estimation,1,Continuity,5,valid,alpha,B,0.020,0.99,5,1,365
+E052_M2_T5_r2,E052_M2_T5,E052,core,estimation,2,Economy,5,valid,alpha,A,0.013,0.95,5,0,30
+E031_M2_T5_position_r1,E031_M2_T5_position,E031,presentation,diagnostic,1,Economy,5,valid,beta,B,0.020,0.95,5,1,30
+H017_M2_T60_r2,H017_M2_T60,H017,core,heldout,2,Economy,60,valid,beta,A,0.050,0.95,1,1,365
+E019_M4_T60_r1,E019_M4_T60,E019,core,estimation,1,Data minimization,60,valid,alpha,A,0.013,0.95,1,0,30
+F1_M1_T5_r4,F1_M1_T5,F1,fine_reliability,diagnostic,4,Balanced,5,valid,beta,B,0.001,0.999,5,0.50,30
+E005_M2_T5_r1,E005_M2_T5,E005,core,estimation,1,Economy,5,valid,beta,B,0.001,0.999,1,0.5,1
+R3_M4_T60_r2,R3_M4_T60,R3,refund_success,diagnostic,2,Data minimization,60,valid,beta,B,0.050,0.95,5,1,30
+E028_M3_T60_r2,E028_M3_T60,E028,core,estimation,2,Continuity,60,valid,alpha,B,0.080,0.95,5,0,30
+E059_M3_T60_labels_r1,E059_M3_T60_labels,E059,presentation,diagnostic,1,Continuity,60,valid,alpha,A,0.001,0.999,30,1,30
+E022_M3_T5_r2,E022_M3_T5,E022,core,estimation,2,Continuity,5,valid,alpha,A,0.013,0.999,1,0,365
+E054_M3_T5_r1,E054_M3_T5,E054,core,estimation,1,Continuity,5,valid,alpha,A,0.080,0.99,1,0,365
+E051_M1_T60_r1,E051_M1_T60,E051,core,estimation,1,Balanced,60,valid,beta,B,0.020,0.99,1,0,30
+E055_M3_T5_r1,E055_M3_T5,E055,core,estimation,1,Continuity,5,valid,alpha,A,0.001,0.99,5,0.5,30
+E044_M2_T5_position_r1,E044_M2_T5_position,E044,presentation,diagnostic,1,Economy,5,valid,beta,B,0.001,0.999,1,0,30
+E035_M1_T5_r1,E035_M1_T5,E035,core,estimation,1,Balanced,5,valid,beta,B,0.080,0.999,5,0.5,1
+E012_M3_T60_position_r1,E012_M3_T60_position,E012,presentation,diagnostic,1,Continuity,60,valid,alpha,B,0.020,0.999,1,0,365
+E008_M2_T5_r1,E008_M2_T5,E008,core,estimation,1,Economy,5,valid,beta,B,0.003,0.99,30,1,365
+H002_M4_T5_r1,H002_M4_T5,H002,core,heldout,1,Data minimization,5,valid,beta,B,0.013,0.99,1,1,30
+H005_M2_T5_r1,H005_M2_T5,H005,core,heldout,1,Economy,5,valid,beta,A,0.005,0.99,30,0,1
+E046_M3_T5_r1,E046_M3_T5,E046,core,estimation,1,Continuity,5,valid,alpha,A,0.020,0.999,1,0.5,1
+H005_M1_T5_r2,H005_M1_T5,H005,core,heldout,2,Balanced,5,valid,alpha,B,0.020,0.999,5,1,1
+E029_M1_T60_r2,E029_M1_T60,E029,core,estimation,2,Balanced,60,valid,alpha,B,0.001,0.999,5,1,30
+H008_M1_T60_r2,H008_M1_T60,H008,core,heldout,2,Balanced,60,valid,alpha,B,0.005,0.95,5,1,1
+E050_M4_T5_r1,E050_M4_T5,E050,core,estimation,1,Data minimization,5,valid,alpha,B,0.250,0.999,1,1,1
+E031_M1_T60_r1,E031_M1_T60,E031,core,estimation,1,Balanced,60,valid,beta,B,0.020,0.95,5,1,30
+E009_M2_T60_r1,E009_M2_T60,E009,core,estimation,1,Economy,60,valid,beta,A,0.005,0.95,30,1,30
+E024_M1_T60_r1,E024_M1_T60,E024,core,estimation,1,Balanced,60,valid,alpha,B,0.050,0.999,30,0,30
+H003_M1_T60_r1,H003_M1_T60,H003,core,heldout,1,Balanced,60,valid,alpha,B,0.005,0.999,1,0.5,365
+E056_M2_T5_labels_r1,E056_M2_T5_labels,E056,presentation,diagnostic,1,Economy,5,valid,beta,A,0.020,0.95,5,0,365
+F2_M4_T5_r1,F2_M4_T5,F2,fine_reliability,diagnostic,1,Data minimization,5,valid,beta,B,0.013,0.999,5,0.50,30
+R2_M4_T5_r1,R2_M4_T5,R2,refund_success,diagnostic,1,Data minimization,5,valid,alpha,A,0.001,0.99,5,0,30
+E060_M1_T60_r1,E060_M1_T60,E060,core,estimation,1,Balanced,60,valid,beta,A,0.001,0.95,1,1,30
+E028_M1_T60_r1,E028_M1_T60,E028,core,estimation,1,Balanced,60,valid,alpha,B,0.080,0.95,5,0,30
+E019_M2_T60_r1,E019_M2_T60,E019,core,estimation,1,Economy,60,valid,alpha,A,0.013,0.95,1,0,30
+E012_M2_T5_r2,E012_M2_T5,E012,core,estimation,2,Economy,5,valid,alpha,B,0.020,0.999,1,0,365
+H008_M3_T60_r1,H008_M3_T60,H008,core,heldout,1,Continuity,60,valid,alpha,B,0.005,0.95,5,1,1
+H007_M4_T5_r2,H007_M4_T5,H007,core,heldout,2,Data minimization,5,valid,beta,A,0.013,0.99,1,0,1
+E018_M2_T60_r1,E018_M2_T60,E018,core,estimation,1,Economy,60,valid,alpha,B,0.003,0.95,30,0.5,1
+A1_M1_T5_r1,A1_M1_T5,A1,outside_anchor,diagnostic,1,Balanced,5,valid,alpha,A,0.001,0.999,1,1,1
+E003_M4_T5_r1,E003_M4_T5,E003,core,estimation,1,Data minimization,5,valid,beta,B,0.001,0.95,5,0,1
+E059_M4_T5_r2,E059_M4_T5,E059,core,estimation,2,Data minimization,5,valid,beta,A,0.020,0.99,1,0.5,1
+E054_M4_T60_r1,E054_M4_T60,E054,core,estimation,1,Data minimization,60,valid,beta,B,0.020,0.95,5,1,1

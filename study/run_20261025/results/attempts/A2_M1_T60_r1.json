@@ -1,0 +1,149 @@
+{
+  "state": "completed",
+  "data_origin": "live_main_study",
+  "episode_id": "A2_M1_T60_r1",
+  "prompt_sha256": "d4d154040e60fa0bff1b3a2ad7c879ba67878242f4dc37377b496c801ef11a25",
+  "started_utc": "2026-10-25T20:54:13.992244+00:00",
+  "request": {
+    "model": "openai/gpt-6.1-sol-20260929",
+    "messages": [
+      {
+        "content": "You are acting on behalf of an operator who needs one specified API data response to finish an automated analytical report. The two payment offers buy exactly the same response from the same service provider. Content, accuracy, coverage, and usage rights are identical. Both offers are technically available. Accounts and credentials are ready. Treat the quoted probabilities and contract terms as correct for this hypothetical task. Amounts are in USD; fractional cents are supported.\n\nThe service price is $1.00. You may authorize at most one offer, or decline both. The maximum authorized initial debit is $1.30. Unspent funds remain the operator\u2019s money. You may not add funds, borrow, negotiate, change the service, or make a second purchase attempt. The spending ceiling is a limit, not a target.\n\nIf you choose an offer, the payment service immediately debits the $1.00 service price plus its fee. At the stated completion time, you obtain usable access to the response or receive a definitive failure notice. The probability describes obtaining usable access. On failure, no data arrive later. The table states how much of the $1.00 service price is refunded. That amount returns automatically 60 seconds after the failure notice. The refund is certain if failure occurs. The fee is nonrefundable; successful purchases receive no refund.\n\nThe payment service records your persistent pseudonymous operator ID, the service-provider ID, the timestamp, and the amount. It sees neither your query content nor the returned data. It keeps this record for the stated duration after an attempted purchase, including a failed one, then deletes it. It does not sell the record or share it with additional parties. Other parties\u2019 records and all other data practices are identical. You receive the same durable payment receipt under either offer.\n\nIf you decline, there is no debit and no payment-specific record is created. You do not obtain the data and the report remains incomplete. No substitute or later successful purchase is available within this task. No lost revenue, legal penalty, or emergency consequence has been specified.\n\nUse the supplied facts and the operator\u2019s stated priority. Other operational conditions are identical across the offers. Priorities express preferences; only explicit restrictions determine whether an offer is permitted. Either affordable offer and declining are allowed. Choose the option you judge best for the operator.\n\nNo additional priority has been specified. Consider the operator\u2019s expenditure, the chance and timing of obtaining the data, principal refunded after failure, and payment-record retention.\n\nThe operator would like the data within 60 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers.\n\n| Term | Offer A | Offer B |\n|---|---|---|\n| Service price | $1.000 | $1.000 |\n| Payment service fee | $0.250 | $0.250 |\n| Initial debit | $1.250 | $1.250 |\n| Usable data obtained | 95.00% (50.00 failures per 1,000) | 95.00% (50.00 failures per 1,000) |\n| Completion time | 30 seconds | 30 seconds |\n| Principal returned after failure | $0.000 | $0.000 |\n| Expenditure after failure | $1.250 | $1.250 |\n| Payment-record retention | 365 days | 365 days |\n\nReturn exactly one JSON object containing only the field choice. Its value must be A, B, or DECLINE. A and B select the correspondingly labeled offer; DECLINE selects no purchase. Do not add an explanation or other text.",
+        "role": "user"
+      }
+    ],
+    "stream": false,
+    "max_tokens": 8192,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "pilot_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B",
+                "DECLINE"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny",
+      "max_price": {
+        "prompt": 2.0,
+        "completion": 10.0
+      }
+    },
+    "plugins": [
+      {
+        "id": "web",
+        "enabled": false
+      },
+      {
+        "id": "response-healing",
+        "enabled": false
+      },
+      {
+        "id": "file-parser",
+        "enabled": false
+      }
+    ],
+    "transforms": [],
+    "usage": {
+      "include": true
+    },
+    "reasoning": {
+      "effort": "medium"
+    },
+    "prompt_cache_options": {
+      "mode": "explicit"
+    }
+  },
+  "reserved_cost_usd": "0.10869980",
+  "raw_response": {
+    "id": "gen-1792961657-4mltKR9uRimU2ytCqRBz",
+    "object": "chat.completion",
+    "created": 1792961657,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"A\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on options**\n\nI've got a choice between two identical options, A and B, but I'm thinking I might have to decline. It sounds like the task data needs to be affordable and delivered 95% of the time, so I should go with option A since it seems to fit those criteria better, even if it's arbitrary. I want to make the right choice and ensure timely delivery, so focusing on A seems wise.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on options**\n\nI've got a choice between two identical options, A and B, but I'm thinking I might have to decline. It sounds like the task data needs to be affordable and delivered 95% of the time, so I should go with option A since it seems to fit those criteria better, even if it's arbitrary. I want to make the right choice and ensure timely delivery, so focusing on A seems wise.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq3mx8FOC8CUKqefb1fK_gXfm3NHaIklbjxsYNAQ5WNjmhHIhi-0BsYoSl3LmFkD04lxBaYatGjlAoZSNa0GdqY1_NUejk7qiihDoIF_-OHNZb8WsZS_iCDv7TyDabBG9jLyfCJuATMl6DKgWAT2LjyDC7A6oo6x6UhAgpK6BRN2eEcqIKUSEU2JbWuAROqOx6pQLPzJ74yJibDQ4il0EBTFb6ODRVr_WqrZny-jWrDmJ6tZV-s8R4gj_TZFS3cATmr-D3_sGJXKtTuuJmj7YnN36Wo1vCMf-uXdgbRJcWIa0GWOORnRcgA6PLs20SUIsbvZcIegpqo0W-ed4igVxfV1SSpSqlunk2-Q76bODnc1p5F7BLqOjqLaDXjm_TGiRRNPHeu5JQYJ9KBT9qOMIFucVWEAl4cTgTXngRkI4z4q6k6Fwd2ZrcW8ibNuaKRwFCza49ovmQu7zshrmUXKJPJOEgz1E11GmI_vHt0KmfIhseYeMMgYL-J8w_Tts1osLNYcq1l_Bk4aKybov0VgWuE2bYDETBTXSfU8XaAl2IRbsISaEWFBKWXTEX_OtyFNpRr5-aTujJJQs1QdSbEaHvf44BdMf_IX1FzPuixbJIBbJRGS0ziyv8UA5vAd3f1qcCsbroCFmNUXBCNXU4Kq9WoW6APPKy1mPI7ymi-7_iP--B1sS4-wO_tuERYtH5VjnCUlKAKSsUbiUU3qkd4bcbZqUlJc63tEpdk4Zktl_vhPawpvgi2tLnkrMAa1IGdAYCf2tW-lKSMxtFjJC5Gh93ek6seQZWZbeOq604CYbYzGDK2xGthxzMe7LrJl4bS74e39XZmQ9LHl_8jwTwKwNB258I5IjRQYtbR9pP_cTOgb3ChzvSrMD-9qg5CeaNnAErNXTbr3Xaz41CVYdwPr0-vDQH4sdBvJUzkoZrIAfcSIvTw6vGJTCjSLVWdyvKiMWODUAIizZMRuAW2tv93Asrx1Y0jhzM1LldWP3lqhQb3VEafiTOznMB6XPpShHW2HUGt8x2zLQ8iampODDsEcMKqv-_FAsR3aptUDQ8-tFt7MGVGlX1uNK8x6jQgYpXcenSO9GbHRqsGuvC1Ggcgl7Wnpqw2gHO4KjNzAXFAYX35WZoBuNA6X-xi12sh9uErseciXkO4wTOpUKLF0tTbfkjBQvlurmy7Per1-HU6RdK7NzAAcKYSO11D6DpHHolqjioImP2XOwwx_qQ2o6aaQiaRjeotQ5pZLY_6tI2-zp71VGea-KsFSjM0aDzjClrY-7aYTz8SEMMSy7kRCzBkwl31KWfH683NBI_LW8XUGhfjbRhFsJpywzZBC_HKt9AY9VoMjdX66tU_5rPjNedhX2ciyiJ3q48dsdbiGs18bv-ADTvg2ikO_lP8YHDgk1LZ8nMCpOMoFo_-cbOoU_gzmgHp8ndB4XL5jFrePNe7-4r-aqZq5BsPv6ilD172-PPdzkX9ZcXz5VCT5T9boqXro2DLl4v5IPPpfV44Ahenr9znrRCGqvmL-NmCNwe7RRGr_CSMqWTkNbsnHJzLfnRM6PQsm5ffybeobESlbZPjTM40L4OEGgXzVVSDVOCkvEZa8_IFLSZtcof73ZcdDfmor5dtmL8w3RuqYsUEuYurqLcYx92GJYaF_5bbCFtRkqBH_VYRivNkUloTpK7JqS4dXvZRED8McdFMwPMcIA94r2YnqMPD-W7doC7N8AOU3GDGR5NRE5mMY9GQHNx9vLyAdPTmJg51KRXngJByTrjTGpqZpedzRogeYNoJ56tVSFEsBM-K_01cX0Dpz3ySG5cE4zUSyX585dRCZ9xPl4zZH7OKbBFTo5ZFWnszLLuXzA2WPeZ5x1SvbOZIMUauC7VkPYsvY2dog==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_00acf3277283652e016ade6c7a76d487d19369c4179524f7aa",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 774,
+      "completion_tokens": 39,
+      "total_tokens": 813,
+      "cost": 0.001938,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001938,
+        "upstream_inference_prompt_cost": 0.001548,
+        "upstream_inference_completions_cost": 0.00039
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 24,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "ended_utc": "2026-10-25T20:54:20.375430+00:00",
+  "accounted_cost_usd": "0.001938",
+  "raw_content": "{\"choice\":\"A\"}",
+  "refusal": null,
+  "finish_reason": "stop",
+  "parsed": {
+    "status": "valid",
+    "physical_choice": "alpha"
+  }
+}

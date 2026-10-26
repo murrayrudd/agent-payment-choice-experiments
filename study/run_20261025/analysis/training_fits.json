@@ -1,0 +1,1186 @@
+[
+  {
+    "specification": "piecewise_fee",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.24743540433080374,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.3443036556976265,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6400095824223048,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      6.978476967451198,
+      -1.4791988357558674,
+      -1.131624195014131,
+      -4.3071577205809435,
+      0.5475061987386668,
+      2.4184630558619635,
+      0.9200696392166342,
+      -1.9687338232289129,
+      0.11205391656122045,
+      -0.17246681135730088,
+      -0.0074562536324668215,
+      -2.0497253401712574,
+      1.2990219129814153
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -73.95994178779337,
+          -18.860403250235517,
+          -25.336221885770254
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -105.25634043519815,
+          -25.302674346853188,
+          -30.849411216215785
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -9.991437147425517,
+          -10.85007818945817,
+          -9.387924799202706
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -40.00667123128883,
+          -14.299327657513379,
+          -10.997972139894774
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          10.123177261540466,
+          -2.7501015842359386,
+          -2.0543233396237275
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -11.747138419178977,
+          -5.731276205174089,
+          -2.4931025352331098
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "piecewise_fee",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.24743540433080374,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.3443036556976265,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6400095824223048,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      7.346590376730864,
+      -1.2761192362529474,
+      -2.23599719404538,
+      -3.144383924688023,
+      0.6993736628611203,
+      2.8384121813997307,
+      0.5186522149738997,
+      -0.26063754505529285,
+      -0.7951041577199173,
+      0.07694842364766506,
+      0.003518277341641706,
+      -2.2139199540291874,
+      1.5109815271749343
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -63.80596181264737,
+          -37.26661990075633,
+          -18.496376027576606
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -117.02834167218052,
+          -53.64405959755036,
+          -23.260706225353246
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -15.747546141740278,
+          -18.094681161669662,
+          -7.615493569660398
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -52.21333010157555,
+          -23.413618191587332,
+          -8.905546160133353
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          5.989008924885182,
+          -5.0120056991152095,
+          -1.8804474953870267
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -17.617028713358902,
+          -8.17427105714278,
+          -2.352968005655699
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "piecewise_fee",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.24743540433080374,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.3443036556976265,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6400095824223048,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      7.913302583802082,
+      -2.2023465535488653,
+      -2.975358227986504,
+      -3.2623060066091316,
+      -0.41961777669318906,
+      -0.42432335525112863,
+      0.058499611876865365,
+      0.0166040764077963,
+      0.1855410989394427,
+      0.18757090921209127,
+      -0.2314623305987233,
+      0.1693981677627545,
+      0.8594116486112476
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -110.11732767744327,
+          -49.58930379977507,
+          -19.190035332994892
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -181.83106574031618,
+          -74.74049268255479,
+          -25.136520018333048
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -39.81702934971541,
+          -26.817152167821597,
+          -7.892152872387924
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -80.17279331147404,
+          -34.35992306631527,
+          -8.799327465520143
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          -5.129476337927897,
+          -10.634568564830255,
+          -2.3031928269865065
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -29.90091651579582,
+          -13.510546079229531,
+          -2.6776674682475257
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "piecewise_fee",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.24743540433080374,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.3443036556976265,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6400095824223048,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      7.864598908525085,
+      -2.4323229541836895,
+      -2.7786611849335268,
+      -3.2247217130375283,
+      -0.2965553662531597,
+      -0.28207529035890044,
+      0.0471044421885529,
+      0.2311960658671873,
+      0.031972466098196435,
+      0.1366069700222535,
+      -0.2394252912291972,
+      -0.06928509977467358,
+      1.1185268377371798
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -121.61614770918447,
+          -46.311019748892114,
+          -18.96895125316193
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -186.52028834064976,
+          -69.97193592516507,
+          -24.466731390659614
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -47.9585917272405,
+          -25.47588378145383,
+          -7.813664140591433
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -88.4320055709323,
+          -32.79364377301446,
+          -8.59743731427998
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          -7.842473062621541,
+          -10.402351438621585,
+          -2.293737262735293
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -32.88383222607734,
+          -13.31147919491136,
+          -2.6584119032448905
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "piecewise_fee",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.24743540433080374,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.3443036556976265,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6400095824223048,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      3.3056764687523548,
+      0.7753080161742417,
+      -0.5577304157327114,
+      -1.785489562858699,
+      -0.7308088050365126,
+      2.404445124213813,
+      2.4849845764552323,
+      -5.61522984046359,
+      0.4110949113560126,
+      -1.1451600495706722,
+      -0.0536352700930694,
+      0.36425313280056726,
+      0.1707097057524177
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          38.76540080871209,
+          -9.295506928878524,
+          -10.50287978152176
+        ],
+        "conditional_fee_slopes_per_usd": [
+          15.677824185197464,
+          -8.304848484774396,
+          -10.645884516693226
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          36.54255857311842,
+          -2.8643832502341233,
+          -3.0150583726743414
+        ],
+        "conditional_fee_slopes_per_usd": [
+          16.279693593077358,
+          -3.5458995864781175,
+          -3.0381094941462656
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          21.412756773646205,
+          1.3791666666005407,
+          -0.46602624941011467
+        ],
+        "conditional_fee_slopes_per_usd": [
+          3.6687652604605594,
+          -0.8609583853406213,
+          -0.7090123718325853
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "piecewise_fee",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.24743540433080374,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.3443036556976265,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6400095824223048,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      6.678081619429861,
+      -0.4333636053432008,
+      -0.9969670590308968,
+      -1.5381203863785984,
+      -0.16170997974604362,
+      4.0612635168213895,
+      -0.45787234270169225,
+      0.15368144990510804,
+      0.17030362223583922,
+      -0.4199569833562469,
+      0.1253179760547854,
+      -0.18592291885577353,
+      -0.08217646590028856
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -21.66818026716004,
+          -16.616117650514948,
+          -9.047766978697636
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -66.08492851365766,
+          -23.043406047974386,
+          -10.69666390777238
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          8.82252118794264,
+          -5.719460431078177,
+          -3.827206935764625
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -24.693128256790462,
+          -10.323344964782477,
+          -4.32148439731661
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          14.899594527005322,
+          0.6473897370599835,
+          -0.6930725019033349
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -6.163049262328665,
+          -2.720539989708411,
+          -1.108373013644295
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "piecewise_fee",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.24743540433080374,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.3443036556976265,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6400095824223048,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      3.6193834139081407,
+      1.5095340250745342,
+      -0.4990302090000505,
+      0.10331423450553705,
+      0.27798130087421025,
+      0.2472588776198238,
+      0.140663943287105,
+      -0.7852171214149851,
+      -0.34975016115574986,
+      -0.10879201134656777,
+      0.035418490034058864,
+      -4.5863129911527345,
+      0.5967576263887476
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          75.4767012537267,
+          -8.317170150000843,
+          0.6077307912090414
+        ],
+        "conditional_fee_slopes_per_usd": [
+          25.022761303941486,
+          -5.1480726761247295,
+          -0.8823922790820624
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          47.48715558338549,
+          -0.6667201083853767,
+          0.8794400116354085
+        ],
+        "conditional_fee_slopes_per_usd": [
+          14.256441053644103,
+          -2.440809436681309,
+          0.0375425259248687
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          24.418306842623092,
+          2.3677072237982597,
+          0.6096351457030225
+        ],
+        "conditional_fee_slopes_per_usd": [
+          4.737446968258807,
+          -0.3918034690845858,
+          0.1983082170918214
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "piecewise_fee",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.24743540433080374,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.3443036556976265,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6400095824223048,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      3.6193834139081407,
+      1.5095340250745342,
+      -0.4990302090000505,
+      0.10331423450553705,
+      0.27798130087421025,
+      0.2472588776198238,
+      0.140663943287105,
+      -0.7852171214149851,
+      -0.34975016115574986,
+      -0.10879201134656777,
+      0.035418490034058864,
+      -4.5863129911527345,
+      0.5967576263887476
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          75.4767012537267,
+          -8.317170150000843,
+          0.6077307912090414
+        ],
+        "conditional_fee_slopes_per_usd": [
+          25.022761303941486,
+          -5.1480726761247295,
+          -0.8823922790820624
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          47.48715558338549,
+          -0.6667201083853767,
+          0.8794400116354085
+        ],
+        "conditional_fee_slopes_per_usd": [
+          14.256441053644103,
+          -2.440809436681309,
+          0.0375425259248687
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          24.418306842623092,
+          2.3677072237982597,
+          0.6096351457030225
+        ],
+        "conditional_fee_slopes_per_usd": [
+          4.737446968258807,
+          -0.3918034690845858,
+          0.1983082170918214
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "linear_fee",
+    "mandate": "Balanced",
+    "target_seconds": 5,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.2657273111975097,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.34274856595268727,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6355776605073528,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      6.920731995214722,
+      -2.9021700731413906,
+      0.6529774961002923,
+      2.464736931226837,
+      0.9337489436715146,
+      -2.0252389545002187,
+      0.13919201930673716,
+      -0.19085537570765787,
+      -0.03334845629980357,
+      -2.100115117199437,
+      1.4487526014622767
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -29.021700731413905
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -40.1820020665353
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -12.290814640906424
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -17.630145175796844
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          -3.191739854088259
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -6.230829696003913
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "linear_fee",
+    "mandate": "Balanced",
+    "target_seconds": 60,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.2657273111975097,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.34274856595268727,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6355776605073528,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      6.910531499481188,
+      -2.7654514992178023,
+      0.740311533327116,
+      3.0737583350739546,
+      0.42497411855440015,
+      -0.1998701817209037,
+      -0.7199583045975054,
+      0.02356889441176258,
+      0.031951186334504014,
+      -2.3998107675667164,
+      2.1402743004438554
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -27.654514992178022
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -37.863888441166026
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -12.948896764120692
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -17.996038219157224
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          -3.8960469718792505
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -6.993736555817015
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "linear_fee",
+    "mandate": "Economy",
+    "target_seconds": 5,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.2657273111975097,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.34274856595268727,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6355776605073528,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      7.536794929960626,
+      -4.522747605935112,
+      -0.23534927220656335,
+      -0.27179829654973614,
+      -0.059847860325875316,
+      0.028264412661485213,
+      0.005253401482056772,
+      0.06797963416100854,
+      -0.02805109128769663,
+      -0.0040514385591954435,
+      0.9621371279192492
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -45.22747605935111
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -73.24971835658015
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -20.953733899112397
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -28.687140070513866
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          -7.302302449687435
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -10.17441545234122
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "linear_fee",
+    "mandate": "Economy",
+    "target_seconds": 60,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.2657273111975097,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.34274856595268727,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6355776605073528,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      7.504497791390021,
+      -4.513375253241976,
+      -0.10268934280267708,
+      -0.15393412034255882,
+      -0.07004463402527937,
+      0.16097670045358908,
+      -0.13704383800256906,
+      0.04428311786167048,
+      -0.022173611967549533,
+      -0.18839922144074447,
+      1.146204191582218
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -45.133752532419756
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -72.60868463284417
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -21.02149498039978
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -28.673245976602704
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          -7.383418545594812
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -10.233990002832284
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "linear_fee",
+    "mandate": "Continuity",
+    "target_seconds": 5,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.2657273111975097,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.34274856595268727,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6355776605073528,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      3.792824650680212,
+      -0.8509143446634553,
+      -0.668215949525193,
+      2.5944600196441345,
+      2.605038672259546,
+      -5.8854048285956,
+      0.31021316728075304,
+      -0.8731256669960172,
+      0.09455984460422602,
+      0.17713199020722845,
+      -0.007640474315280087
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -8.509143446634551
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -9.6853204703226
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -1.565271106461224
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -3.1308923922595966
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          0.9754688965124886
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -1.1730759019609167
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "linear_fee",
+    "mandate": "Continuity",
+    "target_seconds": 60,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.2657273111975097,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.34274856595268727,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6355776605073528,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      6.668126578909452,
+      -1.294382840336139,
+      -0.22246518198792276,
+      4.098645036782758,
+      -0.464765102673469,
+      0.21341688243933152,
+      0.2428320829899391,
+      -0.35691365327288066,
+      0.05948002532558844,
+      -0.24437786658075603,
+      -0.18473904355215418
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          -12.94382840336139
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -19.621452787608174
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          -4.536551551985993
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -8.727822567070467
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          0.04933109038946741
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -2.880589213315201
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "linear_fee",
+    "mandate": "Data minimization",
+    "target_seconds": 5,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.2657273111975097,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.34274856595268727,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6355776605073528,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      4.299341777601797,
+      0.28233886883364906,
+      0.33697388867106,
+      0.5415621925563563,
+      0.1809634246665277,
+      -0.8977189055081122,
+      -0.37268962127522426,
+      -0.1332899143616681,
+      0.040211796129030225,
+      -4.571950232138591,
+      0.6643518356107134
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          2.8233886883364905
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -0.9890528367134817
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          3.5499029874645913
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -0.013692386472057025
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          3.122561096702178
+        ],
+        "conditional_fee_slopes_per_usd": [
+          0.4297264752821775
+        ]
+      }
+    ]
+  },
+  {
+    "specification": "linear_fee",
+    "mandate": "Data minimization",
+    "target_seconds": 60,
+    "training_choices": 64,
+    "training_declines": 0,
+    "selected_penalty": 0.1,
+    "cross_validation": [
+      {
+        "penalty": 0.1,
+        "mean_log_loss": 0.2657273111975097,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 1,
+        "mean_log_loss": 0.34274856595268727,
+        "validation_choices": 512
+      },
+      {
+        "penalty": 10,
+        "mean_log_loss": 0.6355776605073528,
+        "validation_choices": 512
+      }
+    ],
+    "coefficients": [
+      4.299341777601797,
+      0.28233886883364906,
+      0.33697388867106,
+      0.5415621925563563,
+      0.1809634246665277,
+      -0.8977189055081122,
+      -0.37268962127522426,
+      -0.1332899143616681,
+      0.040211796129030225,
+      -4.571950232138591,
+      0.6643518356107134
+    ],
+    "fee_sensitivity": [
+      {
+        "penalty": 0.1,
+        "fee_slopes_per_usd": [
+          2.8233886883364905
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -0.9890528367134817
+        ]
+      },
+      {
+        "penalty": 1,
+        "fee_slopes_per_usd": [
+          3.5499029874645913
+        ],
+        "conditional_fee_slopes_per_usd": [
+          -0.013692386472057025
+        ]
+      },
+      {
+        "penalty": 10,
+        "fee_slopes_per_usd": [
+          3.122561096702178
+        ],
+        "conditional_fee_slopes_per_usd": [
+          0.4297264752821775
+        ]
+      }
+    ]
+  }
+]

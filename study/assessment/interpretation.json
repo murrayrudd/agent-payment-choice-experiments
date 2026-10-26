@@ -1,0 +1,35 @@
+{
+  "opening": "Sol’s main-run choices respond systematically to operator mandates and completion targets, and the prespecified models predict about 90% of withheld choices. Simple priority rules also predict important parts of the behavior, while unstable fee estimates limit monetary interpretation.",
+  "main_findings": [
+    "The three-segment fee model correctly predicts 231 of 256 withheld choices (90.2%); the linear-fee sensitivity predicts 233 (91.0%). All 192 exact core-repeat comparisons agree. These results support reproducible choice patterns within the tested configuration and task.",
+    "Mandates change 21.9–32.3% of choices relative to Balanced. Relaxing the completion target changes 28.1% of Continuity choices, compared with 9.4% under Balanced and 1.0% under each other mandate.",
+    "Economy choices follow the lowest expected expenditure rule on all 64 withheld cases. Under the short-target Continuity condition, a target-first rule predicts 28 of 32 choices, exceeding the primary model’s 22. The strongest account accommodates different decision patterns across mandates and conditions."
+  ],
+  "paper_implications": [
+    "The paper can center on mandate-dependent choice priorities and their contextual boundaries, supported by withheld prediction and repeatability checks. The fitted compensatory models face clear limits in some conditions. General WTP estimates remain unsupported; observed switching and financial break-even behavior provide narrower monetary evidence."
+  ],
+  "matched_interpretation": [
+    "Economy selects lower fees, lower average success, and longer retention than Balanced. Data minimization selects shorter retention at higher fees. Short-target Continuity selects faster offers, accepting higher fees and slightly lower average success than Balanced.",
+    "Relaxing the target under Continuity raises mean selected completion time from 4.77 to 11.96 seconds and mean success from 98.20% to 99.08%, while reducing the mean fee. This is a substantive context-dependent trade-off within the designed offers. The same target change has little effect under Economy or Data minimization."
+  ],
+  "prediction_interpretation": [
+    "Training-only cross-validation selects penalty 0.1 for both specifications. Their overall performance is similar: the linear model makes two more correct classifications, while the primary model has slightly lower log loss. The primary model’s pair-resampling log-loss interval is 0.171–0.317; the linear model’s is 0.177–0.318.",
+    "Condition-specific comparisons qualify the aggregate result. Lowest expected expenditure predicts Economy perfectly and has lower log loss than either fitted model. For short-target Continuity, the target-first rule reaches 87.5% accuracy and 0.351 log loss, versus 68.8% and 0.667 for the primary model. Shortest retention matches the fitted models’ Data minimization accuracy and has lower log loss. These are comparisons with the prespecified rules, without fitting a new composite rule to the withheld answers."
+  ],
+  "diagnostic_interpretation": [
+    "All 64 refund-probe responses select lower expected expenditure. This pattern holds at both success levels under every mandate and target.",
+    "Variation concentrates in fine success comparisons and one anchor. The single column-order change occurs under Balanced at the long target. All exact core repeats agree."
+  ],
+  "monetary_interpretation": [
+    "Only the two Economy cells satisfy the primary model’s stable negative-fee check in both full and purchase-conditioned fits across all penalties. Balanced and long-target Continuity improve under the conditional sensitivity, but the full specification remains sign-sensitive. Data minimization fails the fee-sign requirement in both fee specifications.",
+    "These results separate predictable choices from identified monetary trade-offs. Positive fitted fee segments and sensitivity to the outside-option treatment make broad coefficient ratios unreliable. The Economy cells pass preliminary gates, but unique interior compensation and bounded uncertainty have not been established. No WTP estimates are reported.",
+    "The refund probes provide direct financial evidence without utility ratios. The observed premium brackets contain the expected refund gains of $0.01 at 99% success and $0.05 at 95% success. Fine success contrasts provide one unanimous interior bracket under Balanced at the short target; other cells show endpoint persistence or repeat variation."
+  ],
+  "outside_interpretation": [
+    "There is one DECLINE in 1,280 responses. It occurs in the second repetition of the unfavorable identical-offer anchor under Data minimization with the 5-second target; the first repetition purchases. None of the 768 first-response core choices declines. This isolated edge response does not identify a stable reservation boundary, and the fitted outside-choice margin remains dependent on regularization."
+  ],
+  "scope_and_next": [
+    "The evidence supports distinct mandate and context responses in one fixed Sol configuration, with high repeatability and useful prediction on new combinations of the same levels. A priority rule and sufficiently strong compensatory weights can produce similar choices over a bounded range; these results do not uniquely identify the model’s internal decision process.",
+    "The paper should emphasize matched behavior, condition-specific prediction, and limits to monetary interpretation. Operator-value validation, other models, different services, and real payments remain outside this study. Later model refinements require an exploratory label and fresh prediction tests."
+  ]
+}

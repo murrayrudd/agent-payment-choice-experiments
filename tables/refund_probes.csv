@@ -1,0 +1,33 @@
+mandate,target_seconds,pair_id,success_probability,premium_usd,expected_refund_gain_usd,net_expected_expenditure_change_usd,choices
+Balanced,5,R1,0.99,0.002,0.01,-0.008,beta|beta
+Balanced,5,R2,0.99,0.012,0.01,0.002,alpha|alpha
+Balanced,5,R3,0.95,0.049,0.05,-0.001,beta|beta
+Balanced,5,R4,0.95,0.079,0.05,0.029,alpha|alpha
+Balanced,60,R1,0.99,0.002,0.01,-0.008,beta|beta
+Balanced,60,R2,0.99,0.012,0.01,0.002,alpha|alpha
+Balanced,60,R3,0.95,0.049,0.05,-0.001,beta|beta
+Balanced,60,R4,0.95,0.079,0.05,0.029,alpha|alpha
+Economy,5,R1,0.99,0.002,0.01,-0.008,beta|beta
+Economy,5,R2,0.99,0.012,0.01,0.002,alpha|alpha
+Economy,5,R3,0.95,0.049,0.05,-0.001,beta|beta
+Economy,5,R4,0.95,0.079,0.05,0.029,alpha|alpha
+Economy,60,R1,0.99,0.002,0.01,-0.008,beta|beta
+Economy,60,R2,0.99,0.012,0.01,0.002,alpha|alpha
+Economy,60,R3,0.95,0.049,0.05,-0.001,beta|beta
+Economy,60,R4,0.95,0.079,0.05,0.029,alpha|alpha
+Continuity,5,R1,0.99,0.002,0.01,-0.008,beta|beta
+Continuity,5,R2,0.99,0.012,0.01,0.002,alpha|alpha
+Continuity,5,R3,0.95,0.049,0.05,-0.001,beta|beta
+Continuity,5,R4,0.95,0.079,0.05,0.029,alpha|alpha
+Continuity,60,R1,0.99,0.002,0.01,-0.008,beta|beta
+Continuity,60,R2,0.99,0.012,0.01,0.002,alpha|alpha
+Continuity,60,R3,0.95,0.049,0.05,-0.001,beta|beta
+Continuity,60,R4,0.95,0.079,0.05,0.029,alpha|alpha
+Data minimization,5,R1,0.99,0.002,0.01,-0.008,beta|beta
+Data minimization,5,R2,0.99,0.012,0.01,0.002,alpha|alpha
+Data minimization,5,R3,0.95,0.049,0.05,-0.001,beta|beta
+Data minimization,5,R4,0.95,0.079,0.05,0.029,alpha|alpha
+Data minimization,60,R1,0.99,0.002,0.01,-0.008,beta|beta
+Data minimization,60,R2,0.99,0.012,0.01,0.002,alpha|alpha
+Data minimization,60,R3,0.95,0.049,0.05,-0.001,beta|beta
+Data minimization,60,R4,0.95,0.079,0.05,0.029,alpha|alpha

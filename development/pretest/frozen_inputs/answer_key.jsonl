@@ -1,0 +1,48 @@
+{"case_id": "F01", "expected": {"initial_debit": 1.02, "refund_after_failure": 0.0, "expenditure_after_failure": 1.02, "expenditure_after_success": 1.02}, "scoring": "factual"}
+{"case_id": "F02", "expected": {"initial_debit": 1.02, "refund_after_failure": 0.5, "expenditure_after_failure": 0.52, "expenditure_after_success": 1.02}, "scoring": "factual"}
+{"case_id": "F03", "expected": {"initial_debit": 1.02, "refund_after_failure": 1.0, "expenditure_after_failure": 0.02, "expenditure_after_success": 1.02}, "scoring": "factual"}
+{"case_id": "F04", "expected": {"failures_at_95": 50, "failures_at_99": 10, "failures_at_99_9": 1}, "scoring": "factual"}
+{"case_id": "F05", "expected": {"failure_notice_seconds": 30, "refund_seconds_after_authorization": 90}, "scoring": "factual"}
+{"case_id": "F06", "expected": {"A_permitted": true, "A_meets_target": false, "late_data_useful": true}, "scoring": "factual"}
+{"case_id": "F07", "expected": {"A_permitted": true, "B_permitted": false, "refund_reduces_initial_debit": false}, "scoring": "factual"}
+{"case_id": "F08", "expected": {"query_visible": false, "response_visible": false, "persistent_pseudonym_recorded": true, "operator_receipt_survives_deletion": true, "other_records_erased": false}, "scoring": "factual"}
+{"case_id": "F09", "expected": {"record_created_on_failure": true, "refund_erases_record": false, "retention_days": 30}, "scoring": "factual"}
+{"case_id": "F10", "expected": {"debit": 0, "data_obtained": false, "report_complete": false, "payment_record_created": false, "second_purchase_allowed": false}, "scoring": "factual"}
+{"case_id": "F11", "expected": {"A_permitted_under_priority": true, "B_permitted_under_priority": true, "A_permitted_under_hard_rule": false, "B_permitted_under_hard_rule": true}, "scoring": "factual"}
+{"case_id": "F12", "expected": {"initial_debit": 1.005, "refund_certain_conditional_on_failure": true, "refund_after_success": 0}, "scoring": "factual"}
+{"case_id": "N01", "expected": {"choice": "A"}, "scoring": "known_choice", "payoffs": {"A": "0.98000", "B": "0.96500", "DECLINE": "0"}, "eligible": {"A": true, "B": true, "DECLINE": true}, "reason": "Lower fee"}
+{"case_id": "N02", "expected": {"choice": "B"}, "scoring": "known_choice", "payoffs": {"A": "0.93000", "B": "0.979000", "DECLINE": "0"}, "eligible": {"A": true, "B": true, "DECLINE": true}, "reason": "Higher success probability"}
+{"case_id": "N03", "expected": {"choice": "A"}, "scoring": "known_choice", "payoffs": {"A": "0.97500", "B": "0.97000", "DECLINE": "0"}, "eligible": {"A": true, "B": true, "DECLINE": true}, "reason": "Refund premium exceeds expected recovery"}
+{"case_id": "N04", "expected": {"choice": "B"}, "scoring": "known_choice", "payoffs": {"A": "0.97500", "B": "0.98200", "DECLINE": "0"}, "eligible": {"A": true, "B": true, "DECLINE": true}, "reason": "Refund premium below expected recovery"}
+{"case_id": "N05", "expected": {"choice": "B"}, "scoring": "known_choice", "payoffs": {"A": "0.89000", "B": "0.97000", "DECLINE": "0"}, "eligible": {"A": true, "B": true, "DECLINE": true}, "reason": "Late delivery penalty"}
+{"case_id": "N06", "expected": {"choice": "A"}, "scoring": "known_choice", "payoffs": {"A": "0.98900", "B": "0.97000", "DECLINE": "0"}, "eligible": {"A": true, "B": true, "DECLINE": true}, "reason": "Same offers meet longer target"}
+{"case_id": "N07", "expected": {"choice": "DECLINE"}, "scoring": "known_choice", "payoffs": {"A": "-0.50000", "B": "-0.51500", "DECLINE": "0"}, "eligible": {"A": true, "B": true, "DECLINE": true}, "reason": "Decline negative payoffs"}
+{"case_id": "N08", "expected": {"choice": "B"}, "scoring": "known_choice", "payoffs": {"A": "98.591000", "B": "93.80000", "DECLINE": "0"}, "eligible": {"A": false, "B": true, "DECLINE": true}, "reason": "Exclude attractive above-cap offer"}
+{"case_id": "W1_5_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W1_5_not_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W1_60_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W1_60_not_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P1_base", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P1_position", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P1_labels", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W2_5_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W2_5_not_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W2_60_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W2_60_not_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P2_base", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P2_position", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P2_labels", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W3_5_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W3_5_not_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W3_60_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W3_60_not_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P3_base", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P3_position", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P3_labels", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W4_5_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W4_5_not_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W4_60_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "W4_60_not_returned", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P4_base", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P4_position", "expected": null, "scoring": "descriptive_only"}
+{"case_id": "P4_labels", "expected": null, "scoring": "descriptive_only"}

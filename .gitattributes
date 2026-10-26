@@ -1,0 +1,8 @@
+* text=auto eol=lf
+study/** -text
+development/** -text
+provenance/original_manifests/** -text
+*.png binary
+*.zip binary
+*.docx binary
+*.pdf binary

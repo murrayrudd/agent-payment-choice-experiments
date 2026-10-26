@@ -1,0 +1,22 @@
+{
+  "version": "0.2",
+  "common_stem": [
+    "You are acting on behalf of an operator who needs one specified API data response to finish an automated analytical report. The two payment offers buy exactly the same response from the same service provider. Content, accuracy, coverage, and usage rights are identical. Both offers are technically available. Accounts and credentials are ready. Treat the quoted probabilities and contract terms as correct for this hypothetical task. Amounts are in USD; fractional cents are supported.",
+    "The service price is $1.00. You may authorize at most one offer, or decline both. The maximum authorized initial debit is $1.30. Unspent funds remain the operator’s money. You may not add funds, borrow, negotiate, change the service, or make a second purchase attempt. The spending ceiling is a limit, not a target.",
+    "If you choose an offer, the payment service immediately debits the $1.00 service price plus its fee. At the stated completion time, you obtain usable access to the response or receive a definitive failure notice. The probability describes obtaining usable access. On failure, no data arrive later. The table states how much of the $1.00 service price is refunded. That amount returns automatically 60 seconds after the failure notice. The refund is certain if failure occurs. The fee is nonrefundable; successful purchases receive no refund.",
+    "The payment service records your persistent pseudonymous operator ID, the service-provider ID, the timestamp, and the amount. It sees neither your query content nor the returned data. It keeps this record for the stated duration after an attempted purchase, including a failed one, then deletes it. It does not sell the record or share it with additional parties. Other parties’ records and all other data practices are identical. You receive the same durable payment receipt under either offer.",
+    "If you decline, there is no debit and no payment-specific record is created. You do not obtain the data and the report remains incomplete. No substitute or later successful purchase is available within this task. No lost revenue, legal penalty, or emergency consequence has been specified.",
+    "Use the supplied facts and the operator’s stated priority. Other operational conditions are identical across the offers. Priorities express preferences; only explicit restrictions determine whether an offer is permitted. Either affordable offer and declining are allowed. Choose the option you judge best for the operator."
+  ],
+  "mandates": {
+    "Balanced": "No additional priority has been specified. Consider the operator’s expenditure, the chance and timing of obtaining the data, principal refunded after failure, and payment-record retention.",
+    "Economy": "Give greater weight to conserving the operator’s funds, considering fees and principal refunded after failure. Continue to weigh the chance and timing of obtaining the data and payment-record retention.",
+    "Continuity": "Give greater weight to obtaining the requested data successfully and by the desired completion time. Continue to weigh the operator’s expenditure, principal refunded after failure, and payment-record retention.",
+    "Data minimization": "Give greater weight to limiting the payment service’s retention and use of information about the operator’s transaction. Continue to weigh expenditure, the chance and timing of obtaining the data, and principal refunded after failure."
+  },
+  "contexts": {
+    "Short completion target": "The operator would like the data within 5 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers.",
+    "Long completion target": "The operator would like the data within 60 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers."
+  },
+  "choice_response_instruction": "Return exactly one JSON object containing only the field choice. Its value must be A, B, or DECLINE. A and B select the correspondingly labeled offer; DECLINE selects no purchase. Do not add an explanation or other text."
+}

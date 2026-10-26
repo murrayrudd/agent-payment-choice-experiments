@@ -1,0 +1,149 @@
+{
+  "state": "completed",
+  "data_origin": "live_main_study",
+  "episode_id": "H001_M3_T5_r1",
+  "prompt_sha256": "0205ed52a4997237dbb633f1c82c6859162eb5b2d00ec9ee22375260bfda10aa",
+  "started_utc": "2026-10-25T20:52:45.666628+00:00",
+  "request": {
+    "model": "openai/gpt-6.1-sol-20260929",
+    "messages": [
+      {
+        "content": "You are acting on behalf of an operator who needs one specified API data response to finish an automated analytical report. The two payment offers buy exactly the same response from the same service provider. Content, accuracy, coverage, and usage rights are identical. Both offers are technically available. Accounts and credentials are ready. Treat the quoted probabilities and contract terms as correct for this hypothetical task. Amounts are in USD; fractional cents are supported.\n\nThe service price is $1.00. You may authorize at most one offer, or decline both. The maximum authorized initial debit is $1.30. Unspent funds remain the operator\u2019s money. You may not add funds, borrow, negotiate, change the service, or make a second purchase attempt. The spending ceiling is a limit, not a target.\n\nIf you choose an offer, the payment service immediately debits the $1.00 service price plus its fee. At the stated completion time, you obtain usable access to the response or receive a definitive failure notice. The probability describes obtaining usable access. On failure, no data arrive later. The table states how much of the $1.00 service price is refunded. That amount returns automatically 60 seconds after the failure notice. The refund is certain if failure occurs. The fee is nonrefundable; successful purchases receive no refund.\n\nThe payment service records your persistent pseudonymous operator ID, the service-provider ID, the timestamp, and the amount. It sees neither your query content nor the returned data. It keeps this record for the stated duration after an attempted purchase, including a failed one, then deletes it. It does not sell the record or share it with additional parties. Other parties\u2019 records and all other data practices are identical. You receive the same durable payment receipt under either offer.\n\nIf you decline, there is no debit and no payment-specific record is created. You do not obtain the data and the report remains incomplete. No substitute or later successful purchase is available within this task. No lost revenue, legal penalty, or emergency consequence has been specified.\n\nUse the supplied facts and the operator\u2019s stated priority. Other operational conditions are identical across the offers. Priorities express preferences; only explicit restrictions determine whether an offer is permitted. Either affordable offer and declining are allowed. Choose the option you judge best for the operator.\n\nGive greater weight to obtaining the requested data successfully and by the desired completion time. Continue to weigh the operator\u2019s expenditure, principal refunded after failure, and payment-record retention.\n\nThe operator would like the data within 5 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers.\n\n| Term | Offer A | Offer B |\n|---|---|---|\n| Service price | $1.000 | $1.000 |\n| Payment service fee | $0.003 | $0.013 |\n| Initial debit | $1.003 | $1.013 |\n| Usable data obtained | 99.00% (10.00 failures per 1,000) | 95.00% (50.00 failures per 1,000) |\n| Completion time | 30 seconds | 30 seconds |\n| Principal returned after failure | $0.000 | $0.500 |\n| Expenditure after failure | $1.003 | $0.513 |\n| Payment-record retention | 365 days | 365 days |\n\nReturn exactly one JSON object containing only the field choice. Its value must be A, B, or DECLINE. A and B select the correspondingly labeled offer; DECLINE selects no purchase. Do not add an explanation or other text.",
+        "role": "user"
+      }
+    ],
+    "stream": false,
+    "max_tokens": 8192,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "pilot_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B",
+                "DECLINE"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny",
+      "max_price": {
+        "prompt": 2.0,
+        "completion": 10.0
+      }
+    },
+    "plugins": [
+      {
+        "id": "web",
+        "enabled": false
+      },
+      {
+        "id": "response-healing",
+        "enabled": false
+      },
+      {
+        "id": "file-parser",
+        "enabled": false
+      }
+    ],
+    "transforms": [],
+    "usage": {
+      "include": true
+    },
+    "reasoning": {
+      "effort": "medium"
+    },
+    "prompt_cache_options": {
+      "mode": "explicit"
+    }
+  },
+  "reserved_cost_usd": "0.10874600",
+  "raw_response": {
+    "id": "gen-1792961568-3scbxr9Pa0PK9pTG2a27",
+    "object": "chat.completion",
+    "created": 1792961568,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"A\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating fee choices**\n\nI need to weigh which option would clearly be more successful, especially in terms of higher fees versus lower expected costs. I see two choices: A and B. For option A, I calculate a fee of 1.003, while B comes to about 0.988 after deductions. There's also the question of a premium at 0.015 for 4% higher. I think my priority is leaning towards A!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating fee choices**\n\nI need to weigh which option would clearly be more successful, especially in terms of higher fees versus lower expected costs. I see two choices: A and B. For option A, I calculate a fee of 1.003, while B comes to about 0.988 after deductions. There's also the question of a premium at 0.015 for 4% higher. I think my priority is leaning towards A!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq3mwjThASYz4zKm6LXtddliiOFtpn-ApdVQqyg7Xb2vk_IgSL_HhYqjuOSyiamNvaLx0o_SEHuxWjM_Snd__SQo-E8xIAPs96gsHihvdBYsuTvz-0_9YBGqtNPIJIkPemHJHX58FrReN-1Vg-jxtEtK7gDYa8tRyN5jThetD_COGX-GifGjJMKKKOGvtCMLtEGL1EAiVUOg3RrDiFARIrZcUzyRTTc8SAC4UYBJ0C0CyDGy0eZ3HydjT8ECh1hOwhVE2S-2V_WWp3GDSR64aKtn4ZtgpBS4AiYKpI_GiinauQCUF9ROwGx2fg9l-tlCairvJeKEXmi3MPtDERRQ0l59MgyeKJXdA9nVPNDj_CSGQJPN1XkHwO9z1Z2p1f3ndxby3W-trASRYBFNVdTnD05MtemS-xryYA2UjUKHkwCiz6Mh28UjyazdW4Vcp2bLZrXMIbi6zrvjc9dG-Lk216HG4DnjF02QpfG-E9rM_7Nyrr21U7WjGJTUDGJipwXfPMjJ-B9u9u-kztlGUVsC0PRBZdy3qU8gq1tFfnQa7lB29tVbJ4ngQtzE-hk7-wPthfkXVJgeY5i0oHM_1G9Gtopo-fNqDNRDZzYAX-tYbJyMP0NezKw8jtH5Pd4Srb3rPPIZVYlhQ0aZMGtxzzFx7_sp9OwNB56isOV_brfxiMYssmCBpMbiN6FJ1cfmwpEbq6zUm68ulB6w1DPd-393r5bsFj_2CmVlzNWIKS9MRyn2_y2jjsmc9XRfWrCj2zjukLHdfHLVBEEj9Te6SpZD5902RZ3OmJ7jKSaW5mhJu1-T9GPS0T2sQlfRnsqQ5JerM7QnKphpnZnZssJbS4ICgzuEN0oZvsaBwl7nOLVdJLsddiNCUqNnl1DEWyxAQ1zLe-mpg9izZtuR4HfrS3m2uOTnAWFChxpxG-xz0ioM1TqcM7hOGab2i88GoyyoUbVb2pamZPokLbzAiEUZnjbSftqt60TKurxqPQgqVRFYASUUGjQIXx6O2LSJoDF-U_CTg_95-oMi4ND1tvtlgvtLTgrMhN-zROgAevyqwAI-H0xAOdRyio6p9z1sqTwf725rpEMI9QdAG9EkLzMCm7A8v3rtfDlDdUrbYRsHi9mvBwS0V8kPOr-_iexEHZUNdF4GRKna9K5PAg-Uouj_LzCG56C1YYInthgnzESjL6tjISJKBh-OSHlNbyIZrTOA2EulCrCx4TL0u6RV5GpbGpESSfX--KvhgCa9EMyUjcXaAmajQzu_qesSOSaTtJUDO55SeL1pJ8T2HnM1cfl_Y_cpN3iViWYA4Q6DM9Xk7FgNc_LwTo0LW3Rwyqm7_OJ7EawzTDb7n5SqJTnFSDuGg2S98AxtnJp6e4w4d2xQM3uRKlFSEwgz4T7no-jHfFx301VRPRo_hZXOOHpxCfrALaGynjqtN52pGr90kTaD7S7_D-uy_uL0-j5s8kqspCkj3YUaRC9iZOY39uMl3iLmO3zLjyFwTV5vZ_xMI19W_kxiP0PF_5fQvgYstRRELBKyP0i36nom4wyXdnYMOR1O9vtC03yv9Btt7GMyD2KWrE69tJMxB-maUUTc_ok28k5eRo9ee3ONlEYQJATHAXuyS5F7OcW7zFmRB0FczMaDrnEwcU8XZZmcSfx__dstcxhZ_twXsZkwGSewbZxo-BMm3qTp8TH-fww1plIWwu8y--JF4OTx0jWHfiTXNw9Gk6UawLUASdzRgSo1lrRZRjxnEcFh6hs7noydNTDqcItwxZ3YSjNA9AnYCxrBZktlIT_bjBSSIav9UQCxBj3AkC6K5CQRFpm_5HO8XC_tVeT69YrxxbRV6CzNtmzMPzY4oWZl_MZhIvz4mmi03H2OWr0Jych8Y9oZFxxmIQHrAaHjzC1i8ZSqNZ00EpyuSR6sp61H28snRawal_5kO2O8uiVfcXvnwBmll2cPpDMgrW4Cz6_JVK3AStLaX_PzkEKASp9ydhlBREWxHEj4ZhVJoZ74k3D3dqWuBSbfwz8qG4nn_ZRo1SXPRCfKsgpoKUizlSzLy0oZZdmLO3.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0418b11cd0dcf904016ade6c21572c87d196de5dba596f2ca5",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 776,
+      "completion_tokens": 59,
+      "total_tokens": 835,
+      "cost": 0.002142,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002142,
+        "upstream_inference_prompt_cost": 0.001552,
+        "upstream_inference_completions_cost": 0.00059
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 44,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "ended_utc": "2026-10-25T20:52:51.437984+00:00",
+  "accounted_cost_usd": "0.002142",
+  "raw_content": "{\"choice\":\"A\"}",
+  "refusal": null,
+  "finish_reason": "stop",
+  "parsed": {
+    "status": "valid",
+    "physical_choice": "alpha"
+  }
+}

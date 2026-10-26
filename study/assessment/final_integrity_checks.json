@@ -1,0 +1,8 @@
+{
+  "frozen_request_payload_matches": 1280,
+  "prediction_observation_matches": 2048,
+  "economy_heldout_minimum_expected_expenditure": 64,
+  "economy_heldout_expenditure_ties": 0,
+  "no_live_collection_lock": true,
+  "frozen_manifest_sha256": "933c1fd15711de0b2ba0ff108d95dcd012a5d5d3a5d9e4d110f4f040595dfc35"
+}

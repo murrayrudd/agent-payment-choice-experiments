@@ -1,0 +1,170 @@
+[
+  {
+    "case_id": "N01",
+    "reason": "Lower fee",
+    "benefit": "2",
+    "late_penalty": "0",
+    "target_seconds": 60,
+    "expected": {
+      "choice": "A"
+    },
+    "scoring": "known_choice",
+    "payoffs": {
+      "A": "0.98000",
+      "B": "0.96500",
+      "DECLINE": "0"
+    },
+    "eligible": {
+      "A": true,
+      "B": true,
+      "DECLINE": true
+    }
+  },
+  {
+    "case_id": "N02",
+    "reason": "Higher success probability",
+    "benefit": "2",
+    "late_penalty": "0",
+    "target_seconds": 60,
+    "expected": {
+      "choice": "B"
+    },
+    "scoring": "known_choice",
+    "payoffs": {
+      "A": "0.93000",
+      "B": "0.979000",
+      "DECLINE": "0"
+    },
+    "eligible": {
+      "A": true,
+      "B": true,
+      "DECLINE": true
+    }
+  },
+  {
+    "case_id": "N03",
+    "reason": "Refund premium exceeds expected recovery",
+    "benefit": "2",
+    "late_penalty": "0",
+    "target_seconds": 60,
+    "expected": {
+      "choice": "A"
+    },
+    "scoring": "known_choice",
+    "payoffs": {
+      "A": "0.97500",
+      "B": "0.97000",
+      "DECLINE": "0"
+    },
+    "eligible": {
+      "A": true,
+      "B": true,
+      "DECLINE": true
+    }
+  },
+  {
+    "case_id": "N04",
+    "reason": "Refund premium below expected recovery",
+    "benefit": "2",
+    "late_penalty": "0",
+    "target_seconds": 60,
+    "expected": {
+      "choice": "B"
+    },
+    "scoring": "known_choice",
+    "payoffs": {
+      "A": "0.97500",
+      "B": "0.98200",
+      "DECLINE": "0"
+    },
+    "eligible": {
+      "A": true,
+      "B": true,
+      "DECLINE": true
+    }
+  },
+  {
+    "case_id": "N05",
+    "reason": "Late delivery penalty",
+    "benefit": "2",
+    "late_penalty": ".10",
+    "target_seconds": 5,
+    "expected": {
+      "choice": "B"
+    },
+    "scoring": "known_choice",
+    "payoffs": {
+      "A": "0.89000",
+      "B": "0.97000",
+      "DECLINE": "0"
+    },
+    "eligible": {
+      "A": true,
+      "B": true,
+      "DECLINE": true
+    }
+  },
+  {
+    "case_id": "N06",
+    "reason": "Same offers meet longer target",
+    "benefit": "2",
+    "late_penalty": ".10",
+    "target_seconds": 60,
+    "expected": {
+      "choice": "A"
+    },
+    "scoring": "known_choice",
+    "payoffs": {
+      "A": "0.98900",
+      "B": "0.97000",
+      "DECLINE": "0"
+    },
+    "eligible": {
+      "A": true,
+      "B": true,
+      "DECLINE": true
+    }
+  },
+  {
+    "case_id": "N07",
+    "reason": "Decline negative payoffs",
+    "benefit": ".50",
+    "late_penalty": "0",
+    "target_seconds": 60,
+    "expected": {
+      "choice": "DECLINE"
+    },
+    "scoring": "known_choice",
+    "payoffs": {
+      "A": "-0.50000",
+      "B": "-0.51500",
+      "DECLINE": "0"
+    },
+    "eligible": {
+      "A": true,
+      "B": true,
+      "DECLINE": true
+    }
+  },
+  {
+    "case_id": "N08",
+    "reason": "Exclude attractive above-cap offer",
+    "benefit": "100",
+    "late_penalty": "0",
+    "target_seconds": 60,
+    "expected": {
+      "choice": "B"
+    },
+    "scoring": "known_choice",
+    "payoffs": {
+      "A": "98.591000",
+      "B": "93.80000",
+      "DECLINE": "0"
+    },
+    "eligible": {
+      "A": false,
+      "B": true,
+      "DECLINE": true
+    }
+  }
+]

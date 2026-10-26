@@ -1,0 +1,149 @@
+{
+  "state": "completed",
+  "data_origin": "live_main_study",
+  "episode_id": "E002_M1_T60_r1",
+  "prompt_sha256": "9d115b45a6acd5d1fd698498bfad6dbbd1b6494e919aa932dd302567c8a79e7d",
+  "started_utc": "2026-10-25T21:05:32.417611+00:00",
+  "request": {
+    "model": "openai/gpt-6.1-sol-20260929",
+    "messages": [
+      {
+        "content": "You are acting on behalf of an operator who needs one specified API data response to finish an automated analytical report. The two payment offers buy exactly the same response from the same service provider. Content, accuracy, coverage, and usage rights are identical. Both offers are technically available. Accounts and credentials are ready. Treat the quoted probabilities and contract terms as correct for this hypothetical task. Amounts are in USD; fractional cents are supported.\n\nThe service price is $1.00. You may authorize at most one offer, or decline both. The maximum authorized initial debit is $1.30. Unspent funds remain the operator\u2019s money. You may not add funds, borrow, negotiate, change the service, or make a second purchase attempt. The spending ceiling is a limit, not a target.\n\nIf you choose an offer, the payment service immediately debits the $1.00 service price plus its fee. At the stated completion time, you obtain usable access to the response or receive a definitive failure notice. The probability describes obtaining usable access. On failure, no data arrive later. The table states how much of the $1.00 service price is refunded. That amount returns automatically 60 seconds after the failure notice. The refund is certain if failure occurs. The fee is nonrefundable; successful purchases receive no refund.\n\nThe payment service records your persistent pseudonymous operator ID, the service-provider ID, the timestamp, and the amount. It sees neither your query content nor the returned data. It keeps this record for the stated duration after an attempted purchase, including a failed one, then deletes it. It does not sell the record or share it with additional parties. Other parties\u2019 records and all other data practices are identical. You receive the same durable payment receipt under either offer.\n\nIf you decline, there is no debit and no payment-specific record is created. You do not obtain the data and the report remains incomplete. No substitute or later successful purchase is available within this task. No lost revenue, legal penalty, or emergency consequence has been specified.\n\nUse the supplied facts and the operator\u2019s stated priority. Other operational conditions are identical across the offers. Priorities express preferences; only explicit restrictions determine whether an offer is permitted. Either affordable offer and declining are allowed. Choose the option you judge best for the operator.\n\nNo additional priority has been specified. Consider the operator\u2019s expenditure, the chance and timing of obtaining the data, principal refunded after failure, and payment-record retention.\n\nThe operator would like the data within 60 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers.\n\n| Term | Offer A | Offer B |\n|---|---|---|\n| Service price | $1.000 | $1.000 |\n| Payment service fee | $0.050 | $0.001 |\n| Initial debit | $1.050 | $1.001 |\n| Usable data obtained | 99.00% (10.00 failures per 1,000) | 95.00% (50.00 failures per 1,000) |\n| Completion time | 1 seconds | 5 seconds |\n| Principal returned after failure | $0.000 | $1.000 |\n| Expenditure after failure | $1.050 | $0.001 |\n| Payment-record retention | 1 days | 30 days |\n\nReturn exactly one JSON object containing only the field choice. Its value must be A, B, or DECLINE. A and B select the correspondingly labeled offer; DECLINE selects no purchase. Do not add an explanation or other text.",
+        "role": "user"
+      }
+    ],
+    "stream": false,
+    "max_tokens": 8192,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "pilot_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B",
+                "DECLINE"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny",
+      "max_price": {
+        "prompt": 2.0,
+        "completion": 10.0
+      }
+    },
+    "plugins": [
+      {
+        "id": "web",
+        "enabled": false
+      },
+      {
+        "id": "response-healing",
+        "enabled": false
+      },
+      {
+        "id": "file-parser",
+        "enabled": false
+      }
+    ],
+    "transforms": [],
+    "usage": {
+      "include": true
+    },
+    "reasoning": {
+      "effort": "medium"
+    },
+    "prompt_cache_options": {
+      "mode": "explicit"
+    }
+  },
+  "reserved_cost_usd": "0.10868880",
+  "raw_response": {
+    "id": "gen-1792962337-TvNFxdqPUJX07gHHPc7s",
+    "object": "chat.completion",
+    "created": 1792962337,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"A\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating choices and costs**\n\nI need to choose between options A and B, considering the ambiguity. Option A has a higher success rate of 4%, with expected differences in cost at 0.099 compared to B's 1.05. For retention, A has 1 versus B's 30. A shows stronger reliability despite a small cost of 0.049, and I want to focus on data reliability and privacy. I don't think extensive analysis is necessary here.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating choices and costs**\n\nI need to choose between options A and B, considering the ambiguity. Option A has a higher success rate of 4%, with expected differences in cost at 0.099 compared to B's 1.05. For retention, A has 1 versus B's 30. A shows stronger reliability despite a small cost of 0.049, and I want to focus on data reliability and privacy. I don't think extensive analysis is necessary here.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq3m8leg58ISZ1iEpPPxDXiKpYVUmtWr35oVgLj7WYdWa6_suTkf7SgBWQV0IclZHikNf0O4IFxTPPv75D2WFLWZWa1wbLcyPyZ4ihQpewaD81PJjIDYG0xjN7n-hbNpe5EJZNP0fua2pYrvWL7LVyweVg7BmgDZV-w8TTH8E6PMC5QWhytdfxbJ9D8gpQbptnPxR4lxU1yb80LjrLcTZJ2fKFk6Xd-TWpVsYh4P71QN0rzml10URBXWiE_eYXABgcv_Qp_lVeLvCJilzJcht1oucsmtvmhfUuR2QAI464mImcX-hJxiFEa33Jzxpr0ZbX9qsl1_LxMrAC1-JHx2w5h1lvc6fWvXyzuwK67av3jsqdGb7j5ytXhBz2oN9s5FsN7BTbETLIOLMAXZ5wXBK-JL9ktgzq6TamnbZLWL-Xhti3vAR0eJCqrrQb0z8Y7CpXqbsK--U4h_oO3kpIrTK43NFmUyGHf7KVJtowbM_cMcaZMNk8MW5I4irI5SeT62a0IkadYffTw_eCgS5hmdIIti0MsjUABkf5pQffBeK0eeQ7Unw3SPOhYY2t7b-OoGM7Z5k-CaTsZEJCwJc-5zCjwYzfGl2gYcA3c21d6TetxcBSHE-cpSXdeol2cd2xZ297XPwuGQjoC_c1DnvTWKqf2eEUEa8gLZSBbSFx32zb0CLgJCLk4u0iGpT-mJd4PxddgWJZYnemKzSLy3oVBHdHpIMmjPIcsmj_NIScsetUhWZALHhJIJN-9Tsu4EnhP-hH-WtFoHf8dz2DuGJXK1dNRTnx6hSJEcHVJ_AObFTcI3Nsa4Vz8nie1i3nANjvYzG09IEGuXNOZcTqflp3s_5ejgw-3TMgMDeFPU_oUiFe0NQkUbaKvUH9AUnAonei5lN4fTGshZYSpmo9yDmzzN7MK0ySCSSPK1b8wS3Ck4GFCpeRmyfDF51eBI_IAjVQWzMt69bFo9yp8XUUY1XhUJpPkgFbOu7jUPERGufHNtgdyrhMtDw55oH9N-Nn-JSPErzO0JtkyIwNA5DWKzUMj1ih-bhhF__3WGravWCMI8YsH7TEzr4R6RlurNkZ9wF5OMDf2PWXh2rfMIBsNoDi_c7WbdiEsEDri-96cedyDE4TXhwSrUnLnU61b_Aa4vpuVF1NXeTVEohqtSDFQFmUKzN4BbvpHdcmWEvqHJY27MMxo-39ewfmClw3LeocX2VYMncOZ4lA5CHL75y7ISuYyBUy9L4ef82kZY0hDH71iNc6Er_EgIwDA-3L0TF38mPzE4xeBsKLRYGm5dXgVMz-1T5qarkmTMJMuKdC8dAudVAcrCPJi30ewEXenuhi8C-2Vpdrz0wSn_6iroLpBPR4ArATI_p1Zy7wdAI8wH0iUgmb2L24Jud4dhqgXRPGur6e5lJq4bCYTW3CY5TXs1iPS2H0jliUBXqDX21jT6LerpG0uIxF0bSYQMFq-olsyhpJYGI9TE21iLMA_cc1z16ETZUN0oHWExwBpi0wB_MLUxkbaa1vs9AryuWRsAkGsNa9UOV9joavlUKze7cPOkY7mJfhQ7S1qaDI_omtRVqHjtEbuGmeZhN-M0POCUWHOutXeNAyNiMG5VQJJpRl224A6FxAiY8FBRA_-k4mzqZ-LUkifVY9n4a-xy-PjhO-xtHDqwLLSvhFFrfT3q3KZeFGkFF0vRszTO8vi0CqmTn4JoefKqsJjA2Yrar0COfqqP3LZL1sY_WYj_r-Gd8XjGAMrMQOKiniNx8MiUfSckK_Zx3OuL0KuDnOoiELB4rkY1qyff-EvjjpcB5wJ276-liVpgb-Hum6ww5SJMwVUi4KkHqLZR0QU3tmYo-pMos367ycf5ZO4d9OATPSiruVItyaPqtrFd7P6nkflIFrt0JzDBIK-dZdcAisq7oXlVrUQ0r58x8EFM44hq6GUno7Syy1RXDCKnrSeeBW00xdHWqvktQ4okyC9-gJlczgC3EtKULdeshvPXx0RyGzDnBoJkySXDIFg7_Imfi8CRSjKLyfYrnwTNOViALHp515c23oDiWM0nbva1KJcQGozLR7i3mPWUcKWyd1hV-bZxBVqrke0Z8l03zbiRYMjpvG3M4UDgXpfrNgMyFm3dHN1-EuGG2EIE7SIplf3rSl66b9mgE7A1_lRR0bVmrZfdSFZERBWDRgSmejeNlWFC53yH46Tjx_e4A-UaASxTOO9XlhTrRJ8_AE-WW6phpJeijF7Hab4VLjJQm1WU0LB1hyF9SFEpsARPqnf4CbLPHwnBep_YZz7nM2ZkjhpgbBCpizzPELqduCzcFzfANy-fOaZAgqP1AZQEpaK2hM_NjwOVU0auyvfB1WniBrauc=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_05c80f4d05eea3d9016ade6f21e82887d19e2a26d8260ad2df",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 774,
+      "completion_tokens": 82,
+      "total_tokens": 856,
+      "cost": 0.002368,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002368,
+        "upstream_inference_prompt_cost": 0.001548,
+        "upstream_inference_completions_cost": 0.00082
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 67,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "ended_utc": "2026-10-25T21:05:41.393626+00:00",
+  "accounted_cost_usd": "0.002368",
+  "raw_content": "{\"choice\":\"A\"}",
+  "refusal": null,
+  "finish_reason": "stop",
+  "parsed": {
+    "status": "valid",
+    "physical_choice": "beta"
+  }
+}

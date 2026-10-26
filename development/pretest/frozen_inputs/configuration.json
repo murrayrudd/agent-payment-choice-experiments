@@ -1,0 +1,52 @@
+{
+  "status": "historical_model_and_endpoint_identity_verified_2026_10_25",
+  "source_archive": "Sol_main_study_results.zip",
+  "historical_settings_date": "2026-10-18",
+  "pretest_maximum_usd": 1.0,
+  "maximum_key_limit_usd": 20.0,
+  "models": {
+    "sol": {
+      "model_id": "openai/gpt-6.1-sol-20260929",
+      "catalog_model_id": "openai/gpt-6.1-sol",
+      "canonical_model_id": "openai/gpt-6.1-sol-20260929",
+      "upstream_provider": "openai",
+      "upstream_provider_name": "OpenAI",
+      "endpoint_name": "OpenAI | openai/gpt-6.1-sol-20260929",
+      "expected_returned_model_ids": [
+        "openai/gpt-6.1-sol",
+        "openai/gpt-6.1-sol-20260929"
+      ],
+      "max_output_tokens": 8192,
+      "generation": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "prompt_cache_options": {
+          "mode": "explicit"
+        }
+      },
+      "input_usd_per_million": 2.0,
+      "output_usd_per_million": 10.0
+    },
+    "qwen": {
+      "model_id": "qwen/qwen3.8-max-20260902",
+      "catalog_model_id": "qwen/qwen3.8-max-0902",
+      "canonical_model_id": "qwen/qwen3.8-max-20260902",
+      "upstream_provider": "alibaba/us-east-1",
+      "upstream_provider_name": "Alibaba",
+      "endpoint_name": "Alibaba | qwen/qwen3.8-max-20260902",
+      "expected_returned_model_ids": [
+        "qwen/qwen3.8-max-0902",
+        "qwen/qwen3.8-max-20260902"
+      ],
+      "max_output_tokens": 8192,
+      "generation": {
+        "reasoning": {
+          "effort": "medium"
+        }
+      },
+      "input_usd_per_million": 2.0,
+      "output_usd_per_million": 6.0
+    }
+  }
+}

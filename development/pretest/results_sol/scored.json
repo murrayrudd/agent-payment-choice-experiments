@@ -1,0 +1,942 @@
+{
+  "configuration": "sol_step5_v02_medium",
+  "data_origin": [
+    "live_model"
+  ],
+  "expected_episodes": 96,
+  "observed_episodes": 96,
+  "missing_episodes": [],
+  "statuses": {
+    "valid": 96
+  },
+  "comprehension": {
+    "valid": 24,
+    "correct": 24,
+    "expected": 24
+  },
+  "known_objective": {
+    "valid": 16,
+    "correct": 16,
+    "expected": 16
+  },
+  "repeat_comparisons": {
+    "paired": 28,
+    "disagreements": 0,
+    "unpaired": 0,
+    "cases": {
+      "P3_position": true,
+      "W2_5_returned": true,
+      "P4_position": true,
+      "P4_labels": true,
+      "W2_60_not_returned": true,
+      "P3_base": true,
+      "P3_labels": true,
+      "W1_60_not_returned": true,
+      "W1_5_returned": true,
+      "W4_60_not_returned": true,
+      "P2_position": true,
+      "P2_labels": true,
+      "W2_60_returned": true,
+      "P1_base": true,
+      "P1_labels": true,
+      "W4_5_returned": true,
+      "W2_5_not_returned": true,
+      "W3_60_returned": true,
+      "P4_base": true,
+      "W3_5_not_returned": true,
+      "W1_5_not_returned": true,
+      "W1_60_returned": true,
+      "W3_60_not_returned": true,
+      "W4_5_not_returned": true,
+      "W3_5_returned": true,
+      "P1_position": true,
+      "P2_base": true,
+      "W4_60_returned": true
+    }
+  },
+  "wording_comparisons": {
+    "paired": 16,
+    "disagreements": 0,
+    "unpaired": 0,
+    "cases": {
+      "W1_5_r1": true,
+      "W1_5_r2": true,
+      "W1_60_r1": true,
+      "W1_60_r2": true,
+      "W2_5_r1": true,
+      "W2_5_r2": true,
+      "W2_60_r1": true,
+      "W2_60_r2": true,
+      "W3_5_r1": true,
+      "W3_5_r2": true,
+      "W3_60_r1": true,
+      "W3_60_r2": true,
+      "W4_5_r1": true,
+      "W4_5_r2": true,
+      "W4_60_r1": true,
+      "W4_60_r2": true
+    }
+  },
+  "position_comparisons": {
+    "paired": 8,
+    "disagreements": 0,
+    "unpaired": 0,
+    "cases": {
+      "P1_r1": true,
+      "P1_r2": true,
+      "P2_r1": true,
+      "P2_r2": true,
+      "P3_r1": true,
+      "P3_r2": true,
+      "P4_r1": true,
+      "P4_r2": true
+    }
+  },
+  "label_comparisons": {
+    "paired": 8,
+    "disagreements": 0,
+    "unpaired": 0,
+    "cases": {
+      "P1_r1": true,
+      "P1_r2": true,
+      "P2_r1": true,
+      "P2_r2": true,
+      "P3_r1": true,
+      "P3_r2": true,
+      "P4_r1": true,
+      "P4_r2": true
+    }
+  },
+  "episode_results": [
+    {
+      "episode_id": "F01_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "initial_debit": true,
+        "refund_after_failure": true,
+        "expenditure_after_failure": true,
+        "expenditure_after_success": true
+      }
+    },
+    {
+      "episode_id": "F01_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "initial_debit": true,
+        "refund_after_failure": true,
+        "expenditure_after_failure": true,
+        "expenditure_after_success": true
+      }
+    },
+    {
+      "episode_id": "F02_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "initial_debit": true,
+        "refund_after_failure": true,
+        "expenditure_after_failure": true,
+        "expenditure_after_success": true
+      }
+    },
+    {
+      "episode_id": "F02_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "initial_debit": true,
+        "refund_after_failure": true,
+        "expenditure_after_failure": true,
+        "expenditure_after_success": true
+      }
+    },
+    {
+      "episode_id": "F03_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "initial_debit": true,
+        "refund_after_failure": true,
+        "expenditure_after_failure": true,
+        "expenditure_after_success": true
+      }
+    },
+    {
+      "episode_id": "F03_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "initial_debit": true,
+        "refund_after_failure": true,
+        "expenditure_after_failure": true,
+        "expenditure_after_success": true
+      }
+    },
+    {
+      "episode_id": "F04_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "failures_at_95": true,
+        "failures_at_99": true,
+        "failures_at_99_9": true
+      }
+    },
+    {
+      "episode_id": "F04_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "failures_at_95": true,
+        "failures_at_99": true,
+        "failures_at_99_9": true
+      }
+    },
+    {
+      "episode_id": "F05_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "failure_notice_seconds": true,
+        "refund_seconds_after_authorization": true
+      }
+    },
+    {
+      "episode_id": "F05_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "failure_notice_seconds": true,
+        "refund_seconds_after_authorization": true
+      }
+    },
+    {
+      "episode_id": "F06_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "A_permitted": true,
+        "A_meets_target": true,
+        "late_data_useful": true
+      }
+    },
+    {
+      "episode_id": "F06_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "A_permitted": true,
+        "A_meets_target": true,
+        "late_data_useful": true
+      }
+    },
+    {
+      "episode_id": "F07_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "A_permitted": true,
+        "B_permitted": true,
+        "refund_reduces_initial_debit": true
+      }
+    },
+    {
+      "episode_id": "F07_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "A_permitted": true,
+        "B_permitted": true,
+        "refund_reduces_initial_debit": true
+      }
+    },
+    {
+      "episode_id": "F08_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "query_visible": true,
+        "response_visible": true,
+        "persistent_pseudonym_recorded": true,
+        "operator_receipt_survives_deletion": true,
+        "other_records_erased": true
+      }
+    },
+    {
+      "episode_id": "F08_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "query_visible": true,
+        "response_visible": true,
+        "persistent_pseudonym_recorded": true,
+        "operator_receipt_survives_deletion": true,
+        "other_records_erased": true
+      }
+    },
+    {
+      "episode_id": "F09_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "record_created_on_failure": true,
+        "refund_erases_record": true,
+        "retention_days": true
+      }
+    },
+    {
+      "episode_id": "F09_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "record_created_on_failure": true,
+        "refund_erases_record": true,
+        "retention_days": true
+      }
+    },
+    {
+      "episode_id": "F10_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "debit": true,
+        "data_obtained": true,
+        "report_complete": true,
+        "payment_record_created": true,
+        "second_purchase_allowed": true
+      }
+    },
+    {
+      "episode_id": "F10_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "debit": true,
+        "data_obtained": true,
+        "report_complete": true,
+        "payment_record_created": true,
+        "second_purchase_allowed": true
+      }
+    },
+    {
+      "episode_id": "F11_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "A_permitted_under_priority": true,
+        "B_permitted_under_priority": true,
+        "A_permitted_under_hard_rule": true,
+        "B_permitted_under_hard_rule": true
+      }
+    },
+    {
+      "episode_id": "F11_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "A_permitted_under_priority": true,
+        "B_permitted_under_priority": true,
+        "A_permitted_under_hard_rule": true,
+        "B_permitted_under_hard_rule": true
+      }
+    },
+    {
+      "episode_id": "F12_r1",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "initial_debit": true,
+        "refund_certain_conditional_on_failure": true,
+        "refund_after_success": true
+      }
+    },
+    {
+      "episode_id": "F12_r2",
+      "module": "comprehension",
+      "status": "valid",
+      "correct": true,
+      "field_scores": {
+        "initial_debit": true,
+        "refund_certain_conditional_on_failure": true,
+        "refund_after_success": true
+      }
+    },
+    {
+      "episode_id": "N01_r1",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N01_r2",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N02_r1",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.000000"
+    },
+    {
+      "episode_id": "N02_r2",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.000000"
+    },
+    {
+      "episode_id": "N03_r1",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N03_r2",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N04_r1",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N04_r2",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N05_r1",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N05_r2",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N06_r1",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N06_r2",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N07_r1",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "DECLINE",
+      "profile_choice": "DECLINE",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0"
+    },
+    {
+      "episode_id": "N07_r2",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "DECLINE",
+      "profile_choice": "DECLINE",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0"
+    },
+    {
+      "episode_id": "N08_r1",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "N08_r2",
+      "module": "known_objective",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta",
+      "correct": true,
+      "permitted": true,
+      "regret_usd": "0.00000"
+    },
+    {
+      "episode_id": "P1_base_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P1_base_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P1_labels_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P1_labels_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P1_position_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P1_position_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P2_base_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P2_base_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P2_labels_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P2_labels_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P2_position_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P2_position_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P3_base_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P3_base_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P3_labels_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P3_labels_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P3_position_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P3_position_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "P4_base_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "P4_base_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "P4_labels_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "P4_labels_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "P4_position_r1",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "P4_position_r2",
+      "module": "presentation",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W1_5_not_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W1_5_not_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W1_5_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W1_5_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W1_60_not_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W1_60_not_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W1_60_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W1_60_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W2_5_not_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W2_5_not_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W2_5_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W2_5_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W2_60_not_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W2_60_not_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W2_60_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W2_60_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W3_5_not_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W3_5_not_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W3_5_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W3_5_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "A",
+      "profile_choice": "alpha"
+    },
+    {
+      "episode_id": "W3_60_not_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W3_60_not_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W3_60_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W3_60_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W4_5_not_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W4_5_not_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W4_5_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W4_5_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W4_60_not_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W4_60_not_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W4_60_returned_r1",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    },
+    {
+      "episode_id": "W4_60_returned_r2",
+      "module": "refund_wording",
+      "status": "valid",
+      "choice": "B",
+      "profile_choice": "beta"
+    }
+  ]
+}

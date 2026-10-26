@@ -1,0 +1,14 @@
+{
+  "frozen_stage": "Step 6 v1 initial design",
+  "files": {
+    "build_pilot.py": "63ebc56904d2907f0e83fe0378597fc9ea262285e6914dda78cea4fa1d351836",
+    "collect_pilot.py": "0a4aa0a3da2faef25e6a52755091e51224789a19a728fe81875907f026f62035",
+    "configuration.json": "f7b7875f1b28f2c46bb9f760f8f18347a55c00d7ea8870a2f1daae3015ef9df0",
+    "core_design.json": "b9e47734903e13b5cb48193438912824dc85d7ff30ad300010f356cd253a55f6",
+    "design_validation.json": "314f9b20c788350dce564e650d87a9d5fdbabf559d25767d7cb7fa21d54e6956",
+    "episodes.jsonl": "f584973baa7d2a807976fd1c76dd1febfd10ad343d5221bf82d3622cea9b32be",
+    "instrument.json": "14df812fdf5b965f68a0dd1be18eee33bcb9796cea8a05d1b14c23acdd56410b",
+    "protocol.json": "460018d63e11c198d6e631fdd3d05274a6f1f84a87f1052b9662d357cc982ab0",
+    "requests.jsonl": "e53786f8cba6c4777144d4603db32ccbb14b362f2cf35e5ea79a1b79670cd4eb"
+  }
+}

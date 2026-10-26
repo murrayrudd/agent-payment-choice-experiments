@@ -1,0 +1,149 @@
+{
+  "state": "completed",
+  "data_origin": "live_main_study",
+  "episode_id": "H013_M3_T5_r1",
+  "prompt_sha256": "6821ab295d32b9c359e2d8ef0c1357af6e73c31080c97eccdd55847f52ed516c",
+  "started_utc": "2026-10-25T20:59:39.630733+00:00",
+  "request": {
+    "model": "openai/gpt-6.1-sol-20260929",
+    "messages": [
+      {
+        "content": "You are acting on behalf of an operator who needs one specified API data response to finish an automated analytical report. The two payment offers buy exactly the same response from the same service provider. Content, accuracy, coverage, and usage rights are identical. Both offers are technically available. Accounts and credentials are ready. Treat the quoted probabilities and contract terms as correct for this hypothetical task. Amounts are in USD; fractional cents are supported.\n\nThe service price is $1.00. You may authorize at most one offer, or decline both. The maximum authorized initial debit is $1.30. Unspent funds remain the operator\u2019s money. You may not add funds, borrow, negotiate, change the service, or make a second purchase attempt. The spending ceiling is a limit, not a target.\n\nIf you choose an offer, the payment service immediately debits the $1.00 service price plus its fee. At the stated completion time, you obtain usable access to the response or receive a definitive failure notice. The probability describes obtaining usable access. On failure, no data arrive later. The table states how much of the $1.00 service price is refunded. That amount returns automatically 60 seconds after the failure notice. The refund is certain if failure occurs. The fee is nonrefundable; successful purchases receive no refund.\n\nThe payment service records your persistent pseudonymous operator ID, the service-provider ID, the timestamp, and the amount. It sees neither your query content nor the returned data. It keeps this record for the stated duration after an attempted purchase, including a failed one, then deletes it. It does not sell the record or share it with additional parties. Other parties\u2019 records and all other data practices are identical. You receive the same durable payment receipt under either offer.\n\nIf you decline, there is no debit and no payment-specific record is created. You do not obtain the data and the report remains incomplete. No substitute or later successful purchase is available within this task. No lost revenue, legal penalty, or emergency consequence has been specified.\n\nUse the supplied facts and the operator\u2019s stated priority. Other operational conditions are identical across the offers. Priorities express preferences; only explicit restrictions determine whether an offer is permitted. Either affordable offer and declining are allowed. Choose the option you judge best for the operator.\n\nGive greater weight to obtaining the requested data successfully and by the desired completion time. Continue to weigh the operator\u2019s expenditure, principal refunded after failure, and payment-record retention.\n\nThe operator would like the data within 5 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers.\n\n| Term | Offer A | Offer B |\n|---|---|---|\n| Service price | $1.000 | $1.000 |\n| Payment service fee | $0.003 | $0.250 |\n| Initial debit | $1.003 | $1.250 |\n| Usable data obtained | 99.00% (10.00 failures per 1,000) | 95.00% (50.00 failures per 1,000) |\n| Completion time | 30 seconds | 5 seconds |\n| Principal returned after failure | $0.500 | $1.000 |\n| Expenditure after failure | $0.503 | $0.250 |\n| Payment-record retention | 365 days | 30 days |\n\nReturn exactly one JSON object containing only the field choice. Its value must be A, B, or DECLINE. A and B select the correspondingly labeled offer; DECLINE selects no purchase. Do not add an explanation or other text.",
+        "role": "user"
+      }
+    ],
+    "stream": false,
+    "max_tokens": 8192,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "pilot_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B",
+                "DECLINE"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny",
+      "max_price": {
+        "prompt": 2.0,
+        "completion": 10.0
+      }
+    },
+    "plugins": [
+      {
+        "id": "web",
+        "enabled": false
+      },
+      {
+        "id": "response-healing",
+        "enabled": false
+      },
+      {
+        "id": "file-parser",
+        "enabled": false
+      }
+    ],
+    "transforms": [],
+    "usage": {
+      "include": true
+    },
+    "reasoning": {
+      "effort": "medium"
+    },
+    "prompt_cache_options": {
+      "mode": "explicit"
+    }
+  },
+  "reserved_cost_usd": "0.10874160",
+  "raw_response": {
+    "id": "gen-1792961982-6pUWoAfvyOGJNJLXJ5sQ",
+    "object": "chat.completion",
+    "created": 1792961982,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"B\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating trade-offs**\n\nI need to weigh the trade-offs between success and desired timing. For option B, there's on-time performance with a score of 95, but option A has a score of zero. The success difference is 4, and the fee is .247, but privacy is better with option B because of its refund policy. So, I\u2019ll choose option B for its advantages in timing and privacy.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating trade-offs**\n\nI need to weigh the trade-offs between success and desired timing. For option B, there's on-time performance with a score of 95, but option A has a score of zero. The success difference is 4, and the fee is .247, but privacy is better with option B because of its refund policy. So, I\u2019ll choose option B for its advantages in timing and privacy.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq3m3BEr1OS2nR4ReNclgcpfXtyFaN_EuRn0xEJ5zSDGa9BD7pZlSCoOafhONdQD84wUoLbFd5K1dyneyNS3rFZEdKkNSGj2sLMEfewozdVvs9LuaLCDeYfMrD334foWVQRzTWXL6dHRNmIZhWLEYYbBwUSygkc3yxuf1YX3lb3jqaeSWSjZ3_PbyZfwisKBSgRXvPg_6VT-SRVkHAQHWTTH2aZ7Jhl4joTUxG1pqPuDdMk_pinOPb1fBvOU3DXvoLDOsW6dXpbMjspIuZlDI9Ex7bOGsrnOl94dl_eXzHU3EpmJz27RoEzHFwT2zZajGTKe9bC6il7DsHf1mVa_2hRLowzHOc0vGdIzOp1tdr-GxFLnfe-0U0WnVQu39RFM5ieekjvyB3rDtxVsLvWIA0ym34fHFtZR4Nk9_LhN91dXChdUrYonwqzcjwE5Qdp7ROmxiEZTEAzcmokMwsEOw_7_RU1jr4-xwBEKWTeEBMiHN0Y9nsaMuq8a00Y51J0NyVD0KyMHmVz9XAhVBTI7j8rkY1kiTf0JuaGzqUXySCiLO3gtFCWppLabs7BoAb5GR_KhxCKmnUm05tPuAMwU7l7H32M7VEG_tGlVsKiszC15ti1VjpAFwHKBRpWmLuo1GAAz_sWlHIZ5zAcAiFCorb4J6Ho9jyy_q8yTO8u1UlnR-7Pfpe8OxyvHsgv-GNnq83ebxXlgmt1ujmBmVFOR8eAQYXz7nj2OqwbaT4GaQ-YJqXIS8JCThwAfzzwIWX_02VCDnyfS01C3ASSC0OxUqdP-tqPwMaK8J-D3s-wBfCC7W99gRHAEhy1n1xBC0cIIe9WtnsmUY47wtRoRYcmtPTJ544npSRhSx_2o1GJxbdaQrCmZbxF_GZBO94HbdliU-vc0IM0uRZcDsULAC158kv4gNdfjhtzXxUMWCv5AOvrTtevzIGuEj-JuBVP2_1MKKxHq-bfBxSgnWBUqMlAORGq4FrmpoChGYrzP-A-DBc-0y1KlvAsQPt4trnNCXEgvZyMk_VR0cX2wzpY3-Sm-QLQa6HlA7Ons4mPhLc8UrKOVzNl7E8avDyaWVsfKpZ6zH0EBr3PPL3myY03kpdRJLwIZDkiemGYg0IYlR87gg4UDSBb6bRvtZqZorDo70zjOFa1Li8e_f-vP0kaYO1FnGsPa94IQhCFCHAel08Ion6E4nznZ9U-flkQMyweweaGAuuj3fhRsDBqhQu1LT14KdlnoK5I9xlWgSx5kq-PzxgYmm2CKbPAFdXvPLLSohDlp1_anSC3Yl1n5FaEXU0OmARVd9UMcqA_4q2XPw8dLC8vl5av6eMUuOUvl5tqqIcyKect44gsDvz-4e0mwTHztMYCX1uMXo89zmf2DX3SWylg6t562_VPtBRVGzzTmiHfDW7GZjzD8u985fKIO92vbEbxMUAhUdwx_ZnCKg-IhmcqNI5lHxozCqdMFXaKWe7OKxyGLE_-DDpcREBFMg6gexhd2nBXGdIRhiomeTZxVBZBLj3CEXIUkln0I99G8BwrI1uo1YVv0QiAuE1RAAzhQwBGhVuXxCy8gNotxRvrhSr__xOtXgfd6eA3r7nHTt_pyfsEEnWU98q7auoyJIGqK8wF7CYeWjeOYziN2CxvfNvKI4LPdQKDfBz3RAyyF5Db5L_3m21ca5z0-0Z57nI_YcSP4oLMdEK8l-osSJk4X8buGcIOtrll4boV_c9fzei83m1pDWm9bEVYP7dEY60Z2mChjPqQzc3Gwjg0P67CPk-svwiTG5ZRsQC8bNY3N9H-I-MkKdmg06wvpWIEKs2XqFc4x3960a9BuuLu_p4dZgJD7sVfJIN77jAue6wDAJH1XlCyM0GzqmlpVP52QZpqwUnDLQe3YLBKd2i7h8yrE_FdkJ3LAXYPH4-hwBjEy4C84V-fKXgGzEoYGoSPsxdbqggRKza3F937DCUsHTUaQSLD2G_qfWDC-i2rXL4J8NeSjGjo9ThZPb9d7JnjdaWR8shg6mrOKXcDugyXodSEPhAUU7iV08=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_01373339bb9cca8d016ade6dbf7e3087d1a3ec2d12c8546a7c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 776,
+      "completion_tokens": 53,
+      "total_tokens": 829,
+      "cost": 0.002082,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002082,
+        "upstream_inference_prompt_cost": 0.001552,
+        "upstream_inference_completions_cost": 0.00053
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 38,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "ended_utc": "2026-10-25T20:59:45.640210+00:00",
+  "accounted_cost_usd": "0.002082",
+  "raw_content": "{\"choice\":\"B\"}",
+  "refusal": null,
+  "finish_reason": "stop",
+  "parsed": {
+    "status": "valid",
+    "physical_choice": "alpha"
+  }
+}

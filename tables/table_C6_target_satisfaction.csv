@@ -1,0 +1,13 @@
+mandate,offers_meeting_5_seconds,pairs,changed,short_choice_meets_5,long_choice_meets_5,changes_from_meeting_to_missing,changes_from_missing_to_meeting
+Balanced,0,6,0,0,0,0,0
+Balanced,1,52,8,36,28,8,0
+Balanced,2,38,1,38,38,0,0
+Economy,0,6,0,0,0,0,0
+Economy,1,52,1,28,27,1,0
+Economy,2,38,0,38,38,0,0
+Continuity,0,6,0,0,0,0,0
+Continuity,1,52,26,52,26,26,0
+Continuity,2,38,1,38,38,0,0
+Data minimization,0,6,0,0,0,0,0
+Data minimization,1,52,0,34,34,0,0
+Data minimization,2,38,1,38,38,0,0

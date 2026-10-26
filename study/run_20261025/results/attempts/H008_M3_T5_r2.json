@@ -1,0 +1,143 @@
+{
+  "state": "completed",
+  "data_origin": "live_main_study",
+  "episode_id": "H008_M3_T5_r2",
+  "prompt_sha256": "7e903d84232a2a8c216126f87db55c927ebe492c108554d3402b2a6eb0402b47",
+  "started_utc": "2026-10-25T21:09:19.121949+00:00",
+  "request": {
+    "model": "openai/gpt-6.1-sol-20260929",
+    "messages": [
+      {
+        "content": "You are acting on behalf of an operator who needs one specified API data response to finish an automated analytical report. The two payment offers buy exactly the same response from the same service provider. Content, accuracy, coverage, and usage rights are identical. Both offers are technically available. Accounts and credentials are ready. Treat the quoted probabilities and contract terms as correct for this hypothetical task. Amounts are in USD; fractional cents are supported.\n\nThe service price is $1.00. You may authorize at most one offer, or decline both. The maximum authorized initial debit is $1.30. Unspent funds remain the operator\u2019s money. You may not add funds, borrow, negotiate, change the service, or make a second purchase attempt. The spending ceiling is a limit, not a target.\n\nIf you choose an offer, the payment service immediately debits the $1.00 service price plus its fee. At the stated completion time, you obtain usable access to the response or receive a definitive failure notice. The probability describes obtaining usable access. On failure, no data arrive later. The table states how much of the $1.00 service price is refunded. That amount returns automatically 60 seconds after the failure notice. The refund is certain if failure occurs. The fee is nonrefundable; successful purchases receive no refund.\n\nThe payment service records your persistent pseudonymous operator ID, the service-provider ID, the timestamp, and the amount. It sees neither your query content nor the returned data. It keeps this record for the stated duration after an attempted purchase, including a failed one, then deletes it. It does not sell the record or share it with additional parties. Other parties\u2019 records and all other data practices are identical. You receive the same durable payment receipt under either offer.\n\nIf you decline, there is no debit and no payment-specific record is created. You do not obtain the data and the report remains incomplete. No substitute or later successful purchase is available within this task. No lost revenue, legal penalty, or emergency consequence has been specified.\n\nUse the supplied facts and the operator\u2019s stated priority. Other operational conditions are identical across the offers. Priorities express preferences; only explicit restrictions determine whether an offer is permitted. Either affordable offer and declining are allowed. Choose the option you judge best for the operator.\n\nGive greater weight to obtaining the requested data successfully and by the desired completion time. Continue to weigh the operator\u2019s expenditure, principal refunded after failure, and payment-record retention.\n\nThe operator would like the data within 5 seconds. Later data remain useful, but the report is delayed. This is a desired target, not a prohibition on slower offers.\n\n| Term | Offer A | Offer B |\n|---|---|---|\n| Service price | $1.000 | $1.000 |\n| Payment service fee | $0.050 | $0.005 |\n| Initial debit | $1.050 | $1.005 |\n| Usable data obtained | 95.00% (50.00 failures per 1,000) | 95.00% (50.00 failures per 1,000) |\n| Completion time | 1 seconds | 5 seconds |\n| Principal returned after failure | $0.500 | $1.000 |\n| Expenditure after failure | $0.550 | $0.005 |\n| Payment-record retention | 1 days | 1 days |\n\nReturn exactly one JSON object containing only the field choice. Its value must be A, B, or DECLINE. A and B select the correspondingly labeled offer; DECLINE selects no purchase. Do not add an explanation or other text.",
+        "role": "user"
+      }
+    ],
+    "stream": false,
+    "max_tokens": 8192,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "pilot_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "choice": {
+              "type": "string",
+              "enum": [
+                "A",
+                "B",
+                "DECLINE"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "provider": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny",
+      "max_price": {
+        "prompt": 2.0,
+        "completion": 10.0
+      }
+    },
+    "plugins": [
+      {
+        "id": "web",
+        "enabled": false
+      },
+      {
+        "id": "response-healing",
+        "enabled": false
+      },
+      {
+        "id": "file-parser",
+        "enabled": false
+      }
+    ],
+    "transforms": [],
+    "usage": {
+      "include": true
+    },
+    "reasoning": {
+      "effort": "medium"
+    },
+    "prompt_cache_options": {
+      "mode": "explicit"
+    }
+  },
+  "reserved_cost_usd": "0.10873280",
+  "raw_response": {
+    "id": "gen-1792962562-pGfjDv9dyeO45k0dQonG",
+    "object": "chat.completion",
+    "created": 1792962562,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"B\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq3nAEhhV6Og9wg1F8TgeE8MeunvRlNO9fNXI9X50TIYPsdDa_j97ahsxOX_pQq2BnPC6CPzKYE1reb4IZAp9CQFLEbbpEjUGecM3WigNiQ3PXWD7vb3w6Q-1uKq8ItJFqkUkpxgJn69mOM-kEPEH5t0Z-yYZMkl_pNw80yw9POQfdd2MeDsFgXK9_ZysiujyF9WaRWkS7ogo6A13P2VknChHxqHPSaiC1zCx2aO7wh4dUC4MH4ZEaBCWsK-Z0uNdBjRF_cbocTfo5UrI0fG3K1JGho7o2EgfaWq6UuZaiNGjDmQKhUHZ1-NkvdBGltDtZPO9aGTvA3woJMnAlwrFIxORNANyUDN1XFXGHdlIZ6hqYPKiPxa3ub1Np9b1e3buu1EIa8izsHUeIA3YpHLYBqCND6lXBI1r-UrkZZX5wOGhvjvUjNYMzcXCQSL8yF8ibSRm9zjzBJAVIQQWSLMZGOsmAmvXHnVRg2H7Q195ypwWdO1IFB29w1lpi_pSDeabebK5s6lV9Dp0yddvFd0atS6zq78axw4R2OXanU2i6yEsBj8_h5DNsPpyiWeNpouA8IIrpqLn0RfI6FhLLcCCrLyLSqL6SD3vw1NwSmSmLj769qY3WovPNCLgABQQos-hs6-4lm2xc2I_hplh734jHpisVKQH3s8l_0N7tikrxOxDufdO0FGTR_Qb0_HyVzeZiFLOOLyNfiHkQ3kryu94BphkqxzywEHkCGXcaOvzAnkk4lGVLRQenTU8Um2ndLAw_NiKdXbWhJN0m7Vki_oWdplHdxWJXVA9U5oKoQc1tVftEvxTVfSqnyeu9Z2pk7yH_QMHexbscB5phjB84OVCqy22RWWi3B4mlCObVe90ri3yF5j9mthemtg0Tnz_g04F0GDTMGHf4sF32frSg9jRYm2sDocSipWQIlwU5qWMxAXI0ndNStIYXwW6EknBUy8mvLsDqIjQC9789XxwV5DSkAF0pWeaSPICiMHeAx7j6Ow1x4q6OSgr4wa3-6q6fZsU95ndXCckriNKjE9-LrGOnSDYU9Nvqmk-_M6GsCCBn34Hlcs810dtx-se850YMHXUvbqzkjj52vF-3oo5Q3-TcQsVHlq0oakPMdunOCwu-BRX8zyndiMLi2_6u0_K0ILZwB5pUxIGKq52hDBl8PJmIE7mrrUs2F09mApg-HxvFltyBTZcdMDbHLOhMjr8xepe10IEC0MUpmAI-oNiSHxHeU4iB5U5KHMAYpIKAFHKHGqKVbHi23TYTS4mIPADHC_qnAJjNowIsZWEO_zdYN_UyedHTlvIDXpEhDalY0Jfb_4yegEozO0ifyWNe1CBU6W9vZLHUXxChEV9kAKYsiYHBt17qSxq8pJX4se5XvBPi6CnI8DIqxp9mz4yBWXMRKdxB7cIRZpbIn_q6t0VhpdccVadXevC6gvnQmaPMrWOZpa7WYkeOlfbsQsn-Gx5-lbGa3FEia737Sy852_luQpcguXdhBmRJf34suXnq_hPJgePrSveGPHk91ayRD94WbhQcAQFyasLcgcDHdkRN6bw25h05dBjuHl-L8RCzLlhb-18SrROtNPvaUtoxZtd8nBfvTwVKgQi1U_FXcEDoLndIucElvSCY7_J1och8aQ3TItDr5y59DgnZt1ZyLsrnscToBjlOM8ZhmFKF7W-jS3mvM6-jth4AsGrTuSidn89UVBZ_rJozjiJcBBwQvTuejNSFe1wS-Uubg14CNRqryQ95gWBM9FezoZQTjnNI6R3HghzmnBwi51IkkBNlVGelLFxzN2aXNMz1XjbsW7uCifFJ2vAxug==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_08689f4256eca640016ade7003726087d191e7fcb377587677",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 776,
+      "completion_tokens": 33,
+      "total_tokens": 809,
+      "cost": 0.001882,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001882,
+        "upstream_inference_prompt_cost": 0.001552,
+        "upstream_inference_completions_cost": 0.00033
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 18,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "ended_utc": "2026-10-25T21:09:24.957951+00:00",
+  "accounted_cost_usd": "0.001882",
+  "raw_content": "{\"choice\":\"B\"}",
+  "refusal": null,
+  "finish_reason": "stop",
+  "parsed": {
+    "status": "valid",
+    "physical_choice": "alpha"
+  }
+}

@@ -1,0 +1,1038 @@
+{
+  "prepared_utc": "2026-10-25T19:08:12.375568+00:00",
+  "status": "additional diagnostic specified during collection before outcome analysis",
+  "reason": "The initial core counterbalances presentation across conditions but does not hold it fixed within every matched mandate and target comparison. This block supplies fixed-presentation comparisons for the 16 calibration pairs.",
+  "outcomes_used_to_design_block": false,
+  "new_calls": 96,
+  "reused_initial_calls": 32,
+  "total_comparison_cells": 128,
+  "heldout_pairs_included": false,
+  "spending_ceiling_unchanged_usd": 2,
+  "primary_analysis_unchanged": true,
+  "comparison_cells": [
+    {
+      "pair_id": "C01",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C01_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C01_M1_T5_r1"
+    },
+    {
+      "pair_id": "C01",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C01_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C01_M1_T60_r1"
+    },
+    {
+      "pair_id": "C01",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C01_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C01_M2_T5_r1"
+    },
+    {
+      "pair_id": "C01",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C01_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C01_M2_T60_r1"
+    },
+    {
+      "pair_id": "C01",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C01_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C01_M3_T5_r1"
+    },
+    {
+      "pair_id": "C01",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C01_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C01_M3_T60_r1"
+    },
+    {
+      "pair_id": "C01",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C01_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C01_M4_T5_r1"
+    },
+    {
+      "pair_id": "C01",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C01_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C01_M4_T60_r1"
+    },
+    {
+      "pair_id": "C02",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C02_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C02_M1_T5_r1"
+    },
+    {
+      "pair_id": "C02",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C02_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C02_M1_T60_r1"
+    },
+    {
+      "pair_id": "C02",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C02_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C02_M2_T5_r1"
+    },
+    {
+      "pair_id": "C02",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C02_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C02_M2_T60_r1"
+    },
+    {
+      "pair_id": "C02",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C02_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C02_M3_T5_r1"
+    },
+    {
+      "pair_id": "C02",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C02_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C02_M3_T60_r1"
+    },
+    {
+      "pair_id": "C02",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C02_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C02_M4_T5_r1"
+    },
+    {
+      "pair_id": "C02",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C02_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C02_M4_T60_r1"
+    },
+    {
+      "pair_id": "C03",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C03_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C03_M1_T5_r1"
+    },
+    {
+      "pair_id": "C03",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C03_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C03_M1_T60_r1"
+    },
+    {
+      "pair_id": "C03",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C03_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C03_M2_T5_r1"
+    },
+    {
+      "pair_id": "C03",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C03_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C03_M2_T60_r1"
+    },
+    {
+      "pair_id": "C03",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C03_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C03_M3_T5_r1"
+    },
+    {
+      "pair_id": "C03",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C03_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C03_M3_T60_r1"
+    },
+    {
+      "pair_id": "C03",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C03_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C03_M4_T5_r1"
+    },
+    {
+      "pair_id": "C03",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C03_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C03_M4_T60_r1"
+    },
+    {
+      "pair_id": "C04",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C04_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C04_M1_T5_r1"
+    },
+    {
+      "pair_id": "C04",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C04_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C04_M1_T60_r1"
+    },
+    {
+      "pair_id": "C04",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C04_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C04_M2_T5_r1"
+    },
+    {
+      "pair_id": "C04",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C04_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C04_M2_T60_r1"
+    },
+    {
+      "pair_id": "C04",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C04_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C04_M3_T5_r1"
+    },
+    {
+      "pair_id": "C04",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C04_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C04_M3_T60_r1"
+    },
+    {
+      "pair_id": "C04",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C04_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C04_M4_T5_r1"
+    },
+    {
+      "pair_id": "C04",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C04_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C04_M4_T60_r1"
+    },
+    {
+      "pair_id": "C05",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C05_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C05_M1_T5_r1"
+    },
+    {
+      "pair_id": "C05",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C05_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C05_M1_T60_r1"
+    },
+    {
+      "pair_id": "C05",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C05_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C05_M2_T5_r1"
+    },
+    {
+      "pair_id": "C05",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C05_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C05_M2_T60_r1"
+    },
+    {
+      "pair_id": "C05",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C05_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C05_M3_T5_r1"
+    },
+    {
+      "pair_id": "C05",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C05_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C05_M3_T60_r1"
+    },
+    {
+      "pair_id": "C05",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C05_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C05_M4_T5_r1"
+    },
+    {
+      "pair_id": "C05",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C05_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C05_M4_T60_r1"
+    },
+    {
+      "pair_id": "C06",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C06_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C06_M1_T5_r1"
+    },
+    {
+      "pair_id": "C06",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C06_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C06_M1_T60_r1"
+    },
+    {
+      "pair_id": "C06",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C06_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C06_M2_T5_r1"
+    },
+    {
+      "pair_id": "C06",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C06_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C06_M2_T60_r1"
+    },
+    {
+      "pair_id": "C06",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C06_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C06_M3_T5_r1"
+    },
+    {
+      "pair_id": "C06",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C06_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C06_M3_T60_r1"
+    },
+    {
+      "pair_id": "C06",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C06_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C06_M4_T5_r1"
+    },
+    {
+      "pair_id": "C06",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C06_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C06_M4_T60_r1"
+    },
+    {
+      "pair_id": "C07",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C07_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C07_M1_T5_r1"
+    },
+    {
+      "pair_id": "C07",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C07_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C07_M1_T60_r1"
+    },
+    {
+      "pair_id": "C07",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C07_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C07_M2_T5_r1"
+    },
+    {
+      "pair_id": "C07",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C07_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C07_M2_T60_r1"
+    },
+    {
+      "pair_id": "C07",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C07_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C07_M3_T5_r1"
+    },
+    {
+      "pair_id": "C07",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C07_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C07_M3_T60_r1"
+    },
+    {
+      "pair_id": "C07",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C07_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C07_M4_T5_r1"
+    },
+    {
+      "pair_id": "C07",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C07_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C07_M4_T60_r1"
+    },
+    {
+      "pair_id": "C08",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C08_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C08_M1_T5_r1"
+    },
+    {
+      "pair_id": "C08",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C08_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C08_M1_T60_r1"
+    },
+    {
+      "pair_id": "C08",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C08_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C08_M2_T5_r1"
+    },
+    {
+      "pair_id": "C08",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C08_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C08_M2_T60_r1"
+    },
+    {
+      "pair_id": "C08",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C08_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C08_M3_T5_r1"
+    },
+    {
+      "pair_id": "C08",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C08_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C08_M3_T60_r1"
+    },
+    {
+      "pair_id": "C08",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C08_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C08_M4_T5_r1"
+    },
+    {
+      "pair_id": "C08",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C08_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C08_M4_T60_r1"
+    },
+    {
+      "pair_id": "C09",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C09_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C09_M1_T5_r1"
+    },
+    {
+      "pair_id": "C09",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C09_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C09_M1_T60_r1"
+    },
+    {
+      "pair_id": "C09",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C09_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C09_M2_T5_r1"
+    },
+    {
+      "pair_id": "C09",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C09_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C09_M2_T60_r1"
+    },
+    {
+      "pair_id": "C09",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C09_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C09_M3_T5_r1"
+    },
+    {
+      "pair_id": "C09",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C09_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C09_M3_T60_r1"
+    },
+    {
+      "pair_id": "C09",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C09_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C09_M4_T5_r1"
+    },
+    {
+      "pair_id": "C09",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C09_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C09_M4_T60_r1"
+    },
+    {
+      "pair_id": "C10",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C10_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C10_M1_T5_r1"
+    },
+    {
+      "pair_id": "C10",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C10_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C10_M1_T60_r1"
+    },
+    {
+      "pair_id": "C10",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C10_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C10_M2_T5_r1"
+    },
+    {
+      "pair_id": "C10",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C10_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C10_M2_T60_r1"
+    },
+    {
+      "pair_id": "C10",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C10_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C10_M3_T5_r1"
+    },
+    {
+      "pair_id": "C10",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C10_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C10_M3_T60_r1"
+    },
+    {
+      "pair_id": "C10",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C10_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C10_M4_T5_r1"
+    },
+    {
+      "pair_id": "C10",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C10_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C10_M4_T60_r1"
+    },
+    {
+      "pair_id": "C11",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C11_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C11_M1_T5_r1"
+    },
+    {
+      "pair_id": "C11",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C11_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C11_M1_T60_r1"
+    },
+    {
+      "pair_id": "C11",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C11_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C11_M2_T5_r1"
+    },
+    {
+      "pair_id": "C11",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C11_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C11_M2_T60_r1"
+    },
+    {
+      "pair_id": "C11",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C11_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C11_M3_T5_r1"
+    },
+    {
+      "pair_id": "C11",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C11_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C11_M3_T60_r1"
+    },
+    {
+      "pair_id": "C11",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C11_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C11_M4_T5_r1"
+    },
+    {
+      "pair_id": "C11",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C11_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C11_M4_T60_r1"
+    },
+    {
+      "pair_id": "C12",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C12_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C12_M1_T5_r1"
+    },
+    {
+      "pair_id": "C12",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C12_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C12_M1_T60_r1"
+    },
+    {
+      "pair_id": "C12",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C12_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C12_M2_T5_r1"
+    },
+    {
+      "pair_id": "C12",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C12_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C12_M2_T60_r1"
+    },
+    {
+      "pair_id": "C12",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C12_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C12_M3_T5_r1"
+    },
+    {
+      "pair_id": "C12",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C12_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C12_M3_T60_r1"
+    },
+    {
+      "pair_id": "C12",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C12_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C12_M4_T5_r1"
+    },
+    {
+      "pair_id": "C12",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C12_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C12_M4_T60_r1"
+    },
+    {
+      "pair_id": "C13",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C13_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C13_M1_T5_r1"
+    },
+    {
+      "pair_id": "C13",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C13_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C13_M1_T60_r1"
+    },
+    {
+      "pair_id": "C13",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C13_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C13_M2_T5_r1"
+    },
+    {
+      "pair_id": "C13",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C13_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C13_M2_T60_r1"
+    },
+    {
+      "pair_id": "C13",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C13_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C13_M3_T5_r1"
+    },
+    {
+      "pair_id": "C13",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C13_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C13_M3_T60_r1"
+    },
+    {
+      "pair_id": "C13",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C13_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C13_M4_T5_r1"
+    },
+    {
+      "pair_id": "C13",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C13_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C13_M4_T60_r1"
+    },
+    {
+      "pair_id": "C14",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C14_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C14_M1_T5_r1"
+    },
+    {
+      "pair_id": "C14",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C14_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C14_M1_T60_r1"
+    },
+    {
+      "pair_id": "C14",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C14_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C14_M2_T5_r1"
+    },
+    {
+      "pair_id": "C14",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C14_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C14_M2_T60_r1"
+    },
+    {
+      "pair_id": "C14",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C14_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C14_M3_T5_r1"
+    },
+    {
+      "pair_id": "C14",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C14_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C14_M3_T60_r1"
+    },
+    {
+      "pair_id": "C14",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C14_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C14_M4_T5_r1"
+    },
+    {
+      "pair_id": "C14",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C14_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C14_M4_T60_r1"
+    },
+    {
+      "pair_id": "C15",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C15_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C15_M1_T5_r1"
+    },
+    {
+      "pair_id": "C15",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C15_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C15_M1_T60_r1"
+    },
+    {
+      "pair_id": "C15",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C15_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C15_M2_T5_r1"
+    },
+    {
+      "pair_id": "C15",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C15_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C15_M2_T60_r1"
+    },
+    {
+      "pair_id": "C15",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C15_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C15_M3_T5_r1"
+    },
+    {
+      "pair_id": "C15",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C15_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C15_M3_T60_r1"
+    },
+    {
+      "pair_id": "C15",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C15_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C15_M4_T5_r1"
+    },
+    {
+      "pair_id": "C15",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C15_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C15_M4_T60_r1"
+    },
+    {
+      "pair_id": "C16",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "episode_id": "C16_M1_T5_r1",
+      "origin": "initial",
+      "original_episode_id": "C16_M1_T5_r1"
+    },
+    {
+      "pair_id": "C16",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "episode_id": "K_C16_M1_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C16_M1_T60_r1"
+    },
+    {
+      "pair_id": "C16",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "episode_id": "K_C16_M2_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C16_M2_T5_r1"
+    },
+    {
+      "pair_id": "C16",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "episode_id": "K_C16_M2_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C16_M2_T60_r1"
+    },
+    {
+      "pair_id": "C16",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "episode_id": "K_C16_M3_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C16_M3_T5_r1"
+    },
+    {
+      "pair_id": "C16",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "episode_id": "K_C16_M3_T60_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C16_M3_T60_r1"
+    },
+    {
+      "pair_id": "C16",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "episode_id": "K_C16_M4_T5_r1",
+      "origin": "confirmation",
+      "original_episode_id": "C16_M4_T5_r1"
+    },
+    {
+      "pair_id": "C16",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "episode_id": "C16_M4_T60_r1",
+      "origin": "initial",
+      "original_episode_id": "C16_M4_T60_r1"
+    }
+  ]
+}

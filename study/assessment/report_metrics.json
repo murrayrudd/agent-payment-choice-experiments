@@ -1,0 +1,2497 @@
+{
+  "data_origin": "observed_live_main_study",
+  "checked_utc": "2026-10-25T21:29:44.262851+00:00",
+  "planned_calls": 1280,
+  "completed_calls": 1280,
+  "valid_responses": 1280,
+  "status_counts": {
+    "valid": 1280
+  },
+  "total_cost_usd": "2.660430",
+  "max_cost_usd": "3.50",
+  "tokens": {
+    "prompt_tokens": 994560,
+    "completion_tokens": 67131,
+    "total_tokens": 1061691
+  },
+  "models": {
+    "openai/gpt-6.1-sol": 1280
+  },
+  "providers": {
+    "OpenAI": 1280
+  },
+  "started_utc": "2026-10-25T20:44:06.310261+00:00",
+  "ended_utc": "2026-10-25T21:25:57.299112+00:00",
+  "module_counts": {
+    "outside_anchor": 32,
+    "core": 960,
+    "presentation": 64,
+    "fine_reliability": 160,
+    "refund_success": 64
+  },
+  "core_first_choices": 768,
+  "declines_all": 1,
+  "per_cell": [
+    {
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "n": 96,
+      "declines": 0,
+      "mean_selected_attributes": {
+        "fee": 0.036750000000000005,
+        "success_probability": 0.9851875,
+        "time_seconds": 9.3125,
+        "refund": 0.4739583333333333,
+        "retention_days": 87.70833333333333
+      }
+    },
+    {
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "n": 96,
+      "declines": 0,
+      "mean_selected_attributes": {
+        "fee": 0.034604166666666665,
+        "success_probability": 0.9868125000000001,
+        "time_seconds": 11.6875,
+        "refund": 0.484375,
+        "retention_days": 101.96875
+      }
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "n": 96,
+      "declines": 0,
+      "mean_selected_attributes": {
+        "fee": 0.021812500000000002,
+        "success_probability": 0.9766979166666667,
+        "time_seconds": 11.479166666666666,
+        "refund": 0.5052083333333334,
+        "retention_days": 143.67708333333334
+      }
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "n": 96,
+      "declines": 0,
+      "mean_selected_attributes": {
+        "fee": 0.021614583333333336,
+        "success_probability": 0.9772083333333333,
+        "time_seconds": 11.78125,
+        "refund": 0.5,
+        "retention_days": 139.88541666666666
+      }
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "n": 96,
+      "declines": 0,
+      "mean_selected_attributes": {
+        "fee": 0.05590625,
+        "success_probability": 0.9819895833333335,
+        "time_seconds": 4.770833333333333,
+        "refund": 0.4739583333333333,
+        "retention_days": 125.32291666666667
+      }
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "n": 96,
+      "declines": 0,
+      "mean_selected_attributes": {
+        "fee": 0.050083333333333334,
+        "success_probability": 0.9907604166666667,
+        "time_seconds": 11.958333333333334,
+        "refund": 0.5,
+        "retention_days": 121.83333333333333
+      }
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "n": 96,
+      "declines": 0,
+      "mean_selected_attributes": {
+        "fee": 0.06392708333333334,
+        "success_probability": 0.9800833333333334,
+        "time_seconds": 9.625,
+        "refund": 0.46875,
+        "retention_days": 35.229166666666664
+      }
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "n": 96,
+      "declines": 0,
+      "mean_selected_attributes": {
+        "fee": 0.06394791666666667,
+        "success_probability": 0.9801770833333334,
+        "time_seconds": 9.666666666666666,
+        "refund": 0.4583333333333333,
+        "retention_days": 35.229166666666664
+      }
+    }
+  ],
+  "mandate_changes": [
+    {
+      "mandate": "Economy",
+      "paired_choices": 192,
+      "changes": 62,
+      "by_target": [
+        {
+          "target_seconds": 5,
+          "pairs": 96,
+          "changes": 33
+        },
+        {
+          "target_seconds": 60,
+          "pairs": 96,
+          "changes": 29
+        }
+      ],
+      "pair_resampling": {
+        "mean": 0.3229166666666667,
+        "physical_pairs": 96,
+        "pair_resampling_95_percentile": [
+          0.234375,
+          0.4114583333333333
+        ]
+      }
+    },
+    {
+      "mandate": "Continuity",
+      "paired_choices": 192,
+      "changes": 42,
+      "by_target": [
+        {
+          "target_seconds": 5,
+          "pairs": 96,
+          "changes": 27
+        },
+        {
+          "target_seconds": 60,
+          "pairs": 96,
+          "changes": 15
+        }
+      ],
+      "pair_resampling": {
+        "mean": 0.21875,
+        "physical_pairs": 96,
+        "pair_resampling_95_percentile": [
+          0.15625,
+          0.2916666666666667
+        ]
+      }
+    },
+    {
+      "mandate": "Data minimization",
+      "paired_choices": 192,
+      "changes": 52,
+      "by_target": [
+        {
+          "target_seconds": 5,
+          "pairs": 96,
+          "changes": 24
+        },
+        {
+          "target_seconds": 60,
+          "pairs": 96,
+          "changes": 28
+        }
+      ],
+      "pair_resampling": {
+        "mean": 0.2708333333333333,
+        "physical_pairs": 96,
+        "pair_resampling_95_percentile": [
+          0.19270833333333334,
+          0.359375
+        ]
+      }
+    }
+  ],
+  "target_changes": [
+    {
+      "mandate": "Balanced",
+      "pairs": 96,
+      "changes": 9,
+      "pair_resampling": {
+        "mean": 0.09375,
+        "physical_pairs": 96,
+        "pair_resampling_95_percentile": [
+          0.041666666666666664,
+          0.15625
+        ]
+      }
+    },
+    {
+      "mandate": "Economy",
+      "pairs": 96,
+      "changes": 1,
+      "pair_resampling": {
+        "mean": 0.010416666666666666,
+        "physical_pairs": 96,
+        "pair_resampling_95_percentile": [
+          0.0,
+          0.03125
+        ]
+      }
+    },
+    {
+      "mandate": "Continuity",
+      "pairs": 96,
+      "changes": 27,
+      "pair_resampling": {
+        "mean": 0.28125,
+        "physical_pairs": 96,
+        "pair_resampling_95_percentile": [
+          0.19791666666666666,
+          0.3645833333333333
+        ]
+      }
+    },
+    {
+      "mandate": "Data minimization",
+      "pairs": 96,
+      "changes": 1,
+      "pair_resampling": {
+        "mean": 0.010416666666666666,
+        "physical_pairs": 96,
+        "pair_resampling_95_percentile": [
+          0.0,
+          0.03125
+        ]
+      }
+    }
+  ],
+  "repetition": [
+    {
+      "module": "core_estimation",
+      "valid_sets": 128,
+      "disagreeing_sets": 0,
+      "calls_per_set": [
+        2
+      ]
+    },
+    {
+      "module": "core_heldout",
+      "valid_sets": 64,
+      "disagreeing_sets": 0,
+      "calls_per_set": [
+        2
+      ]
+    },
+    {
+      "module": "fine_reliability",
+      "valid_sets": 40,
+      "disagreeing_sets": 5,
+      "calls_per_set": [
+        4
+      ]
+    },
+    {
+      "module": "outside_anchor",
+      "valid_sets": 16,
+      "disagreeing_sets": 1,
+      "calls_per_set": [
+        2
+      ]
+    },
+    {
+      "module": "refund_success",
+      "valid_sets": 32,
+      "disagreeing_sets": 0,
+      "calls_per_set": [
+        2
+      ]
+    }
+  ],
+  "repetition_disagreements": [
+    {
+      "case_id": "A2_M4_T5",
+      "module": "outside_anchor",
+      "n": 2,
+      "valid": true,
+      "choices": [
+        "PURCHASE",
+        "DECLINE"
+      ],
+      "disagree": true
+    },
+    {
+      "case_id": "F2_M1_T60",
+      "module": "fine_reliability",
+      "n": 4,
+      "valid": true,
+      "choices": [
+        "alpha",
+        "beta",
+        "beta",
+        "beta"
+      ],
+      "disagree": true
+    },
+    {
+      "case_id": "F3_M1_T60",
+      "module": "fine_reliability",
+      "n": 4,
+      "valid": true,
+      "choices": [
+        "alpha",
+        "beta",
+        "beta",
+        "beta"
+      ],
+      "disagree": true
+    },
+    {
+      "case_id": "F3_M4_T5",
+      "module": "fine_reliability",
+      "n": 4,
+      "valid": true,
+      "choices": [
+        "beta",
+        "beta",
+        "alpha",
+        "beta"
+      ],
+      "disagree": true
+    },
+    {
+      "case_id": "F3_M4_T60",
+      "module": "fine_reliability",
+      "n": 4,
+      "valid": true,
+      "choices": [
+        "alpha",
+        "beta",
+        "beta",
+        "alpha"
+      ],
+      "disagree": true
+    },
+    {
+      "case_id": "F5_M3_T5",
+      "module": "fine_reliability",
+      "n": 4,
+      "valid": true,
+      "choices": [
+        "alpha",
+        "beta",
+        "alpha",
+        "alpha"
+      ],
+      "disagree": true
+    }
+  ],
+  "presentation": [
+    {
+      "variant": "labels",
+      "valid_pairs": 32,
+      "changes": 0,
+      "details": [
+        {
+          "episode_id": "E016_M1_T5_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E016_M1_T60_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E016_M2_T5_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E016_M2_T60_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E016_M3_T5_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E016_M3_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E016_M4_T5_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E016_M4_T60_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E028_M1_T5_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E028_M1_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E028_M2_T5_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E028_M2_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E028_M3_T5_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E028_M3_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E028_M4_T5_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E028_M4_T60_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E056_M1_T5_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E056_M1_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E056_M2_T5_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E056_M2_T60_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E056_M3_T5_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E056_M3_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E056_M4_T5_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E056_M4_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E059_M1_T5_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E059_M1_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E059_M2_T5_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E059_M2_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E059_M3_T5_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E059_M3_T60_labels_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E059_M4_T5_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E059_M4_T60_labels_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        }
+      ]
+    },
+    {
+      "variant": "position",
+      "valid_pairs": 32,
+      "changes": 1,
+      "details": [
+        {
+          "episode_id": "E002_M1_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E002_M1_T60_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E002_M2_T5_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E002_M2_T60_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E002_M3_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E002_M3_T60_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E002_M4_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E002_M4_T60_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E012_M1_T5_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E012_M1_T60_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E012_M2_T5_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E012_M2_T60_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E012_M3_T5_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E012_M3_T60_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E012_M4_T5_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E012_M4_T60_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E031_M1_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E031_M1_T60_position_r1",
+          "changed": true,
+          "base_choice": "beta",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E031_M2_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E031_M2_T60_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E031_M3_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E031_M3_T60_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E031_M4_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E031_M4_T60_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E044_M1_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E044_M1_T60_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E044_M2_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E044_M2_T60_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E044_M3_T5_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E044_M3_T60_position_r1",
+          "changed": false,
+          "base_choice": "beta",
+          "variant_choice": "beta"
+        },
+        {
+          "episode_id": "E044_M4_T5_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        },
+        {
+          "episode_id": "E044_M4_T60_position_r1",
+          "changed": false,
+          "base_choice": "alpha",
+          "variant_choice": "alpha"
+        }
+      ]
+    }
+  ],
+  "fine_reliability": [
+    {
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "category": "unanimous_monotone_switch",
+      "premium_bracket_usd": [
+        "0.019",
+        "0.079"
+      ],
+      "levels": [
+        {
+          "premium_usd": "0.000",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.012",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.019",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.079",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.249",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "category": "repeat_variation_or_incomplete",
+      "premium_bracket_usd": null,
+      "levels": [
+        {
+          "premium_usd": "0.000",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.012",
+          "choice_counts": {
+            "alpha": 1,
+            "beta": 3
+          },
+          "unanimous": false,
+          "consensus": null
+        },
+        {
+          "premium_usd": "0.019",
+          "choice_counts": {
+            "alpha": 1,
+            "beta": 3
+          },
+          "unanimous": false,
+          "consensus": null
+        },
+        {
+          "premium_usd": "0.079",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.249",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "category": "reference_selected_at_all_fees",
+      "premium_bracket_usd": null,
+      "levels": [
+        {
+          "premium_usd": "0.000",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.012",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.019",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.079",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.249",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "category": "reference_selected_at_all_fees",
+      "premium_bracket_usd": null,
+      "levels": [
+        {
+          "premium_usd": "0.000",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.012",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.019",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.079",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.249",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "category": "repeat_variation_or_incomplete",
+      "premium_bracket_usd": null,
+      "levels": [
+        {
+          "premium_usd": "0.000",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.012",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.019",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.079",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.249",
+          "choice_counts": {
+            "alpha": 3,
+            "beta": 1
+          },
+          "unanimous": false,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "category": "higher_success_selected_at_maximum_fee",
+      "premium_bracket_usd": null,
+      "levels": [
+        {
+          "premium_usd": "0.000",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.012",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.019",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.079",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.249",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        }
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "category": "repeat_variation_or_incomplete",
+      "premium_bracket_usd": null,
+      "levels": [
+        {
+          "premium_usd": "0.000",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.012",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.019",
+          "choice_counts": {
+            "beta": 3,
+            "alpha": 1
+          },
+          "unanimous": false,
+          "consensus": null
+        },
+        {
+          "premium_usd": "0.079",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.249",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        }
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "category": "repeat_variation_or_incomplete",
+      "premium_bracket_usd": null,
+      "levels": [
+        {
+          "premium_usd": "0.000",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.012",
+          "choice_counts": {
+            "beta": 4
+          },
+          "unanimous": true,
+          "consensus": "beta"
+        },
+        {
+          "premium_usd": "0.019",
+          "choice_counts": {
+            "alpha": 2,
+            "beta": 2
+          },
+          "unanimous": false,
+          "consensus": null
+        },
+        {
+          "premium_usd": "0.079",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        },
+        {
+          "premium_usd": "0.249",
+          "choice_counts": {
+            "alpha": 4
+          },
+          "unanimous": true,
+          "consensus": "alpha"
+        }
+      ]
+    }
+  ],
+  "refund_probes": [
+    {
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "pair_id": "R1",
+      "success_probability": "0.99",
+      "premium_usd": "0.002",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "-0.008",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "pair_id": "R2",
+      "success_probability": "0.99",
+      "premium_usd": "0.012",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "0.002",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "pair_id": "R3",
+      "success_probability": "0.95",
+      "premium_usd": "0.049",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "-0.001",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "pair_id": "R4",
+      "success_probability": "0.95",
+      "premium_usd": "0.079",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "0.029",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "pair_id": "R1",
+      "success_probability": "0.99",
+      "premium_usd": "0.002",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "-0.008",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "pair_id": "R2",
+      "success_probability": "0.99",
+      "premium_usd": "0.012",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "0.002",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "pair_id": "R3",
+      "success_probability": "0.95",
+      "premium_usd": "0.049",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "-0.001",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "pair_id": "R4",
+      "success_probability": "0.95",
+      "premium_usd": "0.079",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "0.029",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "pair_id": "R1",
+      "success_probability": "0.99",
+      "premium_usd": "0.002",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "-0.008",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "pair_id": "R2",
+      "success_probability": "0.99",
+      "premium_usd": "0.012",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "0.002",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "pair_id": "R3",
+      "success_probability": "0.95",
+      "premium_usd": "0.049",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "-0.001",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "pair_id": "R4",
+      "success_probability": "0.95",
+      "premium_usd": "0.079",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "0.029",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "pair_id": "R1",
+      "success_probability": "0.99",
+      "premium_usd": "0.002",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "-0.008",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "pair_id": "R2",
+      "success_probability": "0.99",
+      "premium_usd": "0.012",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "0.002",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "pair_id": "R3",
+      "success_probability": "0.95",
+      "premium_usd": "0.049",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "-0.001",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "pair_id": "R4",
+      "success_probability": "0.95",
+      "premium_usd": "0.079",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "0.029",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "pair_id": "R1",
+      "success_probability": "0.99",
+      "premium_usd": "0.002",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "-0.008",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "pair_id": "R2",
+      "success_probability": "0.99",
+      "premium_usd": "0.012",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "0.002",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "pair_id": "R3",
+      "success_probability": "0.95",
+      "premium_usd": "0.049",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "-0.001",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "pair_id": "R4",
+      "success_probability": "0.95",
+      "premium_usd": "0.079",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "0.029",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "pair_id": "R1",
+      "success_probability": "0.99",
+      "premium_usd": "0.002",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "-0.008",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "pair_id": "R2",
+      "success_probability": "0.99",
+      "premium_usd": "0.012",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "0.002",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "pair_id": "R3",
+      "success_probability": "0.95",
+      "premium_usd": "0.049",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "-0.001",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "pair_id": "R4",
+      "success_probability": "0.95",
+      "premium_usd": "0.079",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "0.029",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "pair_id": "R1",
+      "success_probability": "0.99",
+      "premium_usd": "0.002",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "-0.008",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "pair_id": "R2",
+      "success_probability": "0.99",
+      "premium_usd": "0.012",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "0.002",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "pair_id": "R3",
+      "success_probability": "0.95",
+      "premium_usd": "0.049",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "-0.001",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "pair_id": "R4",
+      "success_probability": "0.95",
+      "premium_usd": "0.079",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "0.029",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "pair_id": "R1",
+      "success_probability": "0.99",
+      "premium_usd": "0.002",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "-0.008",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "pair_id": "R2",
+      "success_probability": "0.99",
+      "premium_usd": "0.012",
+      "expected_refund_gain_usd": "0.01",
+      "net_expected_expenditure_change_usd": "0.002",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "pair_id": "R3",
+      "success_probability": "0.95",
+      "premium_usd": "0.049",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "-0.001",
+      "choices": [
+        "beta",
+        "beta"
+      ]
+    },
+    {
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "pair_id": "R4",
+      "success_probability": "0.95",
+      "premium_usd": "0.079",
+      "expected_refund_gain_usd": "0.05",
+      "net_expected_expenditure_change_usd": "0.029",
+      "choices": [
+        "alpha",
+        "alpha"
+      ]
+    }
+  ],
+  "outside_anchors": {
+    "favorable|PURCHASE": 16,
+    "unfavorable|PURCHASE": 15,
+    "unfavorable|DECLINE": 1
+  },
+  "prediction_comparison": [
+    {
+      "model": "piecewise_fee",
+      "correct": 231,
+      "n": 256,
+      "mean_log_loss": 0.24187356060529863
+    },
+    {
+      "model": "linear_fee",
+      "correct": 233,
+      "n": 256,
+      "mean_log_loss": 0.24689019490209219
+    },
+    {
+      "model": "training_choice_share",
+      "correct": 128,
+      "n": 256,
+      "mean_log_loss": 0.7176581539393951
+    },
+    {
+      "model": "lowest_fee",
+      "correct": 184,
+      "n": 256,
+      "mean_log_loss": 0.7550487091714482
+    },
+    {
+      "model": "lowest_expected_expenditure",
+      "correct": 176,
+      "n": 256,
+      "mean_log_loss": 0.738237082979275
+    },
+    {
+      "model": "highest_success",
+      "correct": 186,
+      "n": 256,
+      "mean_log_loss": 0.7234668101706256
+    },
+    {
+      "model": "meet_target_then_success",
+      "correct": 184,
+      "n": 256,
+      "mean_log_loss": 0.7114933984290015
+    },
+    {
+      "model": "shortest_retention",
+      "correct": 162,
+      "n": 256,
+      "mean_log_loss": 0.79578497587855
+    }
+  ],
+  "prediction_scores": [
+    {
+      "model": "highest_success",
+      "choices": 256,
+      "accuracy": 0.7265625,
+      "log_loss": 0.7234668101706256,
+      "pair_resampling_log_loss": {
+        "mean": 0.7234668101706254,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6624839408811553,
+          0.781739090921741
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.8125,
+          "log_loss": 0.5482249580429359
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.4949515801604851
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9973104999809383
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9973104999809383
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.78125,
+          "log_loss": 0.6547717138078375
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.18798419629490143
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.59375,
+          "log_loss": 0.9623345132349744
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9448465198619925
+        }
+      ]
+    },
+    {
+      "model": "linear_fee",
+      "choices": 256,
+      "accuracy": 0.91015625,
+      "log_loss": 0.24689019490209219,
+      "pair_resampling_log_loss": {
+        "mean": 0.24689019490209219,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.17722398912125012,
+          0.3178943384230496
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.04818548351694117
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.9375,
+          "log_loss": 0.12732548634906612
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.18890288373916025
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.9375,
+          "log_loss": 0.22342000310076482
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.71875,
+          "log_loss": 0.6537430601929572
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.96875,
+          "log_loss": 0.12816253705498698
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.30551671056835744
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.29986539469450335
+        }
+      ]
+    },
+    {
+      "model": "lowest_expected_expenditure",
+      "choices": 256,
+      "accuracy": 0.6875,
+      "log_loss": 0.738237082979275,
+      "pair_resampling_log_loss": {
+        "mean": 0.738237082979275,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6322923168009803,
+          0.8485513181328043
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.949435462893249
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.6875,
+          "log_loss": 0.8428887071283474
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.01680711831638129
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.03390155167568134
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.53125,
+          "log_loss": 1.0244599526416263
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9719959725226803
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.53125,
+          "log_loss": 1.0244599526416263
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 1.0419479460146082
+        }
+      ]
+    },
+    {
+      "model": "lowest_fee",
+      "choices": 256,
+      "accuracy": 0.71875,
+      "log_loss": 0.7550487091714482,
+      "pair_resampling_log_loss": {
+        "mean": 0.7550487091714481,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6416187241499525,
+          0.8663371263407161
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.71875,
+          "log_loss": 0.7856631791037689
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.78125,
+          "log_loss": 0.6791164233388673
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.351059184884893
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.351059184884893
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9771169219762816
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.71875,
+          "log_loss": 0.9246529418573357
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9771169219762816
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.59375,
+          "log_loss": 0.9946049153492635
+        }
+      ]
+    },
+    {
+      "model": "meet_target_then_success",
+      "choices": 256,
+      "accuracy": 0.71875,
+      "log_loss": 0.7114933984290015,
+      "pair_resampling_log_loss": {
+        "mean": 0.7114933984290015,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6114770478832576,
+          0.8330146995037933
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.78125,
+          "log_loss": 0.6258430454564166
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.519296289691515
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.46875,
+          "log_loss": 1.0645568888411914
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.59375,
+          "log_loss": 0.9946049153492635
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.351059184884893
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.90625,
+          "log_loss": 0.23481699937511485
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9596289286032997
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.65625,
+          "log_loss": 0.9421409352303176
+        }
+      ]
+    },
+    {
+      "model": "piecewise_fee",
+      "choices": 256,
+      "accuracy": 0.90234375,
+      "log_loss": 0.24187356060529863,
+      "pair_resampling_log_loss": {
+        "mean": 0.24187356060529863,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.17070437810166414,
+          0.31703249981917925
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 1.0,
+          "log_loss": 0.059216109044602734
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.9375,
+          "log_loss": 0.14019248222242275
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.96875,
+          "log_loss": 0.1385201281315725
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.9375,
+          "log_loss": 0.17047751622192572
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.6875,
+          "log_loss": 0.667405233648627
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.96875,
+          "log_loss": 0.1359505876442167
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.3126182827611269
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.3106081451678948
+        }
+      ]
+    },
+    {
+      "model": "shortest_retention",
+      "choices": 256,
+      "accuracy": 0.6328125,
+      "log_loss": 0.79578497587855,
+      "pair_resampling_log_loss": {
+        "mean": 0.7957849758785498,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.7160267914979991,
+          0.8709720797233128
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.6875,
+          "log_loss": 0.8270801065598364
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9336268623247381
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.375,
+          "log_loss": 1.0624317438290132
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.375,
+          "log_loss": 1.0624317438290132
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.65625,
+          "log_loss": 0.9749917769641036
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.625,
+          "log_loss": 0.9749917769641036
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.84375,
+          "log_loss": 0.2653628982787954
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.875,
+          "log_loss": 0.2653628982787954
+        }
+      ]
+    },
+    {
+      "model": "training_choice_share",
+      "choices": 256,
+      "accuracy": 0.5,
+      "log_loss": 0.7176581539393951,
+      "pair_resampling_log_loss": {
+        "mean": 0.7176581539393949,
+        "pairs": 32,
+        "finite_design_resampling_95_percentile": [
+          0.6877580349848742,
+          0.7450333966627214
+        ]
+      },
+      "by_cell": [
+        {
+          "mandate": "Balanced",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7181486554982487
+        },
+        {
+          "mandate": "Balanced",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.4375,
+          "log_loss": 0.7762465313282321
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7245605806054779
+        },
+        {
+          "mandate": "Economy",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7181486554982488
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.53125,
+          "log_loss": 0.7008100533055145
+        },
+        {
+          "mandate": "Continuity",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7027071388158663
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 5,
+          "n": 32,
+          "accuracy": 0.53125,
+          "log_loss": 0.69935996615367
+        },
+        {
+          "mandate": "Data minimization",
+          "target_seconds": 60,
+          "n": 32,
+          "accuracy": 0.5,
+          "log_loss": 0.7012836503099023
+        }
+      ]
+    }
+  ],
+  "fee_gates": [
+    {
+      "specification": "piecewise_fee",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -73.95994178779337,
+        10.123177261540466
+      ],
+      "heldout_log_loss": 0.059216109044602734,
+      "share_baseline_log_loss": 0.7181486554982487,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "piecewise_fee",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -63.80596181264737,
+        5.989008924885182
+      ],
+      "heldout_log_loss": 0.14019248222242275,
+      "share_baseline_log_loss": 0.7762465313282321,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "piecewise_fee",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": true,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -110.11732767744327,
+        -2.3031928269865065
+      ],
+      "heldout_log_loss": 0.1385201281315725,
+      "share_baseline_log_loss": 0.7245605806054779,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "piecewise_fee",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": true,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -121.61614770918447,
+        -2.293737262735293
+      ],
+      "heldout_log_loss": 0.17047751622192572,
+      "share_baseline_log_loss": 0.7181486554982488,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "piecewise_fee",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": false,
+      "fee_slope_range_per_usd": [
+        -10.50287978152176,
+        38.76540080871209
+      ],
+      "heldout_log_loss": 0.667405233648627,
+      "share_baseline_log_loss": 0.7008100533055145,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "piecewise_fee",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -21.66818026716004,
+        14.899594527005322
+      ],
+      "heldout_log_loss": 0.1359505876442167,
+      "share_baseline_log_loss": 0.7027071388158663,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "piecewise_fee",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": false,
+      "fee_slope_range_per_usd": [
+        -8.317170150000843,
+        75.4767012537267
+      ],
+      "heldout_log_loss": 0.3126182827611269,
+      "share_baseline_log_loss": 0.69935996615367,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "piecewise_fee",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": false,
+      "fee_slope_range_per_usd": [
+        -8.317170150000843,
+        75.4767012537267
+      ],
+      "heldout_log_loss": 0.3106081451678948,
+      "share_baseline_log_loss": 0.7012836503099023,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "linear_fee",
+      "mandate": "Balanced",
+      "target_seconds": 5,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": true,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -29.021700731413905,
+        -3.191739854088259
+      ],
+      "heldout_log_loss": 0.04818548351694117,
+      "share_baseline_log_loss": 0.7181486554982487,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "linear_fee",
+      "mandate": "Balanced",
+      "target_seconds": 60,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": true,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -27.654514992178022,
+        -3.8960469718792505
+      ],
+      "heldout_log_loss": 0.12732548634906612,
+      "share_baseline_log_loss": 0.7762465313282321,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "linear_fee",
+      "mandate": "Economy",
+      "target_seconds": 5,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": true,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -45.22747605935111,
+        -7.302302449687435
+      ],
+      "heldout_log_loss": 0.18890288373916025,
+      "share_baseline_log_loss": 0.7245605806054779,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "linear_fee",
+      "mandate": "Economy",
+      "target_seconds": 60,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": true,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -45.133752532419756,
+        -7.383418545594812
+      ],
+      "heldout_log_loss": 0.22342000310076482,
+      "share_baseline_log_loss": 0.7181486554982488,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "linear_fee",
+      "mandate": "Continuity",
+      "target_seconds": 5,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -8.509143446634551,
+        0.9754688965124886
+      ],
+      "heldout_log_loss": 0.6537430601929572,
+      "share_baseline_log_loss": 0.7008100533055145,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "linear_fee",
+      "mandate": "Continuity",
+      "target_seconds": 60,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": true,
+      "fee_slope_range_per_usd": [
+        -12.94382840336139,
+        0.04933109038946741
+      ],
+      "heldout_log_loss": 0.12816253705498698,
+      "share_baseline_log_loss": 0.7027071388158663,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "linear_fee",
+      "mandate": "Data minimization",
+      "target_seconds": 5,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": false,
+      "fee_slope_range_per_usd": [
+        2.8233886883364905,
+        3.5499029874645913
+      ],
+      "heldout_log_loss": 0.30551671056835744,
+      "share_baseline_log_loss": 0.69935996615367,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    },
+    {
+      "specification": "linear_fee",
+      "mandate": "Data minimization",
+      "target_seconds": 60,
+      "penalty": 0.1,
+      "all_full_fee_slopes_negative": false,
+      "all_conditional_fee_slopes_negative": false,
+      "fee_slope_range_per_usd": [
+        2.8233886883364905,
+        3.5499029874645913
+      ],
+      "heldout_log_loss": 0.29986539469450335,
+      "share_baseline_log_loss": 0.7012836503099023,
+      "beats_share_baseline": true,
+      "valuation_status": "Additional unique-crossing and bounded-uncertainty gates not automatically evaluated; no monetary estimate reported."
+    }
+  ],
+  "manifest_verified": true,
+  "request_response_accounting_verified": true,
+  "unique_generation_ids": 1280
+}
